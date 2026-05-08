@@ -34,7 +34,10 @@ class TennisAPI:
         
         player_key_str = str(player_key)
         if player_key_str in self.cache_jugadores:
-            return self.cache_jugadores[player_key_str]
+            cached_info = self.cache_jugadores[player_key_str]
+            # Si el caché es viejo o no tiene país, forzamos actualización
+            if 'pais' in cached_info and cached_info['pais']:
+                return cached_info
         
         params = {
             'method': 'get_players',
@@ -55,12 +58,23 @@ class TennisAPI:
                 if pais and pais.lower() == 'argentina':
                     info['es_arg'] = True
                 
+                # Intentar extraer ranking del root o de stats
+                ranking_val = jugador.get('player_ranking')
+                if not ranking_val:
+                    stats = jugador.get('stats', [])
+                    # Buscamos el ranking de singles más reciente
+                    singles_stats = [s for s in stats if s.get('type') == 'singles']
+                    if singles_stats:
+                        # Ordenamos por temporada (ej: "2024") descendentemente
+                        singles_stats.sort(key=lambda x: x.get('season', '0'), reverse=True)
+                        ranking_val = singles_stats[0].get('rank')
+                
                 try:
-                    info['ranking'] = int(ranking) if ranking else 9999
+                    info['ranking'] = int(ranking_val) if ranking_val else 9999
                 except:
-                    pass
+                    info['ranking'] = 9999
             
-            # Guardar en memoria y persistir cada vez que agregamos uno nuevo
+            # Guardar en memoria y persistir
             self.cache_jugadores[player_key_str] = info
             self._guardar_cache()
             return info
