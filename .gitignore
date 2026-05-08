@@ -2,3 +2,4 @@
 __pycache__/
 *.pyc
 jugadores_cache.json
+reportados_cache.json

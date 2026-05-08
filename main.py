@@ -6,6 +6,7 @@ from bot.filtros import filtrar_argentinos, agrupar_por_torneo, es_agenda, es_ac
 from bot.redactor import generar_tweet_agenda, generar_tweet_actualizacion, generar_tweet_finalizado
 # from bot.twitter import publicar_tweet  # Omitimos por ahora
 from bot.mailer import enviar_reporte_email
+from bot.historial import cargar_reportados, guardar_reportado, limpiar_historial
 
 # Configuración de salida para consola en Windows (emojis)
 if sys.stdout.encoding != 'utf-8':
@@ -15,6 +16,8 @@ def main():
     parser = argparse.ArgumentParser(description="Bot Doble Falta Tenis")
     parser.add_argument("--mode", type=str, default="all", choices=["agenda", "live", "final", "all"],
                         help="Modo de ejecución: agenda, live, final o all (por defecto)")
+    parser.add_argument("--incremental", action="store_true", 
+                        help="Si es True, solo reporta lo nuevo desde la última ejecución")
     args = parser.parse_args()
 
     fecha_hoy = datetime.now().strftime("%Y-%m-%d")
@@ -83,6 +86,13 @@ def main():
     if args.mode in ["final", "all"]:
         print("\n🏁 PROCESANDO BLOQUE: RESULTADOS FINALES...")
         partidos_fin = [p for p in partidos_arg if es_finalizado(p)]
+        
+        # Filtro incremental: no repetir partidos ya reportados
+        if args.incremental:
+            reportados = cargar_reportados()
+            partidos_fin = [p for p in partidos_fin if p.get('event_key') not in reportados]
+            print(f"Modo incremental activo. Partidos nuevos encontrados: {len(partidos_fin)}")
+
         if partidos_fin:
             hay_contenido = True
             agrupados = agrupar_por_torneo(partidos_fin)
@@ -90,8 +100,18 @@ def main():
                 texto_tweet = generar_tweet_finalizado(torneo, lista)
                 reporte_texto.append(f"[FINALIZADO - {torneo}]\n{texto_tweet}\n\n")
                 print(f"Texto generado para {torneo} (Finalizado)")
+                
+                # Si es incremental, marcar como reportados para la próxima
+                if args.incremental:
+                    for p in lista:
+                        guardar_reportado(p.get('event_key'))
         else:
-            print("No hay resultados finales para reportar.")
+            print("No hay resultados finales (nuevos) para reportar.")
+
+        # Si es el reporte FINAL del día (no incremental), limpiamos el historial para mañana
+        if not args.incremental and args.mode == "final":
+            print("Limpiando historial de reportados para el nuevo día...")
+            limpiar_historial()
 
     # ---------------------------------------------------------
     # ENVÍO DE EMAIL

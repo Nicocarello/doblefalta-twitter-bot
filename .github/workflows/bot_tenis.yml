@@ -5,11 +5,17 @@ on:
     # 8:30 AM ART -> 11:30 UTC (Agenda)
     - cron: '0 11 * * *'
     
-    # Cada 60 min entre 10:00 y 22:00 ART -> 13:00 a 01:00 UTC (Live)
-    - cron: '0 13-23 * * *'
+    # 12:30 PM ART -> 15:30 UTC (Final Incremental 1)
+    - cron: '30 15 * * *'
+    
+    # 18:00 PM ART -> 21:00 UTC (Final Incremental 2)
+    - cron: '0 21 * * *'
+    
+    # Cada 60 min (Live) - Ajustado para no pisar los horarios fijos
+    - cron: '0 13,14,16,17,18,19,20,22,23 * * *'
     - cron: '0 0-1 * * *'
     
-    # 23:00 ART -> 02:00 UTC (Finalizado)
+    # 23:00 ART -> 02:00 UTC (Final Completo)
     - cron: '0 2 * * *'
   
   workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub
@@ -39,15 +45,20 @@ jobs:
         id: mode
         run: |
           HOUR=$(date +%H)
-          MINUTE=$(date +%M)
           echo "Current UTC Hour: $HOUR"
           
           if [ "$HOUR" == "11" ]; then
             echo "run_mode=agenda" >> $GITHUB_OUTPUT
+            echo "run_flags=" >> $GITHUB_OUTPUT
           elif [ "$HOUR" == "02" ]; then
             echo "run_mode=final" >> $GITHUB_OUTPUT
+            echo "run_flags=" >> $GITHUB_OUTPUT
+          elif [ "$HOUR" == "15" ] || [ "$HOUR" == "21" ]; then
+            echo "run_mode=final" >> $GITHUB_OUTPUT
+            echo "run_flags=--incremental" >> $GITHUB_OUTPUT
           else
             echo "run_mode=live" >> $GITHUB_OUTPUT
+            echo "run_flags=" >> $GITHUB_OUTPUT
           fi
 
       - name: Run Bot
@@ -56,12 +67,12 @@ jobs:
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECEIVERS: ${{ secrets.EMAIL_RECEIVERS }}
-        run: python main.py --mode ${{ steps.mode.outputs.run_mode }}
+        run: python main.py --mode ${{ steps.mode.outputs.run_mode }} ${{ steps.mode.outputs.run_flags }}
 
       - name: Commit Cache
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add jugadores_cache.json
-          git commit -m "Update player cache [skip ci]" || echo "No changes to commit"
+          git add jugadores_cache.json reportados_cache.json || true
+          git commit -m "Update caches [skip ci]" || echo "No changes to commit"
           git push || echo "No changes to push"
