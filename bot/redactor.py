@@ -296,10 +296,8 @@ def generar_tweet_actualizacion(torneo_original, partidos):
     cierres = [
         f"¡Vamos que se puede loko! 🇦🇷💪 {tag_torneo}",
         f"Seguilo minuto a minuto! 🇦🇷 {tag_torneo}",
-        f"¡Qué momento para estar vivos! Aguante el tenis. 🇦🇷 {tag_torneo}",
-        f"Cada punto vale oro. ¡Vamos carajo! 💪 {tag_torneo}",
-        f"La garra argentina en su máxima expresión. 🇦🇷 {tag_torneo}",
-        f"¿Sale remontada épica? Yo confío. 🇦🇷 {tag_torneo}",
+        f"Seguimos punto a punto. 🇦🇷 {tag_torneo}",
+        f"¡Hay que poner huevo! 🇦🇷 {tag_torneo}",
     ]
     lineas.append(random.choice(cierres))
     
