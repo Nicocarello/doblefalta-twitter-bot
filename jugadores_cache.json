@@ -3914,5 +3914,10 @@
     "2073": {
         "es_arg": false,
         "ranking": 9999
+    },
+    "9196": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Czech Republic"
     }
 }
