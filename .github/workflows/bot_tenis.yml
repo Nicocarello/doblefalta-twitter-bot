@@ -2,7 +2,7 @@ name: Bot Doble Falta Tenis
 
 on:
   schedule:
-    # 8:30 AM ART -> 11:30 UTC (Agenda)
+    # 8 AM ART -> 11 UTC (Agenda)
     - cron: '0 11 * * *'
     
     # 12:30 PM ART -> 15:30 UTC (Final Incremental 1)
