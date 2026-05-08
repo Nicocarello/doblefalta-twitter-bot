@@ -10,15 +10,15 @@ class MockAPI(TennisAPI):
     def obtener_info_jugador(self, player_key):
         arg_keys = ['123', '456', '789', 'CORIA', 'BAGNIS']
         if player_key in arg_keys:
-            return {'es_arg': True, 'ranking': 30}
-        return {'es_arg': False, 'ranking': 100}
+            return {'es_arg': True, 'ranking': 30, 'pais': 'Argentina'}
+        return {'es_arg': False, 'ranking': 100, 'pais': 'USA'}
 
     def obtener_partidos_hoy(self, fecha_iso):
         return [
             # AGENDA
             {
-                'tournament_name': 'Roma',
-                'event_type_type': 'ATP Men Singles',
+                'tournament_name': 'Rome',
+                'event_type_type': 'ATP',
                 'event_time': '10:00',
                 'event_first_player': 'Francisco Cerundolo',
                 'first_player_key': '123',
@@ -30,7 +30,7 @@ class MockAPI(TennisAPI):
             # VIVO
             {
                 'tournament_name': 'Roma',
-                'event_type_type': 'ATP Men Singles',
+                'event_type_type': 'ATP',
                 'event_time': '12:00',
                 'event_first_player': 'Sebastian Baez',
                 'first_player_key': '456',
@@ -38,10 +38,9 @@ class MockAPI(TennisAPI):
                 'second_player_key': '888',
                 'event_status': '2nd Set',
                 'scores': [
-                    {'score_first': '6', 'score_second': '4', 'score_set': '1'},
-                    {'score_first': '2', 'score_second': '1', 'score_set': '2'}
-                ],
-                'event_qualification': 'False'
+                    {'score_first': '6', 'score_second': '4'},
+                    {'score_first': '2', 'score_second': '1'}
+                ]
             },
             # FINALIZADO - VICTORIA
             {

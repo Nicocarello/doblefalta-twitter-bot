@@ -42,7 +42,7 @@ class TennisAPI:
             'player_key': player_key
         }
         
-        info = {'es_arg': False, 'ranking': 9999}
+        info = {'es_arg': False, 'ranking': 9999, 'pais': ''}
         try:
             response = requests.get(TENNIS_BASE_URL, params=params, timeout=10)
             datos = response.json()
@@ -51,6 +51,7 @@ class TennisAPI:
                 pais = jugador.get('player_country')
                 ranking = jugador.get('player_ranking', 9999)
                 
+                info['pais'] = pais if pais else ''
                 if pais and pais.lower() == 'argentina':
                     info['es_arg'] = True
                 

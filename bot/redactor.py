@@ -1,5 +1,49 @@
 import random
 
+def obtener_bandera(pais):
+    """Devuelve el emoji de la bandera para un país dado."""
+    if not pais: return "🎾"
+    
+    p = pais.lower().strip()
+    mapping = {
+        "argentina": "🇦🇷",
+        "spain": "🇪🇸", "españa": "🇪🇸",
+        "usa": "🇺🇸", "united states": "🇺🇸",
+        "italy": "🇮🇹", "italia": "🇮🇹",
+        "france": "🇫🇷", "francia": "🇫🇷",
+        "germany": "🇩🇪", "alemania": "🇩🇪",
+        "brazil": "🇧🇷", "brasil": "🇧🇷",
+        "chile": "🇨🇱",
+        "uruguay": "🇺🇾",
+        "colombia": "🇨🇴",
+        "peru": "🇵🇪",
+        "ecuador": "🇪🇨",
+        "mexico": "🇲🇽",
+        "great britain": "🇬🇧", "united kingdom": "🇬🇧",
+        "australia": "🇦🇺",
+        "serbia": "🇷🇸",
+        "croatia": "🇭🇷",
+        "russia": "🇷🇺",
+        "greece": "🇬🇷",
+        "poland": "🇵🇱",
+        "kazakhstan": "🇰🇿",
+        "canada": "🇨🇦",
+        "japan": "🇯🇵",
+        "china": "🇨🇳",
+        "czech republic": "🇨🇿",
+        "switzerland": "🇨🇭",
+        "austria": "🇦🇹",
+        "belgium": "🇧🇪",
+        "netherlands": "🇳🇱",
+        "norway": "🇳🇴",
+        "denmark": "🇩🇰",
+        "bulgaria": "🇧🇬",
+        "hungary": "🇭🇺",
+        "portugal": "🇵🇹",
+        "ukraine": "🇺🇦",
+    }
+    return mapping.get(p, "🎾")
+
 def formatear_sets(scores):
     """
     Convierte la lista de scores de la API en un string legible de games por set.
@@ -175,8 +219,21 @@ def generar_tweet_agenda(torneo_original, partidos):
         hora = p.get('event_time', 'S/H')
         j1 = p.get('event_first_player')
         j2 = p.get('event_second_player')
+        
+        info = p.get('arg_info', {})
+        rank1 = info.get('jugador_1', {}).get('ranking', 9999)
+        rank2 = info.get('jugador_2', {}).get('ranking', 9999)
+        pais1 = info.get('jugador_1', {}).get('pais', '')
+        pais2 = info.get('jugador_2', {}).get('pais', '')
+        
+        flag1 = obtener_bandera(pais1)
+        flag2 = obtener_bandera(pais2)
+        
+        r1_str = f"({rank1}°)" if rank1 < 1000 else ""
+        r2_str = f"({rank2}°)" if rank2 < 1000 else ""
+        
         qualy = " (Qualy)" if p.get('es_qualy') else ""
-        lineas.append(f"• {hora} | {j1} vs {j2}{qualy}")
+        lineas.append(f"• {hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}")
     
     lineas.append("")
     
@@ -216,11 +273,23 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         j1 = p.get('event_first_player')
         j2 = p.get('event_second_player')
         
+        info = p.get('arg_info', {})
+        rank1 = info.get('jugador_1', {}).get('ranking', 9999)
+        rank2 = info.get('jugador_2', {}).get('ranking', 9999)
+        pais1 = info.get('jugador_1', {}).get('pais', '')
+        pais2 = info.get('jugador_2', {}).get('pais', '')
+        
+        flag1 = obtener_bandera(pais1)
+        flag2 = obtener_bandera(pais2)
+        
+        r1_str = f"({rank1}°)" if rank1 < 1000 else ""
+        r2_str = f"({rank2}°)" if rank2 < 1000 else ""
+        
         scores_api = p.get('scores', [])
         sets_formateados = formatear_sets(scores_api)
         info_marcador = sets_formateados if sets_formateados else "0-0"
             
-        lineas.append(f"• {j1} vs {j2}: {info_marcador}")
+        lineas.append(f"• {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {info_marcador}")
     
     lineas.append("")
     
@@ -259,13 +328,25 @@ def generar_tweet_finalizado(torneo_original, partidos):
         j1 = p.get('event_first_player')
         j2 = p.get('event_second_player')
         
+        info = p.get('arg_info', {})
+        rank1 = info.get('jugador_1', {}).get('ranking', 9999)
+        rank2 = info.get('jugador_2', {}).get('ranking', 9999)
+        pais1 = info.get('jugador_1', {}).get('pais', '')
+        pais2 = info.get('jugador_2', {}).get('pais', '')
+        
+        flag1 = obtener_bandera(pais1)
+        flag2 = obtener_bandera(pais2)
+        
+        r1_str = f"({rank1}°)" if rank1 < 1000 else ""
+        r2_str = f"({rank2}°)" if rank2 < 1000 else ""
+        
         scores_api = p.get('scores', [])
         sets_formateados = formatear_sets(scores_api)
         
         marcador = sets_formateados if sets_formateados else p.get('event_final_result', '0-0')
         msg_result = analizar_resultado_argentino(p)
         
-        lineas.append(f"• {j1} vs {j2}: {marcador} {msg_result}")
+        lineas.append(f"• {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {marcador} {msg_result}")
     
     lineas.append("")
     
