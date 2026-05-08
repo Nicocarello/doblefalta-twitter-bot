@@ -1,0 +1,67 @@
+name: Bot Doble Falta Tenis
+
+on:
+  schedule:
+    # 8:30 AM ART -> 11:30 UTC (Agenda)
+    - cron: '30 11 * * *'
+    
+    # Cada 60 min entre 10:00 y 22:00 ART -> 13:00 a 01:00 UTC (Live)
+    - cron: '0 13-23 * * *'
+    - cron: '0 0-1 * * *'
+    
+    # 23:00 ART -> 02:00 UTC (Finalizado)
+    - cron: '0 2 * * *'
+  
+  workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+            persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Determine Mode
+        id: mode
+        run: |
+          HOUR=$(date +%H)
+          MINUTE=$(date +%M)
+          echo "Current UTC Hour: $HOUR"
+          
+          if [ "$HOUR" == "11" ]; then
+            echo "run_mode=agenda" >> $GITHUB_OUTPUT
+          elif [ "$HOUR" == "02" ]; then
+            echo "run_mode=final" >> $GITHUB_OUTPUT
+          else
+            echo "run_mode=live" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run Bot
+        env:
+          TENNIS_API_KEY: ${{ secrets.TENNIS_API_KEY }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_RECEIVERS: ${{ secrets.EMAIL_RECEIVERS }}
+        run: python main.py --mode ${{ steps.mode.outputs.run_mode }}
+
+      - name: Commit Cache
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add jugadores_cache.json
+          git commit -m "Update player cache [skip ci]" || echo "No changes to commit"
+          git push || echo "No changes to push"
