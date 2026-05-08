@@ -27,15 +27,50 @@ def extraer_categoria(partido):
     if "ITF" in full: return "ITF"
     return ""
 
+def traducir_nombre_torneo(nombre):
+    """Traduce nombres de torneos de inglés a español para el público argentino."""
+    nombre_low = nombre.lower()
+    
+    # Mapeo específico de ATP 1000 y otros comunes
+    traducciones = {
+        "rome": "Roma",
+        "internazionali d'italia": "Roma",
+        "indian wells masters": "Indian Wells",
+        "miami open": "Miami",
+        "monte-carlo masters": "Montecarlo",
+        "madrid open": "Madrid",
+        "canadian open": "Canadá",
+        "toronto": "Toronto",
+        "montreal": "Montreal",
+        "cincinnati masters": "Cincinnati",
+        "shanghai masters": "Shanghai",
+        "paris masters": "París",
+        "paris": "París",
+        "french open": "Roland Garros",
+        "australian open": "Australian Open",
+        "us open": "US Open",
+        "wimbledon": "Wimbledon",
+    }
+    
+    for en, es in traducciones.items():
+        if en in nombre_low:
+            return es
+            
+    # Si no hay traducción específica, devolver el original (capitalizado)
+    return nombre
+
 def obtener_hashtag_torneo(nombre_torneo):
     """Mapea nombres de torneos a sus hashtags oficiales o genera uno genérico."""
     nombre = nombre_torneo.lower()
     
+    # Mapeo de torneos importantes
     mapping = {
         "roma": "#IBI26",
+        "rome": "#IBI26",
         "madrid": "#MMOPEN",
-        "monte carlo": "#MonteCarloMasters",
+        "monte-carlo": "#MonteCarloMasters",
         "roland garros": "#RolandGarros",
+        "french open": "#RolandGarros",
         "wimbledon": "#Wimbledon",
         "us open": "#USOpen",
         "australian open": "#AusOpen",
@@ -117,8 +152,9 @@ def analizar_resultado_argentino(partido):
                 
     return ""
 
-def generar_tweet_agenda(torneo, partidos):
+def generar_tweet_agenda(torneo_original, partidos):
     """Genera el texto para un tweet de agenda con categoría y hashtag."""
+    torneo = traducir_nombre_torneo(torneo_original)
     cat = extraer_categoria(partidos[0])
     prefijo = f"{cat} " if cat else ""
     tag_torneo = obtener_hashtag_torneo(torneo)
@@ -158,8 +194,9 @@ def generar_tweet_agenda(torneo, partidos):
     texto = "\n".join(lineas)
     return f"--- INICIO TWEET ---\n{texto}\n--- FIN TWEET ---"
 
-def generar_tweet_actualizacion(torneo, partidos):
+def generar_tweet_actualizacion(torneo_original, partidos):
     """Genera el texto para un tweet en vivo simplificado con hashtag."""
+    torneo = traducir_nombre_torneo(torneo_original)
     cat = extraer_categoria(partidos[0])
     prefijo = f"{cat} " if cat else ""
     tag_torneo = obtener_hashtag_torneo(torneo)
@@ -200,8 +237,9 @@ def generar_tweet_actualizacion(torneo, partidos):
     texto = "\n".join(lineas)
     return f"--- INICIO TWEET ---\n{texto}\n--- FIN TWEET ---"
 
-def generar_tweet_finalizado(torneo, partidos):
+def generar_tweet_finalizado(torneo_original, partidos):
     """Genera el texto para resultados finales con análisis de victoria/derrota."""
+    torneo = traducir_nombre_torneo(torneo_original)
     cat = extraer_categoria(partidos[0])
     prefijo = f"{cat} " if cat else ""
     tag_torneo = obtener_hashtag_torneo(torneo)
