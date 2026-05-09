@@ -100,3 +100,20 @@ class TennisAPI:
         except Exception as e:
             print(f"❌ Error consultando la API de Tenis: {e}")
             return []
+
+    def obtener_rankings(self, tipo="atp"):
+        """Consulta el ranking (standings) para ATP o WTA."""
+        params = {
+            'method': 'get_standings',
+            'APIkey': TENNIS_API_KEY,
+            'event_type': tipo.upper()
+        }
+        try:
+            response = requests.get(TENNIS_BASE_URL, params=params, timeout=20)
+            datos = response.json()
+            if datos.get('success') == 1:
+                return datos.get('result', [])
+            return []
+        except Exception as e:
+            print(f"❌ Error consultando rankings {tipo}: {e}")
+            return []

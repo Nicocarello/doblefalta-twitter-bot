@@ -362,3 +362,24 @@ def generar_tweet_finalizado(torneo_original, partidos):
     
     texto = "\n".join(lineas)
     return f"--- INICIO TWEET ---\n{texto}\n--- FIN TWEET ---"
+
+def generar_tweet_ranking(datos, tipo="atp"):
+    """Genera un tweet con el Top 10 del ranking."""
+    top_10 = datos[:10]
+    emoji_cat = "💪" if tipo.lower() == "atp" else "🎾"
+    lineas = [f"📊 RANKING {tipo.upper()} - Top 10 {emoji_cat}"]
+    lineas.append("")
+    
+    for p in top_10:
+        pos = p.get('player_place')
+        nombre = p.get('player_name')
+        pais = p.get('player_country')
+        flag = obtener_bandera(pais)
+        puntos = p.get('player_points')
+        lineas.append(f"{pos}. {nombre} {flag} ({puntos} pts)")
+    
+    lineas.append("")
+    lineas.append("¡Nueva semana, nuevas posiciones! 🇦🇷 #Tenis #Ranking")
+    
+    texto = "\n".join(lineas)
+    return f"--- INICIO TWEET ---\n{texto}\n--- FIN TWEET ---"

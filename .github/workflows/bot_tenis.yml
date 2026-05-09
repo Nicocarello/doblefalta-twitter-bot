@@ -5,6 +5,9 @@ on:
     # 8:30 AM ART -> 11:30 UTC (Agenda)
     - cron: '0 11 * * *'
     
+    # 9:00 AM ART (Lunes) -> 12:00 UTC (Ranking)
+    - cron: '0 12 * * 1'
+    
     # 12:30 PM ART -> 15:30 UTC (Final Incremental 1)
     - cron: '30 15 * * *'
     
@@ -45,10 +48,15 @@ jobs:
         id: mode
         run: |
           HOUR=$(date +%H)
+          DAY=$(date +%u) # 1=Lunes, 7=Domingo
           echo "Current UTC Hour: $HOUR"
+          echo "Current Day of Week: $DAY"
           
           if [ "$HOUR" == "11" ]; then
             echo "run_mode=agenda" >> $GITHUB_OUTPUT
+            echo "run_flags=" >> $GITHUB_OUTPUT
+          elif [ "$HOUR" == "12" ] && [ "$DAY" == "1" ]; then
+            echo "run_mode=ranking" >> $GITHUB_OUTPUT
             echo "run_flags=" >> $GITHUB_OUTPUT
           elif [ "$HOUR" == "02" ]; then
             echo "run_mode=final" >> $GITHUB_OUTPUT

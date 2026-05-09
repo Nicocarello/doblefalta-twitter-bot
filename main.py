@@ -3,7 +3,7 @@ import argparse
 from datetime import datetime
 from bot.api_tennis import TennisAPI
 from bot.filtros import filtrar_argentinos, agrupar_por_torneo, es_agenda, es_actualizacion_en_vivo, es_finalizado
-from bot.redactor import generar_tweet_agenda, generar_tweet_actualizacion, generar_tweet_finalizado
+from bot.redactor import generar_tweet_agenda, generar_tweet_actualizacion, generar_tweet_finalizado, generar_tweet_ranking
 # from bot.twitter import publicar_tweet  # Omitimos por ahora
 from bot.mailer import enviar_reporte_email
 from bot.historial import cargar_reportados, guardar_reportado, limpiar_historial
@@ -14,7 +14,7 @@ if sys.stdout.encoding != 'utf-8':
 
 def main():
     parser = argparse.ArgumentParser(description="Bot Doble Falta Tenis")
-    parser.add_argument("--mode", type=str, default="all", choices=["agenda", "live", "final", "all"],
+    parser.add_argument("--mode", type=str, default="all", choices=["agenda", "live", "final", "ranking", "all"],
                         help="Modo de ejecución: agenda, live, final o all (por defecto)")
     parser.add_argument("--incremental", action="store_true", 
                         help="Si es True, solo reporta lo nuevo desde la última ejecución")
@@ -112,6 +112,21 @@ def main():
         if not args.incremental and args.mode == "final":
             print("Limpiando historial de reportados para el nuevo día...")
             limpiar_historial()
+
+    # ---------------------------------------------------------
+    # BLOQUE 4: RANKING (Lunes)
+    # ---------------------------------------------------------
+    if args.mode in ["ranking", "all"]:
+        print("\n📊 PROCESANDO BLOQUE: RANKING TOP 10...")
+        for cat in ["atp", "wta"]:
+            datos_ranking = api.obtener_rankings(cat)
+            if datos_ranking:
+                hay_contenido = True
+                texto_tweet = generar_tweet_ranking(datos_ranking, cat)
+                reporte_texto.append(f"[RANKING {cat.upper()}]\n{texto_tweet}\n\n")
+                print(f"Texto generado para Ranking {cat.upper()}")
+            else:
+                print(f"No se pudo obtener el ranking {cat.upper()}.")
 
     # ---------------------------------------------------------
     # ENVÍO DE EMAIL
