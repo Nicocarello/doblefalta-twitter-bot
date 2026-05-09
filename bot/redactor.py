@@ -367,7 +367,15 @@ def generar_tweet_ranking(datos, tipo="atp"):
     """Genera un tweet con el Top 10 del ranking."""
     top_10 = datos[:10]
     emoji_cat = "💪" if tipo.lower() == "atp" else "🎾"
-    lineas = [f"📊 RANKING {tipo.upper()} - Top 10 {emoji_cat}"]
+    
+    encabezados = [
+        f"📊 RANKING {tipo.upper()} - Top 10 {emoji_cat}",
+        f"Así quedó el Top 10 luego de la semana pasada {emoji_cat}",
+        f"Este es el nuevo Top 10 del ranking {tipo.upper()} 🎾",
+        f"Después de los partidos del fin de semana, así quedó el Top 10"
+    ]
+    
+    lineas = [random.choice(encabezados)]
     lineas.append("")
     
     for p in top_10:
@@ -379,7 +387,12 @@ def generar_tweet_ranking(datos, tipo="atp"):
         lineas.append(f"{pos}. {nombre} {flag} ({puntos} pts)")
     
     lineas.append("")
-    lineas.append("¡Nueva semana, nuevas posiciones! 🇦🇷 #Tenis #Ranking")
+    
+    cierres = [
+        "#Tenis #RankingATP",
+        "Así arranca la semana para los mejores del mundo. #Tenis #RankingATP"
+    ]
+    lineas.append(random.choice(cierres))
     
     texto = "\n".join(lineas)
     return f"--- INICIO TWEET ---\n{texto}\n--- FIN TWEET ---"
