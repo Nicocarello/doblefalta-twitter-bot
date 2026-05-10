@@ -172,29 +172,29 @@ def analizar_resultado_argentino(partido):
     if j1_es_arg:
         if ganador == 1:
             if s2 >= 1: # Ganó 2-1 o similar
-                return random.choice(mensajes_victoria_ajustada)
+                return random.choice(mensajes_victoria_ajustada), True
             else: # Ganó 2-0 o similar
-                return random.choice(mensajes_victoria_facil)
+                return random.choice(mensajes_victoria_facil), True
         elif ganador == 2:
             if s1 >= 1: # Perdió 1-2
-                return random.choice(mensajes_derrota_ajustada)
+                return random.choice(mensajes_derrota_ajustada), False
             else: # Perdió 0-2
-                return random.choice(mensajes_derrota_facil)
+                return random.choice(mensajes_derrota_facil), False
                 
     # Caso 2: Jugador 2 es el argentino
     if j2_es_arg:
         if ganador == 2:
             if s1 >= 1: # Ganó 2-1
-                return random.choice(mensajes_victoria_ajustada)
+                return random.choice(mensajes_victoria_ajustada), True
             else: # Ganó 2-0
-                return random.choice(mensajes_victoria_facil)
+                return random.choice(mensajes_victoria_facil), True
         elif ganador == 1:
             if s2 >= 1: # Perdió 1-2
-                return random.choice(mensajes_derrota_ajustada)
+                return random.choice(mensajes_derrota_ajustada), False
             else: # Perdió 0-2
-                return random.choice(mensajes_derrota_facil)
+                return random.choice(mensajes_derrota_facil), False
                 
-    return ""
+    return "", None
 
 def generar_tweet_agenda(torneo_original, partidos):
     """Genera el texto para un tweet de agenda con categoría y hashtag."""
@@ -322,6 +322,9 @@ def generar_tweet_finalizado(torneo_original, partidos):
     lineas = [random.choice(encabezados)]
     lineas.append("") 
     
+    total_victorias = 0
+    total_derrotas = 0
+    
     for p in partidos:
         j1 = p.get('event_first_player')
         j2 = p.get('event_second_player')
@@ -342,22 +345,41 @@ def generar_tweet_finalizado(torneo_original, partidos):
         sets_formateados = formatear_sets(scores_api)
         
         marcador = sets_formateados if sets_formateados else p.get('event_final_result', '0-0')
-        msg_result = analizar_resultado_argentino(p)
+        msg_result, gano = analizar_resultado_argentino(p)
+        
+        if gano is True: total_victorias += 1
+        elif gano is False: total_derrotas += 1
         
         lineas.append(f"• {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {marcador} {msg_result}")
     
     lineas.append("")
     
-    cierres = [
-        f"¡VAMOS ARGENTINA! 🇦🇷 #Tenis {tag_torneo}",
-        f"Gran jornada para el tenis nacional. 🇦🇷 {tag_torneo}",
-        f"Seguimos sumando. ¡Orgullo por los nuestros! 💪 {tag_torneo}",
-        f"Así quedó la jornada. ¡Mañana por más! 🇦🇷 {tag_torneo}",
-        f"Balance del día para los nuestros. 🇦🇷 {tag_torneo}",
-        f"¡Argentina pisando fuerte en el circuito! {tag_torneo}",
-        f"Terminó la acción por hoy 🎾 {tag_torneo}",
-        f"Cerramos un día intenso. ¡Gracias por el aguante! 🇦🇷 {tag_torneo}"
-    ]
+    # Selección de cierres según balance de la jornada
+    if total_victorias > 0 and total_derrotas == 0:
+        cierres = [
+            f"¡VAMOS ARGENTINA! 🇦🇷 #Tenis {tag_torneo}",
+            f"Gran jornada para el tenis nacional. 🇦🇷 {tag_torneo}",
+            f"Seguimos sumando. ¡Orgullo por los nuestros! 💪 {tag_torneo}",
+            f"¡Argentina pisando fuerte en el circuito! {tag_torneo}",
+            f"Paso firme de los nuestros hoy. 🇦🇷 {tag_torneo}"
+        ]
+    elif total_victorias == 0 and total_derrotas > 0:
+        cierres = [
+            f"Día difícil, pero siempre bancando a los nuestros. 🇦🇷 {tag_torneo}",
+            f"A recargar pilas para el próximo torneo. 💪 {tag_torneo}",
+            f"Mañana será otro día. ¡Vamos los pibes! 🇦🇷 {tag_torneo}",
+            f"No se dio hoy, pero el esfuerzo no se negocia. 🎾 {tag_torneo}",
+            f"A seguir laburando que los resultados van a llegar. 🇦🇷 {tag_torneo}"
+        ]
+    else:
+        cierres = [
+            f"Así quedó la jornada. ¡Mañana por más! 🇦🇷 {tag_torneo}",
+            f"Balance del día para los nuestros. 🇦🇷 {tag_torneo}",
+            f"Terminó la acción por hoy 🎾 {tag_torneo}",
+            f"Cerramos un día intenso. ¡Gracias por el aguante! 🇦🇷 {tag_torneo}",
+            f"Con cal y de arena, pero siempre alentando. 🇦🇷 {tag_torneo}"
+        ]
+        
     lineas.append(random.choice(cierres))
     
     texto = "\n".join(lineas)
@@ -396,3 +418,64 @@ def generar_tweet_ranking(datos, tipo="atp"):
     
     texto = "\n".join(lineas)
     return f"--- INICIO TWEET ---\n{texto}\n--- FIN TWEET ---"
+
+def generar_hilo_ranking_argentinos(datos, tipo="atp"):
+    """
+    Genera un hilo de tweets con las posiciones de todos los argentinos en el ranking.
+    Divide el contenido automáticamente si supera los 280 caracteres.
+    """
+    argentinos = [p for p in datos if p.get('player_country', '').lower() in ['argentina', 'arg']]
+    
+    # Asegurar orden por ranking
+    try:
+        argentinos.sort(key=lambda x: int(x.get('player_place', 9999)))
+    except:
+        pass
+        
+    if not argentinos:
+        return ["--- INICIO TWEET ---\nNo se encontraron jugadores argentinos en el ranking hoy. 🇦🇷\n--- FIN TWEET ---"]
+
+    encabezados = [
+        f"📊 LA LEGIÓN - Ranking {tipo.upper()} 🇦🇷🎾",
+        f"🇦🇷 Así están los argentinos en el ranking {tipo.upper()} esta semana:",
+        f"Ranking {tipo.upper()}: Las posiciones de los nuestros 🇦🇷",
+    ]
+    
+    header = random.choice(encabezados) + "\n\n"
+    
+    tweets = []
+    current_text = header
+    
+    for p in argentinos:
+        pos = p.get('player_place')
+        nombre = p.get('player_name')
+        puntos = p.get('player_points')
+        linea = f"• {pos}. {nombre} 🇦🇷 ({puntos} pts)\n"
+        
+        # Si la línea excede el límite (con margen para el pie de hilo), guardamos y empezamos nuevo tweet
+        if len(current_text) + len(linea) > 250:
+            tweets.append(current_text.strip())
+            # El siguiente tweet empieza con la numeración
+            current_text = f"({len(tweets) + 1}/?) Sigue el ranking: 👇\n\n" + linea
+        else:
+            current_text += linea
+            
+    # Añadir el último acumulado
+    tweets.append(current_text.strip())
+    
+    # Post-procesamiento para enumerar hilos correctamente (1/X, 2/X, etc)
+    total_tweets = len(tweets)
+    hilo_final = []
+    
+    for idx, t in enumerate(tweets):
+        if total_tweets > 1:
+            texto_tweet = t.replace("/?", f"/{total_tweets}")
+            # Si es el primero y no tiene el (1/X), se lo agregamos al final
+            if idx == 0 and f"(1/{total_tweets})" not in texto_tweet:
+                texto_tweet += f"\n\n(1/{total_tweets}) 🧵"
+        else:
+            texto_tweet = t
+            
+        hilo_final.append(f"--- TWEET {idx+1} ---\n{texto_tweet}\n--- FIN TWEET ---")
+        
+    return hilo_final
