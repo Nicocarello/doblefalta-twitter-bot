@@ -3,7 +3,7 @@ import argparse
 from datetime import datetime
 from bot.api_tennis import TennisAPI
 from bot.filtros import filtrar_argentinos, agrupar_por_torneo, es_agenda, es_actualizacion_en_vivo, es_finalizado
-from bot.redactor import generar_tweet_agenda, generar_tweet_actualizacion, generar_tweet_finalizado, generar_tweet_ranking
+from bot.redactor import generar_tweet_agenda, generar_tweet_actualizacion, generar_tweet_finalizado, generar_tweet_ranking, generar_hilo_ranking_argentinos
 # from bot.twitter import publicar_tweet  # Omitimos por ahora
 from bot.mailer import enviar_reporte_email
 from bot.historial import cargar_reportados, guardar_reportado, limpiar_historial
@@ -125,6 +125,12 @@ def main():
                 texto_tweet = generar_tweet_ranking(datos_ranking, cat)
                 reporte_texto.append(f"[RANKING {cat.upper()}]\n{texto_tweet}\n\n")
                 print(f"Texto generado para Ranking {cat.upper()}")
+                # Hilo de Argentinos (Nuevo!)
+                if cat == "atp":
+                    print(f"Generando hilo de argentinos para {cat.upper()}...")
+                    hilo_arg = generar_hilo_ranking_argentinos(datos_ranking, cat)
+                    for i, tweet_hilo in enumerate(hilo_arg):
+                        reporte_texto.append(f"[HILO RANKING ARGENTINOS {cat.upper()} - Parte {i+1}]\n{tweet_hilo}\n\n")
             else:
                 print(f"No se pudo obtener el ranking {cat.upper()}.")
 
