@@ -435,27 +435,33 @@ def generar_tweet_ranking(datos, tipo="atp"):
     emoji_cat = "💪" if tipo.lower() == "atp" else "🎾"
     
     encabezados = [
-        f"Así quedó el Top 10 luego de la última semana 🇦🇷",
-        f"Este es el nuevo Top 10 del ranking 🎾",
-        f"Después de los partidos del fin de semana, así quedó el Top 10"
+        f"Top 10 Ranking {tipo.upper()} 🎾:",
+        f"Así quedó el Top 10 {tipo.upper()} esta semana:",
+        f"El nuevo Top 10 del mundo ({tipo.upper()}):"
     ]
     
     lineas = [random.choice(encabezados)]
-    lineas.append("")
     
     for p in top_10:
         pos = p.get('place', p.get('player_place'))
-        nombre = p.get('player', p.get('player_name'))
+        nombre_completo = p.get('player', p.get('player_name', ''))
+        
+        # Usar solo el apellido (o el resto del nombre sin el primero)
+        # "Jannik Sinner" -> "Sinner", "Alex De Minaur" -> "De Minaur"
+        partes = nombre_completo.split()
+        nombre_corto = " ".join(partes[1:]) if len(partes) > 1 else nombre_completo
+        
         pais = p.get('country', p.get('player_country'))
         flag = obtener_bandera(pais)
         puntos = p.get('points', p.get('player_points'))
-        lineas.append(f"{pos}. {nombre} {flag} ({puntos} pts)")
+        
+        lineas.append(f"{pos}. {nombre_corto} {flag} {puntos}")
     
     lineas.append("")
     
     cierres = [
-        "#Tenis #RankingATP",
-        "Así arranca la semana para los mejores del mundo. #Tenis #RankingATP"
+        f"#{tipo.upper()}Ranking",
+        f"#Ranking{tipo.upper()}"
     ]
     lineas.append(random.choice(cierres))
     
