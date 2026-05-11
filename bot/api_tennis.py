@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta
 import requests
 import json
 import os
@@ -27,32 +28,80 @@ class TennisAPI:
         except Exception as e:
             print(f"⚠️ Error guardando caché: {e}")
 
+    def precargar_rankings(self):
+        """
+        Descarga los rankings actuales (ATP, WTA, ITF) y actualiza el caché masivamente.
+        Esto evita cientos de llamadas individuales y asegura rankings globales correctos.
+        """
+        print("📊 Precargando rankings globales para optimizar el caché...")
+        for cat in ["atp", "wta", "itf"]:
+            standings = self.obtener_rankings(cat)
+            if not standings:
+                continue
+            
+            count = 0
+            for item in standings:
+                p_key = str(item.get('player_key'))
+                if not p_key: continue
+                
+                ranking = 9999
+                try:
+                    ranking = int(item.get('player_place', item.get('place', 9999)))
+                except: pass
+                
+                pais = item.get('country', item.get('player_country', ''))
+                
+                # Actualizar o crear entrada en el caché
+                info = self.cache_jugadores.get(p_key, {'es_arg': False})
+                info['ranking'] = ranking
+                if pais:
+                    info['pais'] = pais
+                    info['es_arg'] = (pais.lower() == 'argentina')
+                
+                info['last_update'] = datetime.now().strftime("%Y-%m-%d")
+                self.cache_jugadores[p_key] = info
+                count += 1
+            print(f"✅ Se actualizaron {count} jugadores desde el ranking {cat.upper()}.")
+        
+        self._guardar_cache()
+
     def obtener_info_jugador(self, player_key):
-        """Consulta info de un jugador con caché persistente."""
+        """Consulta info de un jugador con caché persistente y refresco periódico."""
         if not player_key:
             return {'es_arg': False, 'ranking': 9999}
         
         player_key_str = str(player_key)
+        hoy = datetime.now()
+        
         if player_key_str in self.cache_jugadores:
             cached_info = self.cache_jugadores[player_key_str]
-            # Si el caché es viejo o no tiene país, forzamos actualización
-            if 'pais' in cached_info and cached_info['pais']:
-                return cached_info
+            last_upd_str = cached_info.get('last_update')
+            
+            # Si tenemos info completa y es reciente (< 7 días), la usamos
+            if last_upd_str and 'pais' in cached_info and cached_info['pais']:
+                try:
+                    last_upd = datetime.strptime(last_upd_str, "%Y-%m-%d")
+                    # Si el ranking es 9999, reintentamos cada 3 días, si no, cada 7
+                    dias_expiracion = 3 if cached_info.get('ranking') == 9999 else 7
+                    if (hoy - last_upd).days < dias_expiracion:
+                        return cached_info
+                except:
+                    pass # Si hay error en fecha, procedemos a actualizar
         
+        # Si no está en caché o expiró, consultamos la API
         params = {
             'method': 'get_players',
             'APIkey': TENNIS_API_KEY,
             'player_key': player_key
         }
         
-        info = {'es_arg': False, 'ranking': 9999, 'pais': ''}
+        info = {'es_arg': False, 'ranking': 9999, 'pais': '', 'last_update': hoy.strftime("%Y-%m-%d")}
         try:
             response = requests.get(TENNIS_BASE_URL, params=params, timeout=10)
             datos = response.json()
             if datos.get('success') == 1 and datos.get('result'):
                 jugador = datos['result'][0]
                 pais = jugador.get('player_country')
-                ranking = jugador.get('player_ranking', 9999)
                 
                 info['pais'] = pais if pais else ''
                 if pais and pais.lower() == 'argentina':
@@ -62,10 +111,8 @@ class TennisAPI:
                 ranking_val = jugador.get('player_ranking')
                 if not ranking_val:
                     stats = jugador.get('stats', [])
-                    # Buscamos el ranking de singles más reciente
                     singles_stats = [s for s in stats if s.get('type') == 'singles']
                     if singles_stats:
-                        # Ordenamos por temporada (ej: "2024") descendentemente
                         singles_stats.sort(key=lambda x: x.get('season', '0'), reverse=True)
                         ranking_val = singles_stats[0].get('rank')
                 
@@ -74,7 +121,6 @@ class TennisAPI:
                 except:
                     info['ranking'] = 9999
             
-            # Guardar en memoria y persistir
             self.cache_jugadores[player_key_str] = info
             self._guardar_cache()
             return info

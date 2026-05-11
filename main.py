@@ -25,6 +25,9 @@ def main():
 
     api = TennisAPI()
     
+    # 0. Precargar rankings para optimizar caché y precisión
+    api.precargar_rankings()
+    
     # 1. Obtener todos los partidos de hoy
     print("🔍 Obteniendo fixtures de la API...")
     partidos = api.obtener_partidos_hoy(fecha_hoy)
@@ -58,9 +61,10 @@ def main():
             hay_contenido = True
             agrupados = agrupar_por_torneo(partidos_agenda)
             for torneo, lista in agrupados.items():
-                texto_tweet = generar_tweet_agenda(torneo, lista)
-                reporte_texto.append(f"[AGENDA - {torneo}]\n{texto_tweet}\n\n")
-                print(f"Texto generado para {torneo} (Agenda)")
+                tweets = generar_tweet_agenda(torneo, lista)
+                for t in tweets:
+                    reporte_texto.append(f"[AGENDA - {torneo}]\n{t}\n\n")
+                    print(f"Texto generado para {torneo} (Agenda)")
         else:
             print("No hay partidos en agenda.")
 
@@ -74,9 +78,10 @@ def main():
             hay_contenido = True
             agrupados = agrupar_por_torneo(partidos_vivo)
             for torneo, lista in agrupados.items():
-                texto_tweet = generar_tweet_actualizacion(torneo, lista)
-                reporte_texto.append(f"[EN VIVO - {torneo}]\n{texto_tweet}\n\n")
-                print(f"Texto generated para {torneo} (En Vivo)")
+                tweets = generar_tweet_actualizacion(torneo, lista)
+                for t in tweets:
+                    reporte_texto.append(f"[EN VIVO - {torneo}]\n{t}\n\n")
+                    print(f"Texto generado para {torneo} (En Vivo)")
         else:
             print("No hay partidos en vivo actualmente.")
 
@@ -97,9 +102,10 @@ def main():
             hay_contenido = True
             agrupados = agrupar_por_torneo(partidos_fin)
             for torneo, lista in agrupados.items():
-                texto_tweet = generar_tweet_finalizado(torneo, lista)
-                reporte_texto.append(f"[FINALIZADO - {torneo}]\n{texto_tweet}\n\n")
-                print(f"Texto generado para {torneo} (Finalizado)")
+                tweets = generar_tweet_finalizado(torneo, lista)
+                for t in tweets:
+                    reporte_texto.append(f"[FINALIZADO - {torneo}]\n{t}\n\n")
+                    print(f"Texto generado para {torneo} (Finalizado)")
                 
                 # Si es incremental, marcar como reportados para la próxima
                 if args.incremental:

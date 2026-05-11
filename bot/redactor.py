@@ -213,6 +213,44 @@ def analizar_resultado_argentino(partido):
                 
     return "", None
 
+def _formatear_en_hilo(encabezado, lineas_items, cierres, max_chars=280):
+    """
+    Toma un encabezado, una lista de líneas (partidos) y una lista de posibles cierres.
+    Divide el contenido en múltiples bloques (tweets) si excede el límite de caracteres.
+    Retorna una lista de strings con el formato --- INICIO TWEET --- ... --- FIN TWEET ---.
+    """
+    cierre = random.choice(cierres)
+    margen_hilo = 20
+    limite = max_chars - margen_hilo
+    
+    tweets_raw = []
+    current_text = encabezado + "\n\n"
+    
+    for linea in lineas_items:
+        if len(current_text) + len(linea) + 1 > limite:
+            tweets_raw.append(current_text.strip())
+            current_text = "Sigue la lista: 👇\n\n" + linea + "\n"
+        else:
+            current_text += linea + "\n"
+            
+    if len(current_text) + len(cierre) + 2 > limite:
+        tweets_raw.append(current_text.strip())
+        current_text = cierre
+    else:
+        current_text += "\n" + cierre
+        
+    tweets_raw.append(current_text.strip())
+    
+    total_tweets = len(tweets_raw)
+    hilo_final = []
+    for idx, t in enumerate(tweets_raw):
+        texto_final = t
+        if total_tweets > 1:
+            texto_final += f"\n\n({idx+1}/{total_tweets}) 🧵"
+        hilo_final.append(f"--- INICIO TWEET ---\n{texto_final}\n--- FIN TWEET ---")
+        
+    return hilo_final
+
 def generar_tweet_agenda(torneo_original, partidos):
     """Genera el texto para un tweet de agenda con categoría y hashtag."""
     torneo = traducir_nombre_torneo(torneo_original)
@@ -229,8 +267,8 @@ def generar_tweet_agenda(torneo_original, partidos):
         f"Atenti a la agenda de hoy en el {prefijo}{torneo}: 🇦🇷🎾"
     ]
     
-    lineas = [random.choice(encabezados)]
-    lineas.append("") 
+    encabezado = random.choice(encabezados)
+    lineas_partidos = []
     
     for p in partidos:
         hora = p.get('event_time', 'S/H')
@@ -246,13 +284,11 @@ def generar_tweet_agenda(torneo_original, partidos):
         flag1 = obtener_bandera(pais1)
         flag2 = obtener_bandera(pais2)
         
-        r1_str = f"({rank1}°)" if rank1 < 1000 else ""
-        r2_str = f"({rank2}°)" if rank2 < 1000 else ""
+        r1_str = f"({rank1}°)" if rank1 < 2500 else ""
+        r2_str = f"({rank2}°)" if rank2 < 2500 else ""
         
         qualy = " (Qualy)" if p.get('es_qualy') else ""
-        lineas.append(f"• {hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}")
-    
-    lineas.append("")
+        lineas_partidos.append(f"• {hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}")
     
     cierres = [
         f"Vamos con todo che!! 🇦🇷 {tag_torneo}",
@@ -263,10 +299,8 @@ def generar_tweet_agenda(torneo_original, partidos):
         f"Día movidito para los tenistas argentinos. {tag_torneo}",
         f"Mucha garra hoy! 🇦🇷 {tag_torneo}"
     ]
-    lineas.append(random.choice(cierres))
     
-    texto = "\n".join(lineas)
-    return f"--- INICIO TWEET ---\n{texto}\n--- FIN TWEET ---"
+    return _formatear_en_hilo(encabezado, lineas_partidos, cierres)
 
 def generar_tweet_actualizacion(torneo_original, partidos):
     """Genera el texto para un tweet en vivo simplificado con hashtag."""
@@ -283,8 +317,8 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         f"Resultados parciales en el {prefijo}{torneo}: 🎾🇦🇷"
     ]
     
-    lineas = [random.choice(encabezados)]
-    lineas.append("") 
+    encabezado = random.choice(encabezados)
+    lineas_partidos = []
     
     for p in partidos:
         j1 = p.get('event_first_player')
@@ -299,16 +333,14 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         flag1 = obtener_bandera(pais1)
         flag2 = obtener_bandera(pais2)
         
-        r1_str = f"({rank1}°)" if rank1 < 1000 else ""
-        r2_str = f"({rank2}°)" if rank2 < 1000 else ""
+        r1_str = f"({rank1}°)" if rank1 < 2500 else ""
+        r2_str = f"({rank2}°)" if rank2 < 2500 else ""
         
         scores_api = p.get('scores', [])
         sets_formateados = formatear_sets(scores_api)
         info_marcador = sets_formateados if sets_formateados else "0-0"
             
-        lineas.append(f"• {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {info_marcador}")
-    
-    lineas.append("")
+        lineas_partidos.append(f"• {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {info_marcador}")
     
     cierres = [
         f"¡Vamos que se puede loko! 🇦🇷💪 {tag_torneo}",
@@ -316,10 +348,8 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         f"Seguimos punto a punto. 🇦🇷 {tag_torneo}",
         f"¡Hay que poner huevo! 🇦🇷 {tag_torneo}",
     ]
-    lineas.append(random.choice(cierres))
     
-    texto = "\n".join(lineas)
-    return f"--- INICIO TWEET ---\n{texto}\n--- FIN TWEET ---"
+    return _formatear_en_hilo(encabezado, lineas_partidos, cierres)
 
 def generar_tweet_finalizado(torneo_original, partidos):
     """Genera el texto para resultados finales con análisis de victoria/derrota."""
@@ -336,8 +366,8 @@ def generar_tweet_finalizado(torneo_original, partidos):
         f"Resumen de los argentinos hoy en el {prefijo}{torneo}: 🎾"
     ]
     
-    lineas = [random.choice(encabezados)]
-    lineas.append("") 
+    encabezado = random.choice(encabezados)
+    lineas_partidos = []
     
     total_victorias = 0
     total_derrotas = 0
@@ -355,8 +385,8 @@ def generar_tweet_finalizado(torneo_original, partidos):
         flag1 = obtener_bandera(pais1)
         flag2 = obtener_bandera(pais2)
         
-        r1_str = f"({rank1}°)" if rank1 < 1000 else ""
-        r2_str = f"({rank2}°)" if rank2 < 1000 else ""
+        r1_str = f"({rank1}°)" if rank1 < 2500 else ""
+        r2_str = f"({rank2}°)" if rank2 < 2500 else ""
         
         scores_api = p.get('scores', [])
         sets_formateados = formatear_sets(scores_api)
@@ -367,9 +397,7 @@ def generar_tweet_finalizado(torneo_original, partidos):
         if gano is True: total_victorias += 1
         elif gano is False: total_derrotas += 1
         
-        lineas.append(f"• {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {marcador} {msg_result}")
-    
-    lineas.append("")
+        lineas_partidos.append(f"• {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {marcador} {msg_result}")
     
     # Selección de cierres según balance de la jornada
     if total_victorias > 0 and total_derrotas == 0:
@@ -399,10 +427,7 @@ def generar_tweet_finalizado(torneo_original, partidos):
             f"Con una de cal y una de arena hoy 🇦🇷 {tag_torneo}"
         ]
         
-    lineas.append(random.choice(cierres))
-    
-    texto = "\n".join(lineas)
-    return f"--- INICIO TWEET ---\n{texto}\n--- FIN TWEET ---"
+    return _formatear_en_hilo(encabezado, lineas_partidos, cierres)
 
 def generar_tweet_ranking(datos, tipo="atp"):
     """Genera un tweet con el Top 10 del ranking."""
@@ -419,11 +444,11 @@ def generar_tweet_ranking(datos, tipo="atp"):
     lineas.append("")
     
     for p in top_10:
-        pos = p.get('player_place')
-        nombre = p.get('player_name')
-        pais = p.get('player_country')
+        pos = p.get('place', p.get('player_place'))
+        nombre = p.get('player', p.get('player_name'))
+        pais = p.get('country', p.get('player_country'))
         flag = obtener_bandera(pais)
-        puntos = p.get('player_points')
+        puntos = p.get('points', p.get('player_points'))
         lineas.append(f"{pos}. {nombre} {flag} ({puntos} pts)")
     
     lineas.append("")
@@ -442,11 +467,11 @@ def generar_hilo_ranking_argentinos(datos, tipo="atp"):
     Genera un hilo de tweets con las posiciones de todos los argentinos en el ranking.
     Divide el contenido automáticamente si supera los 280 caracteres.
     """
-    argentinos = [p for p in datos if p.get('player_country', '').lower() in ['argentina', 'arg']]
+    argentinos = [p for p in datos if p.get('country', p.get('player_country', '')).lower() in ['argentina', 'arg']]
     
     # Asegurar orden por ranking
     try:
-        argentinos.sort(key=lambda x: int(x.get('player_place', 9999)))
+        argentinos.sort(key=lambda x: int(x.get('place', x.get('player_place', 9999))))
     except:
         pass
         
@@ -464,9 +489,9 @@ def generar_hilo_ranking_argentinos(datos, tipo="atp"):
     current_text = header
     
     for p in argentinos:
-        pos = p.get('player_place')
-        nombre = p.get('player_name')
-        puntos = p.get('player_points')
+        pos = p.get('place', p.get('player_place'))
+        nombre = p.get('player', p.get('player_name'))
+        puntos = p.get('points', p.get('player_points'))
         linea = f"• {pos}. {nombre} 🇦🇷 ({puntos} pts)\n"
         
         # Si la línea excede el límite (con margen para el pie de hilo), guardamos y empezamos nuevo tweet
