@@ -210,23 +210,44 @@ def analizar_resultado_argentino(partido):
             else:
                 return f"Derrota por {tipo_retiro}", False
     
-    # Mensajes
-    mensajes_victoria_ajustada = [
-        "¡VAMOS! 🇦🇷", "¡Triunfazo peleado!", "Se sufrió pero se ganó. 💪", 
-        "¡Partidazo y victoria! ", "Lo dio vuelta y festejó. 🇦🇷", "Garra y corazón para ganar."
-    ]
-    mensajes_victoria_facil = [
-        "Cátedra de tenis! ", "Masterclass de tenis.", "¡Paliza! Imparable hoy. 💪",
-        "Paso firme y victoria. 🇦🇷", "¡Adentro! Vamos por más.", "Sin despeinarse, a la siguiente. "
-    ]
-    mensajes_derrota_ajustada = [
-        "Una lástima, se escapó por poco.", "Casi se da, gran esfuerzo.", "Se luchó hasta el final 🇦🇷",
-        "Mala suerte en esta.", "Se escapó en el cierre, una pena.", "A levantar cabeza, fue un partidazo."
-    ]
-    mensajes_derrota_facil = [
-        "No pudo ser esta vez", "Dura derrota 🇦🇷", "La tuvo complicada hoy 😕",
-        "No encontró el ritmo hoy 🇦🇷", "A pensar en el próximo torneo 😕"
-    ]
+    ronda = traducir_ronda(partido.get('tournament_round', ''))
+    es_final = (ronda == "Final")
+
+    if es_final:
+        mensajes_victoria_ajustada = [
+            "¡CAMPEÓN! 🏆🇦🇷", "¡Se consagró campeón tras un partidazo! 🏆", 
+            "¡El título es argentino! 🏆🇦🇷", "¡Levanta el trofeo y grita campeón! 🏆🇦🇷"
+        ]
+        mensajes_victoria_facil = [
+            "¡CAMPEÓN INDISCUTIDO! 🏆🇦🇷", "¡Masterclass y título a casa! 🏆", 
+            "¡Dominio total en la final para gritar campeón! 🏆🇦🇷"
+        ]
+        mensajes_derrota_ajustada = [
+            "Se escapó la final por muy poco 🇦🇷", "Gran torneo, lástima el final.", 
+            "No pudo consagrarse 🇦🇷", "Cierra una gran semana como finalista 🇦🇷"
+        ]
+        mensajes_derrota_facil = [
+            "No encontró el ritmo en el partido 😕", 
+            "Dura derrota, no pudo consagrarse campeón hoy 🇦🇷", "A levantar cabeza, gran semana llegando a la final 🇦🇷"
+        ]
+    else:
+        # Mensajes regulares
+        mensajes_victoria_ajustada = [
+            "¡VAMOS! 🇦🇷", "¡Triunfazo peleado!", "Se sufrió pero se ganó. 💪", 
+            "¡Partidazo y victoria! ", "Lo dio vuelta y festejó. 🇦🇷", "Garra y corazón para ganar."
+        ]
+        mensajes_victoria_facil = [
+            "Cátedra de tenis! ", "Masterclass de tenis.", "¡Paliza! Imparable hoy. 💪",
+            "Paso firme y victoria. 🇦🇷", "¡Adentro! Vamos por más.", "Sin despeinarse, a la siguiente. "
+        ]
+        mensajes_derrota_ajustada = [
+            "Una lástima, se escapó por poco.", "Casi se da, gran esfuerzo.", "Se luchó hasta el final 🇦🇷",
+            "Mala suerte en esta.", "Se escapó en el cierre, una pena.", "A levantar cabeza, fue un partidazo."
+        ]
+        mensajes_derrota_facil = [
+            "No pudo ser esta vez", "Dura derrota 🇦🇷", "La tuvo complicada hoy 😕",
+            "No encontró el ritmo hoy 🇦🇷", "A pensar en el próximo torneo 😕"
+        ]
     
     # Caso 1: Jugador 1 es el argentino
     if j1_es_arg:
