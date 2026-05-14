@@ -4,7 +4,8 @@ from datetime import datetime
 from bot.api_tennis import TennisAPI
 from bot.filtros import filtrar_argentinos, agrupar_por_torneo, es_agenda, es_actualizacion_en_vivo, es_finalizado
 from bot.redactor import generar_tweet_agenda, generar_tweet_actualizacion, generar_tweet_finalizado, generar_tweet_ranking, generar_hilo_ranking_argentinos
-# from bot.twitter import publicar_tweet  # Omitimos por ahora
+from bot.twitter import publicar_tweet
+from bot.config import DRY_RUN
 from bot.mailer import enviar_reporte_email
 from bot.historial import cargar_reportados, guardar_reportado, limpiar_historial
 
@@ -62,9 +63,12 @@ def main():
             agrupados = agrupar_por_torneo(partidos_agenda)
             for torneo, lista in agrupados.items():
                 tweets = generar_tweet_agenda(torneo, lista)
+                reply_id = None
                 for t in tweets:
                     reporte_texto.append(f"[AGENDA - {torneo}]\n{t}\n\n")
                     print(f"Texto generado para {torneo} (Agenda)")
+                    if not DRY_RUN:
+                        reply_id = publicar_tweet(t, in_reply_to_tweet_id=reply_id)
         else:
             print("No hay partidos en agenda.")
 
@@ -79,9 +83,12 @@ def main():
             agrupados = agrupar_por_torneo(partidos_vivo)
             for torneo, lista in agrupados.items():
                 tweets = generar_tweet_actualizacion(torneo, lista)
+                reply_id = None
                 for t in tweets:
                     reporte_texto.append(f"[EN VIVO - {torneo}]\n{t}\n\n")
                     print(f"Texto generado para {torneo} (En Vivo)")
+                    if not DRY_RUN:
+                        reply_id = publicar_tweet(t, in_reply_to_tweet_id=reply_id)
         else:
             print("No hay partidos en vivo actualmente.")
 
@@ -103,9 +110,12 @@ def main():
             agrupados = agrupar_por_torneo(partidos_fin)
             for torneo, lista in agrupados.items():
                 tweets = generar_tweet_finalizado(torneo, lista)
+                reply_id = None
                 for t in tweets:
                     reporte_texto.append(f"[FINALIZADO - {torneo}]\n{t}\n\n")
                     print(f"Texto generado para {torneo} (Finalizado)")
+                    if not DRY_RUN:
+                        reply_id = publicar_tweet(t, in_reply_to_tweet_id=reply_id)
                 
                 # Si es incremental, marcar como reportados para la próxima
                 if args.incremental:
@@ -131,12 +141,17 @@ def main():
                 texto_tweet = generar_tweet_ranking(datos_ranking, cat)
                 reporte_texto.append(f"[RANKING {cat.upper()}]\n{texto_tweet}\n\n")
                 print(f"Texto generado para Ranking {cat.upper()}")
+                reply_id = None
+                if not DRY_RUN:
+                    reply_id = publicar_tweet(texto_tweet)
                 # Hilo de Argentinos (Nuevo!)
                 if cat == "atp":
                     print(f"Generando hilo de argentinos para {cat.upper()}...")
                     hilo_arg = generar_hilo_ranking_argentinos(datos_ranking, cat)
                     for i, tweet_hilo in enumerate(hilo_arg):
                         reporte_texto.append(f"[HILO RANKING ARGENTINOS {cat.upper()} - Parte {i+1}]\n{tweet_hilo}\n\n")
+                        if not DRY_RUN:
+                            reply_id = publicar_tweet(tweet_hilo, in_reply_to_tweet_id=reply_id)
             else:
                 print(f"No se pudo obtener el ranking {cat.upper()}.")
 

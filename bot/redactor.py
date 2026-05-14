@@ -1,8 +1,9 @@
 import random
+import re
 
 def obtener_bandera(pais):
     """Devuelve el emoji de la bandera para un país dado."""
-    if not pais: return "🎾"
+    if not pais: return ""
     
     p = pais.lower().strip()
     mapping = {
@@ -42,7 +43,7 @@ def obtener_bandera(pais):
         "portugal": "🇵🇹",
         "ukraine": "🇺🇦",
     }
-    return mapping.get(p, "🎾")
+    return mapping.get(p, "")
 
 def formatear_sets(scores):
     """
@@ -76,6 +77,26 @@ def extraer_categoria(partido):
     if "WTA" in full: return "WTA"
     if "CHALLENGER" in full: return "Challenger"
     if "ITF" in full: return "ITF"
+    return ""
+
+def traducir_ronda(ronda_api):
+    """Traduce la ronda del torneo proveniente de la API al español."""
+    if not ronda_api: return ""
+    r = str(ronda_api).lower()
+    
+    if "final" in r and "quarter" not in r and "semi" not in r and "1/" not in r: return "Final"
+    if "semi" in r: return "Semifinal"
+    if "quarter" in r: return "4tos"
+    if "1/8" in r: return "8vos"
+    if "1/16" in r: return "16avos"
+    if "1/32" in r: return "32avos"
+    if "1/64" in r: return "64avos"
+    if "qualif" in r or "qualy" in r: return "Qualy"
+    
+    # Si contiene round pero ninguna de las anteriores (ej: "Round 1")
+    if "round" in r:
+        return "Ronda"
+        
     return ""
 
 def traducir_nombre_torneo(nombre):
@@ -138,15 +159,17 @@ def obtener_hashtag_torneo(nombre_torneo, categoria=""):
     # Tomar solo la primera parte si hay una coma (ej: "Boca Raton, FL 3" -> "Boca Raton")
     nombre_base = nombre_torneo.split(',')[0]
     
-    # Combinar categoría y nombre para el hashtag genérico (ej: "Challenger" + "Santos" -> "#ChallengerSantos")
-    # Evitamos repetir si la categoría ya está en el nombre (ej: "ITF W35" -> no poner ITFtwice)
-    prefijo = categoria if categoria and categoria.upper() not in nombre_base.upper() else ""
-    full_name = f"{prefijo}{nombre_base}"
+    # Limpieza de prefijos para el hashtag (ej: "ITF W35 Boca Raton" -> "BocaRaton")
+    # Removemos ITF, ATP, WTA, Challenger y categorías como M15, W35, etc.
+    nombre_sin_prefijo = re.sub(r'^(ITF|ATP|WTA|Challenger|M\d+|W\d+)\s+', '', nombre_base, flags=re.IGNORECASE).strip()
     
+    # Si al limpiar queda vacío (ej: solo decía "Challenger"), volvemos al base
+    if not nombre_sin_prefijo:
+        nombre_sin_prefijo = nombre_base
+        
     # Generar hashtag genérico quitando espacios y caracteres especiales
-    nombre_limpio = "".join(char for char in full_name if char.isalnum())
-    tag_generico = "#" + nombre_limpio
-    return tag_generico
+    nombre_final = "".join(char for char in nombre_sin_prefijo if char.isalnum())
+    return "#" + nombre_final
 
 def analizar_resultado_argentino(partido):
     """
@@ -167,22 +190,42 @@ def analizar_resultado_argentino(partido):
     # Ganador 1 o 2
     ganador = 1 if s1 > s2 else (2 if s2 > s1 else 0)
     
+    status = partido.get('event_status', '').lower()
+    nombre_j1 = partido.get('event_first_player', 'Rival')
+    nombre_j2 = partido.get('event_second_player', 'Rival')
+    
+    # Detección de Retiros y Walkovers
+    es_retiro = status in ['retired', 'walkover', 'w.o.', 'ret.']
+    tipo_retiro = "retiro" if "ret" in status else "W.O."
+    
+    if es_retiro:
+        if j1_es_arg:
+            if ganador == 1:
+                return f"Victoria por {tipo_retiro} de {nombre_j2}", True
+            else:
+                return f"Derrota por {tipo_retiro}", False
+        if j2_es_arg:
+            if ganador == 2:
+                return f"Victoria por {tipo_retiro} de {nombre_j1}", True
+            else:
+                return f"Derrota por {tipo_retiro}", False
+    
     # Mensajes
     mensajes_victoria_ajustada = [
         "¡VAMOS! 🇦🇷", "¡Triunfazo peleado!", "Se sufrió pero se ganó. 💪", 
-        "¡Partidazo y victoria! 🎾", "Lo dio vuelta y festejó. 🇦🇷", "Garra y corazón para ganar."
+        "¡Partidazo y victoria! ", "Lo dio vuelta y festejó. 🇦🇷", "Garra y corazón para ganar."
     ]
     mensajes_victoria_facil = [
-        "Cátedra de tenis! 🎾", "Masterclass de tenis.", "¡Paliza! Imparable hoy. 💪",
-        "Paso firme y victoria. 🇦🇷", "¡Adentro! Vamos por más.", "Sin despeinarse, a la siguiente. 🎾"
+        "Cátedra de tenis! ", "Masterclass de tenis.", "¡Paliza! Imparable hoy. 💪",
+        "Paso firme y victoria. 🇦🇷", "¡Adentro! Vamos por más.", "Sin despeinarse, a la siguiente. "
     ]
     mensajes_derrota_ajustada = [
-        "Una lástima, se escapó por poco.", "Casi se da, gran esfuerzo.", "Se luchó hasta el final. 🇦🇷",
-        "Dolió esta, estuvo ahí. 😕", "Se escapó en el cierre, una pena.", "A levantar cabeza, fue un partidazo."
+        "Una lástima, se escapó por poco.", "Casi se da, gran esfuerzo.", "Se luchó hasta el final 🇦🇷",
+        "Mala suerte en esta.", "Se escapó en el cierre, una pena.", "A levantar cabeza, fue un partidazo."
     ]
     mensajes_derrota_facil = [
-        "No pudo ser esta vez. 🎾", "Dura derrota. 🇦🇷", "La tuvo complicada hoy. 😕",
-        "No encontró el ritmo hoy. 🇦🇷", "A pensar en el próximo torneo. 😕"
+        "No pudo ser esta vez", "Dura derrota 🇦🇷", "La tuvo complicada hoy 😕",
+        "No encontró el ritmo hoy 🇦🇷", "A pensar en el próximo torneo 😕"
     ]
     
     # Caso 1: Jugador 1 es el argentino
@@ -220,7 +263,7 @@ def _formatear_en_hilo(encabezado, lineas_items, cierres, max_chars=280):
     Retorna una lista de strings con el formato --- INICIO TWEET --- ... --- FIN TWEET ---.
     """
     cierre = random.choice(cierres)
-    margen_hilo = 20
+    margen_hilo = 10
     limite = max_chars - margen_hilo
     
     tweets_raw = []
@@ -259,12 +302,12 @@ def generar_tweet_agenda(torneo_original, partidos):
     tag_torneo = obtener_hashtag_torneo(torneo, cat)
     
     encabezados = [
-        f"Hoy en el {prefijo}{torneo} juegan los argentinos: 🇦🇷🎾",
+        f"Hoy en el {prefijo}{torneo} juegan los argentinos: 🇦🇷",
         f"Hoy tenemos acción argentina en el {prefijo}{torneo}: 🇦🇷",
-        f"Estos son los argentinos que juegan hoy en {prefijo}{torneo}: 🎾",
-        f"Agenda lista para los nuestros en el {prefijo}{torneo}: 🇦🇷",
-        f"¡Día de tenis! Argentinos en cancha en el {prefijo}{torneo}: 🎾🇦🇷",
-        f"Atenti a la agenda de hoy en el {prefijo}{torneo}: 🇦🇷🎾"
+        f"Estos son los argentinos que juegan hoy en {prefijo}{torneo}: ",
+        f"Agenda  🇦🇷 lista del {prefijo}{torneo}:",
+        f"¡Día de tenis argentino en el {prefijo}{torneo}: 🇦🇷",
+        f"Atenti a la agenda de hoy en el {prefijo}{torneo}: 🇦🇷"
     ]
     
     encabezado = random.choice(encabezados)
@@ -287,8 +330,11 @@ def generar_tweet_agenda(torneo_original, partidos):
         r1_str = f"({rank1}°)" if rank1 < 2500 else ""
         r2_str = f"({rank2}°)" if rank2 < 2500 else ""
         
+        ronda = traducir_ronda(p.get('tournament_round', ''))
+        ronda_str = f"[{ronda}] " if ronda else ""
+        
         qualy = " (Qualy)" if p.get('es_qualy') else ""
-        lineas_partidos.append(f"• {hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}")
+        lineas_partidos.append(f"• {ronda_str}{hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}")
     
     cierres = [
         f"Vamos con todo che!! 🇦🇷 {tag_torneo}",
@@ -296,7 +342,7 @@ def generar_tweet_agenda(torneo_original, partidos):
         f"Esperemos que hoy sea un gran día para el tenis argentino 🇦🇷 {tag_torneo}",
         f"Lindo día para ver tenis 🇦🇷 {tag_torneo}",
         f"Día de matienzos y tenis 🧉 {tag_torneo}",
-        f"Día movidito para los tenistas argentinos. {tag_torneo}",
+        f"Día movidito hoy. {tag_torneo}",
         f"Mucha garra hoy! 🇦🇷 {tag_torneo}"
     ]
     
@@ -310,11 +356,11 @@ def generar_tweet_actualizacion(torneo_original, partidos):
     tag_torneo = obtener_hashtag_torneo(torneo, cat)
     
     encabezados = [
-        f"En el {prefijo}{torneo} están jugando: 🎾🇦🇷",
+        f"En el {prefijo}{torneo} están jugando: 🇦🇷",
         f"Acción en vivo desde el {prefijo}{torneo}: 🇦🇷",
-        f"Actualizamos los partidos en el {prefijo}{torneo}: 🎾",
-        f"Así vienen los pibes en el {prefijo}{torneo}: 🇦🇷💪",
-        f"Resultados parciales en el {prefijo}{torneo}: 🎾🇦🇷"
+        f"Actualizamos los partidos en el {prefijo}{torneo}: ",
+        f"Así estamos en el {prefijo}{torneo}: 🇦🇷💪",
+        f"Resultados parciales en el {prefijo}{torneo}: 🇦🇷"
     ]
     
     encabezado = random.choice(encabezados)
@@ -336,11 +382,14 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         r1_str = f"({rank1}°)" if rank1 < 2500 else ""
         r2_str = f"({rank2}°)" if rank2 < 2500 else ""
         
+        ronda = traducir_ronda(p.get('tournament_round', ''))
+        ronda_str = f" [{ronda}] " if ronda else " "
+        
         scores_api = p.get('scores', [])
         sets_formateados = formatear_sets(scores_api)
         info_marcador = sets_formateados if sets_formateados else "0-0"
             
-        lineas_partidos.append(f"• {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {info_marcador}")
+        lineas_partidos.append(f"•{ronda_str}{j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {info_marcador}")
     
     cierres = [
         f"¡Vamos que se puede loko! 🇦🇷💪 {tag_torneo}",
@@ -362,8 +411,8 @@ def generar_tweet_finalizado(torneo_original, partidos):
         f"Resultados finales para los argentinos en el {prefijo}{torneo}: 🇦🇷",
         f"Terminó la jornada en el {prefijo}{torneo}: ",
         f"Balance final del {prefijo}{torneo} para los argentinos: 🇦🇷",
-        f"Marcadores finales en el {prefijo}{torneo}:🇦🇷",
-        f"Resumen de los argentinos hoy en el {prefijo}{torneo}: 🎾"
+        f"Resultados finales en el {prefijo}{torneo}:🇦🇷",
+        f"Resumen de los argentinos hoy en el {prefijo}{torneo}: "
     ]
     
     encabezado = random.choice(encabezados)
@@ -388,6 +437,9 @@ def generar_tweet_finalizado(torneo_original, partidos):
         r1_str = f"({rank1}°)" if rank1 < 2500 else ""
         r2_str = f"({rank2}°)" if rank2 < 2500 else ""
         
+        ronda = traducir_ronda(p.get('tournament_round', ''))
+        ronda_str = f" [{ronda}] " if ronda else " "
+        
         scores_api = p.get('scores', [])
         sets_formateados = formatear_sets(scores_api)
         
@@ -397,7 +449,7 @@ def generar_tweet_finalizado(torneo_original, partidos):
         if gano is True: total_victorias += 1
         elif gano is False: total_derrotas += 1
         
-        lineas_partidos.append(f"• {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {marcador} {msg_result}")
+        lineas_partidos.append(f"•{ronda_str}{j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {marcador} {msg_result}")
     
     # Selección de cierres según balance de la jornada
     if total_victorias > 0 and total_derrotas == 0:
@@ -411,18 +463,18 @@ def generar_tweet_finalizado(torneo_original, partidos):
         ]
     elif total_victorias == 0 and total_derrotas > 0:
         cierres = [
-            f"Día difícil, pero siempre bancando a los nuestros 🇦🇷 {tag_torneo}",
+            f"Día difícil, pero siempre bancando 🇦🇷 {tag_torneo}",
             f"A recargar pilas para el próximo torneo 💪 {tag_torneo}",
-            f"No se dio hoy, pero el esfuerzo no se negocia 🎾 {tag_torneo}",
+            f"No se dio hoy 🇦🇷 {tag_torneo}",
             f"A seguir laburando que los resultados van a llegar 🇦🇷 {tag_torneo}",
             f"Un día para aprender y seguir adelante 🇦🇷 {tag_torneo}",
-            f"No fue el mejor día para nuestro tenis 🇦🇷 {tag_torneo}"
+            f"No fue el mejor día 🇦🇷 {tag_torneo}"
         ]
     else:
         cierres = [
             f"Así quedó la jornada 🇦🇷 {tag_torneo}",
             f"Balance del día para los argentinos 🇦🇷 {tag_torneo}",
-            f"Terminó la acción por hoy 🎾 {tag_torneo}",
+            f"Terminó la acción por hoy  {tag_torneo}",
             f"Cerramos un día intenso 🇦🇷 {tag_torneo}",
             f"Con una de cal y una de arena hoy 🇦🇷 {tag_torneo}"
         ]
@@ -432,10 +484,10 @@ def generar_tweet_finalizado(torneo_original, partidos):
 def generar_tweet_ranking(datos, tipo="atp"):
     """Genera un tweet con el Top 10 del ranking."""
     top_10 = datos[:10]
-    emoji_cat = "💪" if tipo.lower() == "atp" else "🎾"
+    emoji_cat = "💪" if tipo.lower() == "atp" else ""
     
     encabezados = [
-        f"Top 10 Ranking {tipo.upper()} 🎾:",
+        f"Top 10 Ranking {tipo.upper()} :",
         f"Así quedó el Top 10 {tipo.upper()} esta semana:",
         f"El nuevo Top 10 del mundo ({tipo.upper()}):"
     ]

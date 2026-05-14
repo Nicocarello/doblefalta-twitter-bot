@@ -25,6 +25,7 @@ class MockAPI(TennisAPI):
                 'event_second_player': 'Novak Djokovic',
                 'second_player_key': '999',
                 'event_status': '',
+                'tournament_round': 'Rome - Quarter-finals',
                 'event_qualification': 'False'
             },
             # VIVO
@@ -37,6 +38,7 @@ class MockAPI(TennisAPI):
                 'event_second_player': 'Rafael Nadal',
                 'second_player_key': '888',
                 'event_status': '2nd Set',
+                'tournament_round': 'Rome - 1/8-finals',
                 'scores': [
                     {'score_first': '6', 'score_second': '4'},
                     {'score_first': '2', 'score_second': '1'}
@@ -52,6 +54,7 @@ class MockAPI(TennisAPI):
                 'second_player_key': '777',
                 'event_status': 'Finished',
                 'event_final_result': '2 - 1',
+                'tournament_round': 'Coquimbo - Final',
                 'scores': [
                     {'score_first': '6', 'score_second': '4'},
                     {'score_first': '2', 'score_second': '6'},
