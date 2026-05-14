@@ -79,7 +79,7 @@ jobs:
           CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
-          DRY_RUN: "False"
+          DRY_RUN: "True"
         run: python main.py --mode ${{ steps.mode.outputs.run_mode }} ${{ steps.mode.outputs.run_flags }}
 
       - name: Commit Cache
