@@ -325,12 +325,61 @@ def _formatear_en_hilo(encabezado, lineas_items, cierres, max_chars=280):
         
     return hilo_final
 
+def obtener_frases_torneo(torneo_original, partidos):
+    """
+    Retorna preposiciones y nombres pulidos para el torneo,
+    manejando correctamente Grand Slams (sin ATP/WTA) y la Qualy.
+    """
+    torneo = traducir_nombre_torneo(torneo_original)
+    cat = extraer_categoria(partidos[0])
+    
+    es_gs = any(gs in torneo.lower() for gs in ["roland garros", "wimbledon", "us open", "australian open"])
+    todos_qualy = all(p.get('es_qualy') for p in partidos)
+    
+    frases = {}
+    
+    if es_gs:
+        # Grand Slams
+        if todos_qualy:
+            frases["en"] = f"en la Qualy de {torneo}"
+            frases["del"] = f"de la Qualy de {torneo}"
+            frases["al"] = f"a la Qualy de {torneo}"
+            frases["nombre"] = f"la Qualy de {torneo}"
+        else:
+            if "us open" in torneo.lower() or "australian open" in torneo.lower():
+                frases["en"] = f"en el {torneo}"
+                frases["del"] = f"del {torneo}"
+                frases["al"] = f"al {torneo}"
+                frases["nombre"] = torneo
+            else:
+                # Roland Garros, Wimbledon
+                frases["en"] = f"en {torneo}"
+                frases["del"] = f"de {torneo}"
+                frases["al"] = f"a {torneo}"
+                frases["nombre"] = torneo
+    else:
+        # ATP, WTA, Challenger, ITF, etc.
+        prefijo = f"{cat} " if cat else ""
+        if todos_qualy:
+            conector = "del " if cat else "de "
+            frases["en"] = f"en la Qualy {conector}{prefijo}{torneo}"
+            frases["del"] = f"de la Qualy {conector}{prefijo}{torneo}"
+            frases["al"] = f"a la Qualy {conector}{prefijo}{torneo}"
+            frases["nombre"] = f"la Qualy {conector}{prefijo}{torneo}"
+        else:
+            frases["en"] = f"en el {prefijo}{torneo}"
+            frases["del"] = f"del {prefijo}{torneo}"
+            frases["al"] = f"al {prefijo}{torneo}"
+            frases["nombre"] = f"{prefijo}{torneo}"
+            
+    return frases
+
 def generar_tweet_agenda(torneo_original, partidos):
     """Genera el texto para un tweet de agenda con categoría y hashtag."""
     torneo = traducir_nombre_torneo(torneo_original)
     cat = extraer_categoria(partidos[0])
-    prefijo = f"{cat} " if cat else ""
     tag_torneo = obtener_hashtag_torneo(torneo, cat)
+    frases = obtener_frases_torneo(torneo_original, partidos)
     
     rondas_presentes = set()
     for p in partidos:
@@ -338,45 +387,56 @@ def generar_tweet_agenda(torneo_original, partidos):
         if r:
             rondas_presentes.add(r)
             
+    # ¿Son todos los partidos de qualy?
+    todos_qualy = all(p.get('es_qualy') for p in partidos)
+            
     if "Final" in rondas_presentes:
         encabezados = [
-            f"🏆 ¡Día de FINAL en el {prefijo}{torneo}! 🇦🇷",
-            f"Se juega la gran final del {prefijo}{torneo}: 🇦🇷🏆",
-            f"¡Llegó el día! Hoy es la final del {prefijo}{torneo}: 🇦🇷",
-            f"Día de coronación en el {prefijo}{torneo}. Juegan: 🇦🇷"
+            f"🏆 ¡Día de FINAL {frases['en']}! 🇦🇷",
+            f"Se juega la gran final {frases['del']}: 🇦🇷🏆",
+            f"¡Llegó el día! Hoy es la final {frases['del']}: 🇦🇷",
+            f"Día de coronación {frases['en']}. Juegan: 🇦🇷"
         ]
     elif "Semifinal" in rondas_presentes:
         encabezados = [
-            f"Estos son los horarios de las semifinales en el {prefijo}{torneo}: 🇦🇷",
-            f"¡Día de Semis en el {prefijo}{torneo}! Juegan los nuestros: 🇦🇷",
-            f"Buscando el pase a la final hoy en el {prefijo}{torneo}: 🇦🇷"
+            f"Estos son los horarios de las semifinales {frases['en']}: 🇦🇷",
+            f"¡Día de Semis {frases['en']}! Juegan los nuestros: 🇦🇷",
+            f"Buscando el pase a la final hoy {frases['en']}: 🇦🇷"
         ]
     elif "4tos" in rondas_presentes:
         encabezados = [
-            f"Día de 4tos en el {prefijo}{torneo}: 🇦🇷",
-            f"¡4tos a la vista en el {prefijo}{torneo}! Juegan: 🇦🇷",
-            f"Por un lugar en semis del {prefijo}{torneo}: 🇦🇷"
+            f"Día de 4tos {frases['en']}: 🇦🇷",
+            f"¡4tos a la vista {frases['en']}! Juegan: 🇦🇷",
+            f"Por un lugar en semis {frases['del']}: 🇦🇷"
         ]
     elif "8vos" in rondas_presentes:
         encabezados = [
-            f"Día de 8vos en el {prefijo}{torneo}: 🇦🇷",
-            f"Buscando meterse entre los 8 mejores del {prefijo}{torneo}: 🇦🇷"
+            f"Día de 8vos {frases['en']}: 🇦🇷",
+            f"Buscando meterse entre los 8 mejores {frases['del']}: 🇦🇷"
         ]
-    elif "Qualy" in rondas_presentes:
-        encabezados = [
-            f"🎾 ¡Comienza la Qualy en el {prefijo}{torneo}! Estos son los argentinos que juegan: 🇦🇷",
-            f"Día de clasificación en el {prefijo}{torneo}: 🇦🇷",
-            f"Agenda de la Qualy en el {prefijo}{torneo}: 🇦🇷",
-            f"¡Empieza la batalla por entrar al {torneo}! Juegan los argentinos: 🇦🇷"
-        ]
+    elif todos_qualy or "Qualy" in rondas_presentes or any("qualy" in r.lower() for r in rondas_presentes):
+        if todos_qualy:
+            encabezados = [
+                f"🎾 ¡Comienza la Qualy de {torneo}! Estos son los argentinos que juegan: 🇦🇷",
+                f"Día de clasificación en la Qualy de {torneo}: 🇦🇷",
+                f"Agenda de la Qualy de {torneo}: 🇦🇷",
+                f"¡Empieza la batalla por entrar al cuadro principal de {torneo}! Juegan los argentinos: 🇦🇷"
+            ]
+        else:
+            encabezados = [
+                f"🎾 ¡Comienza la Qualy {frases['en']}! Estos son los argentinos que juegan: 🇦🇷",
+                f"Día de clasificación {frases['en']}: 🇦🇷",
+                f"Agenda de la Qualy {frases['en']}: 🇦🇷",
+                f"¡Empieza la batalla por entrar {frases['al']}! Juegan los argentinos: 🇦🇷"
+            ]
     else:
         encabezados = [
-            f"Hoy en el {prefijo}{torneo} juegan los argentinos: 🇦🇷",
-            f"Hoy tenemos acción argentina en el {prefijo}{torneo}: 🇦🇷",
-            f"Estos son los argentinos que juegan hoy en {prefijo}{torneo}: ",
-            f"Agenda 🇦🇷 lista del {prefijo}{torneo}:",
-            f"¡Día de tenis argentino en el {prefijo}{torneo}! 🇦🇷",
-            f"Atenti a la agenda de hoy en el {prefijo}{torneo}: 🇦🇷"
+            f"Hoy {frases['en']} juegan los argentinos: 🇦🇷",
+            f"Hoy tenemos acción argentina {frases['en']}: 🇦🇷",
+            f"Estos son los argentinos que juegan hoy {frases['en']}: ",
+            f"Agenda 🇦🇷 lista {frases['del']}:",
+            f"¡Día de tenis argentino {frases['en']}! 🇦🇷",
+            f"Atenti a la agenda de hoy {frases['en']}: 🇦🇷"
         ]
     
     encabezado = random.choice(encabezados)
@@ -402,7 +462,7 @@ def generar_tweet_agenda(torneo_original, partidos):
         ronda = traducir_ronda(p.get('tournament_round', ''))
         ronda_str = f"[{ronda}] " if ronda else ""
         
-        qualy = " (Qualy)" if p.get('es_qualy') else ""
+        qualy = " (Qualy)" if (p.get('es_qualy') and not todos_qualy) else ""
         lineas_partidos.append(f"• {ronda_str}{hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}")
     
     cierres = [
@@ -421,8 +481,8 @@ def generar_tweet_actualizacion(torneo_original, partidos):
     """Genera el texto para un tweet en vivo simplificado con hashtag."""
     torneo = traducir_nombre_torneo(torneo_original)
     cat = extraer_categoria(partidos[0])
-    prefijo = f"{cat} " if cat else ""
     tag_torneo = obtener_hashtag_torneo(torneo, cat)
+    frases = obtener_frases_torneo(torneo_original, partidos)
     
     rondas_presentes = set()
     for p in partidos:
@@ -432,34 +492,34 @@ def generar_tweet_actualizacion(torneo_original, partidos):
             
     if "Final" in rondas_presentes:
         encabezados = [
-            f"🏆 ¡Se está jugando la FINAL en el {prefijo}{torneo}! 🇦🇷",
-            f"Acción en vivo desde la final del {prefijo}{torneo}: 🇦🇷🏆",
-            f"Así va la gran final del {prefijo}{torneo}: 🇦🇷"
+            f"🏆 ¡Se está jugando la FINAL {frases['en']}! 🇦🇷",
+            f"Acción en vivo desde la final {frases['del']}: 🇦🇷🏆",
+            f"Así va la gran final {frases['del']}: 🇦🇷"
         ]
     elif "Semifinal" in rondas_presentes:
         encabezados = [
-            f"¡Están en juego las semifinales del {prefijo}{torneo}! 🇦🇷",
-            f"Actualizamos las Semis en el {prefijo}{torneo}: 🇦🇷",
-            f"Buscando el pase a la final en vivo en el {prefijo}{torneo}: 🇦🇷"
+            f"¡Están en juego las semifinales {frases['del']}! 🇦🇷",
+            f"Actualizamos las Semis {frases['en']}: 🇦🇷",
+            f"Buscando el pase a la final en vivo {frases['en']}: 🇦🇷"
         ]
     elif "4tos" in rondas_presentes:
         encabezados = [
-            f"Acción en vivo de los 4tos en el {prefijo}{torneo}: 🇦🇷",
-            f"Actualizamos los 4tos en el {prefijo}{torneo}: 🇦🇷",
-            f"Peleando por llegar a semis en el {prefijo}{torneo}: 🇦🇷"
+            f"Acción en vivo de los 4tos {frases['en']}: 🇦🇷",
+            f"Actualizamos los 4tos {frases['en']}: 🇦🇷",
+            f"Peleando por llegar a semis {frases['en']}: 🇦🇷"
         ]
     elif "8vos" in rondas_presentes:
         encabezados = [
-            f"Actualizamos los 8vos en el {prefijo}{torneo}: 🇦🇷",
-            f"Acción de 8vos en vivo desde el {prefijo}{torneo}: 🇦🇷"
+            f"Actualizamos los 8vos {frases['en']}: 🇦🇷",
+            f"Acción de 8vos en vivo desde {frases['nombre']}: 🇦🇷"
         ]
     else:
         encabezados = [
-            f"En el {prefijo}{torneo} están jugando: 🇦🇷",
-            f"Acción en vivo desde el {prefijo}{torneo}: 🇦🇷",
-            f"Actualizamos los partidos en el {prefijo}{torneo}: ",
-            f"Así estamos en el {prefijo}{torneo}: 🇦🇷💪",
-            f"Resultados parciales en el {prefijo}{torneo}: 🇦🇷"
+            f"{frases['en'].capitalize()} están jugando: 🇦🇷",
+            f"Acción en vivo {frases['en']}: 🇦🇷",
+            f"Actualizamos los partidos {frases['en']}: ",
+            f"Así estamos {frases['en']}: 🇦🇷💪",
+            f"Resultados parciales {frases['en']}: 🇦🇷"
         ]
     
     encabezado = random.choice(encabezados)
@@ -503,8 +563,8 @@ def generar_tweet_finalizado(torneo_original, partidos):
     """Genera el texto para resultados finales con análisis de victoria/derrota."""
     torneo = traducir_nombre_torneo(torneo_original)
     cat = extraer_categoria(partidos[0])
-    prefijo = f"{cat} " if cat else ""
     tag_torneo = obtener_hashtag_torneo(torneo, cat)
+    frases = obtener_frases_torneo(torneo_original, partidos)
     
     rondas_presentes = set()
     for p in partidos:
@@ -514,34 +574,34 @@ def generar_tweet_finalizado(torneo_original, partidos):
             
     if "Final" in rondas_presentes:
         encabezados = [
-            f"🏆 ¡Resultados de la FINAL en el {prefijo}{torneo}! 🇦🇷",
-            f"Terminó el torneo para los nuestros en el {prefijo}{torneo}: 🇦🇷🏆",
-            f"Así nos fue en la gran final del {prefijo}{torneo}: 🇦🇷"
+            f"🏆 ¡Resultados de la FINAL {frases['en']}! 🇦🇷",
+            f"Terminó el torneo para los nuestros {frases['en']}: 🇦🇷🏆",
+            f"Así nos fue en la gran final {frases['del']}: 🇦🇷"
         ]
     elif "Semifinal" in rondas_presentes:
         encabezados = [
-            f"Resultados de las semifinales en el {prefijo}{torneo}: 🇦🇷",
-            f"Terminaron las Semis en el {prefijo}{torneo}: 🇦🇷",
-            f"¿Quién pasó a la final? Resumen en el {prefijo}{torneo}: 🇦🇷"
+            f"Resultados de las semifinales {frases['en']}: 🇦🇷",
+            f"Terminaron las Semis {frases['en']}: 🇦🇷",
+            f"¿Quién pasó a la final? Resumen {frases['en']}: 🇦🇷"
         ]
     elif "4tos" in rondas_presentes:
         encabezados = [
-            f"Resultados de los 4tos en el {prefijo}{torneo}: 🇦🇷",
-            f"Terminaron los 4tos en el {prefijo}{torneo}: 🇦🇷",
-            f"Balance de los 4tos en el {prefijo}{torneo}: 🇦🇷"
+            f"Resultados de los 4tos {frases['en']}: 🇦🇷",
+            f"Terminaron los 4tos {frases['en']}: 🇦🇷",
+            f"Balance de los 4tos {frases['en']}: 🇦🇷"
         ]
     elif "8vos" in rondas_presentes:
         encabezados = [
-            f"Resultados de los 8vos en el {prefijo}{torneo}: 🇦🇷",
-            f"Terminaron los 8vos en el {prefijo}{torneo}: 🇦🇷"
+            f"Resultados de los 8vos {frases['en']}: 🇦🇷",
+            f"Terminaron los 8vos {frases['en']}: 🇦🇷"
         ]
     else:
         encabezados = [
-            f"Resultados finales para los argentinos en el {prefijo}{torneo}: 🇦🇷",
-            f"Terminó la jornada en el {prefijo}{torneo}: ",
-            f"Balance final del {prefijo}{torneo} para los argentinos: 🇦🇷",
-            f"Resultados finales en el {prefijo}{torneo}: 🇦🇷",
-            f"Resumen de los argentinos hoy en el {prefijo}{torneo}: "
+            f"Resultados finales para los argentinos {frases['en']}: 🇦🇷",
+            f"Terminó la jornada {frases['en']}: ",
+            f"Balance final {frases['del']} para los argentinos: 🇦🇷",
+            f"Resultados finales {frases['en']}: 🇦🇷",
+            f"Resumen de los argentinos hoy {frases['en']}: "
         ]
     
     encabezado = random.choice(encabezados)
