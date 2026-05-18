@@ -17,6 +17,9 @@ on:
     # Cada 60 min (Live) - Ajustado para no pisar los horarios fijos
     - cron: '0 13,14,16,17,18,19,20,22,23 * * *'
     - cron: '0 0-1 * * *'
+    # # Cada 30 min (Live) - Ajustado para no pisar los horarios fijos
+    # - cron: '0,30 13,14,16,17,18,19,20,22,23 * * *'
+    # - cron: '0,30 0-1 * * *'
     
     # 23:00 ART -> 02:00 UTC (Final Completo)
     - cron: '0 2 * * *'
