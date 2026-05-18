@@ -3,3 +3,11 @@ __pycache__/
 *.pyc
 jugadores_cache.json
 reportados_cache.json
+
+# Scripts de debug / test (no van a producción)
+script.py
+search_baez.py
+test_api_debug.py
+test_mock.py
+test_redactor_fix.py
+inspect_keys.py

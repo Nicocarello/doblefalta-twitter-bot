@@ -91,7 +91,13 @@ def traducir_ronda(ronda_api):
     if "1/16" in r: return "16avos"
     if "1/32" in r: return "32avos"
     if "1/64" in r: return "64avos"
-    if "qualif" in r or "qualy" in r: return "Qualy"
+    
+    # Qualy: detecta el número de ronda si está presente (ej: "Qualifying Round 2" → "R2 Qualy")
+    if "qualif" in r or "qualy" in r:
+        match = re.search(r'\d+', r)
+        if match:
+            return f"R{match.group()} Qualy"
+        return "Qualy"
     
     # Si contiene round pero ninguna de las anteriores (ej: "Round 1")
     if "round" in r:
@@ -141,6 +147,10 @@ def obtener_hashtag_torneo(nombre_torneo, categoria=""):
         "rome": "#IBI26",
         "madrid": "#MMOPEN",
         "monte-carlo": "#MonteCarloMasters",
+        "roland garros qualifying": "#RolandGarros",
+        "roland garros qualy": "#RolandGarros",
+        "qualifying roland garros": "#RolandGarros",
+        "french open qualifying": "#RolandGarros",
         "roland garros": "#RolandGarros",
         "french open": "#RolandGarros",
         "wimbledon": "#Wimbledon",
@@ -351,6 +361,13 @@ def generar_tweet_agenda(torneo_original, partidos):
         encabezados = [
             f"Día de 8vos en el {prefijo}{torneo}: 🇦🇷",
             f"Buscando meterse entre los 8 mejores del {prefijo}{torneo}: 🇦🇷"
+        ]
+    elif "Qualy" in rondas_presentes:
+        encabezados = [
+            f"🎾 ¡Comienza la Qualy en el {prefijo}{torneo}! Estos son los argentinos que juegan: 🇦🇷",
+            f"Día de clasificación en el {prefijo}{torneo}: 🇦🇷",
+            f"Agenda de la Qualy en el {prefijo}{torneo}: 🇦🇷",
+            f"¡Empieza la batalla por entrar al {torneo}! Juegan los argentinos: 🇦🇷"
         ]
     else:
         encabezados = [

@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 import requests
 import json
 import os
+import time
 from bot.config import TENNIS_API_KEY, TENNIS_BASE_URL
 
 CACHE_FILE = "jugadores_cache.json"
@@ -9,6 +10,24 @@ CACHE_FILE = "jugadores_cache.json"
 class TennisAPI:
     def __init__(self):
         self.cache_jugadores = self._cargar_cache()
+
+    def _get_con_retry(self, params, timeout=20, reintentos=3):
+        """
+        Realiza un GET a la API con reintentos y backoff exponencial.
+        Devuelve el objeto Response o lanza la última excepción si agotó los intentos.
+        """
+        ultimo_error = None
+        for intento in range(reintentos):
+            try:
+                response = requests.get(TENNIS_BASE_URL, params=params, timeout=timeout)
+                return response
+            except Exception as e:
+                ultimo_error = e
+                if intento < reintentos - 1:
+                    espera = 2 ** intento  # 1s, 2s, luego falla
+                    print(f"⚠️ Error en intento {intento + 1}/{reintentos}, reintentando en {espera}s... ({e})")
+                    time.sleep(espera)
+        raise ultimo_error
 
     def _cargar_cache(self):
         """Carga el caché desde un archivo JSON local."""
@@ -129,7 +148,7 @@ class TennisAPI:
             return info
 
     def obtener_partidos_hoy(self, fecha_iso):
-        """Consulta todos los fixtures para una fecha específica."""
+        """Consulta todos los fixtures para una fecha específica (con reintentos)."""
         params = {
             'method': 'get_fixtures',
             'APIkey': TENNIS_API_KEY,
@@ -138,7 +157,7 @@ class TennisAPI:
         }
         
         try:
-            response = requests.get(TENNIS_BASE_URL, params=params, timeout=20)
+            response = self._get_con_retry(params, timeout=20)
             datos = response.json()
             if datos.get('success') == 1:
                 return datos.get('result', [])
@@ -148,14 +167,14 @@ class TennisAPI:
             return []
 
     def obtener_rankings(self, tipo="atp"):
-        """Consulta el ranking (standings) para ATP o WTA."""
+        """Consulta el ranking (standings) para ATP o WTA (con reintentos)."""
         params = {
             'method': 'get_standings',
             'APIkey': TENNIS_API_KEY,
             'event_type': tipo.upper()
         }
         try:
-            response = requests.get(TENNIS_BASE_URL, params=params, timeout=20)
+            response = self._get_con_retry(params, timeout=20)
             datos = response.json()
             if datos.get('success') == 1:
                 return datos.get('result', [])

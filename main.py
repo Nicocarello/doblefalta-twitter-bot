@@ -7,7 +7,19 @@ from bot.redactor import generar_tweet_agenda, generar_tweet_actualizacion, gene
 from bot.twitter import publicar_tweet
 from bot.config import DRY_RUN
 from bot.mailer import enviar_reporte_email
-from bot.historial import cargar_reportados, guardar_reportado, limpiar_historial
+from bot.historial import cargar_reportados, guardar_reportado, guardar_reportados_batch, limpiar_historial
+
+def limpiar_tweet(texto_raw):
+    """Elimina los marcadores de formato (--- INICIO TWEET ---, --- FIN TWEET ---)
+    del texto generado por el redactor antes de publicarlo o incluirlo en el email."""
+    lineas = texto_raw.split('\n')
+    # Quita la primera línea si es un marcador
+    if lineas and lineas[0].startswith('---') and lineas[0].endswith('---'):
+        lineas = lineas[1:]
+    # Quita la última línea si es un marcador
+    if lineas and lineas[-1].startswith('---') and lineas[-1].endswith('---'):
+        lineas = lineas[:-1]
+    return '\n'.join(lineas).strip()
 
 # Configuración de salida para consola en Windows (emojis)
 if sys.stdout.encoding != 'utf-8':
@@ -57,6 +69,9 @@ def main():
     # ---------------------------------------------------------
     if args.mode in ["agenda", "all"]:
         print("\n📅 PROCESANDO BLOQUE: AGENDA...")
+        # Limpiamos el historial del día anterior al inicio de la nueva jornada
+        print("🧹 Limpiando historial de reportados del día anterior...")
+        limpiar_historial()
         partidos_agenda = [p for p in partidos_arg if es_agenda(p)]
         if partidos_agenda:
             hay_contenido = True
@@ -65,10 +80,11 @@ def main():
                 tweets = generar_tweet_agenda(torneo, lista)
                 reply_id = None
                 for t in tweets:
-                    reporte_texto.append(f"[AGENDA - {torneo}]\n{t}\n\n")
+                    t_limpio = limpiar_tweet(t)
+                    reporte_texto.append(f"[AGENDA - {torneo}]\n{t_limpio}\n\n")
                     print(f"Texto generado para {torneo} (Agenda)")
                     if not DRY_RUN:
-                        reply_id = publicar_tweet(t, in_reply_to_tweet_id=reply_id)
+                        reply_id = publicar_tweet(t_limpio, in_reply_to_tweet_id=reply_id)
         else:
             print("No hay partidos en agenda.")
 
@@ -85,10 +101,11 @@ def main():
                 tweets = generar_tweet_actualizacion(torneo, lista)
                 reply_id = None
                 for t in tweets:
-                    reporte_texto.append(f"[EN VIVO - {torneo}]\n{t}\n\n")
+                    t_limpio = limpiar_tweet(t)
+                    reporte_texto.append(f"[EN VIVO - {torneo}]\n{t_limpio}\n\n")
                     print(f"Texto generado para {torneo} (En Vivo)")
                     if not DRY_RUN:
-                        reply_id = publicar_tweet(t, in_reply_to_tweet_id=reply_id)
+                        reply_id = publicar_tweet(t_limpio, in_reply_to_tweet_id=reply_id)
         else:
             print("No hay partidos en vivo actualmente.")
 
@@ -112,22 +129,20 @@ def main():
                 tweets = generar_tweet_finalizado(torneo, lista)
                 reply_id = None
                 for t in tweets:
-                    reporte_texto.append(f"[FINALIZADO - {torneo}]\n{t}\n\n")
+                    t_limpio = limpiar_tweet(t)
+                    reporte_texto.append(f"[FINALIZADO - {torneo}]\n{t_limpio}\n\n")
                     print(f"Texto generado para {torneo} (Finalizado)")
                     if not DRY_RUN:
-                        reply_id = publicar_tweet(t, in_reply_to_tweet_id=reply_id)
+                        reply_id = publicar_tweet(t_limpio, in_reply_to_tweet_id=reply_id)
                 
-                # Si es incremental, marcar como reportados para la próxima
+                # Si es incremental, marcar como reportados para la próxima (batch)
                 if args.incremental:
-                    for p in lista:
-                        guardar_reportado(p.get('event_key'))
+                    keys_reportar = [p.get('event_key') for p in lista]
+                    guardar_reportados_batch(keys_reportar)
         else:
             print("No hay resultados finales (nuevos) para reportar.")
 
-        # Si es el reporte FINAL del día (no incremental), limpiamos el historial para mañana
-        if not args.incremental and args.mode == "final":
-            print("Limpiando historial de reportados para el nuevo día...")
-            limpiar_historial()
+
 
     # ---------------------------------------------------------
     # BLOQUE 4: RANKING (Lunes)
@@ -138,7 +153,7 @@ def main():
             datos_ranking = api.obtener_rankings(cat)
             if datos_ranking:
                 hay_contenido = True
-                texto_tweet = generar_tweet_ranking(datos_ranking, cat)
+                texto_tweet = limpiar_tweet(generar_tweet_ranking(datos_ranking, cat))
                 reporte_texto.append(f"[RANKING {cat.upper()}]\n{texto_tweet}\n\n")
                 print(f"Texto generado para Ranking {cat.upper()}")
                 reply_id = None
@@ -149,9 +164,10 @@ def main():
                     print(f"Generando hilo de argentinos para {cat.upper()}...")
                     hilo_arg = generar_hilo_ranking_argentinos(datos_ranking, cat)
                     for i, tweet_hilo in enumerate(hilo_arg):
-                        reporte_texto.append(f"[HILO RANKING ARGENTINOS {cat.upper()} - Parte {i+1}]\n{tweet_hilo}\n\n")
+                        tweet_hilo_limpio = limpiar_tweet(tweet_hilo)
+                        reporte_texto.append(f"[HILO RANKING ARGENTINOS {cat.upper()} - Parte {i+1}]\n{tweet_hilo_limpio}\n\n")
                         if not DRY_RUN:
-                            reply_id = publicar_tweet(tweet_hilo, in_reply_to_tweet_id=reply_id)
+                            reply_id = publicar_tweet(tweet_hilo_limpio, in_reply_to_tweet_id=reply_id)
             else:
                 print(f"No se pudo obtener el ranking {cat.upper()}.")
 
