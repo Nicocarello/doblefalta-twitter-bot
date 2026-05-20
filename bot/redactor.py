@@ -554,8 +554,8 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         f"¡Vamos que se puede loko! 🇦🇷💪 {tag_torneo}",
         f"Seguilo minuto a minuto! 🇦🇷 {tag_torneo}",
         f"Seguimos punto a punto. 🇦🇷 {tag_torneo}",
-        f"¡Hay que poner huevo! 🇦🇷 {tag_torneo}",
-    ]
+        f"¡Dale que se puede! 🇦🇷 {tag_torneo}",
+        f"A seguir metiendo 🇦🇷 {tag_torneo}",]
     
     return _formatear_en_hilo(encabezado, lineas_partidos, cierres)
 
