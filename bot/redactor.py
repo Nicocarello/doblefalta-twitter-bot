@@ -45,6 +45,13 @@ def obtener_bandera(pais):
     }
     return mapping.get(p, "")
 
+
+def es_derbi_argentino(pais1, pais2):
+    """Devuelve True si ambos países son Argentina (derbi argentino)."""
+    p1 = (pais1 or '').lower().strip()
+    p2 = (pais2 or '').lower().strip()
+    return p1 in ("argentina", "arg") and p2 in ("argentina", "arg")
+
 def formatear_sets(scores):
     """
     Convierte la lista de scores de la API en un string legible de games por set.
@@ -463,7 +470,12 @@ def generar_tweet_agenda(torneo_original, partidos):
         ronda_str = f"[{ronda}] " if ronda else ""
         
         qualy = " (Qualy)" if (p.get('es_qualy') and not todos_qualy) else ""
-        lineas_partidos.append(f"• {ronda_str}{hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}")
+        # Si es un derbi argentino, anotarlo claramente
+        if es_derbi_argentino(pais1, pais2):
+            line = f"• {ronda_str}{hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}  — DERBI 🇦🇷🇦🇷"
+        else:
+            line = f"• {ronda_str}{hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}"
+        lineas_partidos.append(line)
     
     cierres = [
         f"Vamos con todo che!! 🇦🇷 {tag_torneo}",
@@ -548,7 +560,11 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         sets_formateados = formatear_sets(scores_api)
         info_marcador = sets_formateados if sets_formateados else "0-0"
             
-        lineas_partidos.append(f"•{ronda_str}{j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {info_marcador}")
+        # Marcar derbi argentino en actualizaciones en vivo
+        if es_derbi_argentino(pais1, pais2):
+            lineas_partidos.append(f"•{ronda_str}{j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {info_marcador}  — DERBI 🇦🇷🇦🇷")
+        else:
+            lineas_partidos.append(f"•{ronda_str}{j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {info_marcador}")
     
     cierres = [
         f"¡Vamos que se puede loko! 🇦🇷💪 {tag_torneo}",
@@ -633,11 +649,24 @@ def generar_tweet_finalizado(torneo_original, partidos):
         sets_formateados = formatear_sets(scores_api)
         
         marcador = sets_formateados if sets_formateados else p.get('event_final_result', '0-0')
-        msg_result, gano = analizar_resultado_argentino(p)
-        
-        if gano is True: total_victorias += 1
-        elif gano is False: total_derrotas += 1
-        
+        # Si es un derbi argentino, no lo contamos en el balance nacional, solo lo anotamos
+        if es_derbi_argentino(pais1, pais2):
+            try:
+                s1, s2 = map(int, p.get('event_final_result', '0 - 0').split(' - '))
+            except:
+                s1, s2 = 0, 0
+            if s1 > s2:
+                msg_result = f"DERBI ARGENTINO: ganó {j1} 🇦🇷"
+            elif s2 > s1:
+                msg_result = f"DERBI ARGENTINO: ganó {j2} 🇦🇷"
+            else:
+                msg_result = "DERBI ARGENTINO"
+            gano = None
+        else:
+            msg_result, gano = analizar_resultado_argentino(p)
+            if gano is True: total_victorias += 1
+            elif gano is False: total_derrotas += 1
+
         lineas_partidos.append(f"•{ronda_str}{j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {marcador} {msg_result}")
     
     # Selección de cierres según balance de la jornada
