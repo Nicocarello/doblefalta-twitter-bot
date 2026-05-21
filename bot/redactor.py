@@ -91,10 +91,10 @@ def obtener_nombre_variante(nombre_original):
         
         # Sebastián Báez
         "sebastian baez": [
-            "Seba Báez", "Seba", "Báez", "El chiquito Báez"
+            "Seba Báez", "Báez","@sebaabaez7"
         ],
         "s. baez": [
-            "Seba Báez", "Seba", "Báez"
+            "Seba Báez", "Báez","@sebaabaez7"
         ],
         
         # Tomás Martín Etcheverry
@@ -110,10 +110,10 @@ def obtener_nombre_variante(nombre_original):
         
         # Mariano Navone
         "mariano navone": [
-            "Mariano Navone", "La Navoneta", "Navone", "Marianito","@marianonavone1"
+            "Mariano Navone", "La Navoneta", "Navone","La Nave","@marianonavone1"
         ],
         "m. navone": [
-            "Mariano Navone", "La Navoneta", "Navone","@marianonavone1"
+            "Mariano Navone", "La Navoneta", "Navone","La Nave","@marianonavone1"
         ],
         
         # Facundo Díaz Acosta
@@ -150,45 +150,45 @@ def obtener_nombre_variante(nombre_original):
         
         # Thiago Agustín Tirante
         "thiago agustin tirante": [
-            "Thiago Tirante", "Tirante"
+            "Thiago Tirante", "Tirante", "@TiranteThiago"
         ],
         "thiago tirante": [
-            "Thiago Tirante", "Tirante"
+            "Thiago Tirante", "Tirante", "@TiranteThiago"
         ],
         "t. tirante": [
-            "Thiago Tirante", "Tirante"
+            "Thiago Tirante", "Tirante", "@TiranteThiago"
         ],
         
         # Juan Manuel Cerúndolo
         "juan manuel cerundolo": [
-            "Juanma Cerúndolo", "Juanma" 
+            "Juanma Cerúndolo", "Juanma", "@jmcerundolo"
         ],
         "j. cerundolo": [
-            "Juanma Cerúndolo", "Juanma"
+            "Juanma Cerúndolo", "Juanma", "@jmcerundolo"
         ],
         
         # Nadia Podoroska
         "nadia podoroska": [
-            "Nadia Podoroska", "La Rusa Podoroska", "La Rusa"
+            "Nadia Podoroska", "La Rusa Podoroska", "La Rusa", "@nadiapodoroska"
         ],
         "n. podoroska": [
-            "Nadia Podoroska", "La Rusa Podoroska", "La Rusa"
+            "Nadia Podoroska", "La Rusa Podoroska", "La Rusa", "@nadiapodoroska"
         ],
         
         # Lourdes Carlé
         "lourdes carle": [
-            "Lourdes Carlé", "Carlé"
+            "Lourdes Carlé", "Carlé", "@LourdesCarle"
         ],
         "l. carle": [
-            "Lourdes Carlé", "Carlé"
+            "Lourdes Carlé", "Carlé", "@LourdesCarle"
         ],
         
         # Julia Riera
         "julia riera": [
-            "Juli Riera", "Riera"
+            "Juli Riera", "Riera", "@juliriera02"
         ],
         "j. riera": [
-            "Juli Riera", "Riera"
+            "Juli Riera", "Riera", "@juliriera02"
         ],
         
         # Solana Sierra
@@ -197,7 +197,176 @@ def obtener_nombre_variante(nombre_original):
         ],
         "s. sierra": [
             "Soli Sierra", "Solana", "Solana Sierra"
-        ]
+        ],
+
+        #Mariano Kestelboim
+        "mariano kestelboim": [
+            "Mariano Kestelboim", "Kestelboim", "@mkestelboim"
+        ],
+        "m. kestelboim": [
+            "Mariano Kestelboim", "Kestelboim", "@mkestelboim"
+        ],
+
+        #Jazmin Ortenzi
+        "jazmin ortenzi": [
+            "Jazmin Ortenzi", "Jaz Ortenzi", "@JazOrtenzi"
+        ],
+        "j. ortenzi": [
+            "Jazmin Ortenzi", "Jaz Ortenzi", "@JazOrtenzi"
+        ],
+
+        #Francisco Comesaña
+        "francisco comesaña": [
+            "Francisco Comesaña", "Comesaña", "Fran Comesaña", "@fran_comesana"
+        ],
+        "f. comesaña": [
+            "Francisco Comesaña", "Comesaña", "Fran Comesaña", "@fran_comesana"
+        ],
+        "francisco comesana":[
+            "Francisco Comesaña", "Comesaña", "Fran Comesaña", "@fran_comesana"
+        ],
+        "f. comesana":[
+            "Francisco Comesaña", "Comesaña", "Fran Comesaña", "@fran_comesana"
+        ],
+
+        #Federico Gomez
+        "federico gomez": [
+            "Federico Gomez", "Gomez", "Fede Gomez"
+        ],
+        "f. gomez": [
+            "Federico Gomez", "Gomez", "Fede Gomez"
+        ],
+        "f. a. gomez": [
+            "Federico Gomez", "Gomez", "Fede Gomez"
+        ],
+
+        #Juan Pablo Ficovich
+        "juan pablo ficovich": [
+            "Juan Ficovich", "Ficovich", "@juampificovich", "Juampi Ficovich"
+        ],
+        "j. p. ficovich": [
+            "Juan Ficovich", "Ficovich", "@juampificovich", "Juampi Ficovich"
+        ],
+
+        #Lautaro Midon
+        "lautaro midon": [
+            "Lautaro Midon", "Midon", "@Lautaromidonn"
+        ],
+        "l. midon": [
+            "Lautaro Midon", "Midon", "@Lautaromidonn"
+        ],
+
+        #Alberto Olivieri Genaro
+        "alberto olivieri genaro": [
+            "Gena Olivieri", "Olivieri", "@GenaOlivieri4"
+        ],
+        "a. olivieri genaro": [
+            "Gena Olivieri", "Olivieri", "@GenaOlivieri4"
+        ],
+        "a. o. genaro": [
+            "Gena Olivieri", "Olivieri", "@GenaOlivieri4"
+        ],
+
+        #Bautista Torres Juan
+        "bautista torres juan": [
+            "Bauti Torres", "Torres", "@_BautiTorres"
+        ],
+        "b. torres juan": [
+            "Bauti Torres", "Torres", "@_BautiTorres"
+        ],
+        "b. t. juan": [
+            "Bauti Torres", "Torres", "@_BautiTorres"
+        ],
+        "bautista torres j": [
+            "Bauti Torres", "Torres", "@_BautiTorres"
+        ],
+        "b. torres j": [
+            "Bauti Torres", "Torres", "@_BautiTorres"
+        ],
+        "b. t. j": [
+            "Bauti Torres", "Torres", "@_BautiTorres"
+        ],
+
+        #Manuel La Serna Juan
+        "manuel la serna juan": [
+            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+        ],
+        "m. la serna juan": [
+            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+        ],
+        "m. l. s. juan": [
+            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+        ],
+        "manuel la serna j": [
+            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+        ],
+        "m. la serna j": [
+            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+        ],
+        "m. l. s. j": [
+            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+        ],
+
+        #Benjamin Chelia
+        "benjamin chelia": [
+            "Benja Chelia","Benjamin Chelia", "Chelia", "@benja_chelia"
+        ],
+        "b. chelia": [
+            "Benja Chelia","Benjamin Chelia", "Chelia", "@benja_chelia"
+        ],
+
+        #Facundo Mena
+        "facundo mena": [
+            "Facu Mena","Facundo Mena", "Mena", "@menafacundo"
+        ],
+        "f. mena": [
+            "Facu Mena","Facundo Mena", "Mena", "@menafacundo"
+        ],
+
+        #Santiago Rodriguez Taverna
+        "santiago rodriguez taverna": [
+            "Santi Taverna", "Santiago Taverna", "Taverna", "@santyelduke",
+        ],
+        "s. rodriguez taverna": [
+            "Santi Taverna", "Santiago Taverna", "Taverna", "@santyelduke"
+        ],
+        "s. r. t": [
+            "Santi Taverna", "Santiago Taverna", "Taverna", "@santyelduke"
+        ],
+
+        #Gonzalo Villanueva
+        "gonzalo villanueva": [
+            "Gonza Villanueva", "Gon Villanueva", "@gon_villanueva"
+        ],
+        "g. villanueva": [
+            "Gonza Villanueva", "Gon Villanueva", "@gon_villanueva"
+        ],
+        "g. v": [
+            "Gonza Villanueva", "Gon Villanueva", "@gon_villanueva"
+        ],
+
+        #Emanuel Ambrogi Luciano
+        "emanuel ambrogi luciano": [
+            "Lucho Ambrogi", "Luciano Ambrogi", "Ambrogi", "@ambrogi_lucho"
+        ],
+        "e. ambrogi luciano": [
+            "Lucho Ambrogi", "Luciano Ambrogi", "Ambrogi", "@ambrogi_lucho"
+        ],
+        "e. a. luciano": [
+            "Lucho Ambrogi", "Luciano Ambrogi", "Ambrogi", "@ambrogi_lucho"
+        ],
+        "emanuel ambrogi l": [
+            "Lucho Ambrogi", "Luciano Ambrogi", "Ambrogi", "@ambrogi_lucho"
+        ],
+        "e. ambrogi l": [
+            "Lucho Ambrogi", "Luciano Ambrogi", "Ambrogi", "@ambrogi_lucho"
+        ],
+        "e. a. l": [
+            "Lucho Ambrogi", "Luciano Ambrogi", "Ambrogi", "@ambrogi_lucho"
+        ],
+        
+
+        
     }
     
     # Intento de coincidencia exacta en el diccionario
