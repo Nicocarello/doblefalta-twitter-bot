@@ -8,9 +8,13 @@ if sys.stdout.encoding != 'utf-8':
 
 class MockAPI(TennisAPI):
     def obtener_info_jugador(self, player_key):
-        arg_keys = ['123', '456', '789', 'CORIA', 'BAGNIS']
+        arg_keys = ['123', '456', '789', 'CORIA', 'BAGNIS', 'RIERA_KEY']
         if player_key in arg_keys:
+            if player_key == 'RIERA_KEY':
+                return {'es_arg': True, 'ranking': 180, 'pais': 'Argentina'}
             return {'es_arg': True, 'ranking': 30, 'pais': 'Argentina'}
+        if player_key == 'KORNEEVA_KEY':
+            return {'es_arg': False, 'ranking': None, 'pais': 'Neutral'}
         return {'es_arg': False, 'ranking': 100, 'pais': 'USA'}
 
     def obtener_partidos_hoy(self, fecha_iso):
@@ -42,6 +46,21 @@ class MockAPI(TennisAPI):
                 'scores': [
                     {'score_first': '6', 'score_second': '4'},
                     {'score_first': '2', 'score_second': '1'}
+                ]
+            },
+            # VIVO - RIERA vs KORNEEVA (Final en Qualy)
+            {
+                'tournament_name': 'Roland Garros',
+                'event_type_type': 'WTA',
+                'event_time': '14:00',
+                'event_first_player': 'A. Korneeva',
+                'first_player_key': 'KORNEEVA_KEY',
+                'event_second_player': 'J. Riera',
+                'second_player_key': 'RIERA_KEY',
+                'event_status': '1st Set',
+                'tournament_round': 'Roland Garros - Final',
+                'scores': [
+                    {'score_first': '5', 'score_second': '3'}
                 ]
             },
             # FINALIZADO - VICTORIA

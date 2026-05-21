@@ -42,6 +42,14 @@ def obtener_bandera(pais):
         "hungary": "🇭🇺",
         "portugal": "🇵🇹",
         "ukraine": "🇺🇦",
+        "belarus": "🇧🇾",
+        "slovakia": "🇸🇰",
+        "slovenia": "🇸🇮",
+        "sweden": "🇸🇪",
+        "romania": "🇷🇴",
+        "neutral": "🏳️",
+        "ana": "🏳️",
+        "itf": "🏳️"
     }
     return mapping.get(p, "")
 
@@ -51,6 +59,192 @@ def es_derbi_argentino(pais1, pais2):
     p1 = (pais1 or '').lower().strip()
     p2 = (pais2 or '').lower().strip()
     return p1 in ("argentina", "arg") and p2 in ("argentina", "arg")
+
+
+def obtener_nombre_variante(nombre_original):
+    """
+    Busca si el jugador es un argentino conocido y devuelve una variante aleatoria de su nombre.
+    Si no se encuentra en el mapa, devuelve el nombre original.
+    """
+    if not nombre_original:
+        return ""
+        
+    # Normalización básica para la comparación
+    import unicodedata
+    def normalizar(t):
+        return "".join(
+            c for c in unicodedata.normalize('NFD', t.lower())
+            if unicodedata.category(c) != 'Mn'
+        ).strip()
+        
+    norm_orig = normalizar(nombre_original)
+    
+    # Mapa de jugadores argentinos conocidos con sus variantes de nombres/apodos
+    variantes_jugadores = {
+        # Francisco Cerúndolo
+        "francisco cerundolo": [
+            "Fran Cerúndolo", "Fran", "Cerúndolo","@FranCerundolo"
+        ],
+        "f. cerundolo": [
+            "Fran Cerúndolo", "Fran", "Cerúndolo","@FranCerundolo"
+        ],
+        
+        # Sebastián Báez
+        "sebastian baez": [
+            "Seba Báez", "Seba", "Báez", "El chiquito Báez"
+        ],
+        "s. baez": [
+            "Seba Báez", "Seba", "Báez"
+        ],
+        
+        # Tomás Martín Etcheverry
+        "tomas martin etcheverry": [
+            "Tomi Etcheverry", "Etcheverry", "Tomi", "El Retu","@tometcheverry"
+        ],
+        "tomas etcheverry": [
+            "Tomi Etcheverry", "Etcheverry", "Tomi", "El Retu","@tometcheverry"
+        ],
+        "t. etcheverry": [
+            "Tomi Etcheverry", "Etcheverry", "Tomi","@tometcheverry"
+        ],
+        
+        # Mariano Navone
+        "mariano navone": [
+            "Mariano Navone", "La Navoneta", "Navone", "Marianito","@marianonavone1"
+        ],
+        "m. navone": [
+            "Mariano Navone", "La Navoneta", "Navone","@marianonavone1"
+        ],
+        
+        # Facundo Díaz Acosta
+        "facundo diaz acosta": [
+            "Facu Díaz Acosta", "Díaz Acosta", "Facu","@facudiazacosta"
+        ],
+        "f. diaz acosta": [
+            "Facu Díaz Acosta", "Díaz Acosta", "Facu","@facudiazacosta"
+        ],
+        
+        # Camilo Ugo Carabelli
+        "camilo ugo carabelli": [
+            "Camilo Ugo", "El Brujo Carabelli", "Carabelli", "Camilo Carabelli", "El Brujo","@camilougo"
+        ],
+        "c. ugo carabelli": [
+            "Camilo Ugo", "El Brujo Carabelli", "Carabelli", "Camilo Carabelli", "El Brujo","@camilougo"
+        ],
+        
+        # Federico Coria
+        "federico coria": [
+            "Fede Coria", "Coria", "La Mojarra","@fedeecoria"
+        ],
+        "f. coria": [
+            "Fede Coria", "Coria", "La Mojarra","@fedeecoria"
+        ],
+        
+        # Facundo Bagnis
+        "facundo bagnis": [
+            "Facu Bagnis", "Bagnis","@facubagnis"
+        ],
+        "f. bagnis": [
+            "Facu Bagnis", "Bagnis","@facubagnis"
+        ],
+        
+        # Thiago Agustín Tirante
+        "thiago agustin tirante": [
+            "Thiago Tirante", "Tirante"
+        ],
+        "thiago tirante": [
+            "Thiago Tirante", "Tirante"
+        ],
+        "t. tirante": [
+            "Thiago Tirante", "Tirante"
+        ],
+        
+        # Juan Manuel Cerúndolo
+        "juan manuel cerundolo": [
+            "Juanma Cerúndolo", "Juanma" 
+        ],
+        "j. cerundolo": [
+            "Juanma Cerúndolo", "Juanma"
+        ],
+        
+        # Nadia Podoroska
+        "nadia podoroska": [
+            "Nadia Podoroska", "La Rusa Podoroska", "La Rusa"
+        ],
+        "n. podoroska": [
+            "Nadia Podoroska", "La Rusa Podoroska", "La Rusa"
+        ],
+        
+        # Lourdes Carlé
+        "lourdes carle": [
+            "Lourdes Carlé", "Carlé"
+        ],
+        "l. carle": [
+            "Lourdes Carlé", "Carlé"
+        ],
+        
+        # Julia Riera
+        "julia riera": [
+            "Juli Riera", "Riera"
+        ],
+        "j. riera": [
+            "Juli Riera", "Riera"
+        ],
+        
+        # Solana Sierra
+        "solana sierra": [
+            "Soli Sierra", "Solana", "Solana Sierra"
+        ],
+        "s. sierra": [
+            "Soli Sierra", "Solana", "Solana Sierra"
+        ]
+    }
+    
+    # Intento de coincidencia exacta en el diccionario
+    if norm_orig in variantes_jugadores:
+        return random.choice(variantes_jugadores[norm_orig])
+        
+    # Intento de coincidencia por sub-cadena (por si el nombre viene ligeramente diferente de la API)
+    for clave, variantes in variantes_jugadores.items():
+        if clave in norm_orig or norm_orig in clave:
+            return random.choice(variantes)
+            
+    # Si no es un argentino conocido, devolvemos el original
+    return nombre_original
+
+
+def traducir_estado_en_vivo(estado_api):
+    """Traduce el estado del partido en vivo al español para hacerlo más amigable."""
+    if not estado_api: return ""
+    est = str(estado_api).lower().strip()
+    
+    if "1st set" in est: return "1er Set"
+    if "2nd set" in est: return "2do Set"
+    if "3rd set" in est: return "3er Set"
+    if "4th set" in est: return "4to Set"
+    if "5th set" in est: return "5to Set"
+    if "delayed" in est: return "Demorado"
+    if "suspended" in est: return "Suspendido"
+    if "interrupted" in est: return "Interrumpido"
+    if "medical" in est or "med" in est: return "Médico"
+    
+    return estado_api
+
+
+def _formatear_jugador_completo(nombre, bandera, ranking_str):
+    """
+    Formatea el nombre del jugador junto con su bandera y ranking,
+    evitando espacios consecutivos si alguno de estos datos es nulo o vacío.
+    """
+    # Primero buscamos si tiene una variante/apodo dinámico
+    nombre_apodo = obtener_nombre_variante(nombre)
+    
+    partes = [nombre_apodo.strip()]
+    if bandera and bandera.strip():
+        partes.append(bandera.strip())
+    if ranking_str and ranking_str.strip():
+        partes.append(ranking_str.strip())
+    return " ".join(partes)
 
 def formatear_sets(scores):
     """
@@ -455,8 +649,14 @@ def generar_tweet_agenda(torneo_original, partidos):
         j2 = p.get('event_second_player')
         
         info = p.get('arg_info', {})
-        rank1 = info.get('jugador_1', {}).get('ranking', 9999)
-        rank2 = info.get('jugador_2', {}).get('ranking', 9999)
+        try:
+            rank1 = int(info.get('jugador_1', {}).get('ranking', 9999))
+        except (ValueError, TypeError):
+            rank1 = 9999
+        try:
+            rank2 = int(info.get('jugador_2', {}).get('ranking', 9999))
+        except (ValueError, TypeError):
+            rank2 = 9999
         pais1 = info.get('jugador_1', {}).get('pais', '')
         pais2 = info.get('jugador_2', {}).get('pais', '')
         
@@ -467,14 +667,18 @@ def generar_tweet_agenda(torneo_original, partidos):
         r2_str = f"({rank2}°)" if rank2 < 2500 else ""
         
         ronda = traducir_ronda(p.get('tournament_round', ''))
-        ronda_str = f"[{ronda}] " if ronda else ""
+        prefijo_partido = f"• [{ronda}] " if ronda else "• "
         
         qualy = " (Qualy)" if (p.get('es_qualy') and not todos_qualy) else ""
+        
+        j1_str = _formatear_jugador_completo(j1, flag1, r1_str)
+        j2_str = _formatear_jugador_completo(j2, flag2, r2_str)
+        
         # Si es un derbi argentino, anotarlo claramente
         if es_derbi_argentino(pais1, pais2):
-            line = f"• {ronda_str}{hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}  — DERBI 🇦🇷🇦🇷"
+            line = f"{prefijo_partido}{hora} | {j1_str} vs {j2_str}{qualy}  — DERBI 🇦🇷🇦🇷"
         else:
-            line = f"• {ronda_str}{hora} | {j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}{qualy}"
+            line = f"{prefijo_partido}{hora} | {j1_str} vs {j2_str}{qualy}"
         lineas_partidos.append(line)
     
     cierres = [
@@ -542,8 +746,14 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         j2 = p.get('event_second_player')
         
         info = p.get('arg_info', {})
-        rank1 = info.get('jugador_1', {}).get('ranking', 9999)
-        rank2 = info.get('jugador_2', {}).get('ranking', 9999)
+        try:
+            rank1 = int(info.get('jugador_1', {}).get('ranking', 9999))
+        except (ValueError, TypeError):
+            rank1 = 9999
+        try:
+            rank2 = int(info.get('jugador_2', {}).get('ranking', 9999))
+        except (ValueError, TypeError):
+            rank2 = 9999
         pais1 = info.get('jugador_1', {}).get('pais', '')
         pais2 = info.get('jugador_2', {}).get('pais', '')
         
@@ -554,24 +764,35 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         r2_str = f"({rank2}°)" if rank2 < 2500 else ""
         
         ronda = traducir_ronda(p.get('tournament_round', ''))
-        ronda_str = f" [{ronda}] " if ronda else " "
+        prefijo_partido = f"• [{ronda}] " if ronda else "• "
         
         scores_api = p.get('scores', [])
         sets_formateados = formatear_sets(scores_api)
+        
+        # Obtener y traducir estado en vivo
+        estado_api = p.get('event_status', '')
+        estado_traducido = traducir_estado_en_vivo(estado_api)
+        estado_str = f" ({estado_traducido})" if estado_traducido else ""
+        
         info_marcador = sets_formateados if sets_formateados else "0-0"
-            
+        marcador_completo = f"{info_marcador}{estado_str}"
+        
+        j1_str = _formatear_jugador_completo(j1, flag1, r1_str)
+        j2_str = _formatear_jugador_completo(j2, flag2, r2_str)
+        
         # Marcar derbi argentino en actualizaciones en vivo
         if es_derbi_argentino(pais1, pais2):
-            lineas_partidos.append(f"•{ronda_str}{j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {info_marcador}  — DERBI 🇦🇷🇦🇷")
+            lineas_partidos.append(f"{prefijo_partido}{j1_str} vs {j2_str}: {marcador_completo}  — DERBI 🇦🇷🇦🇷")
         else:
-            lineas_partidos.append(f"•{ronda_str}{j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {info_marcador}")
+            lineas_partidos.append(f"{prefijo_partido}{j1_str} vs {j2_str}: {marcador_completo}")
     
     cierres = [
         f"¡Vamos que se puede loko! 🇦🇷💪 {tag_torneo}",
         f"Seguilo minuto a minuto! 🇦🇷 {tag_torneo}",
         f"Seguimos punto a punto. 🇦🇷 {tag_torneo}",
         f"¡Dale que se puede! 🇦🇷 {tag_torneo}",
-        f"A seguir metiendo 🇦🇷 {tag_torneo}",]
+        f"A seguir metiendo 🇦🇷 {tag_torneo}"
+    ]
     
     return _formatear_en_hilo(encabezado, lineas_partidos, cierres)
 
@@ -631,8 +852,14 @@ def generar_tweet_finalizado(torneo_original, partidos):
         j2 = p.get('event_second_player')
         
         info = p.get('arg_info', {})
-        rank1 = info.get('jugador_1', {}).get('ranking', 9999)
-        rank2 = info.get('jugador_2', {}).get('ranking', 9999)
+        try:
+            rank1 = int(info.get('jugador_1', {}).get('ranking', 9999))
+        except (ValueError, TypeError):
+            rank1 = 9999
+        try:
+            rank2 = int(info.get('jugador_2', {}).get('ranking', 9999))
+        except (ValueError, TypeError):
+            rank2 = 9999
         pais1 = info.get('jugador_1', {}).get('pais', '')
         pais2 = info.get('jugador_2', {}).get('pais', '')
         
@@ -643,7 +870,7 @@ def generar_tweet_finalizado(torneo_original, partidos):
         r2_str = f"({rank2}°)" if rank2 < 2500 else ""
         
         ronda = traducir_ronda(p.get('tournament_round', ''))
-        ronda_str = f" [{ronda}] " if ronda else " "
+        prefijo_partido = f"• [{ronda}] " if ronda else "• "
         
         scores_api = p.get('scores', [])
         sets_formateados = formatear_sets(scores_api)
@@ -666,8 +893,11 @@ def generar_tweet_finalizado(torneo_original, partidos):
             msg_result, gano = analizar_resultado_argentino(p)
             if gano is True: total_victorias += 1
             elif gano is False: total_derrotas += 1
+ 
+        j1_str = _formatear_jugador_completo(j1, flag1, r1_str)
+        j2_str = _formatear_jugador_completo(j2, flag2, r2_str)
 
-        lineas_partidos.append(f"•{ronda_str}{j1} {flag1} {r1_str} vs {j2} {flag2} {r2_str}: {marcador} {msg_result}")
+        lineas_partidos.append(f"{prefijo_partido}{j1_str} vs {j2_str}: {marcador} {msg_result}")
     
     # Selección de cierres según balance de la jornada
     if total_victorias > 0 and total_derrotas == 0:
