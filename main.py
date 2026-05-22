@@ -38,8 +38,11 @@ def main():
 
     api = TennisAPI()
     
-    # 0. Precargar rankings para optimizar caché y precisión
-    api.precargar_rankings()
+    # 0. Precargar rankings de forma condicional para ahorrar cuota de API
+    if args.mode in ["agenda", "ranking"] or not api.cache_jugadores:
+        api.precargar_rankings()
+    else:
+        print("💡 Saltando precarga de rankings de la API (se usará el caché local persistente).")
     
     # 1. Obtener todos los partidos de hoy
     print("🔍 Obteniendo fixtures de la API...")

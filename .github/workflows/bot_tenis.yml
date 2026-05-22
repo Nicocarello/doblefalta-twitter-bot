@@ -2,27 +2,23 @@ name: Bot Doble Falta Tenis
 
 on:
   schedule:
-    # 8 AM ART -> 11 UTC (Agenda)
+    # 08:00 ART -> Agenda diaria (Limpia historial y carga agenda)
     - cron: '0 11 * * *'
     
-    # 9:00 AM ART (Lunes) -> 12:00 UTC (Ranking)
+    # 09:00 ART (Solo Lunes) -> Ranking de la semana
     - cron: '0 12 * * 1'
     
-    # 12:30 PM ART -> 15:30 UTC (Final Incremental 1)
-    - cron: '30 15 * * *'
-    
-    # 18:00 PM ART -> 21:00 UTC (Final Incremental 2)
-    - cron: '0 21 * * *'
-    
-    # Cada 60 min (Live) - Cubre torneos europeos (desde las 08 UTC) y nocturnos
-    - cron: '0 8,9,10,13,14,16,17,18,19,20,22,23 * * *'
-    - cron: '0 0-1 * * *'
-    # # Cada 30 min (Live) - Ajustado para no pisar los horarios fijos
-    # - cron: '0,30 13,14,16,17,18,19,20,22,23 * * *'
-    # - cron: '0,30 0-1 * * *'
-    
-    # 23:00 ART -> 02:00 UTC (Final Completo)
+    # 23:00 ART -> Resumen Final Completo
     - cron: '0 2 * * *'
+    
+    # Cada 30 minutos de 07:00 ART a 22:30 ART (10:00 UTC a 01:30 UTC del día siguiente)
+    # Excluyendo minutos exactos de Agenda y Rankings para evitar ejecuciones concurrentes
+    - cron: '0,30 10 * * *'
+    - cron: '30 11 * * *'
+    - cron: '30 12 * * *'
+    - cron: '0 12 * * 0,2,3,4,5,6' # Domingo, Martes a Sábado (No Lunes)
+    - cron: '0,30 13,14,15,16,17,18,19,20,21,22,23 * * *'
+    - cron: '0,30 0,1 * * *'
   
   workflow_dispatch: # Permite ejecutarlo manualmente desde GitHub
 
@@ -50,25 +46,21 @@ jobs:
       - name: Determine Mode
         id: mode
         run: |
-          HOUR=$(date +%H)
-          DAY=$(date +%u) # 1=Lunes, 7=Domingo
-          echo "Current UTC Hour: $HOUR"
-          echo "Current Day of Week: $DAY"
+          CRON_TRIGGER="${{ github.event.schedule }}"
+          echo "Gatillado por Cron: $CRON_TRIGGER"
           
-          if [ "$HOUR" == "11" ]; then
+          if [ "$CRON_TRIGGER" == "0 11 * * *" ]; then
             echo "run_mode=agenda" >> $GITHUB_OUTPUT
             echo "run_flags=" >> $GITHUB_OUTPUT
-          elif [ "$HOUR" == "12" ] && [ "$DAY" == "1" ]; then
+          elif [ "$CRON_TRIGGER" == "0 12 * * 1" ]; then
             echo "run_mode=ranking" >> $GITHUB_OUTPUT
             echo "run_flags=" >> $GITHUB_OUTPUT
-          elif [ "$HOUR" == "02" ]; then
+          elif [ "$CRON_TRIGGER" == "0 2 * * *" ]; then
             echo "run_mode=final" >> $GITHUB_OUTPUT
             echo "run_flags=" >> $GITHUB_OUTPUT
-          elif [ "$HOUR" == "15" ] || [ "$HOUR" == "21" ]; then
-            echo "run_mode=final" >> $GITHUB_OUTPUT
-            echo "run_flags=--incremental" >> $GITHUB_OUTPUT
           else
-            echo "run_mode=live" >> $GITHUB_OUTPUT
+            # Para ejecuciones manuales (workflow_dispatch) y crons de 30 min (Live + Final Incremental)
+            echo "run_mode=live_and_final" >> $GITHUB_OUTPUT
             echo "run_flags=" >> $GITHUB_OUTPUT
           fi
 
@@ -83,7 +75,15 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
           DRY_RUN: "False"
-        run: python main.py --mode ${{ steps.mode.outputs.run_mode }} ${{ steps.mode.outputs.run_flags }}
+        run: |
+          if [ "${{ steps.mode.outputs.run_mode }}" == "live_and_final" ]; then
+            echo "=== EJECUTANDO MODO EN VIVO ==="
+            python main.py --mode live
+            echo "=== EJECUTANDO MODO FINAL INCREMENTAL ==="
+            python main.py --mode final --incremental
+          else
+            python main.py --mode ${{ steps.mode.outputs.run_mode }} ${{ steps.mode.outputs.run_flags }}
+          fi
 
       - name: Commit Cache
         run: |
