@@ -57,7 +57,7 @@ jobs:
             echo "run_flags=" >> $GITHUB_OUTPUT
           elif [ "$CRON_TRIGGER" == "0 2 * * *" ]; then
             echo "run_mode=final" >> $GITHUB_OUTPUT
-            echo "run_flags=" >> $GITHUB_OUTPUT
+            echo "run_flags=--incremental" >> $GITHUB_OUTPUT
           else
             # Para ejecuciones manuales (workflow_dispatch) y crons de 30 min (Live + Final Incremental)
             echo "run_mode=live_and_final" >> $GITHUB_OUTPUT
@@ -89,6 +89,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add jugadores_cache.json reportados_cache.json || true
+          git add -f jugadores_cache.json reportados_cache.json || true
           git commit -m "Update caches [skip ci]" || echo "No changes to commit"
-          git push || echo "No changes to push"
+          git pull --rebase origin main || true
+          git push origin main || echo "No changes to push"
