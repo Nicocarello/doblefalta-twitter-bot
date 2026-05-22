@@ -549,6 +549,13 @@ def obtener_hashtag_torneo(nombre_torneo, categoria=""):
         
     # Generar hashtag genérico quitando espacios y caracteres especiales
     nombre_final = "".join(char for char in nombre_sin_prefijo if char.isalnum())
+    
+    # Agregar la categoría al inicio si está presente (ej: ATP, Challenger, ITF, WTA)
+    if categoria:
+        cat_clean = str(categoria).strip()
+        if not nombre_final.lower().startswith(cat_clean.lower()):
+            nombre_final = cat_clean + nombre_final
+            
     return "#" + nombre_final
 
 def analizar_resultado_argentino(partido):
@@ -591,7 +598,8 @@ def analizar_resultado_argentino(partido):
                 return f"Derrota por {tipo_retiro}", False
     
     ronda = traducir_ronda(partido.get('tournament_round', ''))
-    es_final = (ronda == "Final")
+    es_qualy = partido.get('es_qualy', False)
+    es_final = (ronda == "Final" and not es_qualy)
 
     if es_final:
         mensajes_victoria_ajustada = [
@@ -1045,6 +1053,13 @@ def generar_tweet_finalizado(torneo_original, partidos):
         sets_formateados = formatear_sets(scores_api)
         
         marcador = sets_formateados if sets_formateados else p.get('event_final_result', '0-0')
+        j1_str = _formatear_jugador_completo(j1, flag1, r1_str)
+        j2_str = _formatear_jugador_completo(j2, flag2, r2_str)
+        
+        es_qualy = p.get('es_qualy', False)
+        es_gs = any(gs in torneo.lower() for gs in ["roland garros", "wimbledon", "us open", "australian open"])
+        prefijo_torneo = torneo if es_gs else f"{cat} {torneo}".strip()
+
         # Si es un derbi argentino, no lo contamos en el balance nacional, solo lo anotamos
         if es_derbi_argentino(pais1, pais2):
             try:
@@ -1058,15 +1073,37 @@ def generar_tweet_finalizado(torneo_original, partidos):
             else:
                 msg_result = "DERBI ARGENTINO"
             gano = None
+            line = f"{prefijo_partido}{j1_str} vs {j2_str}: {marcador} {msg_result}"
+        elif es_qualy:
+            msg_result, gano = analizar_resultado_argentino(p)
+            if gano is True: total_victorias += 1
+            elif gano is False: total_derrotas += 1
+            
+            j1_es_arg = info.get('jugador_1', {}).get('es_arg', False)
+            if j1_es_arg:
+                arg_str = j1_str
+                riv_str = j2_str
+            else:
+                arg_str = j2_str
+                riv_str = j1_str
+                
+            if ronda == "Final":
+                if gano:
+                    line = f"{prefijo_partido}{arg_str} ganó {marcador} a {riv_str} y entró al cuadro principal de {prefijo_torneo} 🇦🇷"
+                else:
+                    line = f"{prefijo_partido}{arg_str} cayó {marcador} ante {riv_str} y no pudo entrar al cuadro principal de {prefijo_torneo} 😢"
+            else:
+                if gano:
+                    line = f"{prefijo_partido}{arg_str} ganó {marcador} a {riv_str} y avanza en la qualy de {prefijo_torneo} 💪"
+                else:
+                    line = f"{prefijo_partido}{arg_str} cayó {marcador} ante {riv_str} y quedó eliminado en la qualy de {prefijo_torneo} 😢"
         else:
             msg_result, gano = analizar_resultado_argentino(p)
             if gano is True: total_victorias += 1
             elif gano is False: total_derrotas += 1
- 
-        j1_str = _formatear_jugador_completo(j1, flag1, r1_str)
-        j2_str = _formatear_jugador_completo(j2, flag2, r2_str)
+            line = f"{prefijo_partido}{j1_str} vs {j2_str}: {marcador} {msg_result}"
 
-        lineas_partidos.append(f"{prefijo_partido}{j1_str} vs {j2_str}: {marcador} {msg_result}")
+        lineas_partidos.append(line)
     
     # Selección de cierres según balance de la jornada
     if total_victorias > 0 and total_derrotas == 0:
