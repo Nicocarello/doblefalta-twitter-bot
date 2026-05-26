@@ -104,7 +104,7 @@ def obtener_nombre_variante(nombre_original):
         "tomas etcheverry": [
             "Tomi Etcheverry", "Etcheverry", "Tomi", "El Retu","@tometcheverry"
         ],
-        "t. etcheverry": [
+        "t. m. etcheverry": [
             "Tomi Etcheverry", "Etcheverry", "Tomi","@tometcheverry"
         ],
         
@@ -161,10 +161,13 @@ def obtener_nombre_variante(nombre_original):
         
         # Juan Manuel Cerúndolo
         "juan manuel cerundolo": [
-            "Juanma Cerúndolo", "Juanma", "@jmcerundolo"
+            "Juanma Cerúndolo", "@jmcerundolo"
         ],
         "j. cerundolo": [
-            "Juanma Cerúndolo", "Juanma", "@jmcerundolo"
+            "Juanma Cerúndolo", "@jmcerundolo"
+        ],
+        "j. m. cerundolo": [
+            "Juanma Cerúndolo", "@jmcerundolo"
         ],
         
         # Nadia Podoroska
