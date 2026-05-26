@@ -57,8 +57,8 @@ def contar_games_totales(partido):
 def es_actualizacion_en_vivo(partido):
     """Determina si un partido está en juego (LIVE) y tiene suficiente avance (mínimo 4 games)."""
     status = partido.get('event_status', '').lower()
-    # Ignoramos finalizados, cancelados, pospuestos y vacíos
-    ignorar = ['finished', 'cancelled', 'postponed', '', 'not started']
+    # Ignoramos finalizados, cancelados, pospuestos, vacíos y retirados/walkovers
+    ignorar = ['finished', 'cancelled', 'postponed', '', 'not started', 'retired', 'walkover', 'w.o.', 'ret.']
     
     # Si el status es algo como '1st Set', '2nd Set', o un marcador, está en juego
     esta_en_juego = status not in ignorar and status != partido.get('event_time')
@@ -71,4 +71,6 @@ def es_actualizacion_en_vivo(partido):
 
 def es_finalizado(partido):
     """Determina si un partido ya terminó."""
-    return partido.get('event_status', '').lower() == 'finished'
+    status = partido.get('event_status', '').lower()
+    return status in ['finished', 'retired', 'walkover', 'w.o.', 'ret.'] or 'retired' in status or 'walkover' in status
+

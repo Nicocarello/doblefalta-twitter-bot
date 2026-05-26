@@ -585,20 +585,20 @@ def analizar_resultado_argentino(partido):
     nombre_j2 = partido.get('event_second_player', 'Rival')
     
     # Detección de Retiros y Walkovers
-    es_retiro = status in ['retired', 'walkover', 'w.o.', 'ret.']
-    tipo_retiro = "retiro" if "ret" in status else "W.O."
+    es_retiro = status in ['retired', 'walkover', 'w.o.', 'ret.'] or 'retired' in status or 'walkover' in status
+    tipo_retiro = "retiro" if ("ret" in status or "retired" in status) else "W.O."
     
     if es_retiro:
         if j1_es_arg:
             if ganador == 1:
                 return f"Victoria por {tipo_retiro} de {nombre_j2}", True
             else:
-                return f"Derrota por {tipo_retiro}", False
+                return f"Derrota por {tipo_retiro} de {nombre_j1}", False
         if j2_es_arg:
             if ganador == 2:
                 return f"Victoria por {tipo_retiro} de {nombre_j1}", True
             else:
-                return f"Derrota por {tipo_retiro}", False
+                return f"Derrota por {tipo_retiro} de {nombre_j2}", False
     
     ronda = traducir_ronda(partido.get('tournament_round', ''))
     es_qualy = partido.get('es_qualy', False)
@@ -1069,12 +1069,25 @@ def generar_tweet_finalizado(torneo_original, partidos):
                 s1, s2 = map(int, p.get('event_final_result', '0 - 0').split(' - '))
             except:
                 s1, s2 = 0, 0
-            if s1 > s2:
-                msg_result = f"DERBI ARGENTINO: ganó {j1} 🇦🇷"
-            elif s2 > s1:
-                msg_result = f"DERBI ARGENTINO: ganó {j2} 🇦🇷"
+                
+            status_low = p.get('event_status', '').lower()
+            es_retiro = status_low in ['retired', 'walkover', 'w.o.', 'ret.'] or 'retired' in status_low or 'walkover' in status_low
+            tipo_retiro = "retiro" if ("ret" in status_low or "retired" in status_low) else "W.O."
+            
+            if es_retiro:
+                if s1 > s2:
+                    msg_result = f"DERBI ARGENTINO: ganó {j1} por {tipo_retiro} de {j2} 🇦🇷"
+                elif s2 > s1:
+                    msg_result = f"DERBI ARGENTINO: ganó {j2} por {tipo_retiro} de {j1} 🇦🇷"
+                else:
+                    msg_result = f"DERBI ARGENTINO: ganó por {tipo_retiro} 🇦🇷"
             else:
-                msg_result = "DERBI ARGENTINO"
+                if s1 > s2:
+                    msg_result = f"DERBI ARGENTINO: ganó {j1} 🇦🇷"
+                elif s2 > s1:
+                    msg_result = f"DERBI ARGENTINO: ganó {j2} 🇦🇷"
+                else:
+                    msg_result = "DERBI ARGENTINO"
             gano = None
             line = f"{prefijo_partido}{j1_str} vs {j2_str}: {marcador} {msg_result}"
         elif es_qualy:
