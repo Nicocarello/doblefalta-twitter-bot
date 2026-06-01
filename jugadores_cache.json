@@ -33442,7 +33442,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-05-28"
+        "last_update": "2026-06-01"
     },
     "102773": {
         "es_arg": false,
@@ -37147,6 +37147,12 @@
         "last_update": "2026-06-01"
     },
     "90936": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-06-01"
+    },
+    "103049": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
