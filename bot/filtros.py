@@ -5,6 +5,20 @@ agrupar por torneo, y clasificar por estado (agenda, en vivo, finalizado).
 """
 
 
+def es_junior(partido):
+    """
+    Determina si un partido corresponde a la categoría junior/juvenil.
+    """
+    if not partido:
+        return False
+    etype = str(partido.get('event_type_type', '')).lower()
+    tname = str(partido.get('tournament_name', '')).lower()
+    tround = str(partido.get('tournament_round', '')).lower()
+    
+    return any(kw in etype or kw in tname or kw in tround 
+               for kw in ["girls", "boys", "junior", "juvenil"])
+
+
 def filtrar_argentinos(partidos, api):
     """
     Filtra la lista de partidos y devuelve solo aquellos donde al menos
@@ -41,6 +55,12 @@ def filtrar_argentinos(partidos, api):
             }
             # Marcar si es partido de clasificación (qualy)
             p['es_qualy'] = p.get('event_qualification') == 'True'
+            
+            # Marcar y renombrar si es junior
+            p['es_junior'] = es_junior(p)
+            if p['es_junior'] and 'junior' not in p.get('tournament_name', '').lower():
+                p['tournament_name'] = f"{p.get('tournament_name')} Junior"
+
             resultado.append(p)
 
     return resultado

@@ -482,6 +482,9 @@ def traducir_nombre_torneo(nombre):
     """Traduce nombres de torneos de inglés a español para el público argentino."""
     nombre_low = nombre.lower()
     
+    # Preservar si era Junior
+    tiene_junior = "junior" in nombre_low
+    
     # Mapeo específico de ATP 1000 y otros comunes
     traducciones = {
         "rome": "Roma",
@@ -503,12 +506,16 @@ def traducir_nombre_torneo(nombre):
         "wimbledon": "Wimbledon",
     }
     
+    traduccion = nombre
     for en, es in traducciones.items():
         if en in nombre_low:
-            return es
+            traduccion = es
+            break
             
-    # Si no hay traducción específica, devolver el original (capitalizado)
-    return nombre
+    if tiene_junior and "junior" not in traduccion.lower():
+        traduccion = f"{traduccion} Junior"
+        
+    return traduccion
 
 def obtener_hashtag_torneo(nombre_torneo, categoria=""):
     """Mapea nombres de torneos a sus hashtags oficiales o genera uno genérico incluyendo la categoría."""
