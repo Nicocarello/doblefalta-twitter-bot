@@ -292,22 +292,22 @@ def obtener_nombre_variante(nombre_original):
 
         #Manuel La Serna Juan
         "manuel la serna juan": [
-            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+            "Manuel La Serna", "La Serna", "@manulaserna3", "Manu La Serna"
         ],
         "m. la serna juan": [
-            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+            "Manuel La Serna", "La Serna", "@manulaserna3", "Manu La Serna"
         ],
         "m. l. s. juan": [
-            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+            "Manuel La Serna", "La Serna", "@manulaserna3", "Manu La Serna"
         ],
         "manuel la serna j": [
-            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+            "Manuel La Serna", "La Serna", "@manulaserna3", "Manu La Serna"
         ],
         "m. la serna j": [
-            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+            "Manuel La Serna", "La Serna", "@manulaserna3", "Manu La Serna"
         ],
-        "m. l. s. j": [
-            "Manuel La Serna","Juan La Serna", "La Serna", "@ManuLaSerna"
+        "j. m. La Serna": [
+            "Manuel La Serna", "La Serna", "@manulaserna3", "Manu La Serna"
         ],
 
         #Benjamin Chelia
@@ -367,9 +367,12 @@ def obtener_nombre_variante(nombre_original):
         "e. a. l": [
             "Lucho Ambrogi", "Luciano Ambrogi", "Ambrogi", "@ambrogi_lucho"
         ],
-        
 
-        
+        #Giovannini Lu
+
+        "L. Giovannini": [
+            "L. Giovannini", "Lu Giovannini", "@lulu_giova06",
+        ]        
     }
     
     # Intento de coincidencia exacta en el diccionario
