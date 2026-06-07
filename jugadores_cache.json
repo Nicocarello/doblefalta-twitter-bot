@@ -6314,7 +6314,7 @@
         "es_arg": true,
         "ranking": 9999,
         "pais": "Argentina",
-        "last_update": "2026-05-10"
+        "last_update": "2026-06-07"
     },
     "14273": {
         "es_arg": false,
@@ -40806,6 +40806,12 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "United Kingdom",
+        "last_update": "2026-06-07"
+    },
+    "103427": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
         "last_update": "2026-06-07"
     }
 }
