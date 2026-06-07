@@ -40809,9 +40809,9 @@
         "last_update": "2026-06-07"
     },
     "103427": {
-        "es_arg": false,
+        "es_arg": true,
         "ranking": 9999,
-        "pais": "",
+        "pais": "Argentina",
         "last_update": "2026-06-07"
     }
 }
