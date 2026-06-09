@@ -38766,7 +38766,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Brazil",
-        "last_update": "2026-06-02"
+        "last_update": "2026-06-09"
     },
     "103230": {
         "es_arg": false,
@@ -40326,7 +40326,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Brazil",
-        "last_update": "2026-06-03"
+        "last_update": "2026-06-09"
     },
     "35791": {
         "es_arg": false,
@@ -42867,6 +42867,18 @@
         "last_update": "2026-06-09"
     },
     "103717": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-06-09"
+    },
+    "94126": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Brazil",
+        "last_update": "2026-06-09"
+    },
+    "103718": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
