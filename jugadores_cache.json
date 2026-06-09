@@ -42805,5 +42805,35 @@
         "ranking": 9999,
         "pais": "North & Central America",
         "last_update": "2026-06-09"
+    },
+    "77193": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "USA",
+        "last_update": "2026-06-09"
+    },
+    "103679": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-06-09"
+    },
+    "103680": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-06-09"
+    },
+    "39522": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-06-09"
+    },
+    "84668": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-06-09"
     }
 }
