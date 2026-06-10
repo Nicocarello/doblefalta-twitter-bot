@@ -1047,7 +1047,8 @@
     "74777": {
         "es_arg": false,
         "ranking": 9999,
-        "pais": ""
+        "pais": "",
+        "last_update": "2026-06-10"
     },
     "585": {
         "es_arg": false,
@@ -44519,6 +44520,12 @@
         "es_arg": false,
         "ranking": 1431,
         "pais": "France",
+        "last_update": "2026-06-10"
+    },
+    "103777": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
         "last_update": "2026-06-10"
     }
 }
