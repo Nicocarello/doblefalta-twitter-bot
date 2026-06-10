@@ -60,7 +60,8 @@ def main():
     if not partidos_arg:
         print("📭 No hay partidos de argentinos hoy.")
         if args.mode != "live": # No mandamos mail si es solo una actualización live vacía
-            enviar_reporte_email(f"Reporte {fecha_hoy}: No se encontraron partidos de tenistas argentinos hoy.")
+            # enviar_reporte_email(f"Reporte {fecha_hoy}: No se encontraron partidos de tenistas argentinos hoy.")
+            pass
         return
 
     # Lista para recolectar todo el texto generado para el mail
@@ -180,7 +181,8 @@ def main():
     if hay_contenido:
         print("\n📧 Generando reporte por email...")
         cuerpo_completo = "".join(reporte_texto)
-        enviar_reporte_email(cuerpo_completo)
+        # enviar_reporte_email(cuerpo_completo)
+        pass
     else:
         print("\n📭 No hay contenido relevante para enviar en este modo.")
 
