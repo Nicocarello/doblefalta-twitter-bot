@@ -44875,5 +44875,11 @@
         "ranking": 1140,
         "pais": "China",
         "last_update": "2026-06-14"
+    },
+    "22976": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-06-14"
     }
 }
