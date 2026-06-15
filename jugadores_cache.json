@@ -43026,7 +43026,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-12"
+        "last_update": "2026-06-15"
     },
     "103403": {
         "es_arg": false,
@@ -45228,6 +45228,12 @@
         "es_arg": false,
         "ranking": 1504,
         "pais": "World",
+        "last_update": "2026-06-15"
+    },
+    "35837": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
         "last_update": "2026-06-15"
     }
 }
