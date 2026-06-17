@@ -4002,7 +4002,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "USA",
-        "last_update": "2026-06-10"
+        "last_update": "2026-06-17"
     },
     "2121": {
         "es_arg": false,
@@ -48630,6 +48630,18 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
+        "last_update": "2026-06-17"
+    },
+    "104176": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-06-17"
+    },
+    "28964": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Canada",
         "last_update": "2026-06-17"
     }
 }
