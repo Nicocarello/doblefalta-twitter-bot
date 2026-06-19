@@ -1,299 +1,205 @@
-import re
+import os
 
-file_path = "bot/redactor.py"
+file_path = r"c:\Users\nico_\OneDrive\Desktop\PROYECTOS\BOT TWITTER TENIS\bot\redactor.py"
 
 with open(file_path, "r", encoding="utf-8") as f:
     content = f.read()
 
-# 1. Definir helper functions y generar_tweet_resultado_unico
-helpers_and_single = """def obtener_nombre_balance(nombre_completo):
-    \"\"\"Devuelve el apellido o nombre corto para la lista del balance diario.\"\"\"
-    if not nombre_completo:
-        return ""
-    norm = nombre_completo.lower().strip()
-    mapeo = {
-        "francisco cerundolo": "F. Cerúndolo",
-        "f. cerundolo": "F. Cerúndolo",
-        "juan manuel cerundolo": "J.M. Cerúndolo",
-        "j. cerundolo": "J.M. Cerúndolo",
-        "j. m. cerundolo": "J.M. Cerúndolo",
-        "sebastian baez": "Báez",
-        "s. baez": "Báez",
-        "tomas martin etcheverry": "Etcheverry",
-        "tomas etcheverry": "Etcheverry",
-        "t. etcheverry": "Etcheverry",
-        "t. m. etcheverry": "Etcheverry",
-        "mariano navone": "Navone",
-        "m. navone": "Navone",
-        "facundo diaz acosta": "Díaz Acosta",
-        "f. diaz acosta": "Díaz Acosta",
-        "camilo ugo carabelli": "Ugo Carabelli",
-        "c. ugo carabelli": "Ugo Carabelli",
-        "federico coria": "Coria",
-        "f. coria": "Coria",
-        "facundo bagnis": "Bagnis",
-        "f. bagnis": "Bagnis",
-        "thiago agustin tirante": "Tirante",
-        "thiago tirante": "Tirante",
-        "t. tirante": "Tirante",
-        "nadia podoroska": "Podoroska",
-        "n. podoroska": "Podoroska",
-        "lourdes carle": "Carlé",
-        "l. carle": "Carlé",
-        "julia riera": "Riera",
-        "j. riera": "Riera",
-        "solana sierra": "Sierra",
-        "s. sierra": "Sierra",
-        "francisco comesaña": "Comesaña",
-        "f. comesaña": "Comesaña",
-        "francisco comesana": "Comesaña",
-        "f. comesana": "Comesaña",
-        "federico gomez": "F. Gómez",
-        "f. gomez": "F. Gómez",
-        "juan pablo ficovich": "Ficovich",
-        "j. p. ficovich": "Ficovich",
-        "lautaro midon": "Midón",
-        "l. midon": "Midón",
-        "alberto olivieri genaro": "Olivieri",
-        "a. olivieri genaro": "Olivieri",
-        "bautista torres juan": "Torres",
-        "b. torres juan": "Torres",
-        "manuel la serna juan": "La Serna",
-        "m. la serna juan": "La Serna",
-        "benjamin chelia": "Chelia",
-        "b. chelia": "Chelia",
-        "facundo mena": "Mena",
-        "f. mena": "Mena",
-        "santiago rodriguez taverna": "Taverna",
-        "s. rodriguez taverna": "Taverna",
-        "gonzalo villanueva": "Villanueva",
-        "g. villanueva": "Villanueva",
-        "emanuel ambrogi luciano": "Ambrogi",
-        "e. ambrogi luciano": "Ambrogi",
-        "jazmin ortenzi": "Ortenzi",
-        "j. ortenzi": "Ortenzi"
-    }
-    if norm in mapeo:
-        return mapeo[norm]
+# REPLACE 1: generar_tweet_agenda
+old_agenda_str = """        ronda = traducir_ronda(p.get('tournament_round', ''))
+        prefijo_partido = f"• [{ronda}] " if ronda else "• "
         
-    partes = nombre_completo.split()
-    if len(partes) > 1:
-        return partes[-1].title()
-    return nombre_completo.title()
-
-def formatear_lista_con_y(lista):
-    \"\"\"Junta una lista de nombres con comas y una 'y' para el último elemento.\"\"\"
-    if not lista:
-        return ""
-    if len(lista) == 1:
-        return lista[0]
-    return ", ".join(lista[:-1]) + " y " + lista[-1]
-
-def generar_tweet_resultado_unico(partido, torneo_original):
-    \"\"\"
-    Genera el texto de resultado final para un único partido (Modo Single).
-    Usa el formato narrativo sumamente conversacional.
-    \"\"\"
-    torneo = traducir_nombre_torneo(torneo_original)
-    cat = extraer_categoria(partido)
-    
-    # Emojis de país del torneo
-    bandera_torneo = obtener_bandera(torneo)
-    if not bandera_torneo:
-        bandera_torneo = "🎾"
+        qualy = " (Qualy)" if (p.get('es_qualy') and not todos_qualy) else ""
         
-    # Cabecera del torneo (ej: "Ch75 🇮🇹 Vicenza 🇮🇹")
-    prefijo_torneo = f"{cat} {torneo}" if cat else torneo
-    cabecera = f"{prefijo_torneo} {bandera_torneo}"
-    
-    j1 = partido.get('event_first_player')
-    j2 = partido.get('event_second_player')
-    
-    info = partido.get('arg_info', {})
-    pais1 = info.get('jugador_1', {}).get('pais', '')
-    pais2 = info.get('jugador_2', {}).get('pais', '')
-    
-    j1_es_arg = info.get('jugador_1', {}).get('es_arg', False)
-    j2_es_arg = info.get('jugador_2', {}).get('es_arg', False)
-    
-    # Determinar ganador
-    final_res = partido.get('event_final_result', "0 - 0")
-    try:
-        s1, s2 = map(int, final_res.split(" - "))
-    except:
-        s1, s2 = 0, 0
-    ganador = 1 if s1 > s2 else (2 if s2 > s1 else 0)
-    
-    # Formatear sets
-    scores_api = partido.get('scores', [])
-    sets_formateados = formatear_sets_single(scores_api, ganador)
-    if not sets_formateados:
-        sets_formateados = final_res.replace(" - ", " ")
+        j1_str = _formatear_jugador_completo(j1, flag1, r1_str)
+        j2_str = _formatear_jugador_completo(j2, flag2, r2_str)
         
-    ronda_actual = partido.get('tournament_round', '')
-    ronda_siguiente = obtener_siguiente_ronda_texto(ronda_actual)
-    
-    status = partido.get('event_status', '').lower()
-    es_retiro = status in ['retired', 'walkover', 'w.o.', 'ret.'] or 'retired' in status or 'walkover' in status
-    tipo_retiro = "retiro" if ("ret" in status or "retired" in status) else "W.O."
-    
-    # Si es un Derbi Argentino
-    if es_derbi_argentino(pais1, pais2):
-        if ganador == 1:
-            nom_ganador = obtener_nombre_variante(j1)
-            nom_perdedor = obtener_nombre_variante(j2)
+        # Si es un derbi argentino, anotarlo claramente
+        if es_derbi_argentino(pais1, pais2):
+            line = f"{prefijo_partido}{hora} | {j1_str} vs {j2_str}{qualy}  — DERBI 🇦🇷🇦🇷"
         else:
-            nom_ganador = obtener_nombre_variante(j2)
-            nom_perdedor = obtener_nombre_variante(j1)
-            
-        if es_retiro:
-            cuerpo = f"¡Victoria de {nom_ganador}! 🎉\\nCon un {sets_formateados} le ganó a {nom_perdedor} por {tipo_retiro}, ¡está seguro en {ronda_siguiente}! 🚀"
-        else:
-            cuerpo = f"¡Victoria de {nom_ganador}! 🎉\\nCon un sólido {sets_formateados} se quedó con el derbi ante {nom_perdedor}, ¡está seguro en {ronda_siguiente}! 🚀"
-            
-        texto = f"{cabecera}\\n\\ncuerpo\\n\\n¡Partidazo de ambos! 🇦🇷"
-        # Reemplazar la palabra 'cuerpo' literal por la variable en la ejecucion real
-        texto = texto.replace("cuerpo", cuerpo)
-        return [f"--- INICIO TWEET ---\\n{texto}\\n--- FIN TWEET ---"]
+            line = f"{prefijo_partido}{hora} | {j1_str} vs {j2_str}{qualy}"
+        lineas_partidos.append(line)"""
 
-    # Caso en que gane o pierda el argentino contra un extranjero
-    if j1_es_arg:
-        arg_completo = j1
-        arg_apodo = obtener_nombre_variante(j1)
-        riv_nombre = j2
-        riv_pais_code = obtener_codigo_pais(pais2)
-        arg_ganó = (ganador == 1)
-    else:
-        arg_completo = j2
-        arg_apodo = obtener_nombre_variante(j2)
-        riv_nombre = j1
-        riv_pais_code = obtener_codigo_pais(pais1)
-        arg_ganó = (ganador == 2)
+new_agenda_str = """        ronda = traducir_ronda(p.get('tournament_round', ''))
+        qualy = " (Qualy)" if (p.get('es_qualy') and not todos_qualy) else ""
         
-    # Obtener frase de aliento basada en el apodo
-    nombre_aliento = arg_apodo.replace("@", "") if arg_apodo.startswith("@") else arg_apodo
-    nombre_aliento = nombre_aliento.split()[0]
-    
-    frase_aliento = f"Dale {nombre_aliento}!!"
-    
-    if arg_ganó:
-        # Victoria
-        if es_retiro:
-            cuerpo = f"¡Bien {arg_apodo}! 🎉\\nPor {tipo_retiro} de {riv_nombre} ({riv_pais_code}) con marcador {sets_formateados}, ¡está seguro en {ronda_siguiente}! 🚀"
-        else:
-            adjetivos = ["sólido", "batallado", "partidazo", "gran triunfo"]
-            adj = random.choice(adjetivos)
-            cuerpo = f"¡Bien {arg_apodo}!! 🎉\\nCon un {adj} {sets_formateados} le ganó a {riv_nombre} ({riv_pais_code}), ¡está seguro en {ronda_siguiente}! 🚀"
-            
-        texto = f"{cabecera}\\n\\n{cuerpo}\\n\\n{frase_aliento} 🇦🇷"
-    else:
-        # Derrota
-        if es_retiro:
-            cuerpo = f"No pudo ser para {arg_apodo} 😢\\nDebió retirarse por {tipo_retiro} con marcador {sets_formateados} ante {riv_nombre} ({riv_pais_code}) y se despide de {torneo}."
-        else:
-            cuerpo = f"No pudo ser para {arg_apodo} 😢\\nCayó por {sets_formateados} ante {riv_nombre} ({riv_pais_code}) y se despide de {torneo}."
-            
-        texto = f"{cabecera}\\n\\n{cuerpo}\\n\\n¡A levantar cabeza y pensar en lo que viene, {nombre_aliento}! 💪"
+        j1_str = _formatear_jugador_completo(j1, flag1, r1_str)
+        j2_str = _formatear_jugador_completo(j2, flag2, r2_str)
         
-    return [f"--- INICIO TWEET ---\\n{texto}\\n--- FIN TWEET ---"]
-"""
-
-# 2. Reemplazo de generar_tweet_finalizado completo
-new_generar_tweet_finalizado = """def generar_tweet_finalizado(torneo_original, partidos):
-    \"\"\"Genera el texto para resultados finales con análisis de victoria/derrota.\"\"\"
-    if not partidos:
-        return []
+        comienzos = [
+            f"A las {hora},", f"Desde las {hora},",
+            f"A partir de las {hora},", f"En el turno de las {hora},"
+        ] if hora != 'S/H' else ["En horario a confirmar,", "Sin horario definido todavía,"]
+        comienzo = random.choice(comienzos)
         
-    # Modo Single si es solo un partido
-    if len(partidos) == 1:
-        return generar_tweet_resultado_unico(partidos[0], torneo_original)
+        verbos = [
+            "se medirá ante", "jugará contra", "se enfrentará a",
+            "chocará contra", "irá frente a", "buscará avanzar ante", "se cruzará con"
+        ]
+        verbo = random.choice(verbos)
         
-    # Modo Balance Diario si son múltiples partidos
-    torneo = traducir_nombre_torneo(torneo_original)
-    cat = extraer_categoria(partidos[0])
-    tag_torneo = obtener_hashtag_torneo(torneo, cat)
-    
-    ronda_api = partidos[0].get('tournament_round', '')
-    ronda = traducir_ronda(ronda_api).upper()
-    if not ronda:
-        ronda = "JORNADA"
-        
-    es_gs = any(gs in torneo.lower() for gs in ["roland garros", "wimbledon", "us open", "australian open"])
-    prefijo_torneo = torneo if es_gs else f"{cat} {torneo}".strip()
-    
-    ganadores = []
-    perdedores = []
-    
-    for p in partidos:
-        j1 = p.get('event_first_player')
-        j2 = p.get('event_second_player')
-        
-        info = p.get('arg_info', {})
-        pais1 = info.get('jugador_1', {}).get('pais', '')
-        pais2 = info.get('jugador_2', {}).get('pais', '')
+        texto_ronda = f" (por los {ronda})" if ronda and ronda not in ["Qualy", "R1", "R2", "R3", "Ronda", "Final"] else ""
+        if "Qualy" in ronda: texto_ronda = f" (por la {ronda})"
+        elif ronda in ["R1", "R2", "R3", "Ronda"]: texto_ronda = f" (por la {ronda})"
+        elif ronda == "Final": texto_ronda = " en la gran final"
+        if qualy: texto_ronda += qualy
         
         j1_es_arg = info.get('jugador_1', {}).get('es_arg', False)
-        j2_es_arg = info.get('jugador_2', {}).get('es_arg', False)
-        
-        final_res = p.get('event_final_result', "0 - 0")
-        try:
-            s1, s2 = map(int, final_res.split(" - "))
-        except:
-            s1, s2 = 0, 0
-        ganador = 1 if s1 > s2 else (2 if s2 > s1 else 0)
         
         if es_derbi_argentino(pais1, pais2):
-            if ganador == 1:
-                ganadores.append(obtener_nombre_balance(j1))
-                perdedores.append(obtener_nombre_balance(j2))
-            else:
-                ganadores.append(obtener_nombre_balance(j2))
-                perdedores.append(obtener_nombre_balance(j1))
+             line = f"🎾 {comienzo} tendremos un hermoso DERBI 🇦🇷: {j1_str} {verbo} {j2_str}{texto_ronda}."
         else:
-            _, gano = analizar_resultado_argentino(p)
             if j1_es_arg:
-                nombre_arg = obtener_nombre_balance(j1)
+                line = f"🎾 {comienzo} {j1_str} {verbo} {j2_str}{texto_ronda}."
             else:
-                nombre_arg = obtener_nombre_balance(j2)
+                line = f"🎾 {comienzo} {j2_str} {verbo} {j1_str}{texto_ronda}."
                 
-            if gano is True:
-                ganadores.append(nombre_arg)
-            elif gano is False:
-                perdedores.append(nombre_arg)
-                
-    total_v = len(ganadores)
-    total_d = len(perdedores)
-    
-    # Armar el tweet de balance
-    lineas = [f"EL BALANCE DE LOS ARGENTINOS EN LA {ronda} DE {prefijo_torneo.upper()}."]
-    lineas.append("")
-    lineas.append(f"🇦🇷 ARGENTINA: {total_v}-{total_d}")
-    
-    if ganadores:
-        lineas.append(f"✅ {formatear_lista_con_y(ganadores)}")
-    if perdedores:
-        lineas.append(f"❌ {formatear_lista_con_y(perdedores)}")
+        lineas_partidos.append(line)"""
+
+# REPLACE 2: generar_tweet_finalizado
+old_final_str = """        ronda = traducir_ronda(p.get('tournament_round', ''))
+        prefijo_partido = f"• [{ronda}] " if ronda else "• "
         
-    lineas.append("")
-    lineas.append(tag_torneo)
-    
-    texto = "\\n".join(lineas)
-    return [f"--- INICIO TWEET ---\\n{texto}\\n--- FIN TWEET ---"]"""
+        scores_api = p.get('scores', [])
+        sets_formateados = formatear_sets(scores_api)
+        
+        marcador = sets_formateados if sets_formateados else p.get('event_final_result', '0-0')
+        j1_str = _formatear_jugador_completo(j1, flag1, r1_str)
+        j2_str = _formatear_jugador_completo(j2, flag2, r2_str)
+        
+        es_qualy = p.get('es_qualy', False)
+        es_gs = any(gs in torneo.lower() for gs in ["roland garros", "wimbledon", "us open", "australian open"])
+        prefijo_torneo = torneo if es_gs else f"{cat} {torneo}".strip()
 
-# Encontrar el inicio de generar_tweet_finalizado y reemplazarlo
-func_start = content.find("def generar_tweet_finalizado(torneo_original, partidos):")
-if func_start == -1:
-    raise Exception("No se encontró def generar_tweet_finalizado")
+        # Si es un derbi argentino, no lo contamos en el balance nacional, solo lo anotamos
+        if es_derbi_argentino(pais1, pais2):
+            try:
+                s1, s2 = map(int, p.get('event_final_result', '0 - 0').split(' - '))
+            except:
+                s1, s2 = 0, 0
+                
+            status_low = p.get('event_status', '').lower()
+            es_retiro = status_low in ['retired', 'walkover', 'w.o.', 'ret.'] or 'retired' in status_low or 'walkover' in status_low
+            tipo_retiro = "retiro" if ("ret" in status_low or "retired" in status_low) else "W.O."
+            
+            if es_retiro:
+                if s1 > s2:
+                    msg_result = f"DERBI ARGENTINO: ganó {j1} por {tipo_retiro} de {j2} 🇦🇷"
+                elif s2 > s1:
+                    msg_result = f"DERBI ARGENTINO: ganó {j2} por {tipo_retiro} de {j1} 🇦🇷"
+                else:
+                    msg_result = f"DERBI ARGENTINO: ganó por {tipo_retiro} 🇦🇷"
+            else:
+                if s1 > s2:
+                    msg_result = f"DERBI ARGENTINO: ganó {j1} 🇦🇷"
+                elif s2 > s1:
+                    msg_result = f"DERBI ARGENTINO: ganó {j2} 🇦🇷"
+                else:
+                    msg_result = "DERBI ARGENTINO"
+            gano = None
+            line = f"{prefijo_partido}{j1_str} vs {j2_str}: {marcador} {msg_result}"
+        elif es_qualy:
+            msg_result, gano = analizar_resultado_argentino(p)
+            if gano is True: total_victorias += 1
+            elif gano is False: total_derrotas += 1
+            
+            j1_es_arg = info.get('jugador_1', {}).get('es_arg', False)
+            if j1_es_arg:
+                arg_str = j1_str
+                riv_str = j2_str
+            else:
+                arg_str = j2_str
+                riv_str = j1_str
+                
+            if ronda == "Final":
+                if gano:
+                    line = f"{prefijo_partido}{arg_str} ganó {marcador} a {riv_str} y entró al cuadro principal de {prefijo_torneo} 🇦🇷"
+                else:
+                    line = f"{prefijo_partido}{arg_str} cayó {marcador} ante {riv_str} y no pudo entrar al cuadro principal de {prefijo_torneo} 😢"
+            else:
+                if gano:
+                    line = f"{prefijo_partido}{arg_str} ganó {marcador} a {riv_str} y avanza en la qualy de {prefijo_torneo} 💪"
+                else:
+                    line = f"{prefijo_partido}{arg_str} cayó {marcador} ante {riv_str} y quedó eliminado en la qualy de {prefijo_torneo} 😢"
+        else:
+            msg_result, gano = analizar_resultado_argentino(p)
+            if gano is True: total_victorias += 1
+            elif gano is False: total_derrotas += 1
+            line = f"{prefijo_partido}{j1_str} vs {j2_str}: {marcador} {msg_result}"
 
-# Encontrar el inicio de la siguiente función (generar_tweet_ranking)
-next_func = content.find("def generar_tweet_ranking(datos, tipo=\"atp\"):")
-if next_func == -1:
-    raise Exception("No se encontró def generar_tweet_ranking")
+        lineas_partidos.append(line)"""
 
-# Reemplazar toda esa sección
-modified_content = content[:func_start] + helpers_and_single + "\n" + new_generar_tweet_finalizado + "\n" + content[next_func:]
+new_final_str = """        ronda = traducir_ronda(p.get('tournament_round', ''))
+        
+        scores_api = p.get('scores', [])
+        sets_formateados = formatear_sets(scores_api)
+        marcador = sets_formateados if sets_formateados else p.get('event_final_result', '0-0')
+        j1_str = _formatear_jugador_completo(j1, flag1, r1_str)
+        j2_str = _formatear_jugador_completo(j2, flag2, r2_str)
+        
+        es_qualy = p.get('es_qualy', False)
+        es_gs = any(gs in torneo.lower() for gs in ["roland garros", "wimbledon", "us open", "australian open"])
+        prefijo_torneo = torneo if es_gs else f"{cat} {torneo}".strip()
+        
+        texto_ronda = f" por los {ronda}" if ronda and ronda not in ["Qualy", "Final", "R1", "R2", "R3", "Ronda"] else ""
+        if "Qualy" in ronda: texto_ronda = f" en la {ronda}"
+        elif ronda == "Final": texto_ronda = f" en la gran final"
+        elif ronda in ["R1", "R2", "R3", "Ronda"]: texto_ronda = f" en la {ronda}"
+        
+        if es_qualy: texto_ronda += f" de {prefijo_torneo}"
+        
+        msg_result, gano = analizar_resultado_argentino(p)
+        if gano is True: total_victorias += 1
+        elif gano is False: total_derrotas += 1
+
+        if es_derbi_argentino(pais1, pais2):
+            try:
+                s1, s2 = map(int, p.get('event_final_result', '0 - 0').split(' - '))
+            except:
+                s1, s2 = 0, 0
+                
+            status_low = p.get('event_status', '').lower()
+            es_retiro = status_low in ['retired', 'walkover', 'w.o.', 'ret.'] or 'retired' in status_low or 'walkover' in status_low
+            tipo_retiro = "retiro" if ("ret" in status_low or "retired" in status_low) else "W.O."
+            
+            if es_retiro:
+                if s1 > s2: line = f"🇦🇷 DERBI: {j1_str} avanza por {tipo_retiro} de {j2_str}."
+                elif s2 > s1: line = f"🇦🇷 DERBI: {j2_str} avanza por {tipo_retiro} de {j1_str}."
+                else: line = f"🇦🇷 DERBI: Partido definido por {tipo_retiro}."
+            else:
+                if s1 > s2: line = f"🇦🇷 DERBI: ¡Triunfo para {j1_str}! Superó a {j2_str} por {marcador}{texto_ronda}."
+                elif s2 > s1: line = f"🇦🇷 DERBI: ¡Triunfo para {j2_str}! Superó a {j1_str} por {marcador}{texto_ronda}."
+                else: line = f"🇦🇷 DERBI: Partido terminado entre {j1_str} y {j2_str}."
+        else:
+            j1_es_arg = info.get('jugador_1', {}).get('es_arg', False)
+            if j1_es_arg:
+                arg_str, riv_str = j1_str, j2_str
+            else:
+                arg_str, riv_str = j2_str, j1_str
+                
+            if gano:
+                verbos_victoria = ["superó a", "venció a", "derrotó a", "le ganó a", "se impuso ante"]
+                v = random.choice(verbos_victoria)
+                line = f"✅ ¡Triunfo argentino! {arg_str} {v} {riv_str} por {marcador}{texto_ronda}."
+            else:
+                verbos_derrota = ["cayó ante", "no pudo con", "fue derrotado por", "perdió con"]
+                v = random.choice(verbos_derrota)
+                line = f"❌ Fin del camino para {arg_str}. {v.capitalize()} {riv_str} por {marcador}{texto_ronda}."
+
+        lineas_partidos.append(line)"""
+
+if old_agenda_str in content:
+    content = content.replace(old_agenda_str, new_agenda_str)
+    print("Agenda replaced successfully")
+else:
+    print("Agenda string not found")
+
+if old_final_str in content:
+    content = content.replace(old_final_str, new_final_str)
+    print("Final replaced successfully")
+else:
+    print("Final string not found")
 
 with open(file_path, "w", encoding="utf-8") as f:
-    f.write(modified_content)
-
-print("Modificaciones aplicadas con éxito a bot/redactor.py!")
+    f.write(content)
