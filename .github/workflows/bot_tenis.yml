@@ -59,9 +59,9 @@ jobs:
             echo "run_mode=final" >> $GITHUB_OUTPUT
             echo "run_flags=" >> $GITHUB_OUTPUT
           else
-            # Para ejecuciones manuales (workflow_dispatch) y crons de 30 min (Live + Final Incremental)
-            echo "run_mode=live_and_final" >> $GITHUB_OUTPUT
-            echo "run_flags=" >> $GITHUB_OUTPUT
+            # Para ejecuciones manuales (workflow_dispatch) y crons de 30 min (Solo Final Incremental)
+            echo "run_mode=final" >> $GITHUB_OUTPUT
+            echo "run_flags=--incremental" >> $GITHUB_OUTPUT
           fi
 
       - name: Run Bot
@@ -76,14 +76,7 @@ jobs:
           ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
           DRY_RUN: "False"
         run: |
-          if [ "${{ steps.mode.outputs.run_mode }}" == "live_and_final" ]; then
-            echo "=== EJECUTANDO MODO EN VIVO ==="
-            python main.py --mode live
-            echo "=== EJECUTANDO MODO FINAL INCREMENTAL ==="
-            python main.py --mode final --incremental
-          else
-            python main.py --mode ${{ steps.mode.outputs.run_mode }} ${{ steps.mode.outputs.run_flags }}
-          fi
+          python main.py --mode ${{ steps.mode.outputs.run_mode }} ${{ steps.mode.outputs.run_flags }}
 
       - name: Commit Cache
         run: |
