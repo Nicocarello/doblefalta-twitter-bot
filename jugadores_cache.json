@@ -24330,9 +24330,9 @@
     },
     "39110": {
         "es_arg": false,
-        "ranking": 1498,
-        "last_update": "2026-06-07",
-        "pais": "Dominican Republic"
+        "ranking": 1373,
+        "pais": "Dominican Republic",
+        "last_update": "2026-06-23"
     },
     "38789": {
         "es_arg": false,
@@ -46880,7 +46880,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Paraguay",
-        "last_update": "2026-06-16"
+        "last_update": "2026-06-23"
     },
     "104054": {
         "es_arg": false,
@@ -48500,7 +48500,7 @@
         "es_arg": true,
         "ranking": 9999,
         "pais": "Argentina",
-        "last_update": "2026-06-17"
+        "last_update": "2026-06-23"
     },
     "90876": {
         "es_arg": true,
@@ -50324,6 +50324,18 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
+        "last_update": "2026-06-23"
+    },
+    "78523": {
+        "es_arg": false,
+        "ranking": 1284,
+        "pais": "USA",
+        "last_update": "2026-06-23"
+    },
+    "62135": {
+        "es_arg": true,
+        "ranking": 9999,
+        "pais": "Argentina",
         "last_update": "2026-06-23"
     }
 }
