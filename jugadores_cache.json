@@ -53524,13 +53524,13 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-30"
+        "last_update": "2026-07-01"
     },
     "104762": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-30"
+        "last_update": "2026-07-01"
     },
     "104763": {
         "es_arg": false,
@@ -54826,6 +54826,12 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "USA",
+        "last_update": "2026-07-01"
+    },
+    "12571": {
+        "es_arg": false,
+        "ranking": 1954,
+        "pais": "Mexico",
         "last_update": "2026-07-01"
     }
 }
