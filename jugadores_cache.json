@@ -59301,7 +59301,7 @@
     "105330": {
         "es_arg": false,
         "ranking": 9999,
-        "pais": "",
+        "pais": "Ukraine",
         "last_update": "2026-07-12"
     },
     "97000": {
@@ -59314,6 +59314,12 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
+        "last_update": "2026-07-12"
+    },
+    "81144": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Turkey",
         "last_update": "2026-07-12"
     }
 }
