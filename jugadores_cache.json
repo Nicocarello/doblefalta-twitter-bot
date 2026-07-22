@@ -63503,7 +63503,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-21"
+        "last_update": "2026-07-22"
     },
     "86868": {
         "es_arg": false,
@@ -65519,6 +65519,18 @@
         "es_arg": false,
         "ranking": 1331,
         "pais": "USA",
+        "last_update": "2026-07-22"
+    },
+    "106009": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-07-22"
+    },
+    "106010": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
         "last_update": "2026-07-22"
     }
 }
