@@ -65740,7 +65740,7 @@
     "106037": {
         "es_arg": false,
         "ranking": 9999,
-        "pais": "",
+        "pais": "Peru",
         "last_update": "2026-07-25"
     },
     "1144": {
@@ -65759,6 +65759,12 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
+        "last_update": "2026-07-25"
+    },
+    "65431": {
+        "es_arg": false,
+        "ranking": 3,
+        "pais": "Canada",
         "last_update": "2026-07-25"
     }
 }
