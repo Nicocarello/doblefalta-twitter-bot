@@ -37457,7 +37457,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-17"
+        "last_update": "2026-07-26"
     },
     "20389": {
         "es_arg": false,
@@ -65807,6 +65807,18 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "USA",
+        "last_update": "2026-07-26"
+    },
+    "6766": {
+        "es_arg": false,
+        "ranking": 1466,
+        "pais": "USA",
+        "last_update": "2026-07-26"
+    },
+    "84421": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Canada",
         "last_update": "2026-07-26"
     }
 }
