@@ -70848,9 +70848,9 @@
         "last_update": "2026-08-05"
     },
     "106651": {
-        "es_arg": false,
+        "es_arg": true,
         "ranking": 9999,
-        "pais": "",
+        "pais": "Argentina",
         "last_update": "2026-08-06"
     },
     "87537": {
