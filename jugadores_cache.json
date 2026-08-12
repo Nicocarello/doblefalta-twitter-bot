@@ -4850,7 +4850,7 @@
     "101399": {
         "es_arg": false,
         "ranking": 9999,
-        "pais": "",
+        "pais": "World",
         "last_update": "2026-08-12"
     },
     "49392": {
@@ -73876,9 +73876,9 @@
         "last_update": "2026-08-12"
     },
     "106980": {
-        "es_arg": false,
+        "es_arg": true,
         "ranking": 9999,
-        "pais": "",
+        "pais": "Argentina",
         "last_update": "2026-08-12"
     },
     "53284": {
