@@ -1075,7 +1075,7 @@
         "es_arg": false,
         "ranking": 501,
         "pais": "Colombia",
-        "last_update": "2026-07-20"
+        "last_update": "2026-08-16"
     },
     "378": {
         "es_arg": true,
@@ -43969,7 +43969,7 @@
         "es_arg": false,
         "ranking": 1827,
         "pais": "Bermuda",
-        "last_update": "2026-06-10"
+        "last_update": "2026-08-16"
     },
     "59599": {
         "es_arg": false,
@@ -74173,6 +74173,18 @@
         "es_arg": false,
         "ranking": 1848,
         "pais": "Switzerland",
+        "last_update": "2026-08-16"
+    },
+    "12949": {
+        "es_arg": false,
+        "ranking": 827,
+        "pais": "USA",
+        "last_update": "2026-08-16"
+    },
+    "107017": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
         "last_update": "2026-08-16"
     }
 }
