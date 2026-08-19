@@ -425,23 +425,159 @@ def formatear_sets(scores):
     """
     Convierte la lista de scores de la API en un string legible de games por set.
     Maneja el caso de tiebreaks donde la API devuelve decimales (ej: 7.9 -> 7).
+    Ignora sets vacíos (0-0) que suelen aparecer en inicializaciones o walkovers.
     """
     if not scores or not isinstance(scores, list):
         return ""
     
     sets = []
     for s in scores:
-        # Tomamos solo la parte entera antes del punto decimal si existe
-        s1 = str(s.get('score_first', '0')).split('.')[0]
-        s2 = str(s.get('score_second', '0')).split('.')[0]
+        s1 = str(s.get('score_first', '0')).split('.')[0].strip()
+        s2 = str(s.get('score_second', '0')).split('.')[0].strip()
         
-        # Evitar agregar sets vacíos (0-0) si ya tenemos sets cargados
-        if s1 == '0' and s2 == '0' and len(sets) > 0:
+        # Evitar agregar sets vacíos (0-0)
+        if s1 in ('0', '') and s2 in ('0', ''):
             continue
             
         sets.append(f"{s1}-{s2}")
     
     return " / ".join(sets)
+
+
+def determinar_ganador_partido(partido):
+    """
+    Determina si el ganador del partido fue el jugador 1 (retorna 1)
+    o el jugador 2 (retorna 2), o 0 si no se puede determinar.
+    
+    Prioridad:
+    1. Campo 'event_winner' de la API ('First Player', 'Second Player', keys o nombres)
+    2. Campo 'event_final_result' (ej: '2 - 0', '2 - 1', '1 - 2')
+    3. Lista de 'scores' (conteo de sets ganados por games)
+    4. Substrings en 'event_status' si menciona qué jugador se retiró
+    """
+    if not partido or not isinstance(partido, dict):
+        return 0
+
+    # 1. Campo event_winner oficial de la API
+    ev_winner = partido.get('event_winner')
+    if ev_winner:
+        w_str = str(ev_winner).strip().lower()
+        if w_str in ('first player', '1', '1st player', 'first_player', 'player 1', 'player1'):
+            return 1
+        if w_str in ('second player', '2', '2nd player', 'second_player', 'player 2', 'player2'):
+            return 2
+        
+        # Comparación directa con player keys
+        p1_key = str(partido.get('first_player_key', '')).strip()
+        p2_key = str(partido.get('second_player_key', '')).strip()
+        if p1_key and str(ev_winner).strip() == p1_key:
+            return 1
+        if p2_key and str(ev_winner).strip() == p2_key:
+            return 2
+            
+        # Comparación con nombres de jugadores
+        j1_name = str(partido.get('event_first_player', '')).strip().lower()
+        j2_name = str(partido.get('event_second_player', '')).strip().lower()
+        if j1_name and (w_str == j1_name or w_str in j1_name or j1_name in w_str):
+            return 1
+        if j2_name and (w_str == j2_name or w_str in j2_name or j2_name in w_str):
+            return 2
+
+    # 2. event_final_result (ej: "2 - 1", "0 - 2")
+    final_res = str(partido.get('event_final_result', '')).strip()
+    if final_res and '-' in final_res:
+        try:
+            partes = final_res.replace('(', ' ').replace(')', ' ').split('-')
+            s1_match = re.findall(r'\d+', partes[0])
+            s2_match = re.findall(r'\d+', partes[1])
+            if s1_match and s2_match:
+                s1, s2 = int(s1_match[0]), int(s2_match[0])
+                if s1 > s2:
+                    return 1
+                elif s2 > s1:
+                    return 2
+        except Exception:
+            pass
+
+    # 3. Analizar lista de scores (sets)
+    scores = partido.get('scores', [])
+    if isinstance(scores, list) and scores:
+        sets_p1, sets_p2 = 0, 0
+        for s in scores:
+            try:
+                g1 = int(str(s.get('score_first', '0')).split('.')[0])
+                g2 = int(str(s.get('score_second', '0')).split('.')[0])
+                if (g1 >= 6 and g1 - g2 >= 2) or (g1 == 7 and g2 in (5, 6)):
+                    sets_p1 += 1
+                elif (g2 >= 6 and g2 - g1 >= 2) or (g2 == 7 and g1 in (5, 6)):
+                    sets_p2 += 1
+            except Exception:
+                continue
+        if sets_p1 > sets_p2:
+            return 1
+        elif sets_p2 > sets_p1:
+            return 2
+
+    # 4. Analizar event_status si indica quién se retiró
+    status = str(partido.get('event_status', '')).strip().lower()
+    j1_name = str(partido.get('event_first_player', '')).strip().lower()
+    j2_name = str(partido.get('event_second_player', '')).strip().lower()
+    if 'retir' in status or 'walkover' in status or 'w.o.' in status:
+        if j1_name and any(part in status for part in j1_name.split() if len(part) > 2):
+            return 2
+        if j2_name and any(part in status for part in j2_name.split() if len(part) > 2):
+            return 1
+
+    return 0
+
+
+def detectar_tipo_finalizacion(partido):
+    """
+    Determina cómo finalizó el partido:
+    - 'normal': Finalizado jugando todos los sets
+    - 'retiro': Se retiró durante el partido (con sets o games jugados)
+    - 'walkover': No presentación previa (W.O., sin juego o marcador 0-0)
+    - 'descalificacion': Default / DQ
+    """
+    if not partido or not isinstance(partido, dict):
+        return 'normal'
+        
+    status = str(partido.get('event_status', '')).strip().lower()
+    final_res = str(partido.get('event_final_result', '')).strip()
+    scores = partido.get('scores', [])
+    
+    es_retiro_kw = any(k in status for k in ['retir', 'ret.', 'after ret'])
+    es_wo_kw = any(k in status for k in ['walkover', 'w.o.', 'wo'])
+    es_dq_kw = any(k in status for k in ['default', 'def.', 'disqualif', 'dq'])
+    
+    # Verificar si hubo juego efectivo (sets o games)
+    hubo_juego = False
+    if scores and isinstance(scores, list):
+        for s in scores:
+            g1 = str(s.get('score_first', '0')).split('.')[0].strip()
+            g2 = str(s.get('score_second', '0')).split('.')[0].strip()
+            if (g1 not in ('0', '')) or (g2 not in ('0', '')):
+                hubo_juego = True
+                break
+    elif final_res and final_res not in ('0 - 0', '0-0', '0/0', ''):
+        try:
+            partes = final_res.replace('(', ' ').replace(')', ' ').split('-')
+            s1_match = re.findall(r'\d+', partes[0])
+            s2_match = re.findall(r'\d+', partes[1])
+            if s1_match and s2_match and (int(s1_match[0]) > 0 or int(s2_match[0]) > 0):
+                hubo_juego = True
+        except Exception:
+            pass
+
+    if es_dq_kw:
+        return 'descalificacion'
+    if es_wo_kw:
+        return 'retiro' if hubo_juego else 'walkover'
+    if es_retiro_kw:
+        return 'retiro' if hubo_juego else 'walkover'
+        
+    return 'normal'
+
 
 def extraer_categoria(partido):
     """Extrae la categoría del torneo (ATP, WTA, Challenger, ITF) buscando en los nombres."""
@@ -454,6 +590,7 @@ def extraer_categoria(partido):
     if "CHALLENGER" in full: return "Challenger"
     if "ITF" in full: return "ITF"
     return ""
+
 
 def traducir_ronda(ronda_api):
     """Traduce la ronda del torneo proveniente de la API al español."""
@@ -480,6 +617,7 @@ def traducir_ronda(ronda_api):
         return "Ronda"
         
     return ""
+
 
 def traducir_nombre_torneo(nombre):
     """Traduce nombres de torneos de inglés a español para el público argentino."""
@@ -519,6 +657,7 @@ def traducir_nombre_torneo(nombre):
         traduccion = f"{traduccion} Junior"
         
     return traduccion
+
 
 def obtener_hashtag_torneo(nombre_torneo, categoria=""):
     """Mapea nombres de torneos a sus hashtags oficiales o genera uno genérico incluyendo la categoría."""
@@ -571,45 +710,72 @@ def obtener_hashtag_torneo(nombre_torneo, categoria=""):
             
     return "#" + nombre_final
 
+
 def analizar_resultado_argentino(partido):
     """
     Analiza si el argentino ganó o perdió y con qué intensidad.
-    Devuelve un mensaje corto.
+    Devuelve un mensaje corto y un booleano (gano: True/False/None).
     """
     arg_info = partido.get('arg_info', {})
     j1_es_arg = arg_info.get('jugador_1', {}).get('es_arg', False)
     j2_es_arg = arg_info.get('jugador_2', {}).get('es_arg', False)
     
-    # Marcador de sets (ej: "2 - 1")
-    final_res = partido.get('event_final_result', "0 - 0")
-    try:
-        s1, s2 = map(int, final_res.split(" - "))
-    except:
-        s1, s2 = 0, 0
+    # Si ambos son argentinos (derbi), no se computa como victoria/derrota individual
+    if j1_es_arg and j2_es_arg:
+        return "", None
         
-    # Ganador 1 o 2
-    ganador = 1 if s1 > s2 else (2 if s2 > s1 else 0)
+    ganador = determinar_ganador_partido(partido)
+    tipo_fin = detectar_tipo_finalizacion(partido)
     
-    status = partido.get('event_status', '').lower()
+    gano = None
+    if j1_es_arg:
+        if ganador == 1:
+            gano = True
+        elif ganador == 2:
+            gano = False
+    elif j2_es_arg:
+        if ganador == 2:
+            gano = True
+        elif ganador == 1:
+            gano = False
+            
+    if gano is None:
+        return "", None
+        
     nombre_j1 = partido.get('event_first_player', 'Rival')
     nombre_j2 = partido.get('event_second_player', 'Rival')
     
-    # Detección de Retiros y Walkovers
-    es_retiro = status in ['retired', 'walkover', 'w.o.', 'ret.'] or 'retired' in status or 'walkover' in status
-    tipo_retiro = "retiro" if ("ret" in status or "retired" in status) else "W.O."
+    # Manejo de casos especiales (W.O., Retiro, Descalificación)
+    if tipo_fin == 'walkover':
+        if gano:
+            rival = nombre_j2 if j1_es_arg else nombre_j1
+            return f"Victoria por Walkover (W.O.) ante {rival}", True
+        else:
+            return "Baja por Walkover (W.O.)", False
+            
+    if tipo_fin == 'retiro':
+        if gano:
+            rival = nombre_j2 if j1_es_arg else nombre_j1
+            return f"Victoria por retiro de {rival}", True
+        else:
+            return "Derrota por retiro", False
+            
+    if tipo_fin == 'descalificacion':
+        if gano:
+            rival = nombre_j2 if j1_es_arg else nombre_j1
+            return f"Victoria por descalificación de {rival}", True
+        else:
+            return "Derrota por descalificación", False
     
-    if es_retiro:
-        if j1_es_arg:
-            if ganador == 1:
-                return f"Victoria por {tipo_retiro} de {nombre_j2}", True
-            else:
-                return f"Derrota por {tipo_retiro} de {nombre_j1}", False
-        if j2_es_arg:
-            if ganador == 2:
-                return f"Victoria por {tipo_retiro} de {nombre_j1}", True
-            else:
-                return f"Derrota por {tipo_retiro} de {nombre_j2}", False
-    
+    # Marcador de sets para medir intensidad en partidos normales
+    final_res = partido.get('event_final_result', "0 - 0")
+    try:
+        partes = final_res.replace('(', ' ').replace(')', ' ').split('-')
+        s1 = int(re.findall(r'\d+', partes[0])[0])
+        s2 = int(re.findall(r'\d+', partes[1])[0])
+    except Exception:
+        s1, s2 = 0, 0
+        
     ronda = traducir_ronda(partido.get('tournament_round', ''))
     es_qualy = partido.get('es_qualy', False)
     es_final = (ronda == "Final" and not es_qualy)
@@ -621,7 +787,7 @@ def analizar_resultado_argentino(partido):
         ]
         mensajes_victoria_facil = [
             "¡CAMPEÓN INDISCUTIDO! 🏆🇦🇷", "¡Masterclass y título a casa! 🏆", 
-            "¡Dominio total en la final para gritar campeón! 🏆🇦🇷","Cátedra de tenis"
+            "¡Dominio total en la final para gritar campeón! 🏆🇦🇷", "Cátedra de tenis"
         ]
         mensajes_derrota_ajustada = [
             "Se escapó la final por muy poco 🇦🇷", "Gran torneo, lástima el final.", 
@@ -632,7 +798,6 @@ def analizar_resultado_argentino(partido):
             "Dura derrota, no pudo consagrarse campeón hoy 🇦🇷", "A levantar cabeza, gran semana llegando a la final 🇦🇷"
         ]
     else:
-        # Mensajes regulares
         mensajes_victoria_ajustada = [
             "¡VAMOS! 🇦🇷", "¡Triunfazo peleado!", "Se sufrió pero se ganó. 💪", 
             "¡Partidazo y victoria! ", "¡Lo dio vuelta y festejó! 🇦🇷", "¡Qué huevo!"
@@ -650,33 +815,21 @@ def analizar_resultado_argentino(partido):
             "No encontró el ritmo hoy 🇦🇷", "A pensar en el próximo torneo 😕"
         ]
     
-    # Caso 1: Jugador 1 es el argentino
-    if j1_es_arg:
-        if ganador == 1:
-            if s2 >= 1: # Ganó 2-1 o similar
-                return random.choice(mensajes_victoria_ajustada), True
-            else: # Ganó 2-0 o similar
-                return random.choice(mensajes_victoria_facil), True
-        elif ganador == 2:
-            if s1 >= 1: # Perdió 1-2
-                return random.choice(mensajes_derrota_ajustada), False
-            else: # Perdió 0-2
-                return random.choice(mensajes_derrota_facil), False
-                
-    # Caso 2: Jugador 2 es el argentino
-    if j2_es_arg:
-        if ganador == 2:
-            if s1 >= 1: # Ganó 2-1
-                return random.choice(mensajes_victoria_ajustada), True
-            else: # Ganó 2-0
-                return random.choice(mensajes_victoria_facil), True
-        elif ganador == 1:
-            if s2 >= 1: # Perdió 1-2
-                return random.choice(mensajes_derrota_ajustada), False
-            else: # Perdió 0-2
-                return random.choice(mensajes_derrota_facil), False
-                
-    return "", None
+    # Sets ganados por el argentino vs el rival
+    sets_arg = s1 if j1_es_arg else s2
+    sets_riv = s2 if j1_es_arg else s1
+    
+    if gano:
+        if sets_riv >= 1:
+            return random.choice(mensajes_victoria_ajustada), True
+        else:
+            return random.choice(mensajes_victoria_facil), True
+    else:
+        if sets_arg >= 1:
+            return random.choice(mensajes_derrota_ajustada), False
+        else:
+            return random.choice(mensajes_derrota_facil), False
+
 
 def _formatear_en_hilo(encabezado, lineas_items, cierres, max_chars=280):
     """
@@ -750,18 +903,19 @@ def obtener_frases_torneo(torneo_original, partidos):
                 frases["nombre"] = torneo
     else:
         # ATP, WTA, Challenger, ITF, etc.
-        prefijo = f"{cat} " if cat else ""
+        prefijo = f"{cat} " if (cat and not torneo.lower().startswith(cat.lower())) else ""
         if todos_qualy:
-            conector = "del " if cat else "de "
-            frases["en"] = f"en la Qualy {conector}{prefijo}{torneo}"
-            frases["del"] = f"de la Qualy {conector}{prefijo}{torneo}"
-            frases["al"] = f"a la Qualy {conector}{prefijo}{torneo}"
-            frases["nombre"] = f"la Qualy {conector}{prefijo}{torneo}"
+            conector = "del " if (cat or "open" in torneo.lower() or "challenger" in torneo.lower()) else "de "
+            frases["en"] = f"en la Qualy {conector}{prefijo}{torneo}".strip()
+            frases["del"] = f"de la Qualy {conector}{prefijo}{torneo}".strip()
+            frases["al"] = f"a la Qualy {conector}{prefijo}{torneo}".strip()
+            frases["nombre"] = f"la Qualy {conector}{prefijo}{torneo}".strip()
         else:
-            frases["en"] = f"en el {prefijo}{torneo}"
-            frases["del"] = f"del {prefijo}{torneo}"
-            frases["al"] = f"al {prefijo}{torneo}"
-            frases["nombre"] = f"{prefijo}{torneo}"
+            conector = "el " if (cat or "open" in torneo.lower() or "masters" in torneo.lower() or "challenger" in torneo.lower()) else ""
+            frases["en"] = f"en {conector}{prefijo}{torneo}".strip() if conector else f"en {prefijo}{torneo}".strip()
+            frases["del"] = f"del {prefijo}{torneo}".strip() if conector else f"de {prefijo}{torneo}".strip()
+            frases["al"] = f"al {prefijo}{torneo}".strip() if conector else f"a {prefijo}{torneo}".strip()
+            frases["nombre"] = f"{prefijo}{torneo}".strip()
             
     return frases
 
@@ -874,11 +1028,19 @@ def generar_tweet_agenda(torneo_original, partidos):
         ]
         verbo = random.choice(verbos)
         
-        texto_ronda = f" (por los {ronda})" if ronda and ronda not in ["Qualy", "R1", "R2", "R3", "Ronda", "Final"] else ""
-        if "Qualy" in ronda: texto_ronda = f" (por la {ronda})"
-        elif ronda in ["R1", "R2", "R3", "Ronda"]: texto_ronda = f" (por la {ronda})"
-        elif ronda == "Final": texto_ronda = " en la gran final"
-        if qualy: texto_ronda += qualy
+        texto_ronda = ""
+        if ronda in ["4tos", "8vos", "16avos", "32avos", "64avos"]:
+            texto_ronda = f" (por los {ronda})"
+        elif ronda == "Semifinal":
+            texto_ronda = " (en semifinales)"
+        elif ronda == "Final":
+            texto_ronda = " en la gran final"
+        elif "qualy" in ronda.lower():
+            texto_ronda = f" (en la {ronda})"
+        elif ronda in ["R1", "R2", "R3", "Ronda"]:
+            texto_ronda = f" (en la {ronda})"
+        if qualy:
+            texto_ronda += qualy
         
         j1_es_arg = info.get('jugador_1', {}).get('es_arg', False)
         
@@ -1084,43 +1246,71 @@ def generar_tweet_finalizado(torneo_original, partidos):
         
         scores_api = p.get('scores', [])
         sets_formateados = formatear_sets(scores_api)
-        marcador = sets_formateados if sets_formateados else p.get('event_final_result', '0-0')
+        marcador = sets_formateados if sets_formateados else p.get('event_final_result', '')
+        if str(marcador).strip() in ('0-0', '0 - 0', '0/0', '0 - 0 (0-0)'):
+            marcador = ""
+            
         j1_str = _formatear_jugador_completo(j1, flag1, r1_str)
         j2_str = _formatear_jugador_completo(j2, flag2, r2_str)
         
         es_qualy = p.get('es_qualy', False)
         es_gs = any(gs in torneo.lower() for gs in ["roland garros", "wimbledon", "us open", "australian open"])
-        prefijo_torneo = torneo if es_gs else f"{cat} {torneo}".strip()
+        if es_gs or (cat and torneo.lower().startswith(cat.lower())):
+            prefijo_torneo = torneo
+        elif cat:
+            prefijo_torneo = f"{cat} {torneo}"
+        else:
+            prefijo_torneo = torneo
         
-        texto_ronda = f" por los {ronda}" if ronda and ronda not in ["Qualy", "Final", "R1", "R2", "R3", "Ronda"] else ""
-        if "Qualy" in ronda: texto_ronda = f" en la {ronda}"
-        elif ronda == "Final": texto_ronda = f" en la gran final"
-        elif ronda in ["R1", "R2", "R3", "Ronda"]: texto_ronda = f" en la {ronda}"
+        texto_ronda = ""
+        if ronda in ["4tos", "8vos", "16avos", "32avos", "64avos"]:
+            texto_ronda = f" por los {ronda}"
+        elif ronda == "Semifinal":
+            texto_ronda = " en semifinales"
+        elif ronda == "Final":
+            texto_ronda = " en la gran final"
+        elif "qualy" in ronda.lower():
+            texto_ronda = f" en la {ronda}"
+        elif ronda in ["R1", "R2", "R3", "Ronda"]:
+            texto_ronda = f" en la {ronda}"
         
         if es_qualy: texto_ronda += f" de {prefijo_torneo}"
         
+        ganador = determinar_ganador_partido(p)
+        tipo_fin = detectar_tipo_finalizacion(p)
         msg_result, gano = analizar_resultado_argentino(p)
+        
         if gano is True: total_victorias += 1
         elif gano is False: total_derrotas += 1
 
         if es_derbi_argentino(pais1, pais2):
-            try:
-                s1, s2 = map(int, p.get('event_final_result', '0 - 0').split(' - '))
-            except:
-                s1, s2 = 0, 0
-                
-            status_low = p.get('event_status', '').lower()
-            es_retiro = status_low in ['retired', 'walkover', 'w.o.', 'ret.'] or 'retired' in status_low or 'walkover' in status_low
-            tipo_retiro = "retiro" if ("ret" in status_low or "retired" in status_low) else "W.O."
+            winner_str = j1_str if ganador == 1 else (j2_str if ganador == 2 else None)
+            loser_str = j2_str if ganador == 1 else (j1_str if ganador == 2 else None)
             
-            if es_retiro:
-                if s1 > s2: line = f"🇦🇷 DERBI: {j1_str} avanza por {tipo_retiro} de {j2_str}."
-                elif s2 > s1: line = f"🇦🇷 DERBI: {j2_str} avanza por {tipo_retiro} de {j1_str}."
-                else: line = f"🇦🇷 DERBI: Partido definido por {tipo_retiro}."
+            if tipo_fin == 'walkover':
+                if winner_str and loser_str:
+                    line = f"🇦🇷 DERBI: {winner_str} avanza por Walkover (W.O.) ante la no presentación de {loser_str}{texto_ronda}."
+                else:
+                    line = f"🇦🇷 DERBI: Partido definido por Walkover (W.O.){texto_ronda}."
+            elif tipo_fin == 'retiro':
+                if winner_str and loser_str:
+                    if marcador:
+                        line = f"🇦🇷 DERBI: {winner_str} avanza tras el retiro de {loser_str} ({marcador}){texto_ronda}."
+                    else:
+                        line = f"🇦🇷 DERBI: {winner_str} avanza por retiro de {loser_str}{texto_ronda}."
+                else:
+                    line = f"🇦🇷 DERBI: Partido definido por retiro{texto_ronda}."
+            elif tipo_fin == 'descalificacion':
+                if winner_str and loser_str:
+                    line = f"🇦🇷 DERBI: {winner_str} avanza por descalificación de {loser_str}{texto_ronda}."
+                else:
+                    line = f"🇦🇷 DERBI: Partido definido por descalificación{texto_ronda}."
             else:
-                if s1 > s2: line = f"🇦🇷 DERBI: ¡Triunfo para {j1_str}! Superó a {j2_str} por {marcador}{texto_ronda}."
-                elif s2 > s1: line = f"🇦🇷 DERBI: ¡Triunfo para {j2_str}! Superó a {j1_str} por {marcador}{texto_ronda}."
-                else: line = f"🇦🇷 DERBI: Partido terminado entre {j1_str} y {j2_str}."
+                marcador_str = f" por {marcador}" if marcador else ""
+                if winner_str and loser_str:
+                    line = f"🇦🇷 DERBI: ¡Triunfo para {winner_str}! Superó a {loser_str}{marcador_str}{texto_ronda}."
+                else:
+                    line = f"🇦🇷 DERBI: Partido terminado entre {j1_str} y {j2_str}{marcador_str}{texto_ronda}."
         else:
             j1_es_arg = info.get('jugador_1', {}).get('es_arg', False)
             if j1_es_arg:
@@ -1128,14 +1318,37 @@ def generar_tweet_finalizado(torneo_original, partidos):
             else:
                 arg_str, riv_str = j2_str, j1_str
                 
-            if gano:
-                verbos_victoria = ["superó a", "venció a", "derrotó a", "le ganó a", "se impuso ante"]
-                v = random.choice(verbos_victoria)
-                line = f"✅ ¡Triunfo argentino! {arg_str} {v} {riv_str} por {marcador}{texto_ronda}."
+            if tipo_fin == 'walkover':
+                if gano:
+                    line = f"✅ ¡Triunfo argentino! {arg_str} avanzó por Walkover (W.O.) ante {riv_str}{texto_ronda}."
+                else:
+                    line = f"❌ {arg_str} no pudo presentarse (Walkover) ante {riv_str} y se despidió{texto_ronda}."
+            elif tipo_fin == 'retiro':
+                if gano:
+                    if marcador:
+                        line = f"✅ ¡Triunfo argentino! {arg_str} avanzó tras el retiro de {riv_str} ({marcador}){texto_ronda}."
+                    else:
+                        line = f"✅ ¡Triunfo argentino! {arg_str} avanzó por retiro de {riv_str}{texto_ronda}."
+                else:
+                    if marcador:
+                        line = f"❌ Fin del camino para {arg_str}. Debió retirarse ante {riv_str} ({marcador}){texto_ronda}."
+                    else:
+                        line = f"❌ Fin del camino para {arg_str}. Debió retirarse ante {riv_str}{texto_ronda}."
+            elif tipo_fin == 'descalificacion':
+                if gano:
+                    line = f"✅ ¡Triunfo argentino! {arg_str} avanzó por descalificación de {riv_str}{texto_ronda}."
+                else:
+                    line = f"❌ Fin del camino para {arg_str}. Fue descalificado ante {riv_str}{texto_ronda}."
             else:
-                verbos_derrota = ["cayó ante", "no pudo con", "fue derrotado por", "perdió con"]
-                v = random.choice(verbos_derrota)
-                line = f"❌ Fin del camino para {arg_str}. {v.capitalize()} {riv_str} por {marcador}{texto_ronda}."
+                marcador_str = f" por {marcador}" if marcador else ""
+                if gano:
+                    verbos_victoria = ["superó a", "venció a", "derrotó a", "le ganó a", "se impuso ante"]
+                    v = random.choice(verbos_victoria)
+                    line = f"✅ ¡Triunfo argentino! {arg_str} {v} {riv_str}{marcador_str}{texto_ronda}."
+                else:
+                    verbos_derrota = ["cayó ante", "no pudo con", "fue derrotado por", "perdió con"]
+                    v = random.choice(verbos_derrota)
+                    line = f"❌ Fin del camino para {arg_str}. {v.capitalize()} {riv_str}{marcador_str}{texto_ronda}."
 
         lineas_partidos.append(line)
     

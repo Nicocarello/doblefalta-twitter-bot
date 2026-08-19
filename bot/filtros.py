@@ -116,17 +116,23 @@ def es_actualizacion_en_vivo(partido):
 
     # Estados que NO son "en vivo"
     estados_no_vivo = {
-        'finished', 'retired', 'walkover', 'w.o.', 'ret.',
+        'finished', 'retired', 'walkover', 'w.o.', 'wo', 'ret.', 'after ret.', 'after ret',
+        'default', 'defaulted', 'disqualified', 'awarded',
         'postponed', 'cancelled', 'canceled', 'not started',
-        'scheduled', 'abandoned', 'awarded'
+        'scheduled', 'abandoned'
     }
 
     # Si el status es uno de los no-vivo, no está en juego
     if status_low in estados_no_vivo:
         return False
 
-    # Si contiene "retired" o "walkover" como substring
-    if 'retired' in status_low or 'walkover' in status_low:
+    # Si contiene palabras clave de no-vivo como substring
+    keywords_no_vivo = [
+        'retired', 'walkover', 'w.o.', 'ret.', 'after ret',
+        'default', 'disqualif', 'postponed', 'cancelled',
+        'canceled', 'not started', 'scheduled', 'abandoned'
+    ]
+    if any(kw in status_low for kw in keywords_no_vivo):
         return False
 
     # Si el status es igual al horario (ej: "10:00"), no está en vivo
@@ -143,19 +149,25 @@ def es_finalizado(partido):
     """
     Determina si un partido ya terminó.
     Está finalizado si su event_status es 'Finished', 'Retired', 
-    'Walkover' o variantes.
+    'Walkover' o variantes oficiales.
     """
     status = partido.get('event_status', '').strip().lower()
     if not status:
         return False
 
-    estados_finales = {'finished', 'retired', 'walkover', 'w.o.', 'ret.'}
+    estados_finales = {
+        'finished', 'retired', 'walkover', 'w.o.', 'wo', 'ret.', 
+        'after ret.', 'after ret', 'default', 'defaulted', 
+        'disqualified', 'awarded'
+    }
 
     if status in estados_finales:
         return True
 
-    # Variantes como "Walkover - Player Name" o "Retired - ..."
-    if 'retired' in status or 'walkover' in status:
+    # Variantes como "Walkover - Player Name", "Retired - ...", "After Ret."
+    keywords_finales = ['retired', 'walkover', 'w.o.', 'ret.', 'after ret', 'default', 'disqualif']
+    if any(kw in status for kw in keywords_finales):
         return True
 
     return False
+
