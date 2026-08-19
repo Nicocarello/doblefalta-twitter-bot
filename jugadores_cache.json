@@ -39798,7 +39798,7 @@
     "103291": {
         "es_arg": false,
         "ranking": 9999,
-        "pais": "",
+        "pais": "Switzerland",
         "last_update": "2026-08-19"
     },
     "67294": {
@@ -76234,6 +76234,12 @@
         "last_update": "2026-08-19"
     },
     "107253": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-08-19"
+    },
+    "107254": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
