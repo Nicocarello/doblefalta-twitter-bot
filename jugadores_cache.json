@@ -14124,9 +14124,9 @@
     },
     "69529": {
         "es_arg": false,
-        "ranking": 2077,
-        "last_update": "2026-08-02",
-        "pais": "Venezuela"
+        "ranking": 7,
+        "pais": "Venezuela",
+        "last_update": "2026-08-23"
     },
     "76969": {
         "es_arg": false,
@@ -43975,7 +43975,7 @@
         "es_arg": false,
         "ranking": 1827,
         "pais": "Bermuda",
-        "last_update": "2026-08-16"
+        "last_update": "2026-08-23"
     },
     "59599": {
         "es_arg": false,
@@ -76327,6 +76327,12 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
+        "last_update": "2026-08-23"
+    },
+    "90124": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Jamaica",
         "last_update": "2026-08-23"
     }
 }
