@@ -51478,7 +51478,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Portugal",
-        "last_update": "2026-07-15"
+        "last_update": "2026-08-30"
     },
     "104473": {
         "es_arg": false,
@@ -78364,7 +78364,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Bulgaria",
-        "last_update": "2026-08-26"
+        "last_update": "2026-08-30"
     },
     "9373": {
         "es_arg": false,
@@ -79049,5 +79049,35 @@
         "ranking": 9999,
         "pais": "",
         "last_update": "2026-08-29"
+    },
+    "1859": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Italy",
+        "last_update": "2026-08-30"
+    },
+    "107661": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-08-30"
+    },
+    "107662": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-08-30"
+    },
+    "107663": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-08-30"
+    },
+    "86837": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Portugal",
+        "last_update": "2026-08-30"
     }
 }
