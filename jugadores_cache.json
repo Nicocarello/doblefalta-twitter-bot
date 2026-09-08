@@ -325,7 +325,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-05-14"
+        "last_update": "2026-09-08"
     },
     "101360": {
         "es_arg": false,
@@ -594,7 +594,8 @@
     "34710": {
         "es_arg": false,
         "ranking": 9999,
-        "pais": ""
+        "pais": "",
+        "last_update": "2026-09-08"
     },
     "84355": {
         "es_arg": false,
@@ -1080,7 +1081,7 @@
         "es_arg": false,
         "ranking": 501,
         "pais": "Colombia",
-        "last_update": "2026-08-24"
+        "last_update": "2026-09-08"
     },
     "378": {
         "es_arg": true,
@@ -3214,7 +3215,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "1375": {
         "es_arg": false,
@@ -3943,7 +3944,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "France",
-        "last_update": "2026-05-28"
+        "last_update": "2026-09-08"
     },
     "53": {
         "es_arg": false,
@@ -4829,7 +4830,7 @@
         "es_arg": false,
         "ranking": 509,
         "pais": "Ukraine",
-        "last_update": "2026-08-26"
+        "last_update": "2026-09-08"
     },
     "52171": {
         "es_arg": false,
@@ -5040,7 +5041,7 @@
         "es_arg": false,
         "ranking": 336,
         "pais": "Japan",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "86608": {
         "es_arg": false,
@@ -5607,7 +5608,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-14"
+        "last_update": "2026-09-08"
     },
     "623": {
         "es_arg": false,
@@ -5667,7 +5668,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "1158": {
         "es_arg": false,
@@ -13381,9 +13382,9 @@
     },
     "2490": {
         "es_arg": false,
-        "ranking": 1467,
+        "ranking": 1487,
         "pais": "USA",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "32300": {
         "es_arg": false,
@@ -13753,9 +13754,9 @@
     },
     "83932": {
         "es_arg": false,
-        "ranking": 1608,
-        "last_update": "2026-07-26",
-        "pais": "France"
+        "ranking": 4,
+        "pais": "France",
+        "last_update": "2026-09-08"
     },
     "2958": {
         "es_arg": false,
@@ -15411,7 +15412,7 @@
         "es_arg": false,
         "ranking": 3,
         "pais": "Indonesia",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "93628": {
         "es_arg": true,
@@ -24590,7 +24591,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "1838": {
         "es_arg": false,
@@ -24602,7 +24603,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "91163": {
         "es_arg": false,
@@ -24626,7 +24627,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-06"
+        "last_update": "2026-09-08"
     },
     "94762": {
         "es_arg": false,
@@ -24644,13 +24645,13 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-06"
+        "last_update": "2026-09-08"
     },
     "94964": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "9914": {
         "es_arg": false,
@@ -24668,7 +24669,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-06"
+        "last_update": "2026-09-08"
     },
     "24644": {
         "es_arg": false,
@@ -24680,7 +24681,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "3580": {
         "es_arg": false,
@@ -24692,7 +24693,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "100133": {
         "es_arg": false,
@@ -24722,7 +24723,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "73425": {
         "es_arg": false,
@@ -25046,7 +25047,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "32118": {
         "es_arg": false,
@@ -25124,7 +25125,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "101938": {
         "es_arg": false,
@@ -25400,7 +25401,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-20"
+        "last_update": "2026-09-08"
     },
     "53003": {
         "es_arg": false,
@@ -26354,7 +26355,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-29"
+        "last_update": "2026-09-08"
     },
     "102033": {
         "es_arg": false,
@@ -26384,7 +26385,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-05-12"
+        "last_update": "2026-09-08"
     },
     "84430": {
         "es_arg": false,
@@ -26600,7 +26601,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-04"
+        "last_update": "2026-09-08"
     },
     "100902": {
         "es_arg": false,
@@ -27104,7 +27105,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "102134": {
         "es_arg": false,
@@ -27560,7 +27561,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Mexico",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "102093": {
         "es_arg": false,
@@ -28142,7 +28143,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-05-16"
+        "last_update": "2026-09-08"
     },
     "89361": {
         "es_arg": false,
@@ -28172,7 +28173,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "90882": {
         "es_arg": false,
@@ -28334,7 +28335,7 @@
         "es_arg": false,
         "ranking": 6,
         "pais": "Switzerland",
-        "last_update": "2026-08-26"
+        "last_update": "2026-09-08"
     },
     "102167": {
         "es_arg": false,
@@ -28388,7 +28389,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "84308": {
         "es_arg": false,
@@ -28436,7 +28437,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Romania",
-        "last_update": "2026-09-04"
+        "last_update": "2026-09-08"
     },
     "88189": {
         "es_arg": false,
@@ -28640,7 +28641,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Uzbekistan",
-        "last_update": "2026-09-05"
+        "last_update": "2026-09-08"
     },
     "102195": {
         "es_arg": false,
@@ -29978,7 +29979,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-05-19"
+        "last_update": "2026-09-08"
     },
     "102323": {
         "es_arg": false,
@@ -30620,7 +30621,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "102382": {
         "es_arg": false,
@@ -30746,7 +30747,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-11"
+        "last_update": "2026-09-08"
     },
     "102400": {
         "es_arg": false,
@@ -32420,7 +32421,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-03"
+        "last_update": "2026-09-08"
     },
     "69454": {
         "es_arg": false,
@@ -32732,7 +32733,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "102649": {
         "es_arg": false,
@@ -33056,7 +33057,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-05"
+        "last_update": "2026-09-08"
     },
     "102715": {
         "es_arg": false,
@@ -33296,7 +33297,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-03"
+        "last_update": "2026-09-08"
     },
     "102742": {
         "es_arg": false,
@@ -33356,7 +33357,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-05-28"
+        "last_update": "2026-09-08"
     },
     "82995": {
         "es_arg": false,
@@ -33536,7 +33537,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Serbia",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "102780": {
         "es_arg": false,
@@ -34874,7 +34875,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-05-30"
+        "last_update": "2026-09-08"
     },
     "27230": {
         "es_arg": false,
@@ -35090,7 +35091,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "102880": {
         "es_arg": false,
@@ -35396,7 +35397,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-17"
+        "last_update": "2026-09-08"
     },
     "102937": {
         "es_arg": false,
@@ -35714,7 +35715,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "35765": {
         "es_arg": false,
@@ -36386,7 +36387,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "102987": {
         "es_arg": false,
@@ -36554,7 +36555,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "France",
-        "last_update": "2026-05-28"
+        "last_update": "2026-09-08"
     },
     "73124": {
         "es_arg": false,
@@ -36782,7 +36783,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "83917": {
         "es_arg": false,
@@ -36830,7 +36831,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "France",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "84900": {
         "es_arg": false,
@@ -36932,7 +36933,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Italy",
-        "last_update": "2026-08-09"
+        "last_update": "2026-09-08"
     },
     "28671": {
         "es_arg": false,
@@ -37028,7 +37029,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "95223": {
         "es_arg": false,
@@ -37076,7 +37077,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "103026": {
         "es_arg": false,
@@ -37244,7 +37245,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Germany",
-        "last_update": "2026-06-02"
+        "last_update": "2026-09-08"
     },
     "103009": {
         "es_arg": false,
@@ -37274,13 +37275,13 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "103012": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-02"
+        "last_update": "2026-09-08"
     },
     "99999": {
         "es_arg": false,
@@ -37292,7 +37293,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "103013": {
         "es_arg": false,
@@ -37424,7 +37425,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "69367": {
         "es_arg": false,
@@ -38738,7 +38739,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-06"
+        "last_update": "2026-09-08"
     },
     "63589": {
         "es_arg": false,
@@ -39560,7 +39561,7 @@
         "es_arg": false,
         "ranking": 2,
         "pais": "Japan",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "87958": {
         "es_arg": false,
@@ -39902,7 +39903,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-03"
+        "last_update": "2026-09-08"
     },
     "75672": {
         "es_arg": false,
@@ -39944,7 +39945,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "103303": {
         "es_arg": false,
@@ -40274,7 +40275,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-18"
+        "last_update": "2026-09-08"
     },
     "84962": {
         "es_arg": false,
@@ -40676,7 +40677,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-04"
+        "last_update": "2026-09-08"
     },
     "100439": {
         "es_arg": false,
@@ -41816,7 +41817,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "72006": {
         "es_arg": false,
@@ -43400,7 +43401,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-25"
+        "last_update": "2026-09-08"
     },
     "53082": {
         "es_arg": false,
@@ -43856,7 +43857,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "74559": {
         "es_arg": false,
@@ -44372,13 +44373,13 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Canada",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "86683": {
         "es_arg": false,
         "ranking": 3,
         "pais": "Ivory Coast",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "84426": {
         "es_arg": false,
@@ -44582,7 +44583,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-11"
+        "last_update": "2026-09-08"
     },
     "103631": {
         "es_arg": false,
@@ -45578,7 +45579,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "103872": {
         "es_arg": false,
@@ -45650,7 +45651,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Japan",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "30033": {
         "es_arg": false,
@@ -45878,7 +45879,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Switzerland",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "38992": {
         "es_arg": false,
@@ -46832,7 +46833,7 @@
         "es_arg": false,
         "ranking": 1132,
         "pais": "United Kingdom",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "76383": {
         "es_arg": false,
@@ -47702,7 +47703,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-10"
+        "last_update": "2026-09-08"
     },
     "104074": {
         "es_arg": false,
@@ -47774,7 +47775,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-18"
+        "last_update": "2026-09-08"
     },
     "97196": {
         "es_arg": false,
@@ -47828,7 +47829,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-17"
+        "last_update": "2026-09-08"
     },
     "91339": {
         "es_arg": false,
@@ -48848,7 +48849,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-18"
+        "last_update": "2026-09-08"
     },
     "104181": {
         "es_arg": false,
@@ -48968,7 +48969,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-06"
+        "last_update": "2026-09-08"
     },
     "104227": {
         "es_arg": false,
@@ -49844,7 +49845,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-20"
+        "last_update": "2026-09-08"
     },
     "104317": {
         "es_arg": false,
@@ -49970,7 +49971,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "104332": {
         "es_arg": false,
@@ -50966,7 +50967,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-07"
+        "last_update": "2026-09-08"
     },
     "32954": {
         "es_arg": false,
@@ -51482,7 +51483,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Portugal",
-        "last_update": "2026-08-30"
+        "last_update": "2026-09-08"
     },
     "104473": {
         "es_arg": false,
@@ -51740,7 +51741,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-04"
+        "last_update": "2026-09-08"
     },
     "86985": {
         "es_arg": false,
@@ -52574,7 +52575,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "France",
-        "last_update": "2026-06-30"
+        "last_update": "2026-09-08"
     },
     "104635": {
         "es_arg": false,
@@ -52976,7 +52977,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "102479": {
         "es_arg": false,
@@ -53990,7 +53991,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-04"
+        "last_update": "2026-09-08"
     },
     "104770": {
         "es_arg": false,
@@ -54218,7 +54219,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "USA",
-        "last_update": "2026-09-05"
+        "last_update": "2026-09-08"
     },
     "5340": {
         "es_arg": false,
@@ -54398,7 +54399,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Mexico",
-        "last_update": "2026-09-04"
+        "last_update": "2026-09-08"
     },
     "104801": {
         "es_arg": false,
@@ -55856,13 +55857,13 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "104930": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "104931": {
         "es_arg": false,
@@ -55880,7 +55881,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "104933": {
         "es_arg": false,
@@ -55922,7 +55923,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "104945": {
         "es_arg": false,
@@ -56228,7 +56229,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "104960": {
         "es_arg": false,
@@ -56324,7 +56325,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-07"
+        "last_update": "2026-09-08"
     },
     "76615": {
         "es_arg": false,
@@ -57782,7 +57783,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-05"
+        "last_update": "2026-09-08"
     },
     "27819": {
         "es_arg": false,
@@ -58004,7 +58005,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-05"
+        "last_update": "2026-09-08"
     },
     "105148": {
         "es_arg": false,
@@ -58214,7 +58215,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Japan",
-        "last_update": "2026-07-08"
+        "last_update": "2026-09-08"
     },
     "78984": {
         "es_arg": false,
@@ -59612,7 +59613,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-06"
+        "last_update": "2026-09-08"
     },
     "105309": {
         "es_arg": false,
@@ -59750,7 +59751,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-16"
+        "last_update": "2026-09-08"
     },
     "105352": {
         "es_arg": false,
@@ -60038,7 +60039,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-14"
+        "last_update": "2026-09-08"
     },
     "105407": {
         "es_arg": false,
@@ -60752,7 +60753,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "58301": {
         "es_arg": false,
@@ -60812,7 +60813,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-05"
+        "last_update": "2026-09-08"
     },
     "75138": {
         "es_arg": false,
@@ -62036,7 +62037,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-15"
+        "last_update": "2026-09-08"
     },
     "11458": {
         "es_arg": false,
@@ -62114,7 +62115,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "105608": {
         "es_arg": false,
@@ -62348,7 +62349,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-15"
+        "last_update": "2026-09-08"
     },
     "105633": {
         "es_arg": false,
@@ -62492,7 +62493,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "100046": {
         "es_arg": false,
@@ -62678,7 +62679,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "105667": {
         "es_arg": false,
@@ -62888,7 +62889,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Spain",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "21805": {
         "es_arg": false,
@@ -63404,7 +63405,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-21"
+        "last_update": "2026-09-08"
     },
     "105787": {
         "es_arg": false,
@@ -63482,7 +63483,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-24"
+        "last_update": "2026-09-08"
     },
     "105796": {
         "es_arg": false,
@@ -64718,7 +64719,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "105886": {
         "es_arg": false,
@@ -65918,7 +65919,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "106093": {
         "es_arg": false,
@@ -66248,7 +66249,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-05"
+        "last_update": "2026-09-08"
     },
     "106120": {
         "es_arg": false,
@@ -66860,7 +66861,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-06"
+        "last_update": "2026-09-08"
     },
     "106199": {
         "es_arg": false,
@@ -67100,7 +67101,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-17"
+        "last_update": "2026-09-08"
     },
     "106237": {
         "es_arg": false,
@@ -67736,7 +67737,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "106060": {
         "es_arg": false,
@@ -68378,7 +68379,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "106369": {
         "es_arg": false,
@@ -68888,7 +68889,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-07-30"
+        "last_update": "2026-09-08"
     },
     "85850": {
         "es_arg": false,
@@ -70652,7 +70653,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-05"
+        "last_update": "2026-09-08"
     },
     "106623": {
         "es_arg": false,
@@ -71192,7 +71193,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "91749": {
         "es_arg": false,
@@ -71204,7 +71205,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "17735": {
         "es_arg": false,
@@ -72980,7 +72981,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "106899": {
         "es_arg": false,
@@ -74234,7 +74235,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "107014": {
         "es_arg": false,
@@ -74738,7 +74739,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-18"
+        "last_update": "2026-09-08"
     },
     "91360": {
         "es_arg": false,
@@ -75092,7 +75093,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-22"
+        "last_update": "2026-09-08"
     },
     "26820": {
         "es_arg": false,
@@ -77168,7 +77169,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-28"
+        "last_update": "2026-09-08"
     },
     "107369": {
         "es_arg": false,
@@ -77546,7 +77547,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "107418": {
         "es_arg": false,
@@ -77570,7 +77571,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-29"
+        "last_update": "2026-09-08"
     },
     "107422": {
         "es_arg": false,
@@ -77612,7 +77613,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-25"
+        "last_update": "2026-09-08"
     },
     "107428": {
         "es_arg": false,
@@ -78434,7 +78435,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-28"
+        "last_update": "2026-09-08"
     },
     "94103": {
         "es_arg": false,
@@ -78446,7 +78447,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "107578": {
         "es_arg": false,
@@ -78470,7 +78471,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-28"
+        "last_update": "2026-09-08"
     },
     "107541": {
         "es_arg": false,
@@ -78722,7 +78723,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-08-26"
+        "last_update": "2026-09-08"
     },
     "60532": {
         "es_arg": false,
@@ -79292,7 +79293,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "107696": {
         "es_arg": false,
@@ -79304,7 +79305,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "107697": {
         "es_arg": false,
@@ -79346,7 +79347,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "87334": {
         "es_arg": false,
@@ -79454,7 +79455,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "France",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "65777": {
         "es_arg": false,
@@ -79700,7 +79701,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-04"
+        "last_update": "2026-09-08"
     },
     "107760": {
         "es_arg": false,
@@ -79772,13 +79773,13 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-05"
+        "last_update": "2026-09-08"
     },
     "73976": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "107770": {
         "es_arg": false,
@@ -79796,25 +79797,25 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "87520": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "96852": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-04"
+        "last_update": "2026-09-08"
     },
     "74845": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "107773": {
         "es_arg": false,
@@ -80540,7 +80541,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "107919": {
         "es_arg": false,
@@ -80594,7 +80595,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-01"
+        "last_update": "2026-09-08"
     },
     "107927": {
         "es_arg": false,
@@ -80606,7 +80607,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-04"
+        "last_update": "2026-09-08"
     },
     "107928": {
         "es_arg": false,
@@ -80738,7 +80739,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "94456": {
         "es_arg": false,
@@ -80948,7 +80949,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "90650": {
         "es_arg": false,
@@ -80966,7 +80967,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "107707": {
         "es_arg": false,
@@ -80984,13 +80985,13 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "107709": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-04"
+        "last_update": "2026-09-08"
     },
     "82751": {
         "es_arg": false,
@@ -81056,7 +81057,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "91447": {
         "es_arg": false,
@@ -81170,19 +81171,19 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "107965": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "107966": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "107967": {
         "es_arg": false,
@@ -81284,7 +81285,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "26951": {
         "es_arg": false,
@@ -81344,7 +81345,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "25608": {
         "es_arg": false,
@@ -81470,7 +81471,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Germany",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "88319": {
         "es_arg": false,
@@ -81770,7 +81771,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "96719": {
         "es_arg": false,
@@ -82046,7 +82047,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "108056": {
         "es_arg": false,
@@ -82058,7 +82059,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-03"
+        "last_update": "2026-09-08"
     },
     "108058": {
         "es_arg": false,
@@ -82166,7 +82167,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-02"
+        "last_update": "2026-09-08"
     },
     "107983": {
         "es_arg": false,
@@ -82226,7 +82227,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108080": {
         "es_arg": false,
@@ -82370,7 +82371,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-04"
+        "last_update": "2026-09-08"
     },
     "108101": {
         "es_arg": false,
@@ -82730,7 +82731,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108142": {
         "es_arg": false,
@@ -82886,43 +82887,43 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108201": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108202": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "73937": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108203": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108204": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108205": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108206": {
         "es_arg": false,
@@ -82934,7 +82935,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108208": {
         "es_arg": false,
@@ -82964,13 +82965,13 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108213": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108214": {
         "es_arg": false,
@@ -83000,19 +83001,19 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "89325": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108219": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108220": {
         "es_arg": false,
@@ -83054,43 +83055,43 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108227": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108228": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108229": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108230": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108231": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108232": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108233": {
         "es_arg": false,
@@ -83108,31 +83109,31 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108236": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108237": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108238": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108239": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108240": {
         "es_arg": false,
@@ -83150,18 +83151,1236 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108243": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-09-07"
+        "last_update": "2026-09-08"
     },
     "108274": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
         "last_update": "2026-09-07"
+    },
+    "37725": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "93970": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Vietnam",
+        "last_update": "2026-09-08"
+    },
+    "95479": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "40074": {
+        "es_arg": false,
+        "ranking": 2053,
+        "pais": "Turkey",
+        "last_update": "2026-09-08"
+    },
+    "89246": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "79048": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108156": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108157": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108158": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108159": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "87093": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108174": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108175": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108180": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108181": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "67156": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108183": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108184": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108187": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108189": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "100865": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "87127": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Australia",
+        "last_update": "2026-09-08"
+    },
+    "108246": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "32275": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "90295": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Japan",
+        "last_update": "2026-09-08"
+    },
+    "83873": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "South Korea",
+        "last_update": "2026-09-08"
+    },
+    "108247": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108248": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108249": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108250": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108251": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108252": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108253": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "61491": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108254": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108255": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108256": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108257": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "69393": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108258": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108259": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108260": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108261": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "13690": {
+        "es_arg": false,
+        "ranking": 710,
+        "pais": "Japan",
+        "last_update": "2026-09-08"
+    },
+    "31124": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108262": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108263": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108264": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "32288": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "74871": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "27359": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108265": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "91534": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "56937": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "55466": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108266": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108267": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108269": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "58630": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108270": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "27554": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108275": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108276": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108277": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108278": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108279": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108280": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108281": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108295": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108296": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "79680": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Spain",
+        "last_update": "2026-09-08"
+    },
+    "102623": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "74876": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "South Africa",
+        "last_update": "2026-09-08"
+    },
+    "81437": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Spain",
+        "last_update": "2026-09-08"
+    },
+    "8881": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Italy",
+        "last_update": "2026-09-08"
+    },
+    "108297": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "58749": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "France",
+        "last_update": "2026-09-08"
+    },
+    "90071": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Poland",
+        "last_update": "2026-09-08"
+    },
+    "59865": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Brazil",
+        "last_update": "2026-09-08"
+    },
+    "108298": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "99958": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108299": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108300": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108301": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "57887": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108302": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "83034": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108303": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108304": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108305": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108306": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108307": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108308": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108309": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108310": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108311": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108312": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108313": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108314": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108315": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108316": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108317": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108318": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "85426": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "100393": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108319": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108320": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108321": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108322": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108323": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108324": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108325": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108326": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108327": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "12659": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108328": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108329": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108330": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108331": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108332": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108333": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108334": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "99922": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "39850": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "95351": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "23430": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108335": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108336": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "2634": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108337": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "76427": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108338": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108339": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108340": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "62017": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "93989": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108341": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108342": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108343": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108344": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108345": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108346": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108347": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108348": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108349": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108350": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108351": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108352": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108353": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108354": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108355": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108356": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108357": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108358": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108359": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "101232": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108360": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108361": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108362": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108363": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108364": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108365": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108366": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108367": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108368": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108369": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108370": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108371": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108372": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108373": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108374": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108375": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108376": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108377": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108378": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108379": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108380": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108381": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108382": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108383": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "89769": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108384": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108385": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108386": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108387": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108402": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108403": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108404": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108405": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108406": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "9187": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108407": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108408": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108409": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "76678": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Colombia",
+        "last_update": "2026-09-08"
+    },
+    "108416": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "34388": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "91352": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108417": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108418": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108419": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "100238": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
+    },
+    "108420": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-09-08"
     }
 }
