@@ -86858,5 +86858,11 @@
         "ranking": 9999,
         "pais": "Italy",
         "last_update": "2026-09-15"
+    },
+    "76307": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Switzerland",
+        "last_update": "2026-09-15"
     }
 }
