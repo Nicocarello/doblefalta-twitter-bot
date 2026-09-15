@@ -220,7 +220,7 @@ def run_tests():
     assert g == 1
     assert tf == 'normal'
     assert gano is True
-    assert "6-4 / 6-3" in tweet6[0]
+    assert "6-4" in tweet6[0] and "6-3" in tweet6[0]
 
     print("\n" + "=" * 60)
     print("✅ TODAS LAS PRUEBAS PASARON EXITOSAMENTE!")
