@@ -87652,5 +87652,11 @@
         "ranking": 9999,
         "pais": "",
         "last_update": "2026-09-16"
+    },
+    "25090": {
+        "es_arg": false,
+        "ranking": 1228,
+        "pais": "Belarus",
+        "last_update": "2026-09-16"
     }
 }
