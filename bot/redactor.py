@@ -1173,6 +1173,23 @@ def generar_tweet_actualizacion(torneo_original, partidos):
 # BLOQUE 3: RESULTADOS FINALES
 # ==============================================================================
 
+def obtener_siguiente_ronda_titular(ronda_corta):
+    """Devuelve el texto para el titular '¡A {TEXTO}!' dado la ronda actual ganada."""
+    if not ronda_corta: return ""
+    
+    r = str(ronda_corta).lower().strip()
+    if r == "64avos": return "32AVOS"
+    if r == "32avos": return "16AVOS"
+    if r == "16avos": return "OCTAVOS"
+    if r == "octavos": return "CUARTOS"
+    if r == "cuartos": return "SEMIFINAL"
+    if r == "semis": return "LA FINAL"
+    if r == "1ra ronda": return "2DA RONDA"
+    if r == "2da ronda": return "3RA RONDA"
+    
+    return ""
+
+
 def generar_tweet_finalizado(torneo_original, partidos):
     """
     Genera el tweet para partidos finalizados:
@@ -1292,8 +1309,11 @@ def generar_tweet_finalizado(torneo_original, partidos):
                 ]
             else:
                 # Titulares según la ronda o intensidad
+                sig_ronda = obtener_siguiente_ronda_titular(ronda_corta)
+                titular_ronda = f"¡A {sig_ronda}, {arg_nom.upper()}! 🇦🇷🔥" if sig_ronda else f"¡TRIUNFAZO DE {arg_nom.upper()}! 🇦🇷🔥"
+                
                 titulares = [
-                    f"¡A {ronda_corta.upper()}, {arg_nom.upper()}! 🇦🇷🔥" if ronda_corta else f"¡TRIUNFAZO DE {arg_nom.upper()}! 🇦🇷🔥",
+                    titular_ronda,
                     f"¡ENORME VICTORIA! 👏🇦🇷",
                     f"¡GRAN PASO EN {torneo.upper()}! 🇦🇷💪"
                 ]
