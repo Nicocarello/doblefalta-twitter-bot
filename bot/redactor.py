@@ -226,7 +226,48 @@ JUGADORES_ARG = {
         "nombres": ["Lu Giovannini", "Luisina Giovannini"],
         "apodo": "Lu",
         "twitter": "@lulu_giova06"
+    },
+    "josefina estevez": {
+        "nombres": ["Josefina Estevez", "Jose Estevez"],
+        "apodo": "Jose",
+        # "twitter": "@josefina_estevez"
+    },
+    "ignacio monzon": {
+        "nombres": ["Nacho Monzon", "Ignacio Monzon"],
+        "apodo": "Nacho",
+        "twitter": "@IgnaMonzon"
+    },
+    "alex barrena": {
+        "nombres": ["Alex Barrena"],
+        "apodo": "Alex",
+        "twitter": "@alexbarrena1"
+    },
+    "valentino grippo": {
+        "nombres": ["Valentino Grippo", "Valen Grippo"],
+        "apodo": "Valen",
+        # "twitter": "@valentino_grippo"
+    },
+    "valentin garay": {
+        "nombres": ["Valen Garay", "Valentin Garay"],
+        "apodo": "Valen",
+        "twitter": "@ValuGaray2"
+    },
+    "florencia belen moron": {
+        "nombres": ["Flor Moron", "Florencia Moron"],
+        "apodo": "Flor",
+        # "twitter": "@FlorenciaMoron"
+    },
+    "luna maria cinalli": {
+        "nombres": ["Luna Cinalli", "Luli Cinalli"],
+        "apodo": "Luna",
+        # "twitter": "@LunaCinalli"
+    },
+    "lourdes ayala": {
+        "nombres": ["Lourdes Ayala", "Luli Ayala"],
+        "apodo": "Lourdes",
+        "twitter": "@Luliayala13"
     }
+
 }
 
 # Alias comunes desde la API (ej: iniciales o apellidos invertidos)
@@ -280,7 +321,15 @@ ALIAS_JUGADORES = {
     "m. trungelliti": "marco trungelliti",
     "m. kestelboim": "mariano kestelboim",
     "j. ortenzi": "jazmin ortenzi",
-    "l. giovannini": "lu giovannini"
+    "l. giovannini": "lu giovannini",
+    "j. estevez": "josefina estevez",
+    "i. monzon": "ignacio monzon",
+    "a. barrena": "alex barrena",
+    "v. grippo": "valentino grippo",
+    "v. garay": "valentin garay",
+    "f. b. moron": "florencia belen moron",
+    "l. m. cinalli": "luna maria cinalli",
+    "l. ayala": "lourdes ayala"
 }
 
 def normalizar_texto(t):
