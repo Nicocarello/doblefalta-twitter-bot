@@ -573,11 +573,11 @@ def traducir_ronda(ronda_api, corto=False):
     if "final" in r and "quarter" not in r and "semi" not in r and "1/" not in r:
         return "Final"
     if "semi" in r:
-        return "Semis" if corto else "Semifinales"
+        return "Semis" if corto else random.choice(["Semifinales", "Semis"])
     if "quarter" in r or "1/4" in r:
-        return "Cuartos" if corto else "Cuartos de final"
+        return "Cuartos" if corto else random.choice(["Cuartos de final", "Cuartos", "4tos", "4tos de final"])
     if "1/8" in r:
-        return "Octavos" if corto else "Octavos de final"
+        return "Octavos" if corto else random.choice(["Octavos de final", "Octavos", "8vos", "8vos de final"])
     if "1/16" in r:
         return "16avos" if corto else "16avos de final"
     if "1/32" in r:
@@ -988,12 +988,12 @@ def generar_tweet_agenda(torneo_original, partidos):
             f"🏆 ¡Día de FINAL {frases['en']}! Horarios de los argentinos: 🇦🇷",
             f"Se juega la gran final {frases['del']} con presencia argentina: 🏆🇦🇷"
         ]
-    elif "Semifinales" in rondas_presentes or "Semis" in rondas_presentes:
+    elif any(r in rondas_presentes for r in ["Semifinales", "Semis"]):
         encabezados = [
             f"¡Día de Semifinales {frases['en']}! Juegan los nuestros: 🇦🇷",
             f"Buscando el pase a la final {frases['en']}: 🇦🇷"
         ]
-    elif "Cuartos de final" in rondas_presentes or "Cuartos" in rondas_presentes:
+    elif any(r in rondas_presentes for r in ["Cuartos de final", "Cuartos", "4tos", "4tos de final"]):
         encabezados = [
             f"Cuartos de final {frases['en']}. Así juegan los nuestros: 🇦🇷",
             f"¡Día de Cuartos {frases['en']}! La agenda argentina: 🇦🇷"
@@ -1365,9 +1365,9 @@ def generar_tweet_finalizado(torneo_original, partidos):
     
     if "Final" in rondas_presentes:
         encabezado = f"🏆 Resultados de las FINALES {frases['en']}: 🇦🇷"
-    elif "Semifinales" in rondas_presentes or "Semis" in rondas_presentes:
+    elif any(r in rondas_presentes for r in ["Semifinales", "Semis"]):
         encabezado = f"Resultados de Semifinales {frases['en']}: 🇦🇷"
-    elif "Cuartos de final" in rondas_presentes or "Cuartos" in rondas_presentes:
+    elif any(r in rondas_presentes for r in ["Cuartos de final", "Cuartos", "4tos", "4tos de final"]):
         encabezado = f"Resultados de Cuartos de final {frases['en']}: 🇦🇷"
     else:
         encabezados_resumen = [
