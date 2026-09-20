@@ -13064,9 +13064,9 @@
     },
     "12968": {
         "es_arg": false,
-        "ranking": 1478,
-        "last_update": "2026-06-18",
-        "pais": "Finland"
+        "ranking": 9999,
+        "pais": "Finland",
+        "last_update": "2026-09-20"
     },
     "62411": {
         "es_arg": false,
@@ -61593,7 +61593,7 @@
         "es_arg": false,
         "ranking": 3,
         "pais": "Austria",
-        "last_update": "2026-07-29"
+        "last_update": "2026-09-20"
     },
     "89164": {
         "es_arg": false,
