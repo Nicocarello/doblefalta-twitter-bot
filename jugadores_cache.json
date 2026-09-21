@@ -88762,5 +88762,11 @@
         "ranking": 9999,
         "pais": "",
         "last_update": "2026-09-21"
+    },
+    "12955": {
+        "es_arg": false,
+        "ranking": 1425,
+        "pais": "Portugal",
+        "last_update": "2026-09-21"
     }
 }
