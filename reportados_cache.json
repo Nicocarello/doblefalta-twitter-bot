@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-25 13:55:00",
+  "ultima_actualizacion": "2026-09-25 18:23:24",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -35,6 +35,30 @@
         "resultado": "6-7(4), 6-4, 10-8",
         "tweets": [
           "BATALLÓ PERO NO ALCANZÓ 🇦🇷\n\nFran Cerúndolo cayó ante C. Ruud 🇳🇴 por 6-7(4), 6-4 y 10-8 en el ATP Laver Cup.\n\nCierra su participación en el certamen. ¡A pensar en lo que viene! 🎾🇦🇷 #ATPLaverCup"
+        ]
+      },
+      "12165740": {
+        "event_key": "12165740",
+        "timestamp": "2026-09-25 18:23:24",
+        "torneo": "San Diego 2 (Usa) - Qualification",
+        "ronda": "San Diego 2 - Quarter-finals",
+        "jugadores": "I. Marcondes vs F. A. Gomez",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN SAN DIEGO 2 (USA) - QUALIFICATION 🇦🇷\n\nFede Gómez perdió ante I. Marcondes 🇧🇷 por 4-6, 6-4 y 6-1 en 4tos de final.\n\nPunto final en San Diego 2 (Usa) - Qualification. ¡A recargar y no aflojar! 💪🇦🇷 #ChallengerSanDiego2UsaQualification"
+        ]
+      },
+      "12165745": {
+        "event_key": "12165745",
+        "timestamp": "2026-09-25 18:23:24",
+        "torneo": "Buenos Aires 3",
+        "ronda": "Buenos Aires 3 - Quarter-finals",
+        "jugadores": "F. Mena vs N. Kicker",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA FACUNDO MENA EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 4tos de final, Facundo Mena le ganó a N. Kicker por 6-4 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #IEBMasArgOpen"
         ]
       }
     }
