@@ -607,6 +607,10 @@ def extraer_categoria(partido):
     etype = partido.get('event_type_type', '').upper()
     full = f"{name} {etype}"
     
+    # Torneos por equipos no llevan categoría ATP/ITF delante
+    if "DAVIS" in full or "LAVER" in full:
+        return ""
+        
     if "ATP" in full: return "ATP"
     if "WTA" in full: return "WTA"
     if "CHALLENGER" in full: return "Challenger"
@@ -656,6 +660,14 @@ def traducir_nombre_torneo(nombre):
     """Traduce nombres de torneos al español para el público argentino."""
     nombre_low = nombre.lower()
     tiene_junior = "junior" in nombre_low
+    
+    # Copa Davis: limpiar cualquier grupo o fase ("World Group I", "Finals", "Qualifiers", etc.)
+    if "davis" in nombre_low or "copa davis" in nombre_low:
+        return "Copa Davis"
+        
+    # Laver Cup
+    if "laver cup" in nombre_low:
+        return "Laver Cup"
     
     traducciones = {
         "rome": "Roma",
@@ -750,6 +762,23 @@ def obtener_frases_torneo(torneo_original, partidos):
     torneo = traducir_nombre_torneo(torneo_original)
     cat = extraer_categoria(partidos[0])
     
+    # Casos especiales de torneos por equipos
+    if "copa davis" in torneo.lower() or "davis" in str(torneo_original).lower():
+        return {
+            "en": "en la Copa Davis",
+            "del": "de la Copa Davis",
+            "al": "a la Copa Davis",
+            "nombre": "la Copa Davis"
+        }
+
+    if "laver cup" in torneo.lower() or "laver cup" in str(torneo_original).lower():
+        return {
+            "en": "en la Laver Cup",
+            "del": "de la Laver Cup",
+            "al": "a la Laver Cup",
+            "nombre": "la Laver Cup"
+        }
+
     es_gs = any(gs in torneo.lower() for gs in ["roland garros", "wimbledon", "us open", "australian open"])
     todos_qualy = all(p.get('es_qualy') for p in partidos)
     
@@ -1312,7 +1341,8 @@ def generar_tweet_finalizado(torneo_original, partidos):
                     f"🇦🇷 ¡FESTEJA {ganador_nom.upper()} EN EL DUELO DE COMPATRIOTAS! 🔥"
                 ]
                 titular = random.choice(titulares_derbi)
-                cuerpo = f"En un gran cruce argentino {ronda_txt}, {ganador_nom} superó a {perdedor_nom} por {marcador_narrativo}."
+                v_derbi = random.choice(["superó a", "le ganó a", "derrotó a", "venció a"])
+                cuerpo = f"En un gran cruce argentino {ronda_txt}, {ganador_nom} {v_derbi} {perdedor_nom} por {marcador_narrativo}."
                 
             remate = f"¡Gran partido de ambos compatriotas! 👏 {tag_torneo}"
             tweet_texto = f"{titular}\n\n{cuerpo}\n\n{remate}"
@@ -1384,9 +1414,10 @@ def generar_tweet_finalizado(torneo_original, partidos):
                 ]
             
             titular = random.choice(titulares)
-            verbos = ["superó a", "venció a", "derrotó a", "se impuso ante"]
+            verbos = ["le ganó a", "superó a", "derrotó a", "venció a", "se impuso ante"]
             v = random.choice(verbos)
-            cuerpo = f"{arg_nom} {v} {riv_nom} {riv_flag} por {marcador_narrativo} {ronda_txt}."
+            riv_str = f"{riv_nom} {riv_flag}".strip()
+            cuerpo = f"{arg_nom} {v} {riv_str} por {marcador_narrativo} {ronda_txt}."
             remate = random.choice(remates) + f" {tag_torneo}"
             
         else: # Derrota
@@ -1420,7 +1451,9 @@ def generar_tweet_finalizado(torneo_original, partidos):
                 ]
                 
             titular = random.choice(titulares)
-            cuerpo = f"{arg_nom} cayó ante {riv_nom} {riv_flag} por {marcador_narrativo} {ronda_txt}."
+            v_loss = random.choice(["cayó ante", "no pudo ante", "perdió ante"])
+            riv_str = f"{riv_nom} {riv_flag}".strip()
+            cuerpo = f"{arg_nom} {v_loss} {riv_str} por {marcador_narrativo} {ronda_txt}."
             remate = random.choice(remates) + f" {tag_torneo}"
 
         tweet_texto = f"{titular}\n\n{cuerpo}\n\n{remate}"
@@ -1474,35 +1507,39 @@ def generar_tweet_finalizado(torneo_original, partidos):
         if es_derbi_argentino(pais1, pais2):
             winner_nom = j1_nom if ganador == 1 else j2_nom
             loser_nom = j2_nom if ganador == 1 else j1_nom
+            v_derbi = random.choice(["superó a", "le ganó a", "derrotó a", "venció a"])
             if tipo_fin == 'walkover':
                 line = f"🇦🇷 DERBI: {winner_nom} avanzó por Walkover (W.O.) ante {loser_nom}{ronda_tag}."
             elif tipo_fin == 'retiro':
                 line = f"🇦🇷 DERBI: {winner_nom} avanzó tras retiro de {loser_nom}{marcador_str}{ronda_tag}."
             else:
-                line = f"🇦🇷 DERBI: {winner_nom} superó a {loser_nom} por {marcador}{ronda_tag}."
+                line = f"🇦🇷 DERBI: {winner_nom} {v_derbi} {loser_nom} por {marcador}{ronda_tag}."
         else:
             j1_es_arg = info.get('jugador_1', {}).get('es_arg', False)
             arg_nom = j1_nom if j1_es_arg else j2_nom
             riv_nom = j2_nom if j1_es_arg else j1_nom
             riv_flag = flag2 if j1_es_arg else flag1
+            riv_str = f"{riv_nom} {riv_flag}".strip()
             gano = (ganador == 1) if j1_es_arg else (ganador == 2)
             
             if gano:
                 total_victorias += 1
+                v_win = random.choice(["le ganó a", "superó a", "derrotó a", "venció a"])
                 if tipo_fin == 'walkover':
-                    line = f"✅ {arg_nom} avanzó por Walkover (W.O.) ante {riv_nom} {riv_flag}{ronda_tag}."
+                    line = f"✅ {arg_nom} avanzó por Walkover (W.O.) ante {riv_str}{ronda_tag}."
                 elif tipo_fin == 'retiro':
-                    line = f"✅ {arg_nom} avanzó por retiro de {riv_nom} {riv_flag}{marcador_str}{ronda_tag}."
+                    line = f"✅ {arg_nom} avanzó por retiro de {riv_str}{marcador_str}{ronda_tag}."
                 else:
-                    line = f"✅ {arg_nom} venció a {riv_nom} {riv_flag} por {marcador}{ronda_tag}."
+                    line = f"✅ {arg_nom} {v_win} {riv_str} por {marcador}{ronda_tag}."
             else:
                 total_derrotas += 1
+                v_loss = random.choice(["cayó ante", "no pudo ante", "perdió ante"])
                 if tipo_fin == 'walkover':
-                    line = f"❌ {arg_nom} no pudo presentarse (Walkover) ante {riv_nom} {riv_flag}{ronda_tag}."
+                    line = f"❌ {arg_nom} no pudo presentarse (Walkover) ante {riv_str}{ronda_tag}."
                 elif tipo_fin == 'retiro':
-                    line = f"❌ {arg_nom} se retiró ante {riv_nom} {riv_flag}{marcador_str}{ronda_tag}."
+                    line = f"❌ {arg_nom} se retiró ante {riv_str}{marcador_str}{ronda_tag}."
                 else:
-                    line = f"❌ {arg_nom} cayó ante {riv_nom} {riv_flag} por {marcador}{ronda_tag}."
+                    line = f"❌ {arg_nom} {v_loss} {riv_str} por {marcador}{ronda_tag}."
 
         lineas_partidos.append(line.strip())
 

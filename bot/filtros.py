@@ -69,13 +69,23 @@ def filtrar_argentinos(partidos, api):
 def agrupar_por_torneo(partidos):
     """
     Agrupa una lista de partidos por nombre de torneo (tournament_name).
+    Normaliza variantes de torneos como Copa Davis y Laver Cup para que
+    no se dispersen por fases o grupos ('World Group I', etc.).
 
     Returns:
         dict: { 'nombre_torneo': [lista_de_partidos], ... }
     """
     grupos = {}
     for p in partidos:
-        torneo = p.get('tournament_name', 'Sin Torneo')
+        torneo_raw = p.get('tournament_name', 'Sin Torneo')
+        torneo_low = torneo_raw.lower()
+        if 'davis' in torneo_low or 'copa davis' in torneo_low:
+            torneo = 'Copa Davis'
+        elif 'laver cup' in torneo_low:
+            torneo = 'Laver Cup'
+        else:
+            torneo = torneo_raw
+
         if torneo not in grupos:
             grupos[torneo] = []
         grupos[torneo].append(p)
