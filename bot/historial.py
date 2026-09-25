@@ -295,3 +295,49 @@ def limpiar_historial(dias_retencion=7):
         _guardar_cache()
     else:
         print(f"🧹 Historial al día: no hay registros con más de {dias_retencion} días para purgar.")
+
+def debe_publicar_promo(frecuencia_dias=3, fecha_hoy=None):
+    """
+    Verifica si corresponde publicar un tweet promocional de la app.
+    Devuelve True si pasaron al menos `frecuencia_dias` días desde la última promo
+    o si nunca se publicó una.
+    """
+    if not fecha_hoy:
+        fecha_hoy = obtener_fecha_hoy_arg()
+    
+    cache = _cargar_cache()
+    ultima_promo = cache.get("ultima_promo_app")
+    
+    if not ultima_promo:
+        return True
+    
+    try:
+        f_hoy = datetime.strptime(fecha_hoy, "%Y-%m-%d").date()
+        f_ult = datetime.strptime(ultima_promo, "%Y-%m-%d").date()
+        dias_pasados = (f_hoy - f_ult).days
+        return dias_pasados >= frecuencia_dias
+    except Exception:
+        return True
+
+def registrar_promo_publicada(tweet_texto, fecha_hoy=None):
+    """
+    Registra que se publicó un tweet promocional para el control de frecuencia.
+    """
+    if not fecha_hoy:
+        fecha_hoy = obtener_fecha_hoy_arg()
+
+    cache = _cargar_cache()
+    cache["ultima_promo_app"] = fecha_hoy
+    
+    if "historial_promos" not in cache:
+        cache["historial_promos"] = []
+        
+    cache["historial_promos"].append({
+        "fecha": fecha_hoy,
+        "timestamp": obtener_timestamp_arg(),
+        "tweet": tweet_texto
+    })
+    # Mantener como máximo los últimos 15 registros de promos
+    cache["historial_promos"] = cache["historial_promos"][-15:]
+    _guardar_cache()
+

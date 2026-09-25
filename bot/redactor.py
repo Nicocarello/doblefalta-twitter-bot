@@ -709,6 +709,15 @@ def obtener_hashtag_torneo(nombre_torneo, categoria=""):
         "australian open": "#AusOpen",
         "miami": "#MiamiOpen",
         "indian wells": "#IndianWells",
+        "cincinnati": "#CincyTennis",
+        "shanghai": "#RolexShanghaiMasters",
+        "paris": "#RolexParisMasters",
+        "copa davis": "#CopaDavis",
+        "davis cup": "#CopaDavis",
+        "davis": "#CopaDavis",
+        "laver cup": "#LaverCup",
+        "atp finals": "#NittoATPFinals",
+        "wta finals": "#WTAFinals",
         "buenos aires": "#IEBMasArgOpen",
         "cordoba": "#CordobaOpen"
     }
@@ -863,7 +872,7 @@ def analizar_resultado_argentino(partido):
                 mensajes = ["¡Sólida victoria en sets corridos! 🇦🇷", "¡Gran triunfo y a la siguiente ronda! 👏", "Paso firme y adentro 🇦🇷"]
         else:
             if sets_arg >= 1:
-                mensajes = ["Batalló hasta el final pero no alcanzó 🇦🇷", "Se escapó en el cierre de un partidazo 🇦🇷", "Dejó todo en la cancha 🇦🇷"]
+                mensajes = ["Luchó hasta el final pero no alcanzó 🇦🇷", "Se escapó en el cierre de un partidazo 🇦🇷", "Dejó todo en la cancha 🇦🇷"]
             else:
                 mensajes = ["Paso en falso hoy 🇦🇷", "Dura derrota en el circuito 🇦🇷", "Fin del torneo para el argentino 🇦🇷"]
                 
@@ -984,11 +993,11 @@ def generar_tweet_agenda(torneo_original, partidos):
         if es_derbi:
             j1_nombre = _formatear_jugador_completo(j1_raw, "", r1_str).strip()
             j2_nombre = _formatear_jugador_completo(j2_raw, "", r2_str).strip()
-            encabezado = f"🇦🇷🎾 ¡DUELO ARGENTINO EN {torneo.upper()}!"
+            encabezado = f"🇦🇷 ¡DUELO ARGENTINO EN {torneo.upper()}!"
             ganchos = [
-                "Un compatriota asegurado en la próxima ronda. ¿Quién se lo lleva? 🍿🔥",
-                "Hermoso choque albiceleste. ¿Por quién van hoy? 🍿🇦🇷",
-                "Promesa de partidazo entre compatriotas. ¿Cómo lo ven? 🍿"
+                "Un compatriota asegurado en la próxima ronda. ¿Quién se lo lleva? 🔥",
+                "Hermoso choque albiceleste. ¿Por quién van hoy? 🇦🇷",
+                "Promesa de partidazo entre compatriotas. ¿Cómo lo ven? "
             ]
             cuerpo = (
                 f"{encabezado}\n\n"
@@ -1007,15 +1016,15 @@ def generar_tweet_agenda(torneo_original, partidos):
                 riv_str = _formatear_jugador_completo(j1_raw, flag1, r1_str).strip()
                 
             encabezados = [
-                f"🇦🇷🎾 ¡Juega {arg_str.split('(')[0].strip()} {frases['en']}!",
+                f"🇦🇷 ¡Juega {arg_str.split('(')[0].strip()} {frases['en']}!",
                 f"🇦🇷 Acción de tenis hoy {frases['en']}:",
                 f"🇦🇷 Día de partido para los nuestros {frases['en']}:"
             ]
             ganchos = [
-                "¿Cómo lo ven para dar el paso hoy? 🍿🎾",
+                "¿Cómo lo ven para dar el paso hoy? ",
                 "¡A bancar a los nuestros! ¿Pasa de ronda? 💪🇦🇷",
-                "Lindo desafío en la cancha. ¿Se mete a la próxima fase? 🍿",
-                "Todo listo para seguirlo punto a punto. ¡Vamos! 🇦🇷🎾"
+                "Lindo desafío en la cancha. ¿Se mete a la próxima fase? ",
+                "Todo listo para seguirlo punto a punto. ¡Vamos! 🇦🇷"
             ]
             cuerpo = (
                 f"{random.choice(encabezados)}\n\n"
@@ -1093,10 +1102,10 @@ def generar_tweet_agenda(torneo_original, partidos):
         lineas_partidos.append(line.strip())
         
     cierres = [
-        f"¿Quién mete victoria hoy? ¡A bancar a los nuestros! 🍿🇦🇷 {tag_torneo}",
-        f"Lindo día para seguir a la legión. ¡Vamos! 🎾💪 {tag_torneo}",
-        f"Mucho tenis por delante. ¿Cómo los ven? 🍿🇦🇷 {tag_torneo}",
-        f"Todo listo para una gran jornada. ¡A dejar todo! 🇦🇷🎾 {tag_torneo}"
+        f"¿Quién mete victoria hoy? ¡A bancar a los nuestros! 🇦🇷 {tag_torneo}",
+        f"Lindo día para seguir a la legión. ¡Vamos! 💪 {tag_torneo}",
+        f"Mucho tenis por delante. ¿Cómo los ven? 🇦🇷 {tag_torneo}",
+        f"Todo listo para una gran jornada. ¡A dejar todo! 🇦🇷 {tag_torneo}"
     ]
     
     return _formatear_en_hilo(encabezado, lineas_partidos, cierres)
@@ -1148,7 +1157,7 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         es_derbi = es_derbi_argentino(pais1, pais2)
         
         if es_derbi:
-            encabezado = f"🎾 En juego en {torneo}{ronda_str} (Duelo Argentino 🇦🇷):"
+            encabezado = f" En juego en {torneo}{ronda_str} (Duelo Argentino 🇦🇷):"
             linea_score = f"{j1_nom} vs {j2_nom}: {marcador}{estado_str}"
         else:
             j1_es_arg = info.get('jugador_1', {}).get('es_arg', False)
@@ -1156,12 +1165,12 @@ def generar_tweet_actualizacion(torneo_original, partidos):
                 linea_score = f"{j1_nom} 🇦🇷 vs {j2_nom} {flag2}: {marcador}{estado_str}"
             else:
                 linea_score = f"{j2_nom} 🇦🇷 vs {j1_nom} {flag1}: {marcador}{estado_str}"
-            encabezado = f"🎾 En juego {frases['en']}{ronda_str}:"
+            encabezado = f" En juego {frases['en']}{ronda_str}:"
             
         cierres_single = [
             f"¡Seguimos el punto a punto! 💪🇦🇷 {tag_torneo}",
-            f"¡Vamos carajo, a seguir metiendo! 🇦🇷🎾 {tag_torneo}",
-            f"Punto a punto por el pase de ronda 🍿 {tag_torneo}"
+            f"¡Vamos carajo, a seguir metiendo! 🇦🇷 {tag_torneo}",
+            f"Punto a punto por el pase de ronda  {tag_torneo}"
         ]
         
         cuerpo = f"{encabezado}\n\n{linea_score}\n\n{random.choice(cierres_single)}"
@@ -1171,9 +1180,9 @@ def generar_tweet_actualizacion(torneo_original, partidos):
     # CASO 2: VARIOS PARTIDOS EN JUEGO (Resumen Live)
     # -------------------------------------------------------------
     encabezados = [
-        f"🎾 Así marcha la acción en vivo {frases['en']}: 🇦🇷",
-        f"🎾 En juego en este momento {frases['en']}:",
-        f"🎾 Actualizamos los partidos de los nuestros {frases['en']}:"
+        f" Así marcha la acción en vivo {frases['en']}: 🇦🇷",
+        f" En juego en este momento {frases['en']}:",
+        f" Actualizamos los partidos de los nuestros {frases['en']}:"
     ]
     encabezado = random.choice(encabezados)
     lineas_partidos = []
@@ -1211,7 +1220,7 @@ def generar_tweet_actualizacion(torneo_original, partidos):
         
     cierres = [
         f"¡A seguir prendidos al minuto a minuto! 🇦🇷💪 {tag_torneo}",
-        f"Seguimos punto a punto la jornada. ¡Vamos! 🇦🇷🎾 {tag_torneo}",
+        f"Seguimos punto a punto la jornada. ¡Vamos! 🇦🇷 {tag_torneo}",
         f"¡Mucha garra en la cancha! 🇦🇷 {tag_torneo}"
     ]
     
@@ -1305,7 +1314,7 @@ def generar_tweet_finalizado(torneo_original, partidos):
                 titular = random.choice(titulares_derbi)
                 cuerpo = f"En un gran cruce argentino {ronda_txt}, {ganador_nom} superó a {perdedor_nom} por {marcador_narrativo}."
                 
-            remate = f"¡Gran partido de ambos compatriotas! 👏🍿 {tag_torneo}"
+            remate = f"¡Gran partido de ambos compatriotas! 👏 {tag_torneo}"
             tweet_texto = f"{titular}\n\n{cuerpo}\n\n{remate}"
             return [f"--- INICIO TWEET ---\n{tweet_texto.strip()}\n--- FIN TWEET ---"]
 
@@ -1336,7 +1345,7 @@ def generar_tweet_finalizado(torneo_original, partidos):
             if gano:
                 titular = f"¡TRIUNFO Y PASE DE RONDA! 🇦🇷"
                 cuerpo = f"{arg_nom} avanzó {ronda_txt} tras el retiro de {riv_nom} {riv_flag}{score_str}."
-                remate = f"¡Sigue firme en {torneo}! A por el próximo desafío. 👏 {tag_torneo}"
+                remate = f"¡Sigue firme en {torneo}! Con todo a la próxima ronda. 👏 {tag_torneo}"
             else:
                 titular = f"RETIRO POR LESIÓN ❌"
                 cuerpo = f"{arg_nom} debió retirarse ante {riv_nom} {riv_flag}{score_str} y se despidió {frases['del']}."
@@ -1350,7 +1359,7 @@ def generar_tweet_finalizado(torneo_original, partidos):
                 titulares = [
                     f"🏆 ¡CAMPEÓN EN {torneo.upper()}! 🇦🇷",
                     f"¡EL TÍTULO ES ARGENTINO! 🏆🇦🇷",
-                    f"🏆 ¡GRI-TA CAM-PEÓN {arg_nom.upper()}! 🇦🇷🔥"
+                    f"🏆 CAMPEÓN {arg_nom.upper()}! 🇦🇷🔥"
                 ]
                 remates = [
                     "¡Semana soñada y trofeo a casa! Salud, campeón. 🏆👏",
@@ -1364,12 +1373,14 @@ def generar_tweet_finalizado(torneo_original, partidos):
                 titulares = [
                     titular_ronda,
                     f"¡ENORME VICTORIA! 👏🇦🇷",
-                    f"¡GRAN PASO EN {torneo.upper()}! 🇦🇷💪"
+                    f"¡GRAN PASO EN {torneo.upper()}! 🇦🇷💪",
+                    f"SIII {arg_nom.upper()}!!! 🇦🇷"
                 ]
                 remates = [
-                    "¡A seguir por este camino! Gran partido de los nuestros. 👏🎾",
+                    "¡A seguir por este camino! Gran partido 💪🇦🇷",
                     "Partidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥",
-                    "Sólido nivel para meterse en la siguiente instancia. ¡A soñar! 🍿🇦🇷"
+                    "Sólido nivel para meterse en la siguiente instancia 🇦🇷",
+                    "Terrible partido 💪🇦🇷"
                 ]
             
             titular = random.choice(titulares)
@@ -1381,23 +1392,31 @@ def generar_tweet_finalizado(torneo_original, partidos):
         else: # Derrota
             if es_final:
                 titulares = [
-                    f"SUBCAMPEÓN TRAS UNA GRAN SEMANA 🇦🇷",
-                    f"NO PUDO SER EN LA FINAL 🇦🇷👏"
+                    f"UNA LÁSTIMA 🇦🇷",
+                    f"SE ESCAPÓ EN LA DEFINICIÓN 🇦🇷",
+                    f"TREMENDO TORNEO, {arg_nom.upper()} 🇦🇷👏",
+                    f"NO PUDO SER EN LA FINAL 🇦🇷"
                 ]
                 remates = [
-                    "Se escapó el título por poco, pero enorme torneo. ¡Cabeza arriba! 👏🇦🇷",
-                    "Gran semana llegando al último día de competencia. ¡A seguir! 💪🇦🇷"
+                    "Se escapó en el cierre, pero fue un torneazo. ¡Frente bien alta! 👏🇦🇷",
+                    "Gran semana metiéndose en la final. ¡A seguir metiendo! 💪🇦🇷",
+                    "Dejó todo en la cancha. 👏🇦🇷",
+                    "No se dio el título, pero enorme semana. ¡A no aflojar! 💪🇦🇷"
                 ]
             else:
                 titulares = [
-                    f"BATALLÓ PERO NO ALCANZÓ 🇦🇷",
-                    f"PASO EN FALSO EN {torneo.upper()} 🇦🇷",
-                    f"FIN DEL TORNEO PARA {arg_nom.upper()} 🇦🇷"
+                    f"NO SE PUDO DAR 🇦🇷",
+                    f"SE ESCAPÓ EN EL FINAL 🇦🇷",
+                    f"DESPEDIDA DE {torneo.upper()} 🇦🇷",
+                    f"FIN DEL CAMINO EN {torneo.upper()} 🇦🇷",
+                    f"TROPIEZO EN {torneo.upper()} 🇦🇷"
                 ]
                 remates = [
-                    "A levantar cabeza y recargar pilas para el próximo torneo. 💪🇦🇷",
-                    "Se luchó hasta el final pero no se pudo dar. ¡Siempre bancando! 🇦🇷",
-                    "Cierra su participación en el certamen. ¡A pensar en lo que viene! 🎾🇦🇷"
+                    "A dar vuelta la página y pensar en lo que viene. 💪🇦🇷",
+                    "No se pudo dar hoy 🇦🇷",
+                    "Se luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷",
+                    f"Punto final en {torneo}. ¡A recargar y no aflojar! 💪🇦🇷",
+                    "Día esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷"
                 ]
                 
             titular = random.choice(titulares)
@@ -1502,7 +1521,7 @@ def generar_tweet_finalizado(torneo_original, partidos):
         ]
     else:
         cierres = [
-            f"Jornada intensa para la legión. Mañana continúa la acción. 🍿🇦🇷 {tag_torneo}",
+            f"Jornada intensa para la legión. Mañana continúa la acción. 🇦🇷 {tag_torneo}",
             f"Con una de cal y una de arena, así cerramos la jornada. 🇦🇷 {tag_torneo}",
             f"Balance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 {tag_torneo}"
         ]
@@ -1521,7 +1540,7 @@ def generar_tweet_ranking(datos, tipo="atp"):
     
     encabezados = [
         f"📊 Top 10 Ranking {cat_str} esta semana:",
-        f"🎾 Así quedó el nuevo Top 10 del mundo ({cat_str}):",
+        f" Así quedó el nuevo Top 10 del mundo ({cat_str}):",
         f"Top 10 Ranking {cat_str}:"
     ]
     
@@ -1601,3 +1620,87 @@ def generar_hilo_ranking_argentinos(datos, tipo="atp"):
         hilo_final.append(f"--- TWEET {idx+1} ---\n{texto_tweet}\n--- FIN TWEET ---")
         
     return hilo_final
+
+
+# ==============================================================================
+# TWEETS PROMOCIONALES DE LA APP / PLATAFORMA
+# ==============================================================================
+
+def detectar_torneo_destacado(partidos):
+    """
+    Analiza la lista de partidos del día para identificar si hay un torneo
+    de gran relevancia (Grand Slam, Masters 1000, Copa Davis, Laver Cup, etc.).
+    Devuelve (nombre_amigable, hashtag_oficial, es_masivo: bool).
+    """
+    if not partidos:
+        return None, None, False
+
+    torneos_prioridad = [
+        # Grand Slams
+        ("roland garros", "Roland Garros", "#RolandGarros", True),
+        ("wimbledon", "Wimbledon", "#Wimbledon", True),
+        ("us open", "el US Open", "#USOpen", True),
+        ("australian open", "el Australian Open", "#AusOpen", True),
+        # Eventos por equipos / especiales
+        ("copa davis", "la Copa Davis", "#CopaDavis", True),
+        ("davis cup", "la Copa Davis", "#CopaDavis", True),
+        ("laver cup", "la Laver Cup", "#LaverCup", True),
+        ("atp finals", "las ATP Finals", "#NittoATPFinals", True),
+        # Masters 1000 / Torneos Masivos
+        ("indian wells", "Indian Wells", "#IndianWells", True),
+        ("miami", "Miami", "#MiamiOpen", True),
+        ("madrid", "el Masters de Madrid", "#MMOPEN", True),
+        ("roma", "el Masters de Roma", "#IBI26", True),
+        ("rome", "el Masters de Roma", "#IBI26", True),
+        ("monte-carlo", "Monte-Carlo", "#MonteCarloMasters", True),
+        ("cincinnati", "Cincinnati", "#CincyTennis", True),
+        ("shanghai", "Shanghai", "#RolexShanghaiMasters", True),
+        ("paris", "el Masters de París", "#RolexParisMasters", True),
+        ("buenos aires", "el Argentina Open", "#IEBMasArgOpen", True),
+        ("cordoba", "el Córdoba Open", "#CordobaOpen", True)
+    ]
+
+    nombres_hoy = [p.get('tournament_name', '').lower() for p in partidos if p.get('tournament_name')]
+
+    for clave, nombre_amigable, hashtag, es_masivo in torneos_prioridad:
+        for t_actual in nombres_hoy:
+            if clave in t_actual:
+                return nombre_amigable, hashtag, es_masivo
+
+    for p in partidos:
+        cat = extraer_categoria(p)
+        if cat in ["ATP", "WTA", "Challenger"]:
+            t_nombre = traducir_nombre_torneo(p.get('tournament_name', ''))
+            tag = obtener_hashtag_torneo(t_nombre, cat)
+            return t_nombre, tag, False
+
+    return None, None, False
+
+
+def generar_tweet_promocional(app_url, partidos_hoy=None):
+    """
+    Genera un tweet promocional para la app/sitio web, adaptado con
+    el hashtag y contexto del torneo más relevante del día.
+    """
+    if not app_url:
+        return None
+
+    url_limpia = str(app_url).strip()
+    nombre_torneo, tag_torneo, es_masivo = detectar_torneo_destacado(partidos_hoy or [])
+
+    if es_masivo and nombre_torneo and tag_torneo:
+        opciones = [
+            f"📲 Seguí punto a punto a todos los argentinos y los cuadros completos en:\n👉 {url_limpia}\n\nResultados en vivo, estadísticas y toda la acción de {nombre_torneo}. 🇦🇷 {tag_torneo}",
+            f"🎾 ¿Querés seguir a la legión minuto a minuto en {nombre_torneo}?\n\nEntrá a {url_limpia} y no te pierdas nada:\n• Marcadores en vivo\n• Cuadros actualizados\n• Horarios de la jornada\n\n¡A bancar a los nuestros! 🇦🇷 {tag_torneo}",
+            f"🇦🇷 Toda la campaña de los tenistas argentinos en {nombre_torneo} y el circuito en vivo:\n\n📲 {url_limpia}\n\nResultados al instante, cruces y estadísticas. 🎾 {tag_torneo}"
+        ]
+    else:
+        opciones = [
+            f"🎾 Seguí a todos los argentinos y todos los partidos del circuito en:\n\n📲 {url_limpia}\n\nResultados en vivo, estadísticas y agenda de la jornada. ¡Imperdible para bancar a la legión! 🇦🇷",
+            f"📲 Toda la legión argentina y el circuito profesional al instante:\n\n👉 {url_limpia}\n\nMarcadores en vivo, cruces y seguimiento punto a punto. ¡Todo en un solo lugar! 🎾🇦🇷",
+            f"🇦🇷 ¿Querés seguir el minuto a minuto del tenis argentino en el circuito?\n\nEntrá a {url_limpia} y enterate de todos los resultados, cuadros y fixtures en vivo. 🎾💪"
+        ]
+
+    tweet = random.choice(opciones)
+    return f"--- INICIO TWEET ---\n{tweet.strip()}\n--- FIN TWEET ---"
+

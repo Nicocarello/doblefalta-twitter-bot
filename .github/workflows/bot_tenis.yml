@@ -74,6 +74,7 @@ jobs:
           CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          APP_URL: ${{ secrets.APP_URL || vars.APP_URL }}
           DRY_RUN: "False"
         run: |
           python main.py --mode ${{ steps.mode.outputs.run_mode }} ${{ steps.mode.outputs.run_flags }}

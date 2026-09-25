@@ -3,9 +3,16 @@ import argparse
 from datetime import datetime
 from bot.api_tennis import TennisAPI
 from bot.filtros import filtrar_argentinos, agrupar_por_torneo, es_agenda, es_actualizacion_en_vivo, es_finalizado
-from bot.redactor import generar_tweet_agenda, generar_tweet_actualizacion, generar_tweet_finalizado, generar_tweet_ranking, generar_hilo_ranking_argentinos
+from bot.redactor import (
+    generar_tweet_agenda,
+    generar_tweet_actualizacion,
+    generar_tweet_finalizado,
+    generar_tweet_ranking,
+    generar_hilo_ranking_argentinos,
+    generar_tweet_promocional
+)
 from bot.twitter import publicar_tweet
-from bot.config import DRY_RUN
+from bot.config import DRY_RUN, APP_URL
 from bot.mailer import enviar_reporte_email
 from bot.historial import (
     cargar_reportados,
@@ -13,7 +20,9 @@ from bot.historial import (
     guardar_reportados_batch,
     limpiar_historial,
     obtener_fecha_hoy_arg,
-    obtener_registro_del_dia
+    obtener_registro_del_dia,
+    debe_publicar_promo,
+    registrar_promo_publicada
 )
 
 def limpiar_tweet(texto_raw):
@@ -28,18 +37,45 @@ def limpiar_tweet(texto_raw):
         lineas = lineas[:-1]
     return '\n'.join(lineas).strip()
 
+def procesar_tweet_promocional(partidos_arg, app_url, reporte_texto, force=False):
+    """
+    Evalúa y publica el tweet promocional de la app si pasaron al menos 3 días
+    desde la última publicación (o si se fuerza explícitamente).
+    """
+    if not app_url:
+        print("💡 APP_URL no configurada en las variables de entorno (.env). Omitiendo promo.")
+        return False
+
+    if not force and not debe_publicar_promo(frecuencia_dias=3):
+        print("⏳ Promo App: intervalo de 3 días aún no alcanzado.")
+        return False
+
+    print("\n📢 PROCESANDO BLOQUE: PROMOCIÓN DE LA APP...")
+    tweet_raw = generar_tweet_promocional(app_url, partidos_arg)
+    if tweet_raw:
+        tweet_limpio = limpiar_tweet(tweet_raw)
+        reporte_texto.append(f"[PROMO APP]\n{tweet_limpio}\n\n")
+        print("Texto generado para Promo App:")
+        print(tweet_limpio)
+        if not DRY_RUN:
+            publicar_tweet(tweet_limpio)
+        registrar_promo_publicada(tweet_limpio)
+        print("✅ Tweet promocional publicado y registrado (próximo en 3 días).")
+        return True
+    return False
+
 # Configuración de salida para consola en Windows (emojis)
 if sys.stdout.encoding != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8')
 
 def main():
     parser = argparse.ArgumentParser(description="Bot Doble Falta Tenis")
-    parser.add_argument("--mode", type=str, default="all", choices=["agenda", "live", "final", "ranking", "all"],
-                        help="Modo de ejecución: agenda, live, final o all (por defecto)")
+    parser.add_argument("--mode", type=str, default="all", choices=["agenda", "live", "final", "ranking", "promo", "all"],
+                        help="Modo de ejecución: agenda, live, final, ranking, promo o all (por defecto)")
     parser.add_argument("--incremental", action="store_true", 
                         help="Si es True, solo reporta lo nuevo desde la última ejecución (comportamiento por defecto)")
     parser.add_argument("--force", action="store_true",
-                        help="Fuerza el reenvío de partidos aunque ya hayan sido reportados hoy")
+                        help="Fuerza el reenvío de partidos o promo aunque ya hayan sido reportados")
     args = parser.parse_args()
 
     fecha_hoy = obtener_fecha_hoy_arg()
@@ -100,6 +136,10 @@ def main():
                         reply_id = publicar_tweet(t_limpio, in_reply_to_tweet_id=reply_id)
         else:
             print("No hay partidos en agenda.")
+
+        # Evaluación periódica de tweet promocional (cada 3 días junto a la agenda matutina)
+        if procesar_tweet_promocional(partidos_arg, APP_URL, reporte_texto, force=args.force):
+            hay_contenido = True
 
     # ---------------------------------------------------------
     # BLOQUE 2: EN VIVO
@@ -188,6 +228,13 @@ def main():
                             reply_id = publicar_tweet(tweet_hilo_limpio, in_reply_to_tweet_id=reply_id)
             else:
                 print(f"No se pudo obtener el ranking {cat.upper()}.")
+
+    # ---------------------------------------------------------
+    # BLOQUE 5: PROMO APP (Modo manual o forzado)
+    # ---------------------------------------------------------
+    if args.mode == "promo":
+        if procesar_tweet_promocional(partidos_arg, APP_URL, reporte_texto, force=True):
+            hay_contenido = True
 
     # ---------------------------------------------------------
     # ENVÍO DE EMAIL

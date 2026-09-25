@@ -7,6 +7,7 @@ load_dotenv()
 TENNIS_API_KEY = os.getenv("TENNIS_API_KEY")
 TENNIS_BASE_URL = "https://api.api-tennis.com/tennis/"
 DRY_RUN = os.getenv("DRY_RUN", "True").lower() == "true"
+APP_URL = os.getenv("APP_URL", "https://doblefaltatenis.com.ar/")
 
 # Configuración Twitter
 TWITTER_CONFIG = {
