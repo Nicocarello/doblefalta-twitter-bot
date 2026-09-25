@@ -7,7 +7,14 @@ from bot.redactor import generar_tweet_agenda, generar_tweet_actualizacion, gene
 from bot.twitter import publicar_tweet
 from bot.config import DRY_RUN
 from bot.mailer import enviar_reporte_email
-from bot.historial import cargar_reportados, guardar_reportado, guardar_reportados_batch, limpiar_historial
+from bot.historial import (
+    cargar_reportados,
+    ya_fue_reportado,
+    guardar_reportados_batch,
+    limpiar_historial,
+    obtener_fecha_hoy_arg,
+    obtener_registro_del_dia
+)
 
 def limpiar_tweet(texto_raw):
     """Elimina los marcadores de formato (--- INICIO TWEET ---, --- FIN TWEET ---)
@@ -30,10 +37,12 @@ def main():
     parser.add_argument("--mode", type=str, default="all", choices=["agenda", "live", "final", "ranking", "all"],
                         help="Modo de ejecución: agenda, live, final o all (por defecto)")
     parser.add_argument("--incremental", action="store_true", 
-                        help="Si es True, solo reporta lo nuevo desde la última ejecución")
+                        help="Si es True, solo reporta lo nuevo desde la última ejecución (comportamiento por defecto)")
+    parser.add_argument("--force", action="store_true",
+                        help="Fuerza el reenvío de partidos aunque ya hayan sido reportados hoy")
     args = parser.parse_args()
 
-    fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+    fecha_hoy = obtener_fecha_hoy_arg()
     print(f"🚀 INICIANDO BOT DOBLE FALTA - MODO: {args.mode.upper()} - FECHA: {fecha_hoy} 🚀")
 
     api = TennisAPI()
@@ -73,9 +82,9 @@ def main():
     # ---------------------------------------------------------
     if args.mode in ["agenda", "all"]:
         print("\n📅 PROCESANDO BLOQUE: AGENDA...")
-        # Limpiamos el historial del día anterior al inicio de la nueva jornada
-        print("🧹 Limpiando historial de reportados del día anterior...")
-        limpiar_historial()
+        # Mantenimiento del historial (purga días viejos sin tocar el día de hoy)
+        print("🧹 Mantenimiento de historial: purgando registros con más de 7 días...")
+        limpiar_historial(dias_retencion=7)
         partidos_agenda = [p for p in partidos_arg if es_agenda(p)]
         if partidos_agenda:
             hay_contenido = True
@@ -120,11 +129,13 @@ def main():
         print("\n🏁 PROCESANDO BLOQUE: RESULTADOS FINALES...")
         partidos_fin = [p for p in partidos_arg if es_finalizado(p)]
         
-        # Filtro incremental: no repetir partidos ya reportados
-        if args.incremental:
-            reportados = cargar_reportados()
-            partidos_fin = [p for p in partidos_fin if p.get('event_key') not in reportados]
-            print(f"Modo incremental activo. Partidos nuevos encontrados: {len(partidos_fin)}")
+        # Filtro de duplicados: consultar historial para no repetir partidos ya tuiteados
+        reportados = cargar_reportados()
+        if not args.force:
+            partidos_fin = [p for p in partidos_fin if not ya_fue_reportado(p.get('event_key'), reportados)]
+            print(f"Filtro de duplicados activo. Partidos nuevos encontrados: {len(partidos_fin)}")
+        else:
+            print(f"⚠️ Modo FORCE activo: ignorando filtro de duplicados ({len(partidos_fin)} partidos).")
 
         if partidos_fin:
             hay_contenido = True
@@ -132,19 +143,22 @@ def main():
             for torneo, lista in agrupados.items():
                 tweets = generar_tweet_finalizado(torneo, lista)
                 reply_id = None
+                tweets_publicados = []
                 for t in tweets:
                     t_limpio = limpiar_tweet(t)
                     reporte_texto.append(f"[FINALIZADO - {torneo}]\n{t_limpio}\n\n")
                     print(f"Texto generado para {torneo} (Finalizado)")
                     if not DRY_RUN:
                         reply_id = publicar_tweet(t_limpio, in_reply_to_tweet_id=reply_id)
+                    tweets_publicados.append(t_limpio)
                 
-                # Si es incremental, marcar como reportados para la próxima (batch)
-                if args.incremental:
-                    keys_reportar = [p.get('event_key') for p in lista]
-                    guardar_reportados_batch(keys_reportar)
+                # Registrar partidos en el historial diario con sus tweets generados (SIEMPRE)
+                guardar_reportados_batch(lista, fecha=fecha_hoy, tweets=tweets_publicados)
         else:
             print("No hay resultados finales (nuevos) para reportar.")
+
+        reg_hoy = obtener_registro_del_dia(fecha_hoy)
+        print(f"📋 Total de partidos registrados hoy ({fecha_hoy}): {len(reg_hoy)}")
 
 
 
