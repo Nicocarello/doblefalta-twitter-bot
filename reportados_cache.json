@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-25 18:23:24",
+  "ultima_actualizacion": "2026-09-25 21:06:15",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -59,6 +59,42 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 ¡FESTEJA FACUNDO MENA EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 4tos de final, Facundo Mena le ganó a N. Kicker por 6-4 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #IEBMasArgOpen"
+        ]
+      },
+      "12165948": {
+        "event_key": "12165948",
+        "timestamp": "2026-09-25 21:06:15",
+        "torneo": "Buenos Aires 3",
+        "ronda": "Buenos Aires 3 - Quarter-finals",
+        "jugadores": "J. C. Prado Angelo vs A. Barrena",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A SEMIFINAL, ALEX BARRENA! 🇦🇷🔥\n\nAlex Barrena se impuso ante J. C. Prado Angelo 🇧🇴 por 6-4 y 6-4 en 4tos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #IEBMasArgOpen"
+        ]
+      },
+      "12165959": {
+        "event_key": "12165959",
+        "timestamp": "2026-09-25 21:06:15",
+        "torneo": "W15 Belem (Brazil)",
+        "ronda": "W15 Belem - Quarter-finals",
+        "jugadores": "J. Dourado Zimermman vs J. Estevez",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Belem (Brazil): 🇦🇷\n\n✅ Jose Estevez le ganó a J. Dourado Zimermman 🇧🇷 por 6-1, 2-6, 6-1 en Cuartos.\n❌ Luli Cinalli no pudo ante P. Lopez 🇺🇸 por 7-6 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFBelemBrazil"
+        ]
+      },
+      "12165962": {
+        "event_key": "12165962",
+        "timestamp": "2026-09-25 21:06:15",
+        "torneo": "W15 Belem (Brazil)",
+        "ronda": "W15 Belem - Quarter-finals",
+        "jugadores": "L. M. Cinalli vs P. Lopez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Belem (Brazil): 🇦🇷\n\n✅ Jose Estevez le ganó a J. Dourado Zimermman 🇧🇷 por 6-1, 2-6, 6-1 en Cuartos.\n❌ Luli Cinalli no pudo ante P. Lopez 🇺🇸 por 7-6 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFBelemBrazil"
         ]
       }
     }
