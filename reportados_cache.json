@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-25 21:06:15",
+  "ultima_actualizacion": "2026-09-26 04:11:25",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -95,6 +95,34 @@
         "estado": "Finished",
         "tweets": [
           "Resultados de Cuartos de final en el ITF W15 Belem (Brazil): 🇦🇷\n\n✅ Jose Estevez le ganó a J. Dourado Zimermman 🇧🇷 por 6-1, 2-6, 6-1 en Cuartos.\n❌ Luli Cinalli no pudo ante P. Lopez 🇺🇸 por 7-6 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFBelemBrazil"
+        ]
+      }
+    },
+    "2026-09-26": {
+      "12165868": {
+        "event_key": "12165868",
+        "timestamp": "2026-09-26 04:11:25",
+        "torneo": "Chengdu",
+        "ronda": "ATP Chengdu - 1/8-finals",
+        "jugadores": "J. M. Cerundolo vs A. Davidovich Fokina",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ATP Chengdu: 🇦🇷\n\n❌ Juanma Cerúndolo cayó ante A. Davidovich Fokina 🇪🇸 por 6-4, 6-4 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Peers/ Venus no pudo ante Johnson/ Zielinski por 2-6, 6-3, 10-7 en Cuartos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ATPChengdu\n\n(2/2) 🧵"
+        ]
+      },
+      "12165975": {
+        "event_key": "12165975",
+        "timestamp": "2026-09-26 04:11:25",
+        "torneo": "Chengdu",
+        "ronda": "ATP Chengdu - Quarter-finals",
+        "jugadores": "Peers/ Venus vs Johnson/ Zielinski",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ATP Chengdu: 🇦🇷\n\n❌ Juanma Cerúndolo cayó ante A. Davidovich Fokina 🇪🇸 por 6-4, 6-4 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Peers/ Venus no pudo ante Johnson/ Zielinski por 2-6, 6-3, 10-7 en Cuartos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ATPChengdu\n\n(2/2) 🧵"
         ]
       }
     }
