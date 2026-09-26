@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-26 16:44:37",
+  "ultima_actualizacion": "2026-09-26 19:35:33",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -147,6 +147,18 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN BUENOS AIRES 3! 🇦🇷💪\n\nFacundo Mena derrotó a P. Boscardin Dias 🇧🇷 por 7-5 y 6-0 en Semis.\n\nTerrible partido 💪🇦🇷 #IEBMasArgOpen"
+        ]
+      },
+      "12166091": {
+        "event_key": "12166091",
+        "timestamp": "2026-09-26 19:35:33",
+        "torneo": "Buenos Aires 3",
+        "ronda": "Buenos Aires 3 - Semi-finals",
+        "jugadores": "J. Aguilar Cardozo vs A. Barrena",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII ALEX BARRENA!!! 🇦🇷\n\nAlex Barrena le ganó a J. Aguilar Cardozo 🇺🇾 por 6-4 y 6-3 en Semis.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #IEBMasArgOpen"
         ]
       }
     }
