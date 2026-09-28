@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-27 20:53:43",
+  "ultima_actualizacion": "2026-09-28 05:21:48",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -197,6 +197,32 @@
         "estado": "Finished",
         "tweets": [
           "¡A LA FINAL, S. DE LA FUENTE! 🇦🇷🔥\n\nS. De La Fuente derrotó a B. Arias 🇧🇴 por 7-6(7) y 6-3 en Semifinales.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerCuritiba"
+        ]
+      }
+    },
+    "2026-09-28": {
+      "12166335": {
+        "event_key": "12166335",
+        "timestamp": "2026-09-28 05:21:48",
+        "torneo": "Tokyo",
+        "ronda": "ATP Tokyo - Semi-finals",
+        "jugadores": "R. Hijikata vs C. Ugo Carabelli",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN TOKYO 🇦🇷\n\nCamilo Carabelli perdió ante R. Hijikata 🇦🇺 por 6-2 y 6-3 en Semis.\n\nNo se pudo dar hoy 🇦🇷 #ATPTokyo"
+        ]
+      },
+      "12166373": {
+        "event_key": "12166373",
+        "timestamp": "2026-09-28 05:21:48",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - Semi-finals",
+        "jugadores": "M. Landaluce vs M. Trungelliti",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII MARCO TRUNGELLITI!!! 🇦🇷\n\nMarco Trungelliti le ganó a M. Landaluce 🇪🇸 por 6-1, 6-7(9) y 7-6(7) en Semifinales.\n\nTerrible partido 💪🇦🇷 #ATPBeijing"
         ]
       }
     }
