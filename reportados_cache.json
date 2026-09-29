@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-29 15:33:25",
+  "ultima_actualizacion": "2026-09-29 19:56:02",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -421,6 +421,42 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: Lourdes Ayala derrotó a A. D. Duarte por 6-4, 6-0 en 16avos.\n✅ S. Meabe superó a A. Tarantola por 6-4, 6-2 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFTrelew"
+        ]
+      },
+      "12166844": {
+        "event_key": "12166844",
+        "timestamp": "2026-09-29 19:56:02",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "S. P. Da vs M. Carrocera",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n❌ M. Carrocera no pudo ante S. P. Da por 7-6(7), 3-6, 6-2 en 16avos.\n❌ J. Lassaga perdió ante L. F. Britez Risso 🇵🇾 por 6-1, 6-0 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12166846": {
+        "event_key": "12166846",
+        "timestamp": "2026-09-29 19:56:02",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "L. F. Britez Risso vs J. Lassaga",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n❌ M. Carrocera no pudo ante S. P. Da por 7-6(7), 3-6, 6-2 en 16avos.\n❌ J. Lassaga perdió ante L. F. Britez Risso 🇵🇾 por 6-1, 6-0 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12166891": {
+        "event_key": "12166891",
+        "timestamp": "2026-09-29 19:56:02",
+        "torneo": "M15 Fayetteville, AR",
+        "ronda": "M15 Fayetteville, AR - 1/16-finals",
+        "jugadores": "S. Goity Zapico vs E. Bynoe",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN M15 FAYETTEVILLE, AR 🇦🇷\n\nS. Goity Zapico perdió ante E. Bynoe 🇺🇸 por 6-4 y 6-2 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFFayetteville"
         ]
       }
     }
