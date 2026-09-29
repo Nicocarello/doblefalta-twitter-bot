@@ -266,6 +266,16 @@ JUGADORES_ARG = {
         "nombres": ["Lourdes Ayala", "Luli Ayala"],
         "apodo": "Lourdes",
         "twitter": "@Luliayala13"
+    },
+    "emily zornada":{
+        "nombres": ["Emily Zornada", "Emi Zornada", "Zornada"],
+        "apodo": "Emily",
+        # "twitter": "@emilyzornada"
+    },
+    "sofia meabe":{
+        "nombres": ["Sofia Meabe", "Sofi Meabe", "Meabe"],
+        "apodo": "Sofi",
+        "twitter": "@sofimeabe"
     }
 
 }
@@ -329,7 +339,9 @@ ALIAS_JUGADORES = {
     "v. garay": "valentin garay",
     "f. b. moron": "florencia belen moron",
     "l. m. cinalli": "luna maria cinalli",
-    "l. ayala": "lourdes ayala"
+    "l. ayala": "lourdes ayala",
+    "e. zornada": "emily zornada",
+    "s. meabe": "sofia meabe"
 }
 
 def normalizar_texto(t):
