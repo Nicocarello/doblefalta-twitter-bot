@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-29 13:24:50",
+  "ultima_actualizacion": "2026-09-29 14:48:18",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -373,6 +373,30 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n✅ Florencia Moron superó a J. Baier por 6-0, 6-0 en 16avos.\n🇦🇷 DERBI: A. V. Gobbi Monllau derrotó a M. Cristobal por 6-1, 6-0 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFTrelew"
+        ]
+      },
+      "12166229": {
+        "event_key": "12166229",
+        "timestamp": "2026-09-29 14:48:18",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "G. Heide vs H. Casanova",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE CURITIBA 🇦🇷\n\nH. Casanova perdió ante G. Heide 🇧🇷 por 6-2 y 6-1 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerCuritiba"
+        ]
+      },
+      "12166840": {
+        "event_key": "12166840",
+        "timestamp": "2026-09-29 14:48:18",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "N. Sousa Salazar vs E. Zornada",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A OCTAVOS, E. ZORNADA! 🇦🇷🔥\n\nE. Zornada le ganó a N. Sousa Salazar 🇲🇽 por 6-3, 4-6 y 6-3 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFTrelew"
         ]
       }
     }
