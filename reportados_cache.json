@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-29 14:48:18",
+  "ultima_actualizacion": "2026-09-29 15:33:25",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -397,6 +397,30 @@
         "estado": "Finished",
         "tweets": [
           "¡A OCTAVOS, E. ZORNADA! 🇦🇷🔥\n\nE. Zornada le ganó a N. Sousa Salazar 🇲🇽 por 6-3, 4-6 y 6-3 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12166841": {
+        "event_key": "12166841",
+        "timestamp": "2026-09-29 15:33:25",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "A. D. Duarte vs L. Ayala",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: Lourdes Ayala derrotó a A. D. Duarte por 6-4, 6-0 en 16avos.\n✅ S. Meabe superó a A. Tarantola por 6-4, 6-2 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFTrelew"
+        ]
+      },
+      "12166845": {
+        "event_key": "12166845",
+        "timestamp": "2026-09-29 15:33:25",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "S. Meabe vs A. Tarantola",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: Lourdes Ayala derrotó a A. D. Duarte por 6-4, 6-0 en 16avos.\n✅ S. Meabe superó a A. Tarantola por 6-4, 6-2 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFTrelew"
         ]
       }
     }
