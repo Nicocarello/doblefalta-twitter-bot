@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-30 13:20:22",
+  "ultima_actualizacion": "2026-09-30 14:00:34",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -584,6 +584,18 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: L. Moyano venció a M. M. Maruca por 6-0, 6-1 en 16avos.\n✅ C. D. Vega Gudino venció a F. Rain Contreras 🇨🇱 por 6-4, 6-1 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFTrelew"
+        ]
+      },
+      "12167214": {
+        "event_key": "12167214",
+        "timestamp": "2026-09-30 14:00:34",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "A. S. Sanchez vs C. C. Sosa",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN W15 TRELEW 🇦🇷\n\nC. C. Sosa perdió ante A. S. Sanchez 🇲🇽 por 6-0 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFTrelew"
         ]
       }
     }
