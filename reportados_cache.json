@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-30 15:06:45",
+  "ultima_actualizacion": "2026-09-30 19:32:22",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -620,6 +620,54 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE M. BULBARELLA! 👏\n\nEn un gran cruce argentino en 16avos de final, M. Bulbarella le ganó a T. Sfilio por 6-2 y 7-5.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFTrelew"
+        ]
+      },
+      "12167213": {
+        "event_key": "12167213",
+        "timestamp": "2026-09-30 19:32:22",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "S. A. Larraya Guidi vs M. F. Urrutia",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: M. F. Urrutia superó a S. A. Larraya Guidi por 6-2, 6-2 en 16avos.\n✅ Luna Cinalli derrotó a Z. Doldan 🇵🇾 por 6-0, 6-4 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFTrelew"
+        ]
+      },
+      "12167216": {
+        "event_key": "12167216",
+        "timestamp": "2026-09-30 19:32:22",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "Z. Doldan vs L. M. Cinalli",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: M. F. Urrutia superó a S. A. Larraya Guidi por 6-2, 6-2 en 16avos.\n✅ Luna Cinalli derrotó a Z. Doldan 🇵🇾 por 6-0, 6-4 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFTrelew"
+        ]
+      },
+      "12167265": {
+        "event_key": "12167265",
+        "timestamp": "2026-09-30 19:32:22",
+        "torneo": "W15 Nashville",
+        "ronda": "W15 Nashville, TN - 1/16-finals",
+        "jugadores": "C. Di Genova vs A. Hejtmanek",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Nashville:\n\n✅ C. Di Genova venció a A. Hejtmanek 🇨🇿 por 6-4, 4-6, 6-3 en 16avos.\n✅ F. Mattioli derrotó a E. M. Ionescu 🇷🇴 por 6-3, 6-3 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFNashville"
+        ]
+      },
+      "12167270": {
+        "event_key": "12167270",
+        "timestamp": "2026-09-30 19:32:22",
+        "torneo": "W15 Nashville",
+        "ronda": "W15 Nashville, TN - 1/16-finals",
+        "jugadores": "E. M. Ionescu vs F. Mattioli",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Nashville:\n\n✅ C. Di Genova venció a A. Hejtmanek 🇨🇿 por 6-4, 4-6, 6-3 en 16avos.\n✅ F. Mattioli derrotó a E. M. Ionescu 🇷🇴 por 6-3, 6-3 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFNashville"
         ]
       }
     }
