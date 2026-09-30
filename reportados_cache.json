@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-30 05:11:31",
+  "ultima_actualizacion": "2026-09-30 13:20:22",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -471,6 +471,119 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN BEIJING 🇦🇷\n\nT. A. Tirante perdió ante J-L. Struff 🇩🇪 por 6-1 y 6-4 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ATPBeijing"
+        ]
+      },
+      "12166227": {
+        "event_key": "12166227",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "L. Andrade da Silva vs G. A. Olivieri",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba:\n\n✅ G. A. Olivieri superó a L. Andrade da Silva 🇧🇷 por 7-6(8), 7-6(7) en 16avos.\n✅ G. I. Justo le ganó a F. Roncadelli 🇺🇾 por 7-6(8), 6-2 en 16avos.\n❌ Facu Mena se retiró ante L. A. Miguel 🇧🇷 (6-2, 2-1) en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonzalo Villanueva derrotó a J. C. Prado Angelo 🇧🇴 por 3-6, 6-3, 6-4 en 16avos.\n✅ Lautaro Midón superó a B. Fernandez 🇧🇷 por 6-2, 7-5 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12166230": {
+        "event_key": "12166230",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "G. I. Justo vs F. Roncadelli",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba:\n\n✅ G. A. Olivieri superó a L. Andrade da Silva 🇧🇷 por 7-6(8), 7-6(7) en 16avos.\n✅ G. I. Justo le ganó a F. Roncadelli 🇺🇾 por 7-6(8), 6-2 en 16avos.\n❌ Facu Mena se retiró ante L. A. Miguel 🇧🇷 (6-2, 2-1) en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonzalo Villanueva derrotó a J. C. Prado Angelo 🇧🇴 por 3-6, 6-3, 6-4 en 16avos.\n✅ Lautaro Midón superó a B. Fernandez 🇧🇷 por 6-2, 7-5 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12166232": {
+        "event_key": "12166232",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "L. A. Miguel vs F. Mena",
+        "resultado": "1 - 0",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba:\n\n✅ G. A. Olivieri superó a L. Andrade da Silva 🇧🇷 por 7-6(8), 7-6(7) en 16avos.\n✅ G. I. Justo le ganó a F. Roncadelli 🇺🇾 por 7-6(8), 6-2 en 16avos.\n❌ Facu Mena se retiró ante L. A. Miguel 🇧🇷 (6-2, 2-1) en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonzalo Villanueva derrotó a J. C. Prado Angelo 🇧🇴 por 3-6, 6-3, 6-4 en 16avos.\n✅ Lautaro Midón superó a B. Fernandez 🇧🇷 por 6-2, 7-5 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12166237": {
+        "event_key": "12166237",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "G. Villanueva vs J. C. Prado Angelo",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba:\n\n✅ G. A. Olivieri superó a L. Andrade da Silva 🇧🇷 por 7-6(8), 7-6(7) en 16avos.\n✅ G. I. Justo le ganó a F. Roncadelli 🇺🇾 por 7-6(8), 6-2 en 16avos.\n❌ Facu Mena se retiró ante L. A. Miguel 🇧🇷 (6-2, 2-1) en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonzalo Villanueva derrotó a J. C. Prado Angelo 🇧🇴 por 3-6, 6-3, 6-4 en 16avos.\n✅ Lautaro Midón superó a B. Fernandez 🇧🇷 por 6-2, 7-5 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12167181": {
+        "event_key": "12167181",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "B. Fernandez vs L. Midon",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba:\n\n✅ G. A. Olivieri superó a L. Andrade da Silva 🇧🇷 por 7-6(8), 7-6(7) en 16avos.\n✅ G. I. Justo le ganó a F. Roncadelli 🇺🇾 por 7-6(8), 6-2 en 16avos.\n❌ Facu Mena se retiró ante L. A. Miguel 🇧🇷 (6-2, 2-1) en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonzalo Villanueva derrotó a J. C. Prado Angelo 🇧🇴 por 3-6, 6-3, 6-4 en 16avos.\n✅ Lautaro Midón superó a B. Fernandez 🇧🇷 por 6-2, 7-5 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12166529": {
+        "event_key": "12166529",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/16-finals",
+        "jugadores": "J. M. Cerundolo vs Y. Bu",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN BEIJING 🇦🇷\n\nJuan Manuel Cerúndolo perdió ante Y. Bu 🇨🇳 por 6-2, 5-7 y 6-4 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ATPBeijing"
+        ]
+      },
+      "12166621": {
+        "event_key": "12166621",
+        "timestamp": "2026-09-30 13:20:22",
+        "torneo": "Adana (Turkey) - Qualification",
+        "ronda": "Adana - 1/8-finals",
+        "jugadores": "A. Ruzic vs J. Riera",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nJulia Riera perdió ante A. Ruzic 🇭🇷 por 6-3 y 6-4 en Octavos.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ChallengerAdanaTurkeyQualification"
+        ]
+      },
+      "12167211": {
+        "event_key": "12167211",
+        "timestamp": "2026-09-30 13:20:22",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "L. Moyano vs M. M. Maruca",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: L. Moyano venció a M. M. Maruca por 6-0, 6-1 en 16avos.\n✅ C. D. Vega Gudino venció a F. Rain Contreras 🇨🇱 por 6-4, 6-1 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFTrelew"
+        ]
+      },
+      "12167212": {
+        "event_key": "12167212",
+        "timestamp": "2026-09-30 13:20:22",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "F. Rain Contreras vs C. D. Vega Gudino",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: L. Moyano venció a M. M. Maruca por 6-0, 6-1 en 16avos.\n✅ C. D. Vega Gudino venció a F. Rain Contreras 🇨🇱 por 6-4, 6-1 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFTrelew"
         ]
       }
     }
