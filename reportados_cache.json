@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-29 19:56:02",
+  "ultima_actualizacion": "2026-09-30 05:11:31",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -457,6 +457,20 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN M15 FAYETTEVILLE, AR 🇦🇷\n\nS. Goity Zapico perdió ante E. Bynoe 🇺🇸 por 6-4 y 6-2 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFFayetteville"
+        ]
+      }
+    },
+    "2026-09-30": {
+      "12166535": {
+        "event_key": "12166535",
+        "timestamp": "2026-09-30 05:11:31",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/16-finals",
+        "jugadores": "J-L. Struff vs T. A. Tirante",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN BEIJING 🇦🇷\n\nT. A. Tirante perdió ante J-L. Struff 🇩🇪 por 6-1 y 6-4 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ATPBeijing"
         ]
       }
     }
