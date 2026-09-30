@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-30 14:00:34",
+  "ultima_actualizacion": "2026-09-30 15:06:45",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -596,6 +596,30 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN W15 TRELEW 🇦🇷\n\nC. C. Sosa perdió ante A. S. Sanchez 🇲🇽 por 6-0 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12167057": {
+        "event_key": "12167057",
+        "timestamp": "2026-09-30 15:06:44",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "J. B. Torres vs T. Barrios Vera",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN CURITIBA 🇦🇷\n\nJ. B. Torres no pudo ante T. Barrios Vera 🇨🇱 por 6-2 y 6-3 en 8vos.\n\nPunto final en Curitiba. ¡A recargar y no aflojar! 💪🇦🇷 #ChallengerCuritiba"
+        ]
+      },
+      "12167215": {
+        "event_key": "12167215",
+        "timestamp": "2026-09-30 15:06:45",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "T. Sfilio vs M. Bulbarella",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE M. BULBARELLA! 👏\n\nEn un gran cruce argentino en 16avos de final, M. Bulbarella le ganó a T. Sfilio por 6-2 y 7-5.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFTrelew"
         ]
       }
     }
