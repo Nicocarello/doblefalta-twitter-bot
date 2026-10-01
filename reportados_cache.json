@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-01 15:10:17",
+  "ultima_actualizacion": "2026-10-01 20:04:51",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -807,6 +807,83 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n❌ M. Bulbarella perdió ante S. P. Da por 6-2, 1-6, 6-2 en Octavos.\n🇦🇷 DERBI: M. F. Urrutia superó a C. D. Vega Gudino por 6-2, 6-3 en Octavos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12167422": {
+        "event_key": "12167422",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "M. Alves vs G. Villanueva",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba:\n\n✅ Gonza Villanueva venció a M. Alves 🇧🇷 por 6-2, 6-3 en Octavos.\n❌ G. A. Olivieri cayó ante P. Boscardin Dias 🇧🇷 por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ G. I. Justo le ganó a P. Sakamoto 🇧🇷 por 6-2, 6-4 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12167423": {
+        "event_key": "12167423",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "P. Boscardin Dias vs G. A. Olivieri",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba:\n\n✅ Gonza Villanueva venció a M. Alves 🇧🇷 por 6-2, 6-3 en Octavos.\n❌ G. A. Olivieri cayó ante P. Boscardin Dias 🇧🇷 por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ G. I. Justo le ganó a P. Sakamoto 🇧🇷 por 6-2, 6-4 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12167441": {
+        "event_key": "12167441",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "G. I. Justo vs P. Sakamoto",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba:\n\n✅ Gonza Villanueva venció a M. Alves 🇧🇷 por 6-2, 6-3 en Octavos.\n❌ G. A. Olivieri cayó ante P. Boscardin Dias 🇧🇷 por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ G. I. Justo le ganó a P. Sakamoto 🇧🇷 por 6-2, 6-4 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12167552": {
+        "event_key": "12167552",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "L. Moyano vs S. Meabe",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: L. Moyano superó a Sofi Meabe por 7-6(7), 3-6, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Emily Zornada superó a A. V. Gobbi Monllau por 4-6, 7-5, 7-5 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167553": {
+        "event_key": "12167553",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "E. Zornada vs A. V. Gobbi Monllau",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: L. Moyano superó a Sofi Meabe por 7-6(7), 3-6, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Emily Zornada superó a A. V. Gobbi Monllau por 4-6, 7-5, 7-5 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167582": {
+        "event_key": "12167582",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "W15 Nashville",
+        "ronda": "W15 Nashville, TN - 1/8-finals",
+        "jugadores": "R. M. Nijkamp vs F. Mattioli",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN W15 NASHVILLE 🇦🇷\n\nF. Mattioli perdió ante R. M. Nijkamp 🇳🇱 por 3-6, 6-2 y 6-2 en Octavos de final.\n\nPunto final en W15 Nashville. ¡A recargar y no aflojar! 💪🇦🇷 #ITFNashville"
         ]
       }
     }
