@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-01 05:30:48",
+  "ultima_actualizacion": "2026-10-01 13:58:12",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -720,6 +720,69 @@
         "estado": "Finished",
         "tweets": [
           "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nTomás Etcheverry cayó ante S. Tsitsipas 🇬🇷 por 4-6, 6-3 y 6-4 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ATPTokyo"
+        ]
+      },
+      "12166534": {
+        "event_key": "12166534",
+        "timestamp": "2026-10-01 13:58:12",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/16-finals",
+        "jugadores": "J. Shang vs S. Baez",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nSebastián Báez no pudo ante J. Shang 🇨🇳 por 5-7, 6-3 y 7-5 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ATPBeijing"
+        ]
+      },
+      "12167540": {
+        "event_key": "12167540",
+        "timestamp": "2026-10-01 13:58:12",
+        "torneo": "W15 Nashville",
+        "ronda": "W15 Nashville, TN - 1/8-finals",
+        "jugadores": "V. Ray vs C. Di Genova",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A CUARTOS, C. DI GENOVA! 🇦🇷🔥\n\nC. Di Genova venció a V. Ray 🇺🇸 por 6-4 y 6-2 en 8vos.\n\nTerrible partido 💪🇦🇷 #ITFNashville"
+        ]
+      },
+      "12167546": {
+        "event_key": "12167546",
+        "timestamp": "2026-10-01 13:58:12",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "D. Bhatia vs L. Ayala",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Trelew:\n\n✅ Luli Ayala venció a D. Bhatia por 6-2, 6-2 en Octavos.\n❌ Luna Cinalli cayó ante L. Zingg por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Florencia Moron cayó ante A. S. Sanchez 🇲🇽 por 6-1, 6-1 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167548": {
+        "event_key": "12167548",
+        "timestamp": "2026-10-01 13:58:12",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "L. Zingg vs L. M. Cinalli",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Trelew:\n\n✅ Luli Ayala venció a D. Bhatia por 6-2, 6-2 en Octavos.\n❌ Luna Cinalli cayó ante L. Zingg por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Florencia Moron cayó ante A. S. Sanchez 🇲🇽 por 6-1, 6-1 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167550": {
+        "event_key": "12167550",
+        "timestamp": "2026-10-01 13:58:12",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "A. S. Sanchez vs F. B. Moron",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Trelew:\n\n✅ Luli Ayala venció a D. Bhatia por 6-2, 6-2 en Octavos.\n❌ Luna Cinalli cayó ante L. Zingg por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Florencia Moron cayó ante A. S. Sanchez 🇲🇽 por 6-1, 6-1 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
         ]
       }
     }
