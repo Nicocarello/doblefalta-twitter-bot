@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-01 13:58:12",
+  "ultima_actualizacion": "2026-10-01 15:10:17",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -783,6 +783,30 @@
         "tweets": [
           "🇦🇷 Balance del día en el ITF W15 Trelew:\n\n✅ Luli Ayala venció a D. Bhatia por 6-2, 6-2 en Octavos.\n❌ Luna Cinalli cayó ante L. Zingg por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n❌ Florencia Moron cayó ante A. S. Sanchez 🇲🇽 por 6-1, 6-1 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167549": {
+        "event_key": "12167549",
+        "timestamp": "2026-10-01 15:10:17",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "S. P. Da vs M. Bulbarella",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n❌ M. Bulbarella perdió ante S. P. Da por 6-2, 1-6, 6-2 en Octavos.\n🇦🇷 DERBI: M. F. Urrutia superó a C. D. Vega Gudino por 6-2, 6-3 en Octavos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12167551": {
+        "event_key": "12167551",
+        "timestamp": "2026-10-01 15:10:17",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "C. D. Vega Gudino vs M. F. Urrutia",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n❌ M. Bulbarella perdió ante S. P. Da por 6-2, 1-6, 6-2 en Octavos.\n🇦🇷 DERBI: M. F. Urrutia superó a C. D. Vega Gudino por 6-2, 6-3 en Octavos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ITFTrelew"
         ]
       }
     }
