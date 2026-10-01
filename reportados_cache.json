@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-30 22:58:10",
+  "ultima_actualizacion": "2026-10-01 05:30:48",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -680,6 +680,46 @@
         "estado": "Finished",
         "tweets": [
           "NO SE PUDO DAR 🇦🇷\n\nV. Bosio no pudo ante K. Fakih 🇺🇸 por 5-7, 7-5 y 6-0 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFTempleton"
+        ]
+      }
+    },
+    "2026-10-01": {
+      "12166530": {
+        "event_key": "12166530",
+        "timestamp": "2026-10-01 05:30:47",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/16-finals",
+        "jugadores": "A. De Minaur vs M. Navone",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ATP Beijing:\n\n❌ Mariano Navone no pudo ante A. De Minaur 🇦🇺 por 7-6(7), 6-2 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Francisco Cerúndolo superó a B. Van De Zandschulp 🇳🇱 por 5-7, 6-4, 6-3 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ATPBeijing\n\n(2/2) 🧵"
+        ]
+      },
+      "12166955": {
+        "event_key": "12166955",
+        "timestamp": "2026-10-01 05:30:47",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/16-finals",
+        "jugadores": "B. Van De Zandschulp vs F. Cerundolo",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ATP Beijing:\n\n❌ Mariano Navone no pudo ante A. De Minaur 🇦🇺 por 7-6(7), 6-2 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Francisco Cerúndolo superó a B. Van De Zandschulp 🇳🇱 por 5-7, 6-4, 6-3 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ATPBeijing\n\n(2/2) 🧵"
+        ]
+      },
+      "12166949": {
+        "event_key": "12166949",
+        "timestamp": "2026-10-01 05:30:48",
+        "torneo": "Tokyo",
+        "ronda": "ATP Tokyo - 1/16-finals",
+        "jugadores": "T. M. Etcheverry vs S. Tsitsipas",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nTomás Etcheverry cayó ante S. Tsitsipas 🇬🇷 por 4-6, 6-3 y 6-4 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ATPTokyo"
         ]
       }
     }
