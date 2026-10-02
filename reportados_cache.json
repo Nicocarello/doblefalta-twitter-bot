@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-02 15:18:41",
+  "ultima_actualizacion": "2026-10-02 19:29:07",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -910,6 +910,44 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 ¡FESTEJA G. I. JUSTO EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en Cuartos, G. I. Justo superó a Gonzalo Villanueva por 6-2 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerCuritiba"
+        ]
+      },
+      "12167501": {
+        "event_key": "12167501",
+        "timestamp": "2026-10-02 19:29:07",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - Quarter-finals",
+        "jugadores": "G. Heide vs L. Midon",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN CURITIBA 🇦🇷\n\nLauti Midón no pudo ante G. Heide 🇧🇷 por 6-2 y 6-4 en Cuartos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ChallengerCuritiba"
+        ]
+      },
+      "12167798": {
+        "event_key": "12167798",
+        "timestamp": "2026-10-02 19:29:07",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - Quarter-finals",
+        "jugadores": "A. S. Sanchez vs L. Ayala",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Trelew: 🇦🇷\n\n❌ Lourdes Ayala no pudo ante A. S. Sanchez 🇲🇽 por 7-6(7), 6-1 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. F. Urrutia superó a Zornada por 5-7, 6-3, 6-3 en Cuartos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167799": {
+        "event_key": "12167799",
+        "timestamp": "2026-10-02 19:29:07",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - Quarter-finals",
+        "jugadores": "E. Zornada vs M. F. Urrutia",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Trelew: 🇦🇷\n\n❌ Lourdes Ayala no pudo ante A. S. Sanchez 🇲🇽 por 7-6(7), 6-1 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. F. Urrutia superó a Zornada por 5-7, 6-3, 6-3 en Cuartos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
         ]
       }
     }
