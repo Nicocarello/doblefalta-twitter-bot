@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-02 14:34:45",
+  "ultima_actualizacion": "2026-10-02 15:18:41",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -898,6 +898,18 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN W15 TRELEW! 🇦🇷💪\n\nL. Moyano se impuso ante S. P. Da por 6-2 y 6-0 en Cuartos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12167775": {
+        "event_key": "12167775",
+        "timestamp": "2026-10-02 15:18:41",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - Quarter-finals",
+        "jugadores": "G. I. Justo vs G. Villanueva",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA G. I. JUSTO EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en Cuartos, G. I. Justo superó a Gonzalo Villanueva por 6-2 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerCuritiba"
         ]
       }
     }
