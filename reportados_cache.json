@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-01 20:04:51",
+  "ultima_actualizacion": "2026-10-02 14:34:45",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -884,6 +884,20 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN W15 NASHVILLE 🇦🇷\n\nF. Mattioli perdió ante R. M. Nijkamp 🇳🇱 por 3-6, 6-2 y 6-2 en Octavos de final.\n\nPunto final en W15 Nashville. ¡A recargar y no aflojar! 💪🇦🇷 #ITFNashville"
+        ]
+      }
+    },
+    "2026-10-02": {
+      "12167797": {
+        "event_key": "12167797",
+        "timestamp": "2026-10-02 14:34:45",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - Quarter-finals",
+        "jugadores": "L. Moyano vs S. P. Da",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN W15 TRELEW! 🇦🇷💪\n\nL. Moyano se impuso ante S. P. Da por 6-2 y 6-0 en Cuartos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFTrelew"
         ]
       }
     }
