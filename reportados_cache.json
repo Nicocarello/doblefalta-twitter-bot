@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-03 12:01:53",
+  "ultima_actualizacion": "2026-10-03 17:07:42",
   "dias": {
     "2026-09-26": {
       "12165868": {
@@ -878,6 +878,42 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN BEIJING! 🇦🇷💪\n\nFran Cerúndolo le ganó a J. Mensik 🇨🇿 por 6-3 y 6-3 en 8vos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ATPBeijing"
+        ]
+      },
+      "12167911": {
+        "event_key": "12167911",
+        "timestamp": "2026-10-03 17:07:42",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - Semi-finals",
+        "jugadores": "G. I. Justo vs T. Barrios Vera",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡A LA FINAL, G. I. JUSTO! 🇦🇷🔥\n\nG. I. Justo venció a T. Barrios Vera 🇨🇱 por 4-6, 6-4 y 6-3 en Semis.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerCuritiba"
+        ]
+      },
+      "12167937": {
+        "event_key": "12167937",
+        "timestamp": "2026-10-03 17:07:42",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - Semi-finals",
+        "jugadores": "L. F. Britez Risso vs M. F. Urrutia",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en el ITF W15 Trelew: 🇦🇷\n\n❌ M. F. Urrutia cayó ante L. F. Britez Risso 🇵🇾 por 7-5, 6-2 en Semis.\n❌ L. Moyano perdió ante A. S. Sanchez 🇲🇽 por 6-2, 6-1 en Semis.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12167938": {
+        "event_key": "12167938",
+        "timestamp": "2026-10-03 17:07:42",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - Semi-finals",
+        "jugadores": "A. S. Sanchez vs L. Moyano",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en el ITF W15 Trelew: 🇦🇷\n\n❌ M. F. Urrutia cayó ante L. F. Britez Risso 🇵🇾 por 7-5, 6-2 en Semis.\n❌ L. Moyano perdió ante A. S. Sanchez 🇲🇽 por 6-2, 6-1 en Semis.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFTrelew"
         ]
       }
     }
