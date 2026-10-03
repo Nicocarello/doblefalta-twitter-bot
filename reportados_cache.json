@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-02 19:29:07",
+  "ultima_actualizacion": "2026-10-02 22:23:13",
   "dias": {
     "2026-09-25": {
       "12164771": {
@@ -948,6 +948,18 @@
         "tweets": [
           "Resultados de Cuartos de final en el ITF W15 Trelew: 🇦🇷\n\n❌ Lourdes Ayala no pudo ante A. S. Sanchez 🇲🇽 por 7-6(7), 6-1 en Cuartos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. F. Urrutia superó a Zornada por 5-7, 6-3, 6-3 en Cuartos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167782": {
+        "event_key": "12167782",
+        "timestamp": "2026-10-02 22:23:13",
+        "torneo": "W15 Nashville",
+        "ronda": "W15 Nashville, TN - Quarter-finals",
+        "jugadores": "A. Bowers vs C. Di Genova",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN W15 NASHVILLE 🇦🇷\n\nC. Di Genova no pudo ante A. Bowers 🇺🇸 por 6-1 y 6-3 en Cuartos.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFNashville"
         ]
       }
     }
