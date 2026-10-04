@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-04 17:22:26",
+  "ultima_actualizacion": "2026-10-04 20:30:36",
   "dias": {
     "2026-09-27": {
       "12166220": {
@@ -912,6 +912,58 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN ANTOFAGASTA! 🇦🇷💪\n\nH. Casanova derrotó a W. Leite 🇧🇷 por 6-3, 3-6 y 6-4 en Semifinales.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168089": {
+        "event_key": "12168089",
+        "timestamp": "2026-10-04 20:30:36",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "N. Kicker vs M. Cossu",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Antofagasta: 🇦🇷\n\n✅ N. Kicker venció a M. Cossu 🇺🇸 por 6-3, 6-4 en Semis.\n✅ T. Cigarran venció a A. Matta 🇺🇸 por 6-2, 6-2 en Semis.\n✅ L. Ratti derrotó a V. C. Loureiro J. 🇧🇷 por 6-4, 7-5 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ M. Zeitune superó a D. Ortiz Gamonal 🇨🇱 por 6-2, 6-1 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168091": {
+        "event_key": "12168091",
+        "timestamp": "2026-10-04 20:30:36",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "A. Matta vs T. Cigarran",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Antofagasta: 🇦🇷\n\n✅ N. Kicker venció a M. Cossu 🇺🇸 por 6-3, 6-4 en Semis.\n✅ T. Cigarran venció a A. Matta 🇺🇸 por 6-2, 6-2 en Semis.\n✅ L. Ratti derrotó a V. C. Loureiro J. 🇧🇷 por 6-4, 7-5 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ M. Zeitune superó a D. Ortiz Gamonal 🇨🇱 por 6-2, 6-1 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168092": {
+        "event_key": "12168092",
+        "timestamp": "2026-10-04 20:30:36",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "L. Ratti vs V. C. Loureiro J.",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Antofagasta: 🇦🇷\n\n✅ N. Kicker venció a M. Cossu 🇺🇸 por 6-3, 6-4 en Semis.\n✅ T. Cigarran venció a A. Matta 🇺🇸 por 6-2, 6-2 en Semis.\n✅ L. Ratti derrotó a V. C. Loureiro J. 🇧🇷 por 6-4, 7-5 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ M. Zeitune superó a D. Ortiz Gamonal 🇨🇱 por 6-2, 6-1 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168093": {
+        "event_key": "12168093",
+        "timestamp": "2026-10-04 20:30:36",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "D. Ortiz Gamonal vs M. Zeitune",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Antofagasta: 🇦🇷\n\n✅ N. Kicker venció a M. Cossu 🇺🇸 por 6-3, 6-4 en Semis.\n✅ T. Cigarran venció a A. Matta 🇺🇸 por 6-2, 6-2 en Semis.\n✅ L. Ratti derrotó a V. C. Loureiro J. 🇧🇷 por 6-4, 7-5 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ M. Zeitune superó a D. Ortiz Gamonal 🇨🇱 por 6-2, 6-1 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerAntofagasta\n\n(2/2) 🧵"
         ]
       }
     }
