@@ -1,71 +1,7 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-04 12:11:41",
+  "ultima_actualizacion": "2026-10-04 12:36:00",
   "dias": {
-    "2026-09-26": {
-      "12165868": {
-        "event_key": "12165868",
-        "timestamp": "2026-09-26 04:11:25",
-        "torneo": "Chengdu",
-        "ronda": "ATP Chengdu - 1/8-finals",
-        "jugadores": "J. M. Cerundolo vs A. Davidovich Fokina",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "Resultados de Cuartos de final en el ATP Chengdu: 🇦🇷\n\n❌ Juanma Cerúndolo cayó ante A. Davidovich Fokina 🇪🇸 por 6-4, 6-4 en Octavos.\n\n(1/2) 🧵",
-          "Sigue la lista: 👇\n\n❌ Peers/ Venus no pudo ante Johnson/ Zielinski por 2-6, 6-3, 10-7 en Cuartos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ATPChengdu\n\n(2/2) 🧵"
-        ]
-      },
-      "12165975": {
-        "event_key": "12165975",
-        "timestamp": "2026-09-26 04:11:25",
-        "torneo": "Chengdu",
-        "ronda": "ATP Chengdu - Quarter-finals",
-        "jugadores": "Peers/ Venus vs Johnson/ Zielinski",
-        "resultado": "1 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "Resultados de Cuartos de final en el ATP Chengdu: 🇦🇷\n\n❌ Juanma Cerúndolo cayó ante A. Davidovich Fokina 🇪🇸 por 6-4, 6-4 en Octavos.\n\n(1/2) 🧵",
-          "Sigue la lista: 👇\n\n❌ Peers/ Venus no pudo ante Johnson/ Zielinski por 2-6, 6-3, 10-7 en Cuartos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ATPChengdu\n\n(2/2) 🧵"
-        ]
-      },
-      "12166100": {
-        "event_key": "12166100",
-        "timestamp": "2026-09-26 12:56:46",
-        "torneo": "W15 Belem (Brazil)",
-        "ronda": "W15 Belem - Semi-finals",
-        "jugadores": "J. Estevez vs L. Garcia Vidal",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "DESPEDIDA DE W15 BELEM (BRAZIL) 🇦🇷\n\nJose Estevez perdió ante L. Garcia Vidal 🇧🇷 por 6-1 y 6-3 en Semifinales.\n\nNo se pudo dar hoy 🇦🇷 #ITFBelemBrazil"
-        ]
-      },
-      "12166077": {
-        "event_key": "12166077",
-        "timestamp": "2026-09-26 16:44:37",
-        "torneo": "Buenos Aires 3",
-        "ronda": "Buenos Aires 3 - Semi-finals",
-        "jugadores": "P. Boscardin Dias vs F. Mena",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "¡GRAN PASO EN BUENOS AIRES 3! 🇦🇷💪\n\nFacundo Mena derrotó a P. Boscardin Dias 🇧🇷 por 7-5 y 6-0 en Semis.\n\nTerrible partido 💪🇦🇷 #IEBMasArgOpen"
-        ]
-      },
-      "12166091": {
-        "event_key": "12166091",
-        "timestamp": "2026-09-26 19:35:33",
-        "torneo": "Buenos Aires 3",
-        "ronda": "Buenos Aires 3 - Semi-finals",
-        "jugadores": "J. Aguilar Cardozo vs A. Barrena",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "SIII ALEX BARRENA!!! 🇦🇷\n\nAlex Barrena le ganó a J. Aguilar Cardozo 🇺🇾 por 6-4 y 6-3 en Semis.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #IEBMasArgOpen"
-        ]
-      }
-    },
     "2026-09-27": {
       "12166220": {
         "event_key": "12166220",
