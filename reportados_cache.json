@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-03 17:07:42",
+  "ultima_actualizacion": "2026-10-04 12:11:41",
   "dias": {
     "2026-09-26": {
       "12165868": {
@@ -914,6 +914,32 @@
         "estado": "Finished",
         "tweets": [
           "Resultados de Semifinales en el ITF W15 Trelew: 🇦🇷\n\n❌ M. F. Urrutia cayó ante L. F. Britez Risso 🇵🇾 por 7-5, 6-2 en Semis.\n❌ L. Moyano perdió ante A. S. Sanchez 🇲🇽 por 6-2, 6-1 en Semis.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFTrelew"
+        ]
+      }
+    },
+    "2026-10-04": {
+      "12167991": {
+        "event_key": "12167991",
+        "timestamp": "2026-10-04 12:11:40",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - Quarter-finals",
+        "jugadores": "D. Medvedev vs F. Cerundolo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE BEIJING 🇦🇷\n\nFran Cerúndolo cayó ante D. Medvedev por 7-6(7) y 6-3 en 4tos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ATPBeijing"
+        ]
+      },
+      "12168083": {
+        "event_key": "12168083",
+        "timestamp": "2026-10-04 12:11:41",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "F. Ribero vs L. J. Rodriguez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE L. J. RODRIGUEZ! 👏\n\nEn un gran cruce argentino en Semifinales, L. J. Rodriguez le ganó a F. Ribero por 6-3 y 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerAntofagasta"
         ]
       }
     }
