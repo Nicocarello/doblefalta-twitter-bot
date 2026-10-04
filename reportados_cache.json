@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-04 12:57:05",
+  "ultima_actualizacion": "2026-10-04 17:22:26",
   "dias": {
     "2026-09-27": {
       "12166220": {
@@ -888,6 +888,30 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN ANTOFAGASTA 🇦🇷\n\nS. De La Fuente cayó ante J. Aguilar Cardozo 🇺🇾 por 6-1, 6-7(3) y 6-0 en Semis.\n\nNo se pudo dar hoy 🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168069": {
+        "event_key": "12168069",
+        "timestamp": "2026-10-04 17:22:26",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - Final",
+        "jugadores": "G. Heide vs G. I. Justo",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 ¡CAMPEÓN EN CURITIBA! 🇦🇷\n\nG. I. Justo derrotó a G. Heide 🇧🇷 por 6-1 y 6-4 en Final.\n\n¡Semana soñada y trofeo a casa! Salud, campeón. 🏆👏 #ChallengerCuritiba"
+        ]
+      },
+      "12168086": {
+        "event_key": "12168086",
+        "timestamp": "2026-10-04 17:22:26",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "H. Casanova vs W. Leite",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN ANTOFAGASTA! 🇦🇷💪\n\nH. Casanova derrotó a W. Leite 🇧🇷 por 6-3, 3-6 y 6-4 en Semifinales.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerAntofagasta"
         ]
       }
     }
