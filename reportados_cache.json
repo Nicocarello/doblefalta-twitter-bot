@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-04 20:30:36",
+  "ultima_actualizacion": "2026-10-05 16:07:48",
   "dias": {
     "2026-09-27": {
       "12166220": {
@@ -964,6 +964,160 @@
         "tweets": [
           "Resultados de Semifinales en la Qualy del Challenger Antofagasta: 🇦🇷\n\n✅ N. Kicker venció a M. Cossu 🇺🇸 por 6-3, 6-4 en Semis.\n✅ T. Cigarran venció a A. Matta 🇺🇸 por 6-2, 6-2 en Semis.\n✅ L. Ratti derrotó a V. C. Loureiro J. 🇧🇷 por 6-4, 7-5 en Semis.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n✅ M. Zeitune superó a D. Ortiz Gamonal 🇨🇱 por 6-2, 6-1 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      }
+    },
+    "2026-10-05": {
+      "12168095": {
+        "event_key": "12168095",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "M. A. Dellien Velasco vs J. Estevez",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Antofagasta: 🇦🇷\n\n❌ Josefina Estevez no pudo ante M. A. Dellien Velasco 🇧🇴 por 6-2, 6-0 en 16avos.\n❌ L. J. Rodriguez perdió ante J. Aguilar Cardozo 🇺🇾 por 6-3, 0-6, 6-3 en Final.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ H. Casanova no pudo ante B. Munk Mesa 🇪🇸 por 6-1, 2-6, 6-4 en Final.\n🇦🇷 DERBI: T. Cigarran avanzó tras retiro de N. Kicker (6-3, 3-0) en Final.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Zeitune le ganó a L. Ratti por 6-1, 4-6, 6-2 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta\n\n(3/3) 🧵"
+        ]
+      },
+      "12168230": {
+        "event_key": "12168230",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Final",
+        "jugadores": "J. Aguilar Cardozo vs L. J. Rodriguez",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Antofagasta: 🇦🇷\n\n❌ Josefina Estevez no pudo ante M. A. Dellien Velasco 🇧🇴 por 6-2, 6-0 en 16avos.\n❌ L. J. Rodriguez perdió ante J. Aguilar Cardozo 🇺🇾 por 6-3, 0-6, 6-3 en Final.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ H. Casanova no pudo ante B. Munk Mesa 🇪🇸 por 6-1, 2-6, 6-4 en Final.\n🇦🇷 DERBI: T. Cigarran avanzó tras retiro de N. Kicker (6-3, 3-0) en Final.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Zeitune le ganó a L. Ratti por 6-1, 4-6, 6-2 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta\n\n(3/3) 🧵"
+        ]
+      },
+      "12168263": {
+        "event_key": "12168263",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Final",
+        "jugadores": "H. Casanova vs B. Munk Mesa",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Antofagasta: 🇦🇷\n\n❌ Josefina Estevez no pudo ante M. A. Dellien Velasco 🇧🇴 por 6-2, 6-0 en 16avos.\n❌ L. J. Rodriguez perdió ante J. Aguilar Cardozo 🇺🇾 por 6-3, 0-6, 6-3 en Final.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ H. Casanova no pudo ante B. Munk Mesa 🇪🇸 por 6-1, 2-6, 6-4 en Final.\n🇦🇷 DERBI: T. Cigarran avanzó tras retiro de N. Kicker (6-3, 3-0) en Final.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Zeitune le ganó a L. Ratti por 6-1, 4-6, 6-2 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta\n\n(3/3) 🧵"
+        ]
+      },
+      "12168270": {
+        "event_key": "12168270",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Final",
+        "jugadores": "N. Kicker vs T. Cigarran",
+        "resultado": "0 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Antofagasta: 🇦🇷\n\n❌ Josefina Estevez no pudo ante M. A. Dellien Velasco 🇧🇴 por 6-2, 6-0 en 16avos.\n❌ L. J. Rodriguez perdió ante J. Aguilar Cardozo 🇺🇾 por 6-3, 0-6, 6-3 en Final.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ H. Casanova no pudo ante B. Munk Mesa 🇪🇸 por 6-1, 2-6, 6-4 en Final.\n🇦🇷 DERBI: T. Cigarran avanzó tras retiro de N. Kicker (6-3, 3-0) en Final.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Zeitune le ganó a L. Ratti por 6-1, 4-6, 6-2 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta\n\n(3/3) 🧵"
+        ]
+      },
+      "12168276": {
+        "event_key": "12168276",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Final",
+        "jugadores": "L. Ratti vs M. Zeitune",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Antofagasta: 🇦🇷\n\n❌ Josefina Estevez no pudo ante M. A. Dellien Velasco 🇧🇴 por 6-2, 6-0 en 16avos.\n❌ L. J. Rodriguez perdió ante J. Aguilar Cardozo 🇺🇾 por 6-3, 0-6, 6-3 en Final.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ H. Casanova no pudo ante B. Munk Mesa 🇪🇸 por 6-1, 2-6, 6-4 en Final.\n🇦🇷 DERBI: T. Cigarran avanzó tras retiro de N. Kicker (6-3, 3-0) en Final.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Zeitune le ganó a L. Ratti por 6-1, 4-6, 6-2 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta\n\n(3/3) 🧵"
+        ]
+      },
+      "12168160": {
+        "event_key": "12168160",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Shanghai",
+        "ronda": "ATP Shanghai - Semi-finals",
+        "jugadores": "M. Zheng vs F. A. Gomez",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE SHANGHAI 🇦🇷\n\nFede Gómez cayó ante M. Zheng 🇺🇸 por 6-7(7), 6-3 y 6-3 en Semis.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #RolexShanghaiMasters"
+        ]
+      },
+      "12168350": {
+        "event_key": "12168350",
+        "timestamp": "2026-10-05 16:07:48",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "M. M. Maruca vs F. Rain Contreras",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12168352": {
+        "event_key": "12168352",
+        "timestamp": "2026-10-05 16:07:48",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "A. Tejada vs A. D. Duarte",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12168353": {
+        "event_key": "12168353",
+        "timestamp": "2026-10-05 16:07:48",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "M. A. Corvalan vs Cam. Markus",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12168355": {
+        "event_key": "12168355",
+        "timestamp": "2026-10-05 16:07:48",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "E. Zornada vs J. Lassaga",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12168357": {
+        "event_key": "12168357",
+        "timestamp": "2026-10-05 16:07:48",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "C. D. Vega Gudino vs G. Rondinoni",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
         ]
       }
     }
