@@ -1,45 +1,7 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-05 16:07:48",
+  "ultima_actualizacion": "2026-10-05 16:27:48",
   "dias": {
-    "2026-09-27": {
-      "12166220": {
-        "event_key": "12166220",
-        "timestamp": "2026-09-27 13:32:07",
-        "torneo": "Curitiba",
-        "ronda": "Curitiba - Semi-finals",
-        "jugadores": "L. J. Rodriguez vs B. Milani",
-        "resultado": "2 - 0",
-        "estado": "Finished",
-        "tweets": [
-          "SIII L. J. RODRIGUEZ!!! 🇦🇷\n\nL. J. Rodriguez se impuso ante B. Milani por 6-0 y 6-2 en Semis.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerCuritiba"
-        ]
-      },
-      "12166212": {
-        "event_key": "12166212",
-        "timestamp": "2026-09-27 20:53:43",
-        "torneo": "Buenos Aires 3",
-        "ronda": "Buenos Aires 3 - Final",
-        "jugadores": "A. Barrena vs F. Mena",
-        "resultado": "2 - 0",
-        "estado": "Finished",
-        "tweets": [
-          "🇦🇷 ¡FESTEJA ALEX BARRENA EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en Final, Alex Barrena derrotó a Facundo Mena por 6-4 y 6-0.\n\n¡Gran partido de ambos compatriotas! 👏 #IEBMasArgOpen"
-        ]
-      },
-      "12166213": {
-        "event_key": "12166213",
-        "timestamp": "2026-09-27 20:53:43",
-        "torneo": "Curitiba",
-        "ronda": "Curitiba - Semi-finals",
-        "jugadores": "B. Arias vs S. De La Fuente",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "¡A LA FINAL, S. DE LA FUENTE! 🇦🇷🔥\n\nS. De La Fuente derrotó a B. Arias 🇧🇴 por 7-6(7) y 6-3 en Semifinales.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerCuritiba"
-        ]
-      }
-    },
     "2026-09-28": {
       "12166335": {
         "event_key": "12166335",
