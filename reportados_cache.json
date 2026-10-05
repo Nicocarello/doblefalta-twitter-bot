@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-05 16:27:48",
+  "ultima_actualizacion": "2026-10-05 18:29:34",
   "dias": {
     "2026-09-28": {
       "12166335": {
@@ -1080,6 +1080,42 @@
           "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
           "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
           "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12168099": {
+        "event_key": "12168099",
+        "timestamp": "2026-10-05 18:29:34",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "G. A. Olivieri vs V. Aboian",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Antofagasta:\n\n🇦🇷 DERBI: G. A. Olivieri derrotó a V. Aboian por 6-1, 6-4 en 16avos.\n❌ Gonzalo Villanueva perdió ante N. Hardt por 7-5, 3-6, 7-5 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168103": {
+        "event_key": "12168103",
+        "timestamp": "2026-10-05 18:29:34",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "G. Villanueva vs N. Hardt",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Antofagasta:\n\n🇦🇷 DERBI: G. A. Olivieri derrotó a V. Aboian por 6-1, 6-4 en 16avos.\n❌ Gonzalo Villanueva perdió ante N. Hardt por 7-5, 3-6, 7-5 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168356": {
+        "event_key": "12168356",
+        "timestamp": "2026-10-05 18:29:34",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "S. A. Larraya Guidi vs A. V. Gobbi Monllau",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE S. A. LARRAYA GUIDI! 👏\n\nEn un gran cruce argentino en 16avos de final, S. A. Larraya Guidi venció a A. V. Gobbi Monllau por 6-2 y 7-5.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFCipollettiArgentina"
         ]
       }
     }
