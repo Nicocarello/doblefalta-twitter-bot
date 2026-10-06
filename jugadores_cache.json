@@ -95043,5 +95043,17 @@
         "ranking": 9999,
         "pais": "Croatia",
         "last_update": "2026-10-06"
+    },
+    "109960": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-10-06"
+    },
+    "77592": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-10-06"
     }
 }

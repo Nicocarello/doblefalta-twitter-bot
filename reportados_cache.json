@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-05 22:50:58",
+  "ultima_actualizacion": "2026-10-06 13:36:30",
   "dias": {
     "2026-09-28": {
       "12166335": {
@@ -1128,6 +1128,56 @@
         "estado": "Finished",
         "tweets": [
           "TROPIEZO EN W15 CIPOLLETTI (ARGENTINA) 🇦🇷\n\nM. Bulbarella no pudo ante A. Pajello por 7-5, 4-6 y 7-6(7) en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFCipollettiArgentina"
+        ]
+      }
+    },
+    "2026-10-06": {
+      "12168094": {
+        "event_key": "12168094",
+        "timestamp": "2026-10-06 13:36:30",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "A. Barrena vs M. Pucinelli de Almeida",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Antofagasta:\n\n❌ Alex Barrena perdió ante M. Pucinelli de Almeida 🇧🇷 por 7-5, 6-3 en 16avos.\n❌ T. Cigarran perdió ante M. Tobon 🇨🇴 por 4-6, 6-4, 6-1 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168595": {
+        "event_key": "12168595",
+        "timestamp": "2026-10-06 13:36:30",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "M. Tobon vs T. Cigarran",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Antofagasta:\n\n❌ Alex Barrena perdió ante M. Pucinelli de Almeida 🇧🇷 por 7-5, 6-3 en 16avos.\n❌ T. Cigarran perdió ante M. Tobon 🇨🇴 por 4-6, 6-4, 6-1 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168452": {
+        "event_key": "12168452",
+        "timestamp": "2026-10-06 13:36:30",
+        "torneo": "W15 Chisinau (Moldova)",
+        "ronda": "W15 Chisinau - 1/16-finals",
+        "jugadores": "A. Chlpac vs A. Corvi",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE W15 CHISINAU (MOLDOVA) 🇦🇷\n\nA. Chlpac cayó ante A. Corvi 🇮🇹 por 6-0 y 6-0 en 16avos de final.\n\nPunto final en W15 Chisinau (Moldova). ¡A recargar y no aflojar! 💪🇦🇷 #ITFChisinauMoldova"
+        ]
+      },
+      "12168596": {
+        "event_key": "12168596",
+        "timestamp": "2026-10-06 13:36:30",
+        "torneo": "M15 Monastir 34",
+        "ronda": "M15 Monastir 34 - 1/16-finals",
+        "jugadores": "J. Echeverria vs T. A. Pernas",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN M15 MONASTIR 34 🇦🇷\n\nT. A. Pernas no pudo ante J. Echeverria 🇻🇪 por 6-3 y 7-5 en 16avos de final.\n\nPunto final en M15 Monastir 34. ¡A recargar y no aflojar! 💪🇦🇷 #ITFMonastir34"
         ]
       }
     }
