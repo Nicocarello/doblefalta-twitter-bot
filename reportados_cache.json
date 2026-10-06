@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-06 15:03:12",
+  "ultima_actualizacion": "2026-10-06 19:59:34",
   "dias": {
     "2026-09-29": {
       "12166584": {
@@ -1140,6 +1140,57 @@
         "estado": "Finished",
         "tweets": [
           "TROPIEZO EN M15 QUITO 3 🇦🇷\n\nI. Dreycopp no pudo ante J. S. Gomez 🇨🇴 por 7-5, 2-6 y 6-3 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFQuito3"
+        ]
+      },
+      "12168097": {
+        "event_key": "12168097",
+        "timestamp": "2026-10-06 19:59:34",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "G. I. Justo vs F. Comesana",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Antofagasta:\n\n🇦🇷 DERBI: G. I. Justo derrotó a Fran Comesaña por 6-7(6), 7-6(7), 6-1 en 16avos.\n❌ M. Zeitune no pudo ante G. Heide 🇧🇷 por 6-3, 1-6, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Lauti Midón derrotó a J. Pereira 🇧🇷 por 6-3, 4-6, 6-0 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168591": {
+        "event_key": "12168591",
+        "timestamp": "2026-10-06 19:59:34",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "G. Heide vs M. Zeitune",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Antofagasta:\n\n🇦🇷 DERBI: G. I. Justo derrotó a Fran Comesaña por 6-7(6), 7-6(7), 6-1 en 16avos.\n❌ M. Zeitune no pudo ante G. Heide 🇧🇷 por 6-3, 1-6, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Lauti Midón derrotó a J. Pereira 🇧🇷 por 6-3, 4-6, 6-0 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168593": {
+        "event_key": "12168593",
+        "timestamp": "2026-10-06 19:59:34",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "J. Pereira vs L. Midon",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Antofagasta:\n\n🇦🇷 DERBI: G. I. Justo derrotó a Fran Comesaña por 6-7(6), 7-6(7), 6-1 en 16avos.\n❌ M. Zeitune no pudo ante G. Heide 🇧🇷 por 6-3, 1-6, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Lauti Midón derrotó a J. Pereira 🇧🇷 por 6-3, 4-6, 6-0 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168720": {
+        "event_key": "12168720",
+        "timestamp": "2026-10-06 19:59:34",
+        "torneo": "M15 Quito 3",
+        "ronda": "M15 Quito 3 - 1/16-finals",
+        "jugadores": "F. De Dios vs D. A. Macias Elizalde",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SIII F. DE DIOS!!! 🇦🇷\n\nF. De Dios superó a D. A. Macias Elizalde 🇪🇨 por 7-6(7), 5-7 y 6-3 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFQuito3"
         ]
       }
     }
