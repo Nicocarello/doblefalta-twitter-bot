@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-06 14:23:59",
+  "ultima_actualizacion": "2026-10-06 15:03:12",
   "dias": {
     "2026-09-29": {
       "12166584": {
@@ -1116,6 +1116,30 @@
         "estado": "Finished",
         "tweets": [
           "DESPEDIDA DE M15 QUITO 3 🇦🇷\n\nT. Meneo no pudo ante J. S. Osorio 🇨🇴 por 7-5 y 6-4 en 16avos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFQuito3"
+        ]
+      },
+      "12168102": {
+        "event_key": "12168102",
+        "timestamp": "2026-10-06 15:03:12",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "J. B. Torres vs P. Boscardin Dias",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nJ. B. Torres cayó ante P. Boscardin Dias 🇧🇷 por 6-2 y 7-6(7) en 16avos de final.\n\nNo se pudo dar hoy 🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168718": {
+        "event_key": "12168718",
+        "timestamp": "2026-10-06 15:03:12",
+        "torneo": "M15 Quito 3",
+        "ronda": "M15 Quito 3 - 1/16-finals",
+        "jugadores": "I. Dreycopp vs J. S. Gomez",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN M15 QUITO 3 🇦🇷\n\nI. Dreycopp no pudo ante J. S. Gomez 🇨🇴 por 7-5, 2-6 y 6-3 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFQuito3"
         ]
       }
     }
