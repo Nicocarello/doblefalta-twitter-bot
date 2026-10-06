@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-06 14:03:20",
+  "ultima_actualizacion": "2026-10-06 14:23:59",
   "dias": {
     "2026-09-29": {
       "12166584": {
@@ -1104,6 +1104,18 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN M15 MONASTIR 34 🇦🇷\n\nT. A. Pernas no pudo ante J. Echeverria 🇻🇪 por 6-3 y 7-5 en 16avos de final.\n\nPunto final en M15 Monastir 34. ¡A recargar y no aflojar! 💪🇦🇷 #ITFMonastir34"
+        ]
+      },
+      "12168719": {
+        "event_key": "12168719",
+        "timestamp": "2026-10-06 14:23:59",
+        "torneo": "M15 Quito 3",
+        "ronda": "M15 Quito 3 - 1/16-finals",
+        "jugadores": "J. S. Osorio vs T. Meneo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE M15 QUITO 3 🇦🇷\n\nT. Meneo no pudo ante J. S. Osorio 🇨🇴 por 7-5 y 6-4 en 16avos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFQuito3"
         ]
       }
     }
