@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-05 18:29:34",
+  "ultima_actualizacion": "2026-10-05 22:50:58",
   "dias": {
     "2026-09-28": {
       "12166335": {
@@ -1116,6 +1116,18 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE S. A. LARRAYA GUIDI! 👏\n\nEn un gran cruce argentino en 16avos de final, S. A. Larraya Guidi venció a A. V. Gobbi Monllau por 6-2 y 7-5.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFCipollettiArgentina"
+        ]
+      },
+      "12168358": {
+        "event_key": "12168358",
+        "timestamp": "2026-10-05 22:50:58",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "M. Bulbarella vs A. Pajello",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN W15 CIPOLLETTI (ARGENTINA) 🇦🇷\n\nM. Bulbarella no pudo ante A. Pajello por 7-5, 4-6 y 7-6(7) en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFCipollettiArgentina"
         ]
       }
     }
