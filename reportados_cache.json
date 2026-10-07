@@ -1,279 +1,7 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-09-29 15:33:25",
+  "ultima_actualizacion": "2026-10-06 19:59:34",
   "dias": {
-    "2026-09-25": {
-      "12164771": {
-        "event_key": "12164771",
-        "timestamp": "2026-09-25 12:05:00",
-        "torneo": "Desconocido (Migrado)",
-        "jugadores": "Desconocido",
-        "resultado": "",
-        "tweets": []
-      },
-      "12165553": {
-        "event_key": "12165553",
-        "timestamp": "2026-09-25 12:05:00",
-        "torneo": "Desconocido (Migrado)",
-        "jugadores": "Desconocido",
-        "resultado": "",
-        "tweets": []
-      },
-      "12165828": {
-        "event_key": "12165828",
-        "timestamp": "2026-09-25 12:05:00",
-        "torneo": "Desconocido (Migrado)",
-        "jugadores": "Desconocido",
-        "resultado": "",
-        "tweets": []
-      },
-      "12165862": {
-        "event_key": "12165862",
-        "timestamp": "2026-09-25 12:05:00",
-        "torneo": "ATP Laver Cup",
-        "jugadores": "Fran Cerúndolo vs C. Ruud",
-        "resultado": "6-7(4), 6-4, 10-8",
-        "tweets": [
-          "BATALLÓ PERO NO ALCANZÓ 🇦🇷\n\nFran Cerúndolo cayó ante C. Ruud 🇳🇴 por 6-7(4), 6-4 y 10-8 en el ATP Laver Cup.\n\nCierra su participación en el certamen. ¡A pensar en lo que viene! 🎾🇦🇷 #ATPLaverCup"
-        ]
-      },
-      "12165740": {
-        "event_key": "12165740",
-        "timestamp": "2026-09-25 18:23:24",
-        "torneo": "San Diego 2 (Usa) - Qualification",
-        "ronda": "San Diego 2 - Quarter-finals",
-        "jugadores": "I. Marcondes vs F. A. Gomez",
-        "resultado": "2 - 1",
-        "estado": "Finished",
-        "tweets": [
-          "FIN DEL CAMINO EN SAN DIEGO 2 (USA) - QUALIFICATION 🇦🇷\n\nFede Gómez perdió ante I. Marcondes 🇧🇷 por 4-6, 6-4 y 6-1 en 4tos de final.\n\nPunto final en San Diego 2 (Usa) - Qualification. ¡A recargar y no aflojar! 💪🇦🇷 #ChallengerSanDiego2UsaQualification"
-        ]
-      },
-      "12165745": {
-        "event_key": "12165745",
-        "timestamp": "2026-09-25 18:23:24",
-        "torneo": "Buenos Aires 3",
-        "ronda": "Buenos Aires 3 - Quarter-finals",
-        "jugadores": "F. Mena vs N. Kicker",
-        "resultado": "2 - 0",
-        "estado": "Finished",
-        "tweets": [
-          "🇦🇷 ¡FESTEJA FACUNDO MENA EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 4tos de final, Facundo Mena le ganó a N. Kicker por 6-4 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #IEBMasArgOpen"
-        ]
-      },
-      "12165948": {
-        "event_key": "12165948",
-        "timestamp": "2026-09-25 21:06:15",
-        "torneo": "Buenos Aires 3",
-        "ronda": "Buenos Aires 3 - Quarter-finals",
-        "jugadores": "J. C. Prado Angelo vs A. Barrena",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "¡A SEMIFINAL, ALEX BARRENA! 🇦🇷🔥\n\nAlex Barrena se impuso ante J. C. Prado Angelo 🇧🇴 por 6-4 y 6-4 en 4tos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #IEBMasArgOpen"
-        ]
-      },
-      "12165959": {
-        "event_key": "12165959",
-        "timestamp": "2026-09-25 21:06:15",
-        "torneo": "W15 Belem (Brazil)",
-        "ronda": "W15 Belem - Quarter-finals",
-        "jugadores": "J. Dourado Zimermman vs J. Estevez",
-        "resultado": "1 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "Resultados de Cuartos de final en el ITF W15 Belem (Brazil): 🇦🇷\n\n✅ Jose Estevez le ganó a J. Dourado Zimermman 🇧🇷 por 6-1, 2-6, 6-1 en Cuartos.\n❌ Luli Cinalli no pudo ante P. Lopez 🇺🇸 por 7-6 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFBelemBrazil"
-        ]
-      },
-      "12165962": {
-        "event_key": "12165962",
-        "timestamp": "2026-09-25 21:06:15",
-        "torneo": "W15 Belem (Brazil)",
-        "ronda": "W15 Belem - Quarter-finals",
-        "jugadores": "L. M. Cinalli vs P. Lopez",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "Resultados de Cuartos de final en el ITF W15 Belem (Brazil): 🇦🇷\n\n✅ Jose Estevez le ganó a J. Dourado Zimermman 🇧🇷 por 6-1, 2-6, 6-1 en Cuartos.\n❌ Luli Cinalli no pudo ante P. Lopez 🇺🇸 por 7-6 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFBelemBrazil"
-        ]
-      }
-    },
-    "2026-09-26": {
-      "12165868": {
-        "event_key": "12165868",
-        "timestamp": "2026-09-26 04:11:25",
-        "torneo": "Chengdu",
-        "ronda": "ATP Chengdu - 1/8-finals",
-        "jugadores": "J. M. Cerundolo vs A. Davidovich Fokina",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "Resultados de Cuartos de final en el ATP Chengdu: 🇦🇷\n\n❌ Juanma Cerúndolo cayó ante A. Davidovich Fokina 🇪🇸 por 6-4, 6-4 en Octavos.\n\n(1/2) 🧵",
-          "Sigue la lista: 👇\n\n❌ Peers/ Venus no pudo ante Johnson/ Zielinski por 2-6, 6-3, 10-7 en Cuartos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ATPChengdu\n\n(2/2) 🧵"
-        ]
-      },
-      "12165975": {
-        "event_key": "12165975",
-        "timestamp": "2026-09-26 04:11:25",
-        "torneo": "Chengdu",
-        "ronda": "ATP Chengdu - Quarter-finals",
-        "jugadores": "Peers/ Venus vs Johnson/ Zielinski",
-        "resultado": "1 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "Resultados de Cuartos de final en el ATP Chengdu: 🇦🇷\n\n❌ Juanma Cerúndolo cayó ante A. Davidovich Fokina 🇪🇸 por 6-4, 6-4 en Octavos.\n\n(1/2) 🧵",
-          "Sigue la lista: 👇\n\n❌ Peers/ Venus no pudo ante Johnson/ Zielinski por 2-6, 6-3, 10-7 en Cuartos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ATPChengdu\n\n(2/2) 🧵"
-        ]
-      },
-      "12166100": {
-        "event_key": "12166100",
-        "timestamp": "2026-09-26 12:56:46",
-        "torneo": "W15 Belem (Brazil)",
-        "ronda": "W15 Belem - Semi-finals",
-        "jugadores": "J. Estevez vs L. Garcia Vidal",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "DESPEDIDA DE W15 BELEM (BRAZIL) 🇦🇷\n\nJose Estevez perdió ante L. Garcia Vidal 🇧🇷 por 6-1 y 6-3 en Semifinales.\n\nNo se pudo dar hoy 🇦🇷 #ITFBelemBrazil"
-        ]
-      },
-      "12166077": {
-        "event_key": "12166077",
-        "timestamp": "2026-09-26 16:44:37",
-        "torneo": "Buenos Aires 3",
-        "ronda": "Buenos Aires 3 - Semi-finals",
-        "jugadores": "P. Boscardin Dias vs F. Mena",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "¡GRAN PASO EN BUENOS AIRES 3! 🇦🇷💪\n\nFacundo Mena derrotó a P. Boscardin Dias 🇧🇷 por 7-5 y 6-0 en Semis.\n\nTerrible partido 💪🇦🇷 #IEBMasArgOpen"
-        ]
-      },
-      "12166091": {
-        "event_key": "12166091",
-        "timestamp": "2026-09-26 19:35:33",
-        "torneo": "Buenos Aires 3",
-        "ronda": "Buenos Aires 3 - Semi-finals",
-        "jugadores": "J. Aguilar Cardozo vs A. Barrena",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "SIII ALEX BARRENA!!! 🇦🇷\n\nAlex Barrena le ganó a J. Aguilar Cardozo 🇺🇾 por 6-4 y 6-3 en Semis.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #IEBMasArgOpen"
-        ]
-      }
-    },
-    "2026-09-27": {
-      "12166220": {
-        "event_key": "12166220",
-        "timestamp": "2026-09-27 13:32:07",
-        "torneo": "Curitiba",
-        "ronda": "Curitiba - Semi-finals",
-        "jugadores": "L. J. Rodriguez vs B. Milani",
-        "resultado": "2 - 0",
-        "estado": "Finished",
-        "tweets": [
-          "SIII L. J. RODRIGUEZ!!! 🇦🇷\n\nL. J. Rodriguez se impuso ante B. Milani por 6-0 y 6-2 en Semis.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerCuritiba"
-        ]
-      },
-      "12166212": {
-        "event_key": "12166212",
-        "timestamp": "2026-09-27 20:53:43",
-        "torneo": "Buenos Aires 3",
-        "ronda": "Buenos Aires 3 - Final",
-        "jugadores": "A. Barrena vs F. Mena",
-        "resultado": "2 - 0",
-        "estado": "Finished",
-        "tweets": [
-          "🇦🇷 ¡FESTEJA ALEX BARRENA EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en Final, Alex Barrena derrotó a Facundo Mena por 6-4 y 6-0.\n\n¡Gran partido de ambos compatriotas! 👏 #IEBMasArgOpen"
-        ]
-      },
-      "12166213": {
-        "event_key": "12166213",
-        "timestamp": "2026-09-27 20:53:43",
-        "torneo": "Curitiba",
-        "ronda": "Curitiba - Semi-finals",
-        "jugadores": "B. Arias vs S. De La Fuente",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "¡A LA FINAL, S. DE LA FUENTE! 🇦🇷🔥\n\nS. De La Fuente derrotó a B. Arias 🇧🇴 por 7-6(7) y 6-3 en Semifinales.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerCuritiba"
-        ]
-      }
-    },
-    "2026-09-28": {
-      "12166335": {
-        "event_key": "12166335",
-        "timestamp": "2026-09-28 05:21:48",
-        "torneo": "Tokyo",
-        "ronda": "ATP Tokyo - Semi-finals",
-        "jugadores": "R. Hijikata vs C. Ugo Carabelli",
-        "resultado": "2 - 0",
-        "estado": "Finished",
-        "tweets": [
-          "FIN DEL CAMINO EN TOKYO 🇦🇷\n\nCamilo Carabelli perdió ante R. Hijikata 🇦🇺 por 6-2 y 6-3 en Semis.\n\nNo se pudo dar hoy 🇦🇷 #ATPTokyo"
-        ]
-      },
-      "12166373": {
-        "event_key": "12166373",
-        "timestamp": "2026-09-28 05:21:48",
-        "torneo": "Beijing",
-        "ronda": "ATP Beijing - Semi-finals",
-        "jugadores": "M. Landaluce vs M. Trungelliti",
-        "resultado": "1 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "SIII MARCO TRUNGELLITI!!! 🇦🇷\n\nMarco Trungelliti le ganó a M. Landaluce 🇪🇸 por 6-1, 6-7(9) y 7-6(7) en Semifinales.\n\nTerrible partido 💪🇦🇷 #ATPBeijing"
-        ]
-      },
-      "12166410": {
-        "event_key": "12166410",
-        "timestamp": "2026-09-28 14:59:52",
-        "torneo": "M15 Telavi 2 (Georgia)",
-        "ronda": "M15 Telavi 2 - 1/16-finals",
-        "jugadores": "V. Grippo vs G. Misasi",
-        "resultado": "0 - 2",
-        "estado": "Finished",
-        "tweets": [
-          "FIN DEL CAMINO EN M15 TELAVI 2 (GEORGIA) 🇦🇷\n\nValen Grippo no pudo ante G. Misasi 🇮🇹 por 6-3 y 6-0 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFTelavi2Georgia"
-        ]
-      },
-      "12166430": {
-        "event_key": "12166430",
-        "timestamp": "2026-09-28 14:59:52",
-        "torneo": "Adana (Turkey) - Qualification",
-        "ronda": "Adana - 1/16-finals",
-        "jugadores": "J. Riera vs A. Siskova",
-        "resultado": "2 - 0",
-        "estado": "Finished",
-        "tweets": [
-          "¡GRAN PASO EN ADANA (TURKEY) - QUALIFICATION! 🇦🇷💪\n\nJuli Riera se impuso ante A. Siskova 🇨🇿 por 7-5 y 6-2 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ChallengerAdanaTurkeyQualification"
-        ]
-      },
-      "12166443": {
-        "event_key": "12166443",
-        "timestamp": "2026-09-28 14:59:53",
-        "torneo": "Curitiba",
-        "ronda": "Curitiba - Final",
-        "jugadores": "L. J. Rodriguez vs W. Leite",
-        "resultado": "2 - 0",
-        "estado": "Finished",
-        "tweets": [
-          "¡GRAN PASO EN CURITIBA! 🇦🇷💪\n\nL. J. Rodriguez le ganó a W. Leite 🇧🇷 por 6-1 y 7-6(7) en Final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerCuritiba"
-        ]
-      },
-      "12166482": {
-        "event_key": "12166482",
-        "timestamp": "2026-09-28 16:48:00",
-        "torneo": "Curitiba",
-        "ronda": "Curitiba - Final",
-        "jugadores": "P. Sakamoto vs S. De La Fuente",
-        "resultado": "2 - 1",
-        "estado": "Finished",
-        "tweets": [
-          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nS. De La Fuente cayó ante P. Sakamoto 🇧🇷 por 2-6, 6-2 y 7-6(7) en Final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerCuritiba"
-        ]
-      }
-    },
     "2026-09-29": {
       "12166584": {
         "event_key": "12166584",
@@ -421,6 +149,1048 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: Lourdes Ayala derrotó a A. D. Duarte por 6-4, 6-0 en 16avos.\n✅ S. Meabe superó a A. Tarantola por 6-4, 6-2 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFTrelew"
+        ]
+      },
+      "12166844": {
+        "event_key": "12166844",
+        "timestamp": "2026-09-29 19:56:02",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "S. P. Da vs M. Carrocera",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n❌ M. Carrocera no pudo ante S. P. Da por 7-6(7), 3-6, 6-2 en 16avos.\n❌ J. Lassaga perdió ante L. F. Britez Risso 🇵🇾 por 6-1, 6-0 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12166846": {
+        "event_key": "12166846",
+        "timestamp": "2026-09-29 19:56:02",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "L. F. Britez Risso vs J. Lassaga",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n❌ M. Carrocera no pudo ante S. P. Da por 7-6(7), 3-6, 6-2 en 16avos.\n❌ J. Lassaga perdió ante L. F. Britez Risso 🇵🇾 por 6-1, 6-0 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12166891": {
+        "event_key": "12166891",
+        "timestamp": "2026-09-29 19:56:02",
+        "torneo": "M15 Fayetteville, AR",
+        "ronda": "M15 Fayetteville, AR - 1/16-finals",
+        "jugadores": "S. Goity Zapico vs E. Bynoe",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN M15 FAYETTEVILLE, AR 🇦🇷\n\nS. Goity Zapico perdió ante E. Bynoe 🇺🇸 por 6-4 y 6-2 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFFayetteville"
+        ]
+      }
+    },
+    "2026-09-30": {
+      "12166535": {
+        "event_key": "12166535",
+        "timestamp": "2026-09-30 05:11:31",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/16-finals",
+        "jugadores": "J-L. Struff vs T. A. Tirante",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN BEIJING 🇦🇷\n\nT. A. Tirante perdió ante J-L. Struff 🇩🇪 por 6-1 y 6-4 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ATPBeijing"
+        ]
+      },
+      "12166227": {
+        "event_key": "12166227",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "L. Andrade da Silva vs G. A. Olivieri",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba:\n\n✅ G. A. Olivieri superó a L. Andrade da Silva 🇧🇷 por 7-6(8), 7-6(7) en 16avos.\n✅ G. I. Justo le ganó a F. Roncadelli 🇺🇾 por 7-6(8), 6-2 en 16avos.\n❌ Facu Mena se retiró ante L. A. Miguel 🇧🇷 (6-2, 2-1) en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonzalo Villanueva derrotó a J. C. Prado Angelo 🇧🇴 por 3-6, 6-3, 6-4 en 16avos.\n✅ Lautaro Midón superó a B. Fernandez 🇧🇷 por 6-2, 7-5 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12166230": {
+        "event_key": "12166230",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "G. I. Justo vs F. Roncadelli",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba:\n\n✅ G. A. Olivieri superó a L. Andrade da Silva 🇧🇷 por 7-6(8), 7-6(7) en 16avos.\n✅ G. I. Justo le ganó a F. Roncadelli 🇺🇾 por 7-6(8), 6-2 en 16avos.\n❌ Facu Mena se retiró ante L. A. Miguel 🇧🇷 (6-2, 2-1) en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonzalo Villanueva derrotó a J. C. Prado Angelo 🇧🇴 por 3-6, 6-3, 6-4 en 16avos.\n✅ Lautaro Midón superó a B. Fernandez 🇧🇷 por 6-2, 7-5 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12166232": {
+        "event_key": "12166232",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "L. A. Miguel vs F. Mena",
+        "resultado": "1 - 0",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba:\n\n✅ G. A. Olivieri superó a L. Andrade da Silva 🇧🇷 por 7-6(8), 7-6(7) en 16avos.\n✅ G. I. Justo le ganó a F. Roncadelli 🇺🇾 por 7-6(8), 6-2 en 16avos.\n❌ Facu Mena se retiró ante L. A. Miguel 🇧🇷 (6-2, 2-1) en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonzalo Villanueva derrotó a J. C. Prado Angelo 🇧🇴 por 3-6, 6-3, 6-4 en 16avos.\n✅ Lautaro Midón superó a B. Fernandez 🇧🇷 por 6-2, 7-5 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12166237": {
+        "event_key": "12166237",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "G. Villanueva vs J. C. Prado Angelo",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba:\n\n✅ G. A. Olivieri superó a L. Andrade da Silva 🇧🇷 por 7-6(8), 7-6(7) en 16avos.\n✅ G. I. Justo le ganó a F. Roncadelli 🇺🇾 por 7-6(8), 6-2 en 16avos.\n❌ Facu Mena se retiró ante L. A. Miguel 🇧🇷 (6-2, 2-1) en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonzalo Villanueva derrotó a J. C. Prado Angelo 🇧🇴 por 3-6, 6-3, 6-4 en 16avos.\n✅ Lautaro Midón superó a B. Fernandez 🇧🇷 por 6-2, 7-5 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12167181": {
+        "event_key": "12167181",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "B. Fernandez vs L. Midon",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba:\n\n✅ G. A. Olivieri superó a L. Andrade da Silva 🇧🇷 por 7-6(8), 7-6(7) en 16avos.\n✅ G. I. Justo le ganó a F. Roncadelli 🇺🇾 por 7-6(8), 6-2 en 16avos.\n❌ Facu Mena se retiró ante L. A. Miguel 🇧🇷 (6-2, 2-1) en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonzalo Villanueva derrotó a J. C. Prado Angelo 🇧🇴 por 3-6, 6-3, 6-4 en 16avos.\n✅ Lautaro Midón superó a B. Fernandez 🇧🇷 por 6-2, 7-5 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12166529": {
+        "event_key": "12166529",
+        "timestamp": "2026-09-30 13:20:21",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/16-finals",
+        "jugadores": "J. M. Cerundolo vs Y. Bu",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN BEIJING 🇦🇷\n\nJuan Manuel Cerúndolo perdió ante Y. Bu 🇨🇳 por 6-2, 5-7 y 6-4 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ATPBeijing"
+        ]
+      },
+      "12166621": {
+        "event_key": "12166621",
+        "timestamp": "2026-09-30 13:20:22",
+        "torneo": "Adana (Turkey) - Qualification",
+        "ronda": "Adana - 1/8-finals",
+        "jugadores": "A. Ruzic vs J. Riera",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nJulia Riera perdió ante A. Ruzic 🇭🇷 por 6-3 y 6-4 en Octavos.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ChallengerAdanaTurkeyQualification"
+        ]
+      },
+      "12167211": {
+        "event_key": "12167211",
+        "timestamp": "2026-09-30 13:20:22",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "L. Moyano vs M. M. Maruca",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: L. Moyano venció a M. M. Maruca por 6-0, 6-1 en 16avos.\n✅ C. D. Vega Gudino venció a F. Rain Contreras 🇨🇱 por 6-4, 6-1 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFTrelew"
+        ]
+      },
+      "12167212": {
+        "event_key": "12167212",
+        "timestamp": "2026-09-30 13:20:22",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "F. Rain Contreras vs C. D. Vega Gudino",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: L. Moyano venció a M. M. Maruca por 6-0, 6-1 en 16avos.\n✅ C. D. Vega Gudino venció a F. Rain Contreras 🇨🇱 por 6-4, 6-1 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFTrelew"
+        ]
+      },
+      "12167214": {
+        "event_key": "12167214",
+        "timestamp": "2026-09-30 14:00:34",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "A. S. Sanchez vs C. C. Sosa",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN W15 TRELEW 🇦🇷\n\nC. C. Sosa perdió ante A. S. Sanchez 🇲🇽 por 6-0 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12167057": {
+        "event_key": "12167057",
+        "timestamp": "2026-09-30 15:06:44",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "J. B. Torres vs T. Barrios Vera",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN CURITIBA 🇦🇷\n\nJ. B. Torres no pudo ante T. Barrios Vera 🇨🇱 por 6-2 y 6-3 en 8vos.\n\nPunto final en Curitiba. ¡A recargar y no aflojar! 💪🇦🇷 #ChallengerCuritiba"
+        ]
+      },
+      "12167215": {
+        "event_key": "12167215",
+        "timestamp": "2026-09-30 15:06:45",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "T. Sfilio vs M. Bulbarella",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE M. BULBARELLA! 👏\n\nEn un gran cruce argentino en 16avos de final, M. Bulbarella le ganó a T. Sfilio por 6-2 y 7-5.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFTrelew"
+        ]
+      },
+      "12167213": {
+        "event_key": "12167213",
+        "timestamp": "2026-09-30 19:32:22",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "S. A. Larraya Guidi vs M. F. Urrutia",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: M. F. Urrutia superó a S. A. Larraya Guidi por 6-2, 6-2 en 16avos.\n✅ Luna Cinalli derrotó a Z. Doldan 🇵🇾 por 6-0, 6-4 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFTrelew"
+        ]
+      },
+      "12167216": {
+        "event_key": "12167216",
+        "timestamp": "2026-09-30 19:32:22",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/16-finals",
+        "jugadores": "Z. Doldan vs L. M. Cinalli",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: M. F. Urrutia superó a S. A. Larraya Guidi por 6-2, 6-2 en 16avos.\n✅ Luna Cinalli derrotó a Z. Doldan 🇵🇾 por 6-0, 6-4 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFTrelew"
+        ]
+      },
+      "12167265": {
+        "event_key": "12167265",
+        "timestamp": "2026-09-30 19:32:22",
+        "torneo": "W15 Nashville",
+        "ronda": "W15 Nashville, TN - 1/16-finals",
+        "jugadores": "C. Di Genova vs A. Hejtmanek",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Nashville:\n\n✅ C. Di Genova venció a A. Hejtmanek 🇨🇿 por 6-4, 4-6, 6-3 en 16avos.\n✅ F. Mattioli derrotó a E. M. Ionescu 🇷🇴 por 6-3, 6-3 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFNashville"
+        ]
+      },
+      "12167270": {
+        "event_key": "12167270",
+        "timestamp": "2026-09-30 19:32:22",
+        "torneo": "W15 Nashville",
+        "ronda": "W15 Nashville, TN - 1/16-finals",
+        "jugadores": "E. M. Ionescu vs F. Mattioli",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Nashville:\n\n✅ C. Di Genova venció a A. Hejtmanek 🇨🇿 por 6-4, 4-6, 6-3 en 16avos.\n✅ F. Mattioli derrotó a E. M. Ionescu 🇷🇴 por 6-3, 6-3 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFNashville"
+        ]
+      },
+      "12167276": {
+        "event_key": "12167276",
+        "timestamp": "2026-09-30 22:58:10",
+        "torneo": "W100 Templeton",
+        "ronda": "W100 Templeton, CA - 1/16-finals",
+        "jugadores": "V. Bosio vs K. Fakih",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nV. Bosio no pudo ante K. Fakih 🇺🇸 por 5-7, 7-5 y 6-0 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFTempleton"
+        ]
+      }
+    },
+    "2026-10-01": {
+      "12166530": {
+        "event_key": "12166530",
+        "timestamp": "2026-10-01 05:30:47",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/16-finals",
+        "jugadores": "A. De Minaur vs M. Navone",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ATP Beijing:\n\n❌ Mariano Navone no pudo ante A. De Minaur 🇦🇺 por 7-6(7), 6-2 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Francisco Cerúndolo superó a B. Van De Zandschulp 🇳🇱 por 5-7, 6-4, 6-3 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ATPBeijing\n\n(2/2) 🧵"
+        ]
+      },
+      "12166955": {
+        "event_key": "12166955",
+        "timestamp": "2026-10-01 05:30:47",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/16-finals",
+        "jugadores": "B. Van De Zandschulp vs F. Cerundolo",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ATP Beijing:\n\n❌ Mariano Navone no pudo ante A. De Minaur 🇦🇺 por 7-6(7), 6-2 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Francisco Cerúndolo superó a B. Van De Zandschulp 🇳🇱 por 5-7, 6-4, 6-3 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ATPBeijing\n\n(2/2) 🧵"
+        ]
+      },
+      "12166949": {
+        "event_key": "12166949",
+        "timestamp": "2026-10-01 05:30:48",
+        "torneo": "Tokyo",
+        "ronda": "ATP Tokyo - 1/16-finals",
+        "jugadores": "T. M. Etcheverry vs S. Tsitsipas",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nTomás Etcheverry cayó ante S. Tsitsipas 🇬🇷 por 4-6, 6-3 y 6-4 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ATPTokyo"
+        ]
+      },
+      "12166534": {
+        "event_key": "12166534",
+        "timestamp": "2026-10-01 13:58:12",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/16-finals",
+        "jugadores": "J. Shang vs S. Baez",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nSebastián Báez no pudo ante J. Shang 🇨🇳 por 5-7, 6-3 y 7-5 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ATPBeijing"
+        ]
+      },
+      "12167540": {
+        "event_key": "12167540",
+        "timestamp": "2026-10-01 13:58:12",
+        "torneo": "W15 Nashville",
+        "ronda": "W15 Nashville, TN - 1/8-finals",
+        "jugadores": "V. Ray vs C. Di Genova",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A CUARTOS, C. DI GENOVA! 🇦🇷🔥\n\nC. Di Genova venció a V. Ray 🇺🇸 por 6-4 y 6-2 en 8vos.\n\nTerrible partido 💪🇦🇷 #ITFNashville"
+        ]
+      },
+      "12167546": {
+        "event_key": "12167546",
+        "timestamp": "2026-10-01 13:58:12",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "D. Bhatia vs L. Ayala",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Trelew:\n\n✅ Luli Ayala venció a D. Bhatia por 6-2, 6-2 en Octavos.\n❌ Luna Cinalli cayó ante L. Zingg por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Florencia Moron cayó ante A. S. Sanchez 🇲🇽 por 6-1, 6-1 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167548": {
+        "event_key": "12167548",
+        "timestamp": "2026-10-01 13:58:12",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "L. Zingg vs L. M. Cinalli",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Trelew:\n\n✅ Luli Ayala venció a D. Bhatia por 6-2, 6-2 en Octavos.\n❌ Luna Cinalli cayó ante L. Zingg por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Florencia Moron cayó ante A. S. Sanchez 🇲🇽 por 6-1, 6-1 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167550": {
+        "event_key": "12167550",
+        "timestamp": "2026-10-01 13:58:12",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "A. S. Sanchez vs F. B. Moron",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Trelew:\n\n✅ Luli Ayala venció a D. Bhatia por 6-2, 6-2 en Octavos.\n❌ Luna Cinalli cayó ante L. Zingg por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Florencia Moron cayó ante A. S. Sanchez 🇲🇽 por 6-1, 6-1 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167549": {
+        "event_key": "12167549",
+        "timestamp": "2026-10-01 15:10:17",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "S. P. Da vs M. Bulbarella",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n❌ M. Bulbarella perdió ante S. P. Da por 6-2, 1-6, 6-2 en Octavos.\n🇦🇷 DERBI: M. F. Urrutia superó a C. D. Vega Gudino por 6-2, 6-3 en Octavos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12167551": {
+        "event_key": "12167551",
+        "timestamp": "2026-10-01 15:10:17",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "C. D. Vega Gudino vs M. F. Urrutia",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Trelew:\n\n❌ M. Bulbarella perdió ante S. P. Da por 6-2, 1-6, 6-2 en Octavos.\n🇦🇷 DERBI: M. F. Urrutia superó a C. D. Vega Gudino por 6-2, 6-3 en Octavos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12167422": {
+        "event_key": "12167422",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "M. Alves vs G. Villanueva",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba:\n\n✅ Gonza Villanueva venció a M. Alves 🇧🇷 por 6-2, 6-3 en Octavos.\n❌ G. A. Olivieri cayó ante P. Boscardin Dias 🇧🇷 por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ G. I. Justo le ganó a P. Sakamoto 🇧🇷 por 6-2, 6-4 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12167423": {
+        "event_key": "12167423",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "P. Boscardin Dias vs G. A. Olivieri",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba:\n\n✅ Gonza Villanueva venció a M. Alves 🇧🇷 por 6-2, 6-3 en Octavos.\n❌ G. A. Olivieri cayó ante P. Boscardin Dias 🇧🇷 por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ G. I. Justo le ganó a P. Sakamoto 🇧🇷 por 6-2, 6-4 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12167441": {
+        "event_key": "12167441",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "G. I. Justo vs P. Sakamoto",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba:\n\n✅ Gonza Villanueva venció a M. Alves 🇧🇷 por 6-2, 6-3 en Octavos.\n❌ G. A. Olivieri cayó ante P. Boscardin Dias 🇧🇷 por 6-4, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ G. I. Justo le ganó a P. Sakamoto 🇧🇷 por 6-2, 6-4 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCuritiba\n\n(2/2) 🧵"
+        ]
+      },
+      "12167552": {
+        "event_key": "12167552",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "L. Moyano vs S. Meabe",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: L. Moyano superó a Sofi Meabe por 7-6(7), 3-6, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Emily Zornada superó a A. V. Gobbi Monllau por 4-6, 7-5, 7-5 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167553": {
+        "event_key": "12167553",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - 1/8-finals",
+        "jugadores": "E. Zornada vs A. V. Gobbi Monllau",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Trelew:\n\n🇦🇷 DERBI: L. Moyano superó a Sofi Meabe por 7-6(7), 3-6, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Emily Zornada superó a A. V. Gobbi Monllau por 4-6, 7-5, 7-5 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167582": {
+        "event_key": "12167582",
+        "timestamp": "2026-10-01 20:04:51",
+        "torneo": "W15 Nashville",
+        "ronda": "W15 Nashville, TN - 1/8-finals",
+        "jugadores": "R. M. Nijkamp vs F. Mattioli",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN W15 NASHVILLE 🇦🇷\n\nF. Mattioli perdió ante R. M. Nijkamp 🇳🇱 por 3-6, 6-2 y 6-2 en Octavos de final.\n\nPunto final en W15 Nashville. ¡A recargar y no aflojar! 💪🇦🇷 #ITFNashville"
+        ]
+      }
+    },
+    "2026-10-02": {
+      "12167797": {
+        "event_key": "12167797",
+        "timestamp": "2026-10-02 14:34:45",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - Quarter-finals",
+        "jugadores": "L. Moyano vs S. P. Da",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN W15 TRELEW! 🇦🇷💪\n\nL. Moyano se impuso ante S. P. Da por 6-2 y 6-0 en Cuartos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12167775": {
+        "event_key": "12167775",
+        "timestamp": "2026-10-02 15:18:41",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - Quarter-finals",
+        "jugadores": "G. I. Justo vs G. Villanueva",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA G. I. JUSTO EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en Cuartos, G. I. Justo superó a Gonzalo Villanueva por 6-2 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerCuritiba"
+        ]
+      },
+      "12167501": {
+        "event_key": "12167501",
+        "timestamp": "2026-10-02 19:29:07",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - Quarter-finals",
+        "jugadores": "G. Heide vs L. Midon",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN CURITIBA 🇦🇷\n\nLauti Midón no pudo ante G. Heide 🇧🇷 por 6-2 y 6-4 en Cuartos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ChallengerCuritiba"
+        ]
+      },
+      "12167798": {
+        "event_key": "12167798",
+        "timestamp": "2026-10-02 19:29:07",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - Quarter-finals",
+        "jugadores": "A. S. Sanchez vs L. Ayala",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Trelew: 🇦🇷\n\n❌ Lourdes Ayala no pudo ante A. S. Sanchez 🇲🇽 por 7-6(7), 6-1 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. F. Urrutia superó a Zornada por 5-7, 6-3, 6-3 en Cuartos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167799": {
+        "event_key": "12167799",
+        "timestamp": "2026-10-02 19:29:07",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - Quarter-finals",
+        "jugadores": "E. Zornada vs M. F. Urrutia",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Trelew: 🇦🇷\n\n❌ Lourdes Ayala no pudo ante A. S. Sanchez 🇲🇽 por 7-6(7), 6-1 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. F. Urrutia superó a Zornada por 5-7, 6-3, 6-3 en Cuartos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ITFTrelew\n\n(2/2) 🧵"
+        ]
+      },
+      "12167782": {
+        "event_key": "12167782",
+        "timestamp": "2026-10-02 22:23:13",
+        "torneo": "W15 Nashville",
+        "ronda": "W15 Nashville, TN - Quarter-finals",
+        "jugadores": "A. Bowers vs C. Di Genova",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN W15 NASHVILLE 🇦🇷\n\nC. Di Genova no pudo ante A. Bowers 🇺🇸 por 6-1 y 6-3 en Cuartos.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFNashville"
+        ]
+      }
+    },
+    "2026-10-03": {
+      "12167724": {
+        "event_key": "12167724",
+        "timestamp": "2026-10-03 11:36:08",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - 1/8-finals",
+        "jugadores": "F. Cerundolo vs J. Mensik",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN BEIJING! 🇦🇷💪\n\nFran Cerúndolo le ganó a J. Mensik 🇨🇿 por 6-3 y 6-3 en 8vos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ATPBeijing"
+        ]
+      },
+      "12167911": {
+        "event_key": "12167911",
+        "timestamp": "2026-10-03 17:07:42",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - Semi-finals",
+        "jugadores": "G. I. Justo vs T. Barrios Vera",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡A LA FINAL, G. I. JUSTO! 🇦🇷🔥\n\nG. I. Justo venció a T. Barrios Vera 🇨🇱 por 4-6, 6-4 y 6-3 en Semis.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerCuritiba"
+        ]
+      },
+      "12167937": {
+        "event_key": "12167937",
+        "timestamp": "2026-10-03 17:07:42",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - Semi-finals",
+        "jugadores": "L. F. Britez Risso vs M. F. Urrutia",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en el ITF W15 Trelew: 🇦🇷\n\n❌ M. F. Urrutia cayó ante L. F. Britez Risso 🇵🇾 por 7-5, 6-2 en Semis.\n❌ L. Moyano perdió ante A. S. Sanchez 🇲🇽 por 6-2, 6-1 en Semis.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFTrelew"
+        ]
+      },
+      "12167938": {
+        "event_key": "12167938",
+        "timestamp": "2026-10-03 17:07:42",
+        "torneo": "W15 Trelew",
+        "ronda": "W15 Trelew - Semi-finals",
+        "jugadores": "A. S. Sanchez vs L. Moyano",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en el ITF W15 Trelew: 🇦🇷\n\n❌ M. F. Urrutia cayó ante L. F. Britez Risso 🇵🇾 por 7-5, 6-2 en Semis.\n❌ L. Moyano perdió ante A. S. Sanchez 🇲🇽 por 6-2, 6-1 en Semis.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFTrelew"
+        ]
+      }
+    },
+    "2026-10-04": {
+      "12167991": {
+        "event_key": "12167991",
+        "timestamp": "2026-10-04 12:11:40",
+        "torneo": "Beijing",
+        "ronda": "ATP Beijing - Quarter-finals",
+        "jugadores": "D. Medvedev vs F. Cerundolo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE BEIJING 🇦🇷\n\nFran Cerúndolo cayó ante D. Medvedev por 7-6(7) y 6-3 en 4tos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ATPBeijing"
+        ]
+      },
+      "12168083": {
+        "event_key": "12168083",
+        "timestamp": "2026-10-04 12:11:41",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "F. Ribero vs L. J. Rodriguez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE L. J. RODRIGUEZ! 👏\n\nEn un gran cruce argentino en Semifinales, L. J. Rodriguez le ganó a F. Ribero por 6-3 y 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerAntofagasta"
+        ]
+      },
+      "12168082": {
+        "event_key": "12168082",
+        "timestamp": "2026-10-04 12:57:05",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "J. Aguilar Cardozo vs S. De La Fuente",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN ANTOFAGASTA 🇦🇷\n\nS. De La Fuente cayó ante J. Aguilar Cardozo 🇺🇾 por 6-1, 6-7(3) y 6-0 en Semis.\n\nNo se pudo dar hoy 🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168069": {
+        "event_key": "12168069",
+        "timestamp": "2026-10-04 17:22:26",
+        "torneo": "Curitiba",
+        "ronda": "Curitiba - Final",
+        "jugadores": "G. Heide vs G. I. Justo",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 ¡CAMPEÓN EN CURITIBA! 🇦🇷\n\nG. I. Justo derrotó a G. Heide 🇧🇷 por 6-1 y 6-4 en Final.\n\n¡Semana soñada y trofeo a casa! Salud, campeón. 🏆👏 #ChallengerCuritiba"
+        ]
+      },
+      "12168086": {
+        "event_key": "12168086",
+        "timestamp": "2026-10-04 17:22:26",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "H. Casanova vs W. Leite",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN ANTOFAGASTA! 🇦🇷💪\n\nH. Casanova derrotó a W. Leite 🇧🇷 por 6-3, 3-6 y 6-4 en Semifinales.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168089": {
+        "event_key": "12168089",
+        "timestamp": "2026-10-04 20:30:36",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "N. Kicker vs M. Cossu",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Antofagasta: 🇦🇷\n\n✅ N. Kicker venció a M. Cossu 🇺🇸 por 6-3, 6-4 en Semis.\n✅ T. Cigarran venció a A. Matta 🇺🇸 por 6-2, 6-2 en Semis.\n✅ L. Ratti derrotó a V. C. Loureiro J. 🇧🇷 por 6-4, 7-5 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ M. Zeitune superó a D. Ortiz Gamonal 🇨🇱 por 6-2, 6-1 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168091": {
+        "event_key": "12168091",
+        "timestamp": "2026-10-04 20:30:36",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "A. Matta vs T. Cigarran",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Antofagasta: 🇦🇷\n\n✅ N. Kicker venció a M. Cossu 🇺🇸 por 6-3, 6-4 en Semis.\n✅ T. Cigarran venció a A. Matta 🇺🇸 por 6-2, 6-2 en Semis.\n✅ L. Ratti derrotó a V. C. Loureiro J. 🇧🇷 por 6-4, 7-5 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ M. Zeitune superó a D. Ortiz Gamonal 🇨🇱 por 6-2, 6-1 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168092": {
+        "event_key": "12168092",
+        "timestamp": "2026-10-04 20:30:36",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "L. Ratti vs V. C. Loureiro J.",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Antofagasta: 🇦🇷\n\n✅ N. Kicker venció a M. Cossu 🇺🇸 por 6-3, 6-4 en Semis.\n✅ T. Cigarran venció a A. Matta 🇺🇸 por 6-2, 6-2 en Semis.\n✅ L. Ratti derrotó a V. C. Loureiro J. 🇧🇷 por 6-4, 7-5 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ M. Zeitune superó a D. Ortiz Gamonal 🇨🇱 por 6-2, 6-1 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168093": {
+        "event_key": "12168093",
+        "timestamp": "2026-10-04 20:30:36",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Semi-finals",
+        "jugadores": "D. Ortiz Gamonal vs M. Zeitune",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Antofagasta: 🇦🇷\n\n✅ N. Kicker venció a M. Cossu 🇺🇸 por 6-3, 6-4 en Semis.\n✅ T. Cigarran venció a A. Matta 🇺🇸 por 6-2, 6-2 en Semis.\n✅ L. Ratti derrotó a V. C. Loureiro J. 🇧🇷 por 6-4, 7-5 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ M. Zeitune superó a D. Ortiz Gamonal 🇨🇱 por 6-2, 6-1 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      }
+    },
+    "2026-10-05": {
+      "12168095": {
+        "event_key": "12168095",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "M. A. Dellien Velasco vs J. Estevez",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Antofagasta: 🇦🇷\n\n❌ Josefina Estevez no pudo ante M. A. Dellien Velasco 🇧🇴 por 6-2, 6-0 en 16avos.\n❌ L. J. Rodriguez perdió ante J. Aguilar Cardozo 🇺🇾 por 6-3, 0-6, 6-3 en Final.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ H. Casanova no pudo ante B. Munk Mesa 🇪🇸 por 6-1, 2-6, 6-4 en Final.\n🇦🇷 DERBI: T. Cigarran avanzó tras retiro de N. Kicker (6-3, 3-0) en Final.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Zeitune le ganó a L. Ratti por 6-1, 4-6, 6-2 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta\n\n(3/3) 🧵"
+        ]
+      },
+      "12168230": {
+        "event_key": "12168230",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Final",
+        "jugadores": "J. Aguilar Cardozo vs L. J. Rodriguez",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Antofagasta: 🇦🇷\n\n❌ Josefina Estevez no pudo ante M. A. Dellien Velasco 🇧🇴 por 6-2, 6-0 en 16avos.\n❌ L. J. Rodriguez perdió ante J. Aguilar Cardozo 🇺🇾 por 6-3, 0-6, 6-3 en Final.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ H. Casanova no pudo ante B. Munk Mesa 🇪🇸 por 6-1, 2-6, 6-4 en Final.\n🇦🇷 DERBI: T. Cigarran avanzó tras retiro de N. Kicker (6-3, 3-0) en Final.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Zeitune le ganó a L. Ratti por 6-1, 4-6, 6-2 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta\n\n(3/3) 🧵"
+        ]
+      },
+      "12168263": {
+        "event_key": "12168263",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Final",
+        "jugadores": "H. Casanova vs B. Munk Mesa",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Antofagasta: 🇦🇷\n\n❌ Josefina Estevez no pudo ante M. A. Dellien Velasco 🇧🇴 por 6-2, 6-0 en 16avos.\n❌ L. J. Rodriguez perdió ante J. Aguilar Cardozo 🇺🇾 por 6-3, 0-6, 6-3 en Final.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ H. Casanova no pudo ante B. Munk Mesa 🇪🇸 por 6-1, 2-6, 6-4 en Final.\n🇦🇷 DERBI: T. Cigarran avanzó tras retiro de N. Kicker (6-3, 3-0) en Final.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Zeitune le ganó a L. Ratti por 6-1, 4-6, 6-2 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta\n\n(3/3) 🧵"
+        ]
+      },
+      "12168270": {
+        "event_key": "12168270",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Final",
+        "jugadores": "N. Kicker vs T. Cigarran",
+        "resultado": "0 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Antofagasta: 🇦🇷\n\n❌ Josefina Estevez no pudo ante M. A. Dellien Velasco 🇧🇴 por 6-2, 6-0 en 16avos.\n❌ L. J. Rodriguez perdió ante J. Aguilar Cardozo 🇺🇾 por 6-3, 0-6, 6-3 en Final.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ H. Casanova no pudo ante B. Munk Mesa 🇪🇸 por 6-1, 2-6, 6-4 en Final.\n🇦🇷 DERBI: T. Cigarran avanzó tras retiro de N. Kicker (6-3, 3-0) en Final.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Zeitune le ganó a L. Ratti por 6-1, 4-6, 6-2 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta\n\n(3/3) 🧵"
+        ]
+      },
+      "12168276": {
+        "event_key": "12168276",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Final",
+        "jugadores": "L. Ratti vs M. Zeitune",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Antofagasta: 🇦🇷\n\n❌ Josefina Estevez no pudo ante M. A. Dellien Velasco 🇧🇴 por 6-2, 6-0 en 16avos.\n❌ L. J. Rodriguez perdió ante J. Aguilar Cardozo 🇺🇾 por 6-3, 0-6, 6-3 en Final.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ H. Casanova no pudo ante B. Munk Mesa 🇪🇸 por 6-1, 2-6, 6-4 en Final.\n🇦🇷 DERBI: T. Cigarran avanzó tras retiro de N. Kicker (6-3, 3-0) en Final.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Zeitune le ganó a L. Ratti por 6-1, 4-6, 6-2 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta\n\n(3/3) 🧵"
+        ]
+      },
+      "12168160": {
+        "event_key": "12168160",
+        "timestamp": "2026-10-05 16:07:47",
+        "torneo": "Shanghai",
+        "ronda": "ATP Shanghai - Semi-finals",
+        "jugadores": "M. Zheng vs F. A. Gomez",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE SHANGHAI 🇦🇷\n\nFede Gómez cayó ante M. Zheng 🇺🇸 por 6-7(7), 6-3 y 6-3 en Semis.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #RolexShanghaiMasters"
+        ]
+      },
+      "12168350": {
+        "event_key": "12168350",
+        "timestamp": "2026-10-05 16:07:48",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "M. M. Maruca vs F. Rain Contreras",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12168352": {
+        "event_key": "12168352",
+        "timestamp": "2026-10-05 16:07:48",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "A. Tejada vs A. D. Duarte",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12168353": {
+        "event_key": "12168353",
+        "timestamp": "2026-10-05 16:07:48",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "M. A. Corvalan vs Cam. Markus",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12168355": {
+        "event_key": "12168355",
+        "timestamp": "2026-10-05 16:07:48",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "E. Zornada vs J. Lassaga",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12168357": {
+        "event_key": "12168357",
+        "timestamp": "2026-10-05 16:07:48",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "C. D. Vega Gudino vs G. Rondinoni",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Cipolletti (Argentina):\n\n❌ M. M. Maruca cayó ante F. Rain Contreras 🇨🇱 por 7-5, 7-6(8) en 16avos.\n🇦🇷 DERBI: A. D. Duarte superó a A. Tejada por 6-3, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ Cam. Markus le ganó a M. A. Corvalan por 6-1, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada derrotó a J. Lassaga por 6-0, 6-1 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n✅ C. D. Vega Gudino venció a G. Rondinoni por 6-3, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFCipollettiArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12168099": {
+        "event_key": "12168099",
+        "timestamp": "2026-10-05 18:29:34",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "G. A. Olivieri vs V. Aboian",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Antofagasta:\n\n🇦🇷 DERBI: G. A. Olivieri derrotó a V. Aboian por 6-1, 6-4 en 16avos.\n❌ Gonzalo Villanueva perdió ante N. Hardt por 7-5, 3-6, 7-5 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168103": {
+        "event_key": "12168103",
+        "timestamp": "2026-10-05 18:29:34",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "G. Villanueva vs N. Hardt",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Antofagasta:\n\n🇦🇷 DERBI: G. A. Olivieri derrotó a V. Aboian por 6-1, 6-4 en 16avos.\n❌ Gonzalo Villanueva perdió ante N. Hardt por 7-5, 3-6, 7-5 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168356": {
+        "event_key": "12168356",
+        "timestamp": "2026-10-05 18:29:34",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "S. A. Larraya Guidi vs A. V. Gobbi Monllau",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE S. A. LARRAYA GUIDI! 👏\n\nEn un gran cruce argentino en 16avos de final, S. A. Larraya Guidi venció a A. V. Gobbi Monllau por 6-2 y 7-5.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFCipollettiArgentina"
+        ]
+      },
+      "12168358": {
+        "event_key": "12168358",
+        "timestamp": "2026-10-05 22:50:58",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "M. Bulbarella vs A. Pajello",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN W15 CIPOLLETTI (ARGENTINA) 🇦🇷\n\nM. Bulbarella no pudo ante A. Pajello por 7-5, 4-6 y 7-6(7) en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFCipollettiArgentina"
+        ]
+      }
+    },
+    "2026-10-06": {
+      "12168094": {
+        "event_key": "12168094",
+        "timestamp": "2026-10-06 13:36:30",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "A. Barrena vs M. Pucinelli de Almeida",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Antofagasta:\n\n❌ Alex Barrena perdió ante M. Pucinelli de Almeida 🇧🇷 por 7-5, 6-3 en 16avos.\n❌ T. Cigarran perdió ante M. Tobon 🇨🇴 por 4-6, 6-4, 6-1 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168595": {
+        "event_key": "12168595",
+        "timestamp": "2026-10-06 13:36:30",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "M. Tobon vs T. Cigarran",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Antofagasta:\n\n❌ Alex Barrena perdió ante M. Pucinelli de Almeida 🇧🇷 por 7-5, 6-3 en 16avos.\n❌ T. Cigarran perdió ante M. Tobon 🇨🇴 por 4-6, 6-4, 6-1 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168452": {
+        "event_key": "12168452",
+        "timestamp": "2026-10-06 13:36:30",
+        "torneo": "W15 Chisinau (Moldova)",
+        "ronda": "W15 Chisinau - 1/16-finals",
+        "jugadores": "A. Chlpac vs A. Corvi",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE W15 CHISINAU (MOLDOVA) 🇦🇷\n\nA. Chlpac cayó ante A. Corvi 🇮🇹 por 6-0 y 6-0 en 16avos de final.\n\nPunto final en W15 Chisinau (Moldova). ¡A recargar y no aflojar! 💪🇦🇷 #ITFChisinauMoldova"
+        ]
+      },
+      "12168596": {
+        "event_key": "12168596",
+        "timestamp": "2026-10-06 13:36:30",
+        "torneo": "M15 Monastir 34",
+        "ronda": "M15 Monastir 34 - 1/16-finals",
+        "jugadores": "J. Echeverria vs T. A. Pernas",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN M15 MONASTIR 34 🇦🇷\n\nT. A. Pernas no pudo ante J. Echeverria 🇻🇪 por 6-3 y 7-5 en 16avos de final.\n\nPunto final en M15 Monastir 34. ¡A recargar y no aflojar! 💪🇦🇷 #ITFMonastir34"
+        ]
+      },
+      "12168719": {
+        "event_key": "12168719",
+        "timestamp": "2026-10-06 14:23:59",
+        "torneo": "M15 Quito 3",
+        "ronda": "M15 Quito 3 - 1/16-finals",
+        "jugadores": "J. S. Osorio vs T. Meneo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE M15 QUITO 3 🇦🇷\n\nT. Meneo no pudo ante J. S. Osorio 🇨🇴 por 7-5 y 6-4 en 16avos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFQuito3"
+        ]
+      },
+      "12168102": {
+        "event_key": "12168102",
+        "timestamp": "2026-10-06 15:03:12",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "J. B. Torres vs P. Boscardin Dias",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nJ. B. Torres cayó ante P. Boscardin Dias 🇧🇷 por 6-2 y 7-6(7) en 16avos de final.\n\nNo se pudo dar hoy 🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12168718": {
+        "event_key": "12168718",
+        "timestamp": "2026-10-06 15:03:12",
+        "torneo": "M15 Quito 3",
+        "ronda": "M15 Quito 3 - 1/16-finals",
+        "jugadores": "I. Dreycopp vs J. S. Gomez",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN M15 QUITO 3 🇦🇷\n\nI. Dreycopp no pudo ante J. S. Gomez 🇨🇴 por 7-5, 2-6 y 6-3 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFQuito3"
+        ]
+      },
+      "12168097": {
+        "event_key": "12168097",
+        "timestamp": "2026-10-06 19:59:34",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "G. I. Justo vs F. Comesana",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Antofagasta:\n\n🇦🇷 DERBI: G. I. Justo derrotó a Fran Comesaña por 6-7(6), 7-6(7), 6-1 en 16avos.\n❌ M. Zeitune no pudo ante G. Heide 🇧🇷 por 6-3, 1-6, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Lauti Midón derrotó a J. Pereira 🇧🇷 por 6-3, 4-6, 6-0 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168591": {
+        "event_key": "12168591",
+        "timestamp": "2026-10-06 19:59:34",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "G. Heide vs M. Zeitune",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Antofagasta:\n\n🇦🇷 DERBI: G. I. Justo derrotó a Fran Comesaña por 6-7(6), 7-6(7), 6-1 en 16avos.\n❌ M. Zeitune no pudo ante G. Heide 🇧🇷 por 6-3, 1-6, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Lauti Midón derrotó a J. Pereira 🇧🇷 por 6-3, 4-6, 6-0 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168593": {
+        "event_key": "12168593",
+        "timestamp": "2026-10-06 19:59:34",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/16-finals",
+        "jugadores": "J. Pereira vs L. Midon",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Antofagasta:\n\n🇦🇷 DERBI: G. I. Justo derrotó a Fran Comesaña por 6-7(6), 7-6(7), 6-1 en 16avos.\n❌ M. Zeitune no pudo ante G. Heide 🇧🇷 por 6-3, 1-6, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Lauti Midón derrotó a J. Pereira 🇧🇷 por 6-3, 4-6, 6-0 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerAntofagasta\n\n(2/2) 🧵"
+        ]
+      },
+      "12168720": {
+        "event_key": "12168720",
+        "timestamp": "2026-10-06 19:59:34",
+        "torneo": "M15 Quito 3",
+        "ronda": "M15 Quito 3 - 1/16-finals",
+        "jugadores": "F. De Dios vs D. A. Macias Elizalde",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SIII F. DE DIOS!!! 🇦🇷\n\nF. De Dios superó a D. A. Macias Elizalde 🇪🇨 por 7-6(7), 5-7 y 6-3 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFQuito3"
         ]
       }
     }
