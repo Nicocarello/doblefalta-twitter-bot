@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-06 23:16:20",
+  "ultima_actualizacion": "2026-10-07 14:22:25",
   "dias": {
     "2026-09-29": {
       "12166584": {
@@ -1203,6 +1203,140 @@
         "estado": "Finished",
         "tweets": [
           "SIII V. BOSIO!!! 🇦🇷\n\nV. Bosio derrotó a J. Chan 🇺🇸 por 7-5 y 7-6(7) en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFLasVegas"
+        ]
+      }
+    },
+    "2026-10-07": {
+      "12168528": {
+        "event_key": "12168528",
+        "timestamp": "2026-10-07 14:22:24",
+        "torneo": "M15 Pontevedra",
+        "ronda": "M15 Pontevedra - 1/16-finals",
+        "jugadores": "O. A. Reyes Tiraldo vs J. Cesar Porras",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nJ. Cesar Porras se impuso ante O. A. Reyes Tiraldo 🇲🇽 por 6-4 y 6-0 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFPontevedra"
+        ]
+      },
+      "12168645": {
+        "event_key": "12168645",
+        "timestamp": "2026-10-07 14:22:24",
+        "torneo": "W35 Lagos",
+        "ronda": "W35 Lagos - 1/16-finals",
+        "jugadores": "G. Hays vs B. Bonardi",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nB. Bonardi derrotó a G. Hays 🇬🇧 por 6-3 y 6-1 en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFLagos"
+        ]
+      },
+      "12168704": {
+        "event_key": "12168704",
+        "timestamp": "2026-10-07 14:22:24",
+        "torneo": "W50 Burgas (Bulgaria)",
+        "ronda": "W50 Burgas - 1/16-finals",
+        "jugadores": "L. Karatancheva vs L. Giovannini",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W50 Burgas (Bulgaria):\n\n✅ Lu Giovannini venció a L. Karatancheva 🇧🇬 por 6-3, 6-3 en 16avos.\n✅ Jaz Ortenzi derrotó a L. Mair 🇮🇹 por 6-1, 6-3 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFBurgasBulgaria"
+        ]
+      },
+      "12168705": {
+        "event_key": "12168705",
+        "timestamp": "2026-10-07 14:22:24",
+        "torneo": "W50 Burgas (Bulgaria)",
+        "ronda": "W50 Burgas - 1/16-finals",
+        "jugadores": "L. Mair vs J. Ortenzi",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W50 Burgas (Bulgaria):\n\n✅ Lu Giovannini venció a L. Karatancheva 🇧🇬 por 6-3, 6-3 en 16avos.\n✅ Jaz Ortenzi derrotó a L. Mair 🇮🇹 por 6-1, 6-3 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFBurgasBulgaria"
+        ]
+      },
+      "12168750": {
+        "event_key": "12168750",
+        "timestamp": "2026-10-07 14:22:24",
+        "torneo": "W50 Lexington",
+        "ronda": "W50 Lexington, SC - 1/16-finals",
+        "jugadores": "V. Strakhova vs M. L. Carle",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W50 Lexington:\n\n✅ Lourdes Carlé derrotó a V. Strakhova 🇺🇦 por 6-4, 6-2 en 16avos.\n❌ M. Capurro Taborda cayó ante J. Dunyon 🇺🇸 por 0-6, 6-3, 6-4 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFLexington"
+        ]
+      },
+      "12169085": {
+        "event_key": "12169085",
+        "timestamp": "2026-10-07 14:22:24",
+        "torneo": "W50 Lexington",
+        "ronda": "W50 Lexington, SC - 1/16-finals",
+        "jugadores": "J. Dunyon vs M. Capurro Taborda",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W50 Lexington:\n\n✅ Lourdes Carlé derrotó a V. Strakhova 🇺🇦 por 6-4, 6-2 en 16avos.\n❌ M. Capurro Taborda cayó ante J. Dunyon 🇺🇸 por 0-6, 6-3, 6-4 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFLexington"
+        ]
+      },
+      "12168817": {
+        "event_key": "12168817",
+        "timestamp": "2026-10-07 14:22:25",
+        "torneo": "M15 Burgas (Bulgaria)",
+        "ronda": "M15 Burgas - 1/16-finals",
+        "jugadores": "C. S. Bentzel vs N. Garcia Longo",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN M15 BURGAS (BULGARIA)! 🇦🇷💪\n\nN. Garcia Longo venció a C. S. Bentzel 🇷🇴 por 1-6, 6-4 y 7-5 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFBurgasBulgaria"
+        ]
+      },
+      "12168872": {
+        "event_key": "12168872",
+        "timestamp": "2026-10-07 14:22:25",
+        "torneo": "Shanghai",
+        "ronda": "ATP Shanghai - 1/64-finals",
+        "jugadores": "M. Trungelliti vs R. Sakamoto",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN SHANGHAI 🇦🇷\n\nMarco Trungelliti no pudo ante R. Sakamoto 🇯🇵 por 6-3 y 7-5 en 64avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #RolexShanghaiMasters"
+        ]
+      },
+      "12169000": {
+        "event_key": "12169000",
+        "timestamp": "2026-10-07 14:22:25",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - 1/8-finals",
+        "jugadores": "M. Pucinelli de Almeida vs G. A. Olivieri",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN ANTOFAGASTA 🇦🇷\n\nG. A. Olivieri cayó ante M. Pucinelli de Almeida 🇧🇷 por 6-3 y 6-3 en 8vos de final.\n\nPunto final en Antofagasta. ¡A recargar y no aflojar! 💪🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12169094": {
+        "event_key": "12169094",
+        "timestamp": "2026-10-07 14:22:25",
+        "torneo": "M15 Quito 3",
+        "ronda": "M15 Quito 3 - 1/16-finals",
+        "jugadores": "M. Del Pino vs M. Mouilleron Salvo",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M15 Quito 3:\n\n🇦🇷 DERBI: M. Mouilleron Salvo derrotó a M. Del Pino por 6-2, 6-1 en 16avos.\n✅ T. J. Leston superó a F. J. Rivadeneira Gallegos 🇪🇨 por 3-1 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFQuito3"
+        ]
+      },
+      "12169099": {
+        "event_key": "12169099",
+        "timestamp": "2026-10-07 14:22:25",
+        "torneo": "M15 Quito 3",
+        "ronda": "M15 Quito 3 - 1/16-finals",
+        "jugadores": "F. J. Rivadeneira Gallegos vs T. J. Leston",
+        "resultado": "0 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M15 Quito 3:\n\n🇦🇷 DERBI: M. Mouilleron Salvo derrotó a M. Del Pino por 6-2, 6-1 en 16avos.\n✅ T. J. Leston superó a F. J. Rivadeneira Gallegos 🇪🇨 por 3-1 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFQuito3"
         ]
       }
     }
