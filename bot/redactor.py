@@ -276,7 +276,12 @@ JUGADORES_ARG = {
         "nombres": ["Sofia Meabe", "Sofi Meabe", "Meabe"],
         "apodo": "Sofi",
         "twitter": "@sofimeabe"
-    }
+    },
+    "felipe de dios":{
+        "nombres": ["Felipe de Dios", "Feli de Dios"],
+        "apodo": "Felipe",
+        # "twitter": "@felipededios"
+    },
 
 }
 
@@ -341,7 +346,8 @@ ALIAS_JUGADORES = {
     "l. m. cinalli": "luna maria cinalli",
     "l. ayala": "lourdes ayala",
     "e. zornada": "emily zornada",
-    "s. meabe": "sofia meabe"
+    "s. meabe": "sofia meabe",
+    "f. de dios": "felipe de dios"
 }
 
 def normalizar_texto(t):
