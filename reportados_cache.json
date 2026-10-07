@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-07 16:18:15",
+  "ultima_actualizacion": "2026-10-07 20:44:51",
   "dias": {
     "2026-09-30": {
       "12166535": {
@@ -1163,6 +1163,18 @@
         "estado": "Retired",
         "tweets": [
           "RETIRO POR LESIÓN ❌\n\nG. I. Justo debió retirarse ante J. Reis Da Silva 🇧🇷 (7-5) y se despidió del Challenger Antofagasta.\n\nDura noticia para los nuestros. ¡A recuperarse pronto! 🇦🇷💪 #ChallengerAntofagasta"
+        ]
+      },
+      "12169098": {
+        "event_key": "12169098",
+        "timestamp": "2026-10-07 20:44:51",
+        "torneo": "M15 Quito 3",
+        "ronda": "M15 Quito 3 - 1/16-finals",
+        "jugadores": "V. Grippo vs D. Salazar",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN M15 QUITO 3 🇦🇷\n\nValentino Grippo no pudo ante D. Salazar 🇨🇴 por 6-3 y 6-3 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFQuito3"
         ]
       }
     }
