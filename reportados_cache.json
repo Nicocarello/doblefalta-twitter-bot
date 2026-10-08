@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-08 14:42:27",
+  "ultima_actualizacion": "2026-10-08 15:34:01",
   "dias": {
     "2026-10-01": {
       "12166530": {
@@ -1116,6 +1116,18 @@
         "estado": "Finished",
         "tweets": [
           "¡A CUARTOS, M. MOUILLERON SALVO! 🇦🇷🔥\n\nM. Mouilleron Salvo se impuso ante N. E. Rico Arias 🇨🇴 por 6-4 y 6-3 en 8vos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFQuito3"
+        ]
+      },
+      "12168711": {
+        "event_key": "12168711",
+        "timestamp": "2026-10-08 15:34:01",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - 1/16-finals",
+        "jugadores": "A. S. Sanchez vs M. Cristobal",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE W15 CIPOLLETTI (ARGENTINA) 🇦🇷\n\nM. Cristobal cayó ante A. S. Sanchez 🇲🇽 por 6-0 y 6-0 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFCipollettiArgentina"
         ]
       }
     }
