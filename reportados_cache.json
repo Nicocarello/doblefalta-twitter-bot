@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-09 14:16:43",
+  "ultima_actualizacion": "2026-10-09 14:32:37",
   "dias": {
     "2026-10-02": {
       "12167797": {
@@ -1110,6 +1110,30 @@
         "tweets": [
           "Resultados de Cuartos de final en el ITF W50 Burgas (Bulgaria): 🇦🇷\n\n❌ Jazmín Ortenzi no pudo ante A. Mintegi Del Olmo 🇪🇸 por 3-6, 6-2, 6-2 en Cuartos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n❌ Lu Giovannini no pudo ante A. Sobolieva 🇺🇦 por 6-1, 6-2 en Cuartos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ITFBurgasBulgaria\n\n(2/2) 🧵"
+        ]
+      },
+      "12169635": {
+        "event_key": "12169635",
+        "timestamp": "2026-10-09 14:32:37",
+        "torneo": "Antofagasta",
+        "ronda": "Antofagasta - Quarter-finals",
+        "jugadores": "E. Ribeiro vs L. Midon",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A SEMIFINAL, LAUTI MIDÓN! 🇦🇷🔥\n\nLauti Midón se impuso ante E. Ribeiro 🇧🇷 por 6-2 y 6-1 en 4tos.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12169672": {
+        "event_key": "12169672",
+        "timestamp": "2026-10-09 14:32:37",
+        "torneo": "M15 Quito 3",
+        "ronda": "M15 Quito 3 - Quarter-finals",
+        "jugadores": "M. Covato vs F. De Dios",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nFeli de Dios perdió ante M. Covato 🇮🇹 por 6-4 en Cuartos.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFQuito3"
         ]
       }
     }
