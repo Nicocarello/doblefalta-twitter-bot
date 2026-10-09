@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-08 20:54:41",
+  "ultima_actualizacion": "2026-10-09 13:52:52",
   "dias": {
     "2026-10-01": {
       "12166530": {
@@ -1274,6 +1274,46 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE F. MATTIOLI! 👏\n\nEn un gran cruce argentino en Octavos de final, F. Mattioli superó a V. Bosio por 5-7, 6-4 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFLasVegas"
+        ]
+      }
+    },
+    "2026-10-09": {
+      "12169185": {
+        "event_key": "12169185",
+        "timestamp": "2026-10-09 13:52:51",
+        "torneo": "Shanghai",
+        "ronda": "ATP Shanghai - 1/32-finals",
+        "jugadores": "F. Cerundolo vs R. Safiullin",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡A 16AVOS, FRAN CERÚNDOLO! 🇦🇷🔥\n\nFran Cerúndolo derrotó a R. Safiullin por 7-6(7) y 6-3 en 32avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #RolexShanghaiMasters"
+        ]
+      },
+      "12169527": {
+        "event_key": "12169527",
+        "timestamp": "2026-10-09 13:52:52",
+        "torneo": "W50 Burgas (Bulgaria)",
+        "ronda": "W50 Burgas - Quarter-finals",
+        "jugadores": "A. Mintegi Del Olmo vs J. Ortenzi",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W50 Burgas (Bulgaria): 🇦🇷\n\n❌ Jazmín Ortenzi no pudo ante A. Mintegi Del Olmo 🇪🇸 por 3-6, 6-2, 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Lu Giovannini no pudo ante A. Sobolieva 🇺🇦 por 6-1, 6-2 en Cuartos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ITFBurgasBulgaria\n\n(2/2) 🧵"
+        ]
+      },
+      "12169553": {
+        "event_key": "12169553",
+        "timestamp": "2026-10-09 13:52:52",
+        "torneo": "W50 Burgas (Bulgaria)",
+        "ronda": "W50 Burgas - Quarter-finals",
+        "jugadores": "A. Sobolieva vs L. Giovannini",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W50 Burgas (Bulgaria): 🇦🇷\n\n❌ Jazmín Ortenzi no pudo ante A. Mintegi Del Olmo 🇪🇸 por 3-6, 6-2, 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Lu Giovannini no pudo ante A. Sobolieva 🇺🇦 por 6-1, 6-2 en Cuartos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ITFBurgasBulgaria\n\n(2/2) 🧵"
         ]
       }
     }
