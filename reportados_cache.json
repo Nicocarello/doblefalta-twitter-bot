@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-10 13:21:11",
+  "ultima_actualizacion": "2026-10-10 18:25:30",
   "dias": {
     "2026-10-03": {
       "12167724": {
@@ -1196,6 +1196,32 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI: ¡VICTORIA PARA L. MOYANO!\n\nEn un gran cruce argentino en 4tos de final, L. Moyano venció a S. A. Larraya Guidi por 6-4 y 1-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFCipollettiArgentina"
+        ]
+      },
+      "12169678": {
+        "event_key": "12169678",
+        "timestamp": "2026-10-10 18:25:30",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - Quarter-finals",
+        "jugadores": "L. F. Britez Risso vs M. F. Urrutia",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Cipolletti (Argentina): 🇦🇷\n\n❌ M. F. Urrutia no pudo ante L. F. Britez Risso 🇵🇾 por 0-6, 6-3, 10-7 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Sofi Meabe no pudo ante A. S. Sanchez 🇲🇽 por 3-1 en Cuartos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ITFCipollettiArgentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12169911": {
+        "event_key": "12169911",
+        "timestamp": "2026-10-10 18:25:30",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - Quarter-finals",
+        "jugadores": "A. S. Sanchez vs S. Meabe",
+        "resultado": "1 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Cipolletti (Argentina): 🇦🇷\n\n❌ M. F. Urrutia no pudo ante L. F. Britez Risso 🇵🇾 por 0-6, 6-3, 10-7 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Sofi Meabe no pudo ante A. S. Sanchez 🇲🇽 por 3-1 en Cuartos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ITFCipollettiArgentina\n\n(2/2) 🧵"
         ]
       }
     }
