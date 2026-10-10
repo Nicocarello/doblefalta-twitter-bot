@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-10 13:05:00",
+  "ultima_actualizacion": "2026-10-10 13:21:11",
   "dias": {
     "2026-10-03": {
       "12167724": {
@@ -1184,6 +1184,18 @@
         "estado": "Finished",
         "tweets": [
           "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nLauti Midón perdió ante T. Seyboth Wild 🇧🇷 por 6-4 y 6-1 en Semis.\n\nPunto final en Antofagasta. ¡A recargar y no aflojar! 💪🇦🇷 #ChallengerAntofagasta"
+        ]
+      },
+      "12169679": {
+        "event_key": "12169679",
+        "timestamp": "2026-10-10 13:21:11",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - Quarter-finals",
+        "jugadores": "L. Moyano vs S. A. Larraya Guidi",
+        "resultado": "1 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI: ¡VICTORIA PARA L. MOYANO!\n\nEn un gran cruce argentino en 4tos de final, L. Moyano venció a S. A. Larraya Guidi por 6-4 y 1-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFCipollettiArgentina"
         ]
       }
     }
