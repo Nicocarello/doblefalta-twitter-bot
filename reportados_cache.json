@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-09 20:08:18",
+  "ultima_actualizacion": "2026-10-10 05:12:01",
   "dias": {
     "2026-10-02": {
       "12167797": {
@@ -1158,6 +1158,32 @@
         "estado": "Finished",
         "tweets": [
           "NO SE PUDO DAR 🇦🇷\n\nM. Mouilleron Salvo no pudo ante V. Bini 🇧🇷 por 6-4 y 6-2 en 4tos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFQuito3"
+        ]
+      }
+    },
+    "2026-10-10": {
+      "12169489": {
+        "event_key": "12169489",
+        "timestamp": "2026-10-10 05:12:01",
+        "torneo": "Shanghai",
+        "ronda": "ATP Shanghai - 1/32-finals",
+        "jugadores": "C. Ugo Carabelli vs F. Auger-Aliassime",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ATP Shanghai:\n\n❌ Camilo Ugo Carabelli perdió ante F. Auger-Aliassime 🇨🇦 por 4-6, 7-6(7), 7-5 en 32avos.\n❌ T. A. Tirante no pudo ante R. Jodar 🇪🇸 por 4-6, 6-2, 6-3 en 32avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #RolexShanghaiMasters"
+        ]
+      },
+      "12169493": {
+        "event_key": "12169493",
+        "timestamp": "2026-10-10 05:12:01",
+        "torneo": "Shanghai",
+        "ronda": "ATP Shanghai - 1/32-finals",
+        "jugadores": "T. A. Tirante vs R. Jodar",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ATP Shanghai:\n\n❌ Camilo Ugo Carabelli perdió ante F. Auger-Aliassime 🇨🇦 por 4-6, 7-6(7), 7-5 en 32avos.\n❌ T. A. Tirante no pudo ante R. Jodar 🇪🇸 por 4-6, 6-2, 6-3 en 32avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #RolexShanghaiMasters"
         ]
       }
     }
