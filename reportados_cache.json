@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-10 21:23:50",
+  "ultima_actualizacion": "2026-10-11 13:11:11",
   "dias": {
     "2026-10-03": {
       "12167724": {
@@ -1234,6 +1234,46 @@
         "estado": "Finished",
         "tweets": [
           "¡ENORME VICTORIA! 👏🇦🇷\n\nJ. M. Gonzalez Daniele derrotó a F. Rain Contreras 🇨🇱 por 6-0 y 6-4 en 4tos.\n\nTerrible partido 💪🇦🇷 #ITFCipollettiArgentina"
+        ]
+      }
+    },
+    "2026-10-11": {
+      "12169722": {
+        "event_key": "12169722",
+        "timestamp": "2026-10-11 13:11:11",
+        "torneo": "Shanghai",
+        "ronda": "ATP Shanghai - 1/16-finals",
+        "jugadores": "F. Cerundolo vs J. Mensik",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nFran Cerúndolo no pudo ante J. Mensik 🇨🇿 por 6-3, 3-6 y 6-2 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #RolexShanghaiMasters"
+        ]
+      },
+      "12170048": {
+        "event_key": "12170048",
+        "timestamp": "2026-10-11 13:11:11",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": "W15 Cipolletti - Semi-finals",
+        "jugadores": "L. F. Britez Risso vs J. M. Gonzalez Daniele",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en el ITF W15 Cipolletti (Argentina): 🇦🇷\n\n❌ J. M. Gonzalez Daniele perdió ante L. F. Britez Risso 🇵🇾 por 4-6, 6-4, 10-2 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ L. Moyano no pudo ante A. S. Sanchez 🇲🇽 por 6-3, 6-0.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFCipollettiArgentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12170179": {
+        "event_key": "12170179",
+        "timestamp": "2026-10-11 13:11:11",
+        "torneo": "W15 Cipolletti (Argentina)",
+        "ronda": null,
+        "jugadores": "A. S. Sanchez vs L. Moyano",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en el ITF W15 Cipolletti (Argentina): 🇦🇷\n\n❌ J. M. Gonzalez Daniele perdió ante L. F. Britez Risso 🇵🇾 por 4-6, 6-4, 10-2 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ L. Moyano no pudo ante A. S. Sanchez 🇲🇽 por 6-3, 6-0.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFCipollettiArgentina\n\n(2/2) 🧵"
         ]
       }
     }
