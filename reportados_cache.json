@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-12 17:04:27",
+  "ultima_actualizacion": "2026-10-12 17:24:06",
   "dias": {
     "2026-10-05": {
       "12168095": {
@@ -1206,6 +1206,30 @@
         "estado": "Finished",
         "tweets": [
           "¡ENORME VICTORIA! 👏🇦🇷\n\nJazmín Ortenzi se impuso ante B. Palicova 🇨🇿 por 6-4 y 7-6(7) en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ChallengerLisbonPortugalQualification"
+        ]
+      },
+      "12170232": {
+        "event_key": "12170232",
+        "timestamp": "2026-10-12 17:24:06",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - Final",
+        "jugadores": "H. Casanova vs W. Leite",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Santa Cruz 2: 🇦🇷\n\n✅ H. Casanova derrotó a W. Leite 🇧🇷 por 6-2, 6-4 en Final.\n✅ L. Ratti le ganó a F. Zeballos 🇧🇴 por 4-6, 6-3, 6-0 en Final.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerSantaCruz2"
+        ]
+      },
+      "12170233": {
+        "event_key": "12170233",
+        "timestamp": "2026-10-12 17:24:06",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - Final",
+        "jugadores": "L. Ratti vs F. Zeballos",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Santa Cruz 2: 🇦🇷\n\n✅ H. Casanova derrotó a W. Leite 🇧🇷 por 6-2, 6-4 en Final.\n✅ L. Ratti le ganó a F. Zeballos 🇧🇴 por 4-6, 6-3, 6-0 en Final.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerSantaCruz2"
         ]
       }
     }
