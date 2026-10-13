@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-13 15:30:12",
+  "ultima_actualizacion": "2026-10-13 16:30:17",
   "dias": {
     "2026-10-06": {
       "12168094": {
@@ -1204,6 +1204,30 @@
         "estado": "Finished",
         "tweets": [
           "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nF. Perlov perdió ante R. Fishback 🇺🇸 por 6-4, 4-6 y 6-2 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFQuito4"
+        ]
+      },
+      "12170604": {
+        "event_key": "12170604",
+        "timestamp": "2026-10-13 16:30:16",
+        "torneo": "M15 Quito 4",
+        "ronda": "M15 Quito 4 - 1/16-finals",
+        "jugadores": "M. S. ALMEIDA V. vs F. De Dios",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A OCTAVOS, FELIPE DE DIOS! 🇦🇷🔥\n\nFelipe de Dios le ganó a M. S. ALMEIDA V. por 6-3 y 6-0 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFQuito4"
+        ]
+      },
+      "12170609": {
+        "event_key": "12170609",
+        "timestamp": "2026-10-13 16:30:17",
+        "torneo": "W100 Edmond, OK",
+        "ronda": "W100 Edmond, OK - 1/16-finals",
+        "jugadores": "M. L. Carle vs K. Liutova",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN W100 EDMOND, OK 🇦🇷\n\nLourdes Carlé no pudo ante K. Liutova por 6-3 y 6-0 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFEdmond"
         ]
       }
     }
