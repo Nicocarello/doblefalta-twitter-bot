@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-13 01:11:44",
+  "ultima_actualizacion": "2026-10-13 06:07:20",
   "dias": {
     "2026-10-05": {
       "12168095": {
@@ -1310,6 +1310,18 @@
         "tweets": [
           "🇦🇷 Resultados de hoy en el Challenger Santa Cruz 2:\n\n✅ Francisco Comesaña superó a N. Hardt por 6-3, 4-6, 6-2 en 16avos.\n❌ Jose Estevez no pudo ante R. Pacheco Mendez 🇲🇽 por 6-3, 4-6, 6-3 en 16avos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n🇦🇷 DERBI: Alex Barrena derrotó a J. B. Torres por 7-6, 6-0 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12169900": {
+        "event_key": "12169900",
+        "timestamp": "2026-10-13 06:07:20",
+        "torneo": "Jinan",
+        "ronda": "Jinan - 1/16-finals",
+        "jugadores": "F. Diaz Acosta vs S. Mochizuki",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nFacu Díaz Acosta perdió ante S. Mochizuki 🇯🇵 por 6-2 y 7-6(8) en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ChallengerJinan"
         ]
       }
     }
