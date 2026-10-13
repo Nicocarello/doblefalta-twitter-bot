@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-13 14:55:16",
+  "ultima_actualizacion": "2026-10-13 15:30:12",
   "dias": {
     "2026-10-06": {
       "12168094": {
@@ -1168,6 +1168,42 @@
         "estado": "Finished",
         "tweets": [
           "¡ENORME VICTORIA! 👏🇦🇷\n\nLuna Cinalli venció a J. Dourado Zimermman 🇧🇷 por 6-0 y 6-2 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12169992": {
+        "event_key": "12169992",
+        "timestamp": "2026-10-13 15:30:11",
+        "torneo": "Maia",
+        "ronda": "Maia - 1/16-finals",
+        "jugadores": "M. Trungelliti vs T. Monteiro",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SIII MARCO TRUNGELLITI!!! 🇦🇷\n\nMarco Trungelliti venció a T. Monteiro 🇧🇷 por 4-6, 6-1 y 6-4 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerMaia"
+        ]
+      },
+      "12170596": {
+        "event_key": "12170596",
+        "timestamp": "2026-10-13 15:30:11",
+        "torneo": "M15 Maringa 3 (Brazil)",
+        "ronda": "M15 Maringa 3 - 1/16-finals",
+        "jugadores": "G. Schenekenberg vs T. Martinez",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nT. Martinez perdió ante G. Schenekenberg 🇧🇷 por 6-3, 2-6 y 6-3 en 16avos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFMaringa3Brazil"
+        ]
+      },
+      "12170602": {
+        "event_key": "12170602",
+        "timestamp": "2026-10-13 15:30:12",
+        "torneo": "M15 Quito 4",
+        "ronda": "M15 Quito 4 - 1/16-finals",
+        "jugadores": "R. Fishback vs F. Perlov",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nF. Perlov perdió ante R. Fishback 🇺🇸 por 6-4, 4-6 y 6-2 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFQuito4"
         ]
       }
     }
