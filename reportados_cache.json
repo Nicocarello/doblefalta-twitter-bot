@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-12 23:55:52",
+  "ultima_actualizacion": "2026-10-13 01:11:44",
   "dias": {
     "2026-10-05": {
       "12168095": {
@@ -1269,6 +1269,47 @@
         "tweets": [
           "🏆 Resultados de las FINALES en la Qualy del Challenger Santa Cruz 2: 🇦🇷\n\n🇦🇷 DERBI: M. Zeitune le ganó a Santi Taverna por 6-1, 6-4 en Final.\n❌ S. De La Fuente cayó ante A. Huertas Del Pino Cordova 🇵🇪 por 7-6(8), 6-1 en Final.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n🇦🇷 DERBI: T. Cigarran derrotó a L. J. Rodriguez por 6-4, 6-4 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      }
+    },
+    "2026-10-13": {
+      "12170028": {
+        "event_key": "12170028",
+        "timestamp": "2026-10-13 01:11:44",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - 1/16-finals",
+        "jugadores": "F. Comesana vs N. Hardt",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Santa Cruz 2:\n\n✅ Francisco Comesaña superó a N. Hardt por 6-3, 4-6, 6-2 en 16avos.\n❌ Jose Estevez no pudo ante R. Pacheco Mendez 🇲🇽 por 6-3, 4-6, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Alex Barrena derrotó a J. B. Torres por 7-6, 6-0 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12170031": {
+        "event_key": "12170031",
+        "timestamp": "2026-10-13 01:11:44",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - 1/16-finals",
+        "jugadores": "R. Pacheco Mendez vs J. Estevez",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Santa Cruz 2:\n\n✅ Francisco Comesaña superó a N. Hardt por 6-3, 4-6, 6-2 en 16avos.\n❌ Jose Estevez no pudo ante R. Pacheco Mendez 🇲🇽 por 6-3, 4-6, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Alex Barrena derrotó a J. B. Torres por 7-6, 6-0 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12170033": {
+        "event_key": "12170033",
+        "timestamp": "2026-10-13 01:11:44",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - 1/16-finals",
+        "jugadores": "J. B. Torres vs A. Barrena",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Santa Cruz 2:\n\n✅ Francisco Comesaña superó a N. Hardt por 6-3, 4-6, 6-2 en 16avos.\n❌ Jose Estevez no pudo ante R. Pacheco Mendez 🇲🇽 por 6-3, 4-6, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Alex Barrena derrotó a J. B. Torres por 7-6, 6-0 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerSantaCruz2\n\n(2/2) 🧵"
         ]
       }
     }
