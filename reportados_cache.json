@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-12 17:24:06",
+  "ultima_actualizacion": "2026-10-12 23:55:52",
   "dias": {
     "2026-10-05": {
       "12168095": {
@@ -1230,6 +1230,45 @@
         "estado": "Finished",
         "tweets": [
           "🏆 Resultados de las FINALES en la Qualy del Challenger Santa Cruz 2: 🇦🇷\n\n✅ H. Casanova derrotó a W. Leite 🇧🇷 por 6-2, 6-4 en Final.\n✅ L. Ratti le ganó a F. Zeballos 🇧🇴 por 4-6, 6-3, 6-0 en Final.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerSantaCruz2"
+        ]
+      },
+      "12170236": {
+        "event_key": "12170236",
+        "timestamp": "2026-10-12 23:55:52",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - Final",
+        "jugadores": "S. Rodriguez Taverna vs M. Zeitune",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Santa Cruz 2: 🇦🇷\n\n🇦🇷 DERBI: M. Zeitune le ganó a Santi Taverna por 6-1, 6-4 en Final.\n❌ S. De La Fuente cayó ante A. Huertas Del Pino Cordova 🇵🇪 por 7-6(8), 6-1 en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: T. Cigarran derrotó a L. J. Rodriguez por 6-4, 6-4 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12170237": {
+        "event_key": "12170237",
+        "timestamp": "2026-10-12 23:55:52",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - Final",
+        "jugadores": "S. De La Fuente vs A. Huertas Del Pino Cordova",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Santa Cruz 2: 🇦🇷\n\n🇦🇷 DERBI: M. Zeitune le ganó a Santi Taverna por 6-1, 6-4 en Final.\n❌ S. De La Fuente cayó ante A. Huertas Del Pino Cordova 🇵🇪 por 7-6(8), 6-1 en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: T. Cigarran derrotó a L. J. Rodriguez por 6-4, 6-4 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12170238": {
+        "event_key": "12170238",
+        "timestamp": "2026-10-12 23:55:52",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - Final",
+        "jugadores": "L. J. Rodriguez vs T. Cigarran",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Santa Cruz 2: 🇦🇷\n\n🇦🇷 DERBI: M. Zeitune le ganó a Santi Taverna por 6-1, 6-4 en Final.\n❌ S. De La Fuente cayó ante A. Huertas Del Pino Cordova 🇵🇪 por 7-6(8), 6-1 en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: T. Cigarran derrotó a L. J. Rodriguez por 6-4, 6-4 en Final.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerSantaCruz2\n\n(2/2) 🧵"
         ]
       }
     }
