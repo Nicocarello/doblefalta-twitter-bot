@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-13 16:50:41",
+  "ultima_actualizacion": "2026-10-14 04:17:32",
   "dias": {
     "2026-10-06": {
       "12168094": {
@@ -1240,6 +1240,34 @@
         "estado": "Finished",
         "tweets": [
           "¡A OCTAVOS, M. ZEITUNE! 🇦🇷🔥\n\nM. Zeitune le ganó a G. Bueno 🇵🇪 por 6-1 y 6-3 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ChallengerSantaCruz2"
+        ]
+      }
+    },
+    "2026-10-14": {
+      "12170034": {
+        "event_key": "12170034",
+        "timestamp": "2026-10-14 04:17:32",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - 1/16-finals",
+        "jugadores": "G. Villanueva vs C. M. Zarate",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Santa Cruz 2:\n\n🇦🇷 DERBI: C. M. Zarate superó a Gonza Villanueva por 6-3, 5-7, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: N. Kicker superó a T. Cigarran por 6-3, 6-2 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12170589": {
+        "event_key": "12170589",
+        "timestamp": "2026-10-14 04:17:32",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - 1/16-finals",
+        "jugadores": "T. Cigarran vs N. Kicker",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Santa Cruz 2:\n\n🇦🇷 DERBI: C. M. Zarate superó a Gonza Villanueva por 6-3, 5-7, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: N. Kicker superó a T. Cigarran por 6-3, 6-2 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerSantaCruz2\n\n(2/2) 🧵"
         ]
       }
     }
