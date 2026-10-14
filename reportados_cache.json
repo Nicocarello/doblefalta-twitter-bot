@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-14 12:42:16",
+  "ultima_actualizacion": "2026-10-14 12:58:43",
   "dias": {
     "2026-10-07": {
       "12168528": {
@@ -1143,6 +1143,18 @@
         "estado": "Finished",
         "tweets": [
           "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nPavlovic/ Valsecchi cayó ante Rojer/ Winegar por 6-3 y 7-6(7) en 8vos.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerJinan"
+        ]
+      },
+      "12170893": {
+        "event_key": "12170893",
+        "timestamp": "2026-10-14 12:58:43",
+        "torneo": "M15 Monastir 35",
+        "ronda": "M15 Monastir 35 - 1/16-finals",
+        "jugadores": "S. Seghetti vs T. A. Pernas",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nT. A. Pernas superó a S. Seghetti 🇮🇹 por 6-4 y 6-1 en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFMonastir35"
         ]
       }
     }
