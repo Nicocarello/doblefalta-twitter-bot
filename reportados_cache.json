@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-14 12:58:43",
+  "ultima_actualizacion": "2026-10-14 14:32:42",
   "dias": {
     "2026-10-07": {
       "12168528": {
@@ -1155,6 +1155,18 @@
         "estado": "Finished",
         "tweets": [
           "¡ENORME VICTORIA! 👏🇦🇷\n\nT. A. Pernas superó a S. Seghetti 🇮🇹 por 6-4 y 6-1 en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFMonastir35"
+        ]
+      },
+      "12171054": {
+        "event_key": "12171054",
+        "timestamp": "2026-10-14 14:32:42",
+        "torneo": "M15 Quito 4",
+        "ronda": "M15 Quito 4 - 1/16-finals",
+        "jugadores": "V. Grippo vs I. Dreycopp",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA I. DREYCOPP EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 16avos de final, I. Dreycopp venció a Valen Grippo por 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFQuito4"
         ]
       }
     }
