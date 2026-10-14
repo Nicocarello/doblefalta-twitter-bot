@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-14 14:32:42",
+  "ultima_actualizacion": "2026-10-14 18:30:38",
   "dias": {
     "2026-10-07": {
       "12168528": {
@@ -1167,6 +1167,108 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 ¡FESTEJA I. DREYCOPP EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 16avos de final, I. Dreycopp venció a Valen Grippo por 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFQuito4"
+        ]
+      },
+      "12170995": {
+        "event_key": "12170995",
+        "timestamp": "2026-10-14 18:30:37",
+        "torneo": "M15 Maringa 3 (Brazil)",
+        "ronda": "M15 Maringa 3 - 1/16-finals",
+        "jugadores": "F. Fontes Damorim vs I. Vertberger",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN M15 MARINGA 3 (BRAZIL)! 🇦🇷💪\n\nI. Vertberger se impuso ante F. Fontes Damorim por 6-3 y 7-5 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFMaringa3Brazil"
+        ]
+      },
+      "12171013": {
+        "event_key": "12171013",
+        "timestamp": "2026-10-14 18:30:38",
+        "torneo": "W15 Maceio (Brazil)",
+        "ronda": "W15 Maceio - 1/16-finals",
+        "jugadores": "A. V. Mediorreal vs M. F. Urrutia",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Maceio (Brazil):\n\n✅ M. F. Urrutia superó a A. V. Mediorreal 🇨🇴 por 6-4, 6-0 en 16avos.\n❌ Luli Ayala perdió ante A. S. Sanchez 🇲🇽 por 6-1, 6-2 en 16avos.\n✅ Josefina Estevez superó a K. L. Moreira por 6-1, 6-0 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gatica/ Pereira derrotó a Citolino/ Moraes por 6-1, 6-0 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFMaceioBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12171014": {
+        "event_key": "12171014",
+        "timestamp": "2026-10-14 18:30:38",
+        "torneo": "W15 Maceio (Brazil)",
+        "ronda": "W15 Maceio - 1/16-finals",
+        "jugadores": "A. S. Sanchez vs L. Ayala",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Maceio (Brazil):\n\n✅ M. F. Urrutia superó a A. V. Mediorreal 🇨🇴 por 6-4, 6-0 en 16avos.\n❌ Luli Ayala perdió ante A. S. Sanchez 🇲🇽 por 6-1, 6-2 en 16avos.\n✅ Josefina Estevez superó a K. L. Moreira por 6-1, 6-0 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gatica/ Pereira derrotó a Citolino/ Moraes por 6-1, 6-0 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFMaceioBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12171016": {
+        "event_key": "12171016",
+        "timestamp": "2026-10-14 18:30:38",
+        "torneo": "W15 Maceio (Brazil)",
+        "ronda": "W15 Maceio - 1/16-finals",
+        "jugadores": "J. Estevez vs K. L. Moreira",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Maceio (Brazil):\n\n✅ M. F. Urrutia superó a A. V. Mediorreal 🇨🇴 por 6-4, 6-0 en 16avos.\n❌ Luli Ayala perdió ante A. S. Sanchez 🇲🇽 por 6-1, 6-2 en 16avos.\n✅ Josefina Estevez superó a K. L. Moreira por 6-1, 6-0 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gatica/ Pereira derrotó a Citolino/ Moraes por 6-1, 6-0 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFMaceioBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12171025": {
+        "event_key": "12171025",
+        "timestamp": "2026-10-14 18:30:38",
+        "torneo": "W15 Maceio (Brazil)",
+        "ronda": "W15 Maceio - 1/8-finals",
+        "jugadores": "Gatica/ Pereira vs Citolino/ Moraes",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Maceio (Brazil):\n\n✅ M. F. Urrutia superó a A. V. Mediorreal 🇨🇴 por 6-4, 6-0 en 16avos.\n❌ Luli Ayala perdió ante A. S. Sanchez 🇲🇽 por 6-1, 6-2 en 16avos.\n✅ Josefina Estevez superó a K. L. Moreira por 6-1, 6-0 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gatica/ Pereira derrotó a Citolino/ Moraes por 6-1, 6-0 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFMaceioBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12171035": {
+        "event_key": "12171035",
+        "timestamp": "2026-10-14 18:30:38",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - 1/8-finals",
+        "jugadores": "G. A. Olivieri vs A. Barrena",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Santa Cruz 2:\n\n🇦🇷 DERBI: G. A. Olivieri le ganó a Alex Barrena por 3-6, 6-3, 6-4 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ M. Zeitune no pudo ante L. A. Miguel 🇧🇷 por 6-2, 6-4 en Octavos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12171036": {
+        "event_key": "12171036",
+        "timestamp": "2026-10-14 18:30:38",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - 1/8-finals",
+        "jugadores": "M. Zeitune vs L. A. Miguel",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Santa Cruz 2:\n\n🇦🇷 DERBI: G. A. Olivieri le ganó a Alex Barrena por 3-6, 6-3, 6-4 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ M. Zeitune no pudo ante L. A. Miguel 🇧🇷 por 6-2, 6-4 en Octavos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12171052": {
+        "event_key": "12171052",
+        "timestamp": "2026-10-14 18:30:38",
+        "torneo": "M15 Quito 4",
+        "ronda": "M15 Quito 4 - 1/16-finals",
+        "jugadores": "P. Alvarado vs T. Meneo",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN M15 QUITO 4! 🇦🇷💪\n\nT. Meneo superó a P. Alvarado 🇪🇨 por 4-6, 6-4 y 6-3 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFQuito4"
         ]
       }
     }
