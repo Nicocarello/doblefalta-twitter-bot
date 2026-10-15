@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-15 04:08:45",
+  "ultima_actualizacion": "2026-10-15 11:46:45",
   "dias": {
     "2026-10-07": {
       "12168528": {
@@ -1307,6 +1307,42 @@
         "estado": "Finished",
         "tweets": [
           "SIII FRAN COMESAÑA!!! 🇦🇷\n\nFran Comesaña venció a F. Meligeni Alves 🇧🇷 por 6-1 y 6-4 en Octavos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerSantaCruz2"
+        ]
+      },
+      "12170486": {
+        "event_key": "12170486",
+        "timestamp": "2026-10-15 11:46:44",
+        "torneo": "W50 Stara Zagora (Bulgaria)",
+        "ronda": "W50 Stara Zagora - 1/16-finals",
+        "jugadores": "B. Barbulescu vs L. Giovannini",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN W50 STARA ZAGORA (BULGARIA)! 🇦🇷💪\n\nLu Giovannini se impuso ante B. Barbulescu 🇷🇴 por 6-3 y 6-0 en 16avos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFStaraZagoraBulgaria"
+        ]
+      },
+      "12171027": {
+        "event_key": "12171027",
+        "timestamp": "2026-10-15 11:46:44",
+        "torneo": "Maia",
+        "ronda": "Maia - 1/8-finals",
+        "jugadores": "M. Trungelliti vs M. Karol",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SIII MARCO TRUNGELLITI!!! 🇦🇷\n\nMarco Trungelliti superó a M. Karol 🇸🇰 por 6-2 y 6-0 en 8vos.\n\nTerrible partido 💪🇦🇷 #ChallengerMaia"
+        ]
+      },
+      "12171281": {
+        "event_key": "12171281",
+        "timestamp": "2026-10-15 11:46:45",
+        "torneo": "M15 Monastir 35",
+        "ronda": "M15 Monastir 35 - 1/8-finals",
+        "jugadores": "H. S. Callejon vs T. A. Pernas",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN M15 MONASTIR 35 🇦🇷\n\nT. A. Pernas perdió ante H. S. Callejon 🇪🇸 por 6-3 y 6-0 en Octavos de final.\n\nPunto final en M15 Monastir 35. ¡A recargar y no aflojar! 💪🇦🇷 #ITFMonastir35"
         ]
       }
     }
