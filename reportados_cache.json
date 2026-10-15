@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-14 21:05:39",
+  "ultima_actualizacion": "2026-10-15 04:08:45",
   "dias": {
     "2026-10-07": {
       "12168528": {
@@ -1293,6 +1293,20 @@
         "estado": "Finished",
         "tweets": [
           "DESPEDIDA DE M25 AUSTIN, TX 🇦🇷\n\nL. E. Ambrogi no pudo ante I. Urribarrens Ramirez 🇪🇸 por 6-2 y 7-6(7) en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFAustin"
+        ]
+      }
+    },
+    "2026-10-15": {
+      "12170672": {
+        "event_key": "12170672",
+        "timestamp": "2026-10-15 04:08:45",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - 1/8-finals",
+        "jugadores": "F. Comesana vs F. Meligeni Alves",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SIII FRAN COMESAÑA!!! 🇦🇷\n\nFran Comesaña venció a F. Meligeni Alves 🇧🇷 por 6-1 y 6-4 en Octavos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerSantaCruz2"
         ]
       }
     }
