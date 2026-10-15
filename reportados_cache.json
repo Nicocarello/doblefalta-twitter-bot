@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-15 18:11:58",
+  "ultima_actualizacion": "2026-10-15 20:49:21",
   "dias": {
     "2026-10-08": {
       "12168280": {
@@ -1322,6 +1322,30 @@
         "tweets": [
           "🇦🇷 Así le fue a los argentinos hoy en el ITF M15 Quito 4:\n\n✅ I. Dreycopp derrotó a M. Covato 🇮🇹 por 6-7, 7-6 en Octavos.\n❌ Feli de Dios perdió ante A. Hernandez 🇻🇪 por 6-2, 2-6, 6-4 en Octavos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n❌ N. Hollender cayó ante J. S. Gomez 🇨🇴 por 7-6 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFQuito4\n\n(2/2) 🧵"
+        ]
+      },
+      "12171403": {
+        "event_key": "12171403",
+        "timestamp": "2026-10-15 20:49:21",
+        "torneo": "W15 Maceio (Brazil)",
+        "ronda": "W15 Maceio - Quarter-finals",
+        "jugadores": "Estevez/ Urrutia vs Gatica/ Pereira",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nGatica/ Pereira superó a Estevez/ Urrutia por 3-6, 6-3 y 10-8 en 4tos de final.\n\nTerrible partido 💪🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12171429": {
+        "event_key": "12171429",
+        "timestamp": "2026-10-15 20:49:21",
+        "torneo": "M15 Maringa 3 (Brazil)",
+        "ronda": "M15 Maringa 3 - 1/8-finals",
+        "jugadores": "H. J. Escurra Isnardi vs I. Vertberger",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nI. Vertberger no pudo ante H. J. Escurra Isnardi 🇵🇾 por 4-6, 6-4 y 6-4 en Octavos de final.\n\nPunto final en M15 Maringa 3 (Brazil). ¡A recargar y no aflojar! 💪🇦🇷 #ITFMaringa3Brazil"
         ]
       }
     }
