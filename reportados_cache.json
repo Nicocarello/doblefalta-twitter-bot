@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-15 14:43:43",
+  "ultima_actualizacion": "2026-10-15 18:11:58",
   "dias": {
     "2026-10-08": {
       "12168280": {
@@ -1221,6 +1221,107 @@
         "estado": "Finished",
         "tweets": [
           "¡A CUARTOS, M. F. URRUTIA! 🇦🇷🔥\n\nM. F. Urrutia se impuso ante S. Dias 🇧🇷 por 6-4 y 6-3 en Octavos.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12171068": {
+        "event_key": "12171068",
+        "timestamp": "2026-10-15 18:11:57",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - 1/8-finals",
+        "jugadores": "G. I. Justo vs J. M. La Serna",
+        "resultado": "0 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Santa Cruz 2:\n\n🇦🇷 DERBI: J. M. La Serna avanzó tras retiro de G. I. Justo (6-1) en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ C. M. Zarate perdió ante T. Seyboth Wild 🇧🇷 por 6-2, 6-2 en Octavos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12171102": {
+        "event_key": "12171102",
+        "timestamp": "2026-10-15 18:11:57",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - 1/8-finals",
+        "jugadores": "T. Seyboth Wild vs C. M. Zarate",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Santa Cruz 2:\n\n🇦🇷 DERBI: J. M. La Serna avanzó tras retiro de G. I. Justo (6-1) en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ C. M. Zarate perdió ante T. Seyboth Wild 🇧🇷 por 6-2, 6-2 en Octavos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12171378": {
+        "event_key": "12171378",
+        "timestamp": "2026-10-15 18:11:57",
+        "torneo": "W15 Maceio (Brazil)",
+        "ronda": "W15 Maceio - 1/8-finals",
+        "jugadores": "P. Lopez vs L. M. Cinalli",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN W15 MACEIO (BRAZIL)! 🇦🇷💪\n\nLuli Cinalli se impuso ante P. Lopez 🇺🇸 por 6-3 y 6-0 en Octavos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12171391": {
+        "event_key": "12171391",
+        "timestamp": "2026-10-15 18:11:57",
+        "torneo": "M15 Maringa 3 (Brazil)",
+        "ronda": "M15 Maringa 3 - 1/8-finals",
+        "jugadores": "O. J. Gutierrez vs V. Basel",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 Maringa 3 (Brazil):\n\n❌ V. Basel perdió ante O. J. Gutierrez 🇪🇸 por 6-2, 6-3 en Octavos.\n✅ J. Cundom le ganó a D. Klok por 6-4, 6-2 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFMaringa3Brazil"
+        ]
+      },
+      "12171428": {
+        "event_key": "12171428",
+        "timestamp": "2026-10-15 18:11:57",
+        "torneo": "M15 Maringa 3 (Brazil)",
+        "ronda": "M15 Maringa 3 - 1/8-finals",
+        "jugadores": "J. Cundom vs D. Klok",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 Maringa 3 (Brazil):\n\n❌ V. Basel perdió ante O. J. Gutierrez 🇪🇸 por 6-2, 6-3 en Octavos.\n✅ J. Cundom le ganó a D. Klok por 6-4, 6-2 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFMaringa3Brazil"
+        ]
+      },
+      "12171407": {
+        "event_key": "12171407",
+        "timestamp": "2026-10-15 18:11:58",
+        "torneo": "M15 Quito 4",
+        "ronda": "M15 Quito 4 - 1/8-finals",
+        "jugadores": "I. Dreycopp vs M. Covato",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M15 Quito 4:\n\n✅ I. Dreycopp derrotó a M. Covato 🇮🇹 por 6-7, 7-6 en Octavos.\n❌ Feli de Dios perdió ante A. Hernandez 🇻🇪 por 6-2, 2-6, 6-4 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ N. Hollender cayó ante J. S. Gomez 🇨🇴 por 7-6 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFQuito4\n\n(2/2) 🧵"
+        ]
+      },
+      "12171411": {
+        "event_key": "12171411",
+        "timestamp": "2026-10-15 18:11:58",
+        "torneo": "M15 Quito 4",
+        "ronda": "M15 Quito 4 - 1/8-finals",
+        "jugadores": "A. Hernandez vs F. De Dios",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M15 Quito 4:\n\n✅ I. Dreycopp derrotó a M. Covato 🇮🇹 por 6-7, 7-6 en Octavos.\n❌ Feli de Dios perdió ante A. Hernandez 🇻🇪 por 6-2, 2-6, 6-4 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ N. Hollender cayó ante J. S. Gomez 🇨🇴 por 7-6 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFQuito4\n\n(2/2) 🧵"
+        ]
+      },
+      "12171412": {
+        "event_key": "12171412",
+        "timestamp": "2026-10-15 18:11:58",
+        "torneo": "M15 Quito 4",
+        "ronda": "M15 Quito 4 - 1/8-finals",
+        "jugadores": "N. Hollender vs J. S. Gomez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M15 Quito 4:\n\n✅ I. Dreycopp derrotó a M. Covato 🇮🇹 por 6-7, 7-6 en Octavos.\n❌ Feli de Dios perdió ante A. Hernandez 🇻🇪 por 6-2, 2-6, 6-4 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ N. Hollender cayó ante J. S. Gomez 🇨🇴 por 7-6 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFQuito4\n\n(2/2) 🧵"
         ]
       }
     }
