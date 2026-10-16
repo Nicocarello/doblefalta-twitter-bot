@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-16 03:49:46",
+  "ultima_actualizacion": "2026-10-16 11:39:56",
   "dias": {
     "2026-10-08": {
       "12168280": {
@@ -1360,6 +1360,30 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI: ¡VICTORIA PARA N. KICKER!\n\nEn un gran cruce argentino en 8vos, N. Kicker le ganó a Facundo Mena por 7-6(7) y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerSantaCruz2"
+        ]
+      },
+      "12170876": {
+        "event_key": "12170876",
+        "timestamp": "2026-10-16 11:39:56",
+        "torneo": "M15 Heraklion 8",
+        "ronda": "M15 Heraklion 8 - 1/16-finals",
+        "jugadores": "J. Cesar Porras vs V. Gonzalez-Galino",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nJ. Cesar Porras no pudo ante V. Gonzalez-Galino 🇪🇸 por 6-1 y 6-3 en 16avos de final.\n\nPunto final en M15 Heraklion 8. ¡A recargar y no aflojar! 💪🇦🇷 #ITFHeraklion8"
+        ]
+      },
+      "12171444": {
+        "event_key": "12171444",
+        "timestamp": "2026-10-16 11:39:56",
+        "torneo": "W50 Stara Zagora (Bulgaria)",
+        "ronda": "W50 Stara Zagora - 1/8-finals",
+        "jugadores": "B. Spasova vs L. Giovannini",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN W50 STARA ZAGORA (BULGARIA)! 🇦🇷💪\n\nLu Giovannini le ganó a B. Spasova 🇧🇬 por 6-3 y 6-0 en Octavos.\n\nTerrible partido 💪🇦🇷 #ITFStaraZagoraBulgaria"
         ]
       }
     }
