@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-16 17:02:36",
+  "ultima_actualizacion": "2026-10-16 19:59:45",
   "dias": {
     "2026-10-09": {
       "12169185": {
@@ -1110,6 +1110,68 @@
         "estado": "Finished",
         "tweets": [
           "Resultados de Cuartos de final en el ITF W15 Maceio (Brazil): 🇦🇷\n\n✅ Jose Estevez derrotó a F. Labrana 🇨🇱 por 6-3, 7-5 en Cuartos.\n❌ M. F. Urrutia cayó ante B. Gatica 🇨🇱 por 6-3, 5-7, 6-3 en Cuartos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFMaceioBrazil"
+        ]
+      },
+      "12171420": {
+        "event_key": "12171420",
+        "timestamp": "2026-10-16 19:59:45",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - Quarter-finals",
+        "jugadores": "F. Comesana vs G. A. Olivieri",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Santa Cruz 2: 🇦🇷\n\n🇦🇷 DERBI: Francisco Comesaña venció a G. A. Olivieri por 3-6, 6-3, 6-3 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ J. M. La Serna le ganó a F. Roncadelli 🇺🇾 por 6-1, 6-7(4), 6-4 en Cuartos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12171604": {
+        "event_key": "12171604",
+        "timestamp": "2026-10-16 19:59:45",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - Quarter-finals",
+        "jugadores": "J. M. La Serna vs F. Roncadelli",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Santa Cruz 2: 🇦🇷\n\n🇦🇷 DERBI: Francisco Comesaña venció a G. A. Olivieri por 3-6, 6-3, 6-3 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ J. M. La Serna le ganó a F. Roncadelli 🇺🇾 por 6-1, 6-7(4), 6-4 en Cuartos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerSantaCruz2\n\n(2/2) 🧵"
+        ]
+      },
+      "12171616": {
+        "event_key": "12171616",
+        "timestamp": "2026-10-16 19:59:45",
+        "torneo": "M15 Quito 4",
+        "ronda": "M15 Quito 4 - Quarter-finals",
+        "jugadores": "A. Hernandez vs I. Dreycopp",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN M15 QUITO 4 🇦🇷\n\nI. Dreycopp cayó ante A. Hernandez 🇻🇪 por 6-3, 4-6 y 6-3 en 4tos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFQuito4"
+        ]
+      },
+      "12171623": {
+        "event_key": "12171623",
+        "timestamp": "2026-10-16 19:59:45",
+        "torneo": "W15 Maceio (Brazil)",
+        "ronda": "W15 Maceio - Semi-finals",
+        "jugadores": "Mediorreal/ Sanchez vs Gatica/ Pereira",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII GATICA/ PEREIRA!!! 🇦🇷\n\nGatica/ Pereira venció a Mediorreal/ Sanchez por 2-6, 7-5 y 10-7 en Semis.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12171630": {
+        "event_key": "12171630",
+        "timestamp": "2026-10-16 19:59:45",
+        "torneo": "M15 Maringa 3 (Brazil)",
+        "ronda": "M15 Maringa 3 - Quarter-finals",
+        "jugadores": "H. J. Escurra Isnardi vs J. Cundom",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE M15 MARINGA 3 (BRAZIL) 🇦🇷\n\nJ. Cundom cayó ante H. J. Escurra Isnardi 🇵🇾 por 6-3, 5-7 y 6-4 en 4tos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFMaringa3Brazil"
         ]
       }
     }
