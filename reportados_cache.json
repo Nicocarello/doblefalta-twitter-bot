@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-16 12:06:30",
+  "ultima_actualizacion": "2026-10-16 12:29:41",
   "dias": {
     "2026-10-09": {
       "12169185": {
@@ -1062,6 +1062,18 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN W50 STARA ZAGORA (BULGARIA)! 🇦🇷💪\n\nLu Giovannini le ganó a B. Spasova 🇧🇬 por 6-3 y 6-0 en Octavos.\n\nTerrible partido 💪🇦🇷 #ITFStaraZagoraBulgaria"
+        ]
+      },
+      "12171598": {
+        "event_key": "12171598",
+        "timestamp": "2026-10-16 12:29:41",
+        "torneo": "W15 Maceio (Brazil)",
+        "ronda": "W15 Maceio - Quarter-finals",
+        "jugadores": "J. Konishi Silva vs L. M. Cinalli",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A SEMIFINAL, LULI CINALLI! 🇦🇷🔥\n\nLuli Cinalli superó a J. Konishi Silva 🇧🇷 por 7-5 y 7-5 en Cuartos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFMaceioBrazil"
         ]
       }
     }
