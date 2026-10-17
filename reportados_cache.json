@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-17 11:21:22",
+  "ultima_actualizacion": "2026-10-17 15:45:07",
   "dias": {
     "2026-10-10": {
       "12169489": {
@@ -1110,6 +1110,18 @@
         "estado": "Finished",
         "tweets": [
           "DESPEDIDA DE W50 STARA ZAGORA (BULGARIA) 🇦🇷\n\nLuisina Giovannini cayó ante L. Petruzelova 🇨🇿 por 1-6, 6-4 y 6-4 en el ITF W50 Stara Zagora (Bulgaria).\n\nNo se pudo dar hoy 🇦🇷 #ITFStaraZagoraBulgaria"
+        ]
+      },
+      "12171800": {
+        "event_key": "12171800",
+        "timestamp": "2026-10-17 15:45:07",
+        "torneo": "W15 Maceio (Brazil)",
+        "ronda": "W15 Maceio - Semi-finals",
+        "jugadores": "A. S. Sanchez vs L. M. Cinalli",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nLuna Cinalli cayó ante A. S. Sanchez 🇲🇽 por 3-6, 6-2 y 6-2 en Semifinales.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFMaceioBrazil"
         ]
       }
     }
