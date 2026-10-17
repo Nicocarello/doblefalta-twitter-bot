@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-16 19:59:45",
+  "ultima_actualizacion": "2026-10-17 03:41:50",
   "dias": {
     "2026-10-09": {
       "12169185": {
@@ -1172,6 +1172,20 @@
         "estado": "Finished",
         "tweets": [
           "DESPEDIDA DE M15 MARINGA 3 (BRAZIL) 🇦🇷\n\nJ. Cundom cayó ante H. J. Escurra Isnardi 🇵🇾 por 6-3, 5-7 y 6-4 en 4tos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFMaringa3Brazil"
+        ]
+      }
+    },
+    "2026-10-17": {
+      "12171624": {
+        "event_key": "12171624",
+        "timestamp": "2026-10-17 03:41:50",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - Quarter-finals",
+        "jugadores": "T. Seyboth Wild vs N. Kicker",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE SANTA CRUZ 2 🇦🇷\n\nN. Kicker cayó ante T. Seyboth Wild 🇧🇷 por 6-1 y 6-1 en 4tos de final.\n\nNo se pudo dar hoy 🇦🇷 #ChallengerSantaCruz2"
         ]
       }
     }
