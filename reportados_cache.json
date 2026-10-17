@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-17 18:21:27",
+  "ultima_actualizacion": "2026-10-17 20:20:37",
   "dias": {
     "2026-10-10": {
       "12169489": {
@@ -1146,6 +1146,18 @@
         "estado": "Finished",
         "tweets": [
           "DESPEDIDA DE SANTA CRUZ 2 🇦🇷\n\nJ. M. La Serna no pudo ante H. Dellien 🇧🇴 por 6-4 y 6-3 en Semis.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerSantaCruz2"
+        ]
+      },
+      "12171816": {
+        "event_key": "12171816",
+        "timestamp": "2026-10-17 20:20:37",
+        "torneo": "W15 Maceio (Brazil)",
+        "ronda": "W15 Maceio - Final",
+        "jugadores": "Gatica/ Pereira vs Ayala/ Romero",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 ¡CAMPEÓN EN W15 MACEIO (BRAZIL)! 🇦🇷\n\nGatica/ Pereira superó a Ayala/ Romero por 6-4 y 6-0 en Final.\n\n¡Semana soñada y trofeo a casa! Salud, campeón. 🏆👏 #ITFMaceioBrazil"
         ]
       }
     }
