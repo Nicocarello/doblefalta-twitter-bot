@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-17 11:01:11",
+  "ultima_actualizacion": "2026-10-17 11:21:22",
   "dias": {
     "2026-10-10": {
       "12169489": {
@@ -1098,6 +1098,18 @@
         "estado": "Finished",
         "tweets": [
           "DESPEDIDA DE SANTA CRUZ 2 🇦🇷\n\nN. Kicker cayó ante T. Seyboth Wild 🇧🇷 por 6-1 y 6-1 en 4tos de final.\n\nNo se pudo dar hoy 🇦🇷 #ChallengerSantaCruz2"
+        ]
+      },
+      "12171873": {
+        "event_key": "12171873",
+        "timestamp": "2026-10-17 11:21:22",
+        "torneo": "W50 Stara Zagora (Bulgaria)",
+        "ronda": null,
+        "jugadores": "L. Petruzelova vs L. Giovannini",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE W50 STARA ZAGORA (BULGARIA) 🇦🇷\n\nLuisina Giovannini cayó ante L. Petruzelova 🇨🇿 por 1-6, 6-4 y 6-4 en el ITF W50 Stara Zagora (Bulgaria).\n\nNo se pudo dar hoy 🇦🇷 #ITFStaraZagoraBulgaria"
         ]
       }
     }
