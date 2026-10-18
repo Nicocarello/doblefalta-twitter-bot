@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-17 20:20:37",
+  "ultima_actualizacion": "2026-10-17 22:26:31",
   "dias": {
     "2026-10-10": {
       "12169489": {
@@ -1158,6 +1158,18 @@
         "estado": "Finished",
         "tweets": [
           "🏆 ¡CAMPEÓN EN W15 MACEIO (BRAZIL)! 🇦🇷\n\nGatica/ Pereira superó a Ayala/ Romero por 6-4 y 6-0 en Final.\n\n¡Semana soñada y trofeo a casa! Salud, campeón. 🏆👏 #ITFMaceioBrazil"
+        ]
+      },
+      "12171806": {
+        "event_key": "12171806",
+        "timestamp": "2026-10-17 22:26:31",
+        "torneo": "Santa Cruz 2",
+        "ronda": "Santa Cruz 2 - Semi-finals",
+        "jugadores": "F. Comesana vs T. Seyboth Wild",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN SANTA CRUZ 2 🇦🇷\n\nFrancisco Comesaña perdió ante T. Seyboth Wild 🇧🇷 por 7-6(7), 4-6 y 7-6(7) en Semifinales.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ChallengerSantaCruz2"
         ]
       }
     }
