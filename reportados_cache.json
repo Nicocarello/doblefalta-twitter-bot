@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-18 15:49:18",
+  "ultima_actualizacion": "2026-10-18 20:33:40",
   "dias": {
     "2026-10-11": {
       "12169722": {
@@ -1032,6 +1032,30 @@
         "estado": "Finished",
         "tweets": [
           "¡A LA FINAL, F. RIBERO! 🇦🇷🔥\n\nF. Ribero superó a J. Flores por 6-2 y 6-4 en Semifinales.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12172076": {
+        "event_key": "12172076",
+        "timestamp": "2026-10-18 20:33:40",
+        "torneo": "Cali",
+        "ronda": "Cali - Semi-finals",
+        "jugadores": "M. Del Pino vs J. S. Gomez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Cali: 🇦🇷\n\n❌ M. Del Pino cayó ante J. S. Gomez 🇨🇴 por 6-4, 6-4 en Semis.\n🇦🇷 DERBI: Santi Rodríguez Taverna venció a Feli de Dios por 6-1, 6-1 en Semis.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12172169": {
+        "event_key": "12172169",
+        "timestamp": "2026-10-18 20:33:40",
+        "torneo": "Cali",
+        "ronda": "Cali - Semi-finals",
+        "jugadores": "S. Rodriguez Taverna vs F. De Dios",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Cali: 🇦🇷\n\n❌ M. Del Pino cayó ante J. S. Gomez 🇨🇴 por 6-4, 6-4 en Semis.\n🇦🇷 DERBI: Santi Rodríguez Taverna venció a Feli de Dios por 6-1, 6-1 en Semis.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerCali"
         ]
       }
     }
