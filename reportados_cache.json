@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-19 14:17:27",
+  "ultima_actualizacion": "2026-10-19 20:01:31",
   "dias": {
     "2026-10-12": {
       "12170158": {
@@ -948,6 +948,42 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 ¡FESTEJA FACUNDO DÍAZ ACOSTA EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 16avos de final, Facundo Díaz Acosta derrotó a T. A. Tirante por 6-7(3), 6-1 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ATPAlmaty"
+        ]
+      },
+      "12172112": {
+        "event_key": "12172112",
+        "timestamp": "2026-10-19 20:01:30",
+        "torneo": "Fort Worth (Usa)",
+        "ronda": "Fort Worth - 1/16-finals",
+        "jugadores": "L. E. Ambrogi vs P. Maloney",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN FORT WORTH (USA) 🇦🇷\n\nL. E. Ambrogi perdió ante P. Maloney 🇺🇸 por 6-3 y 7-5 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerFortWorthUsa"
+        ]
+      },
+      "12172209": {
+        "event_key": "12172209",
+        "timestamp": "2026-10-19 20:01:31",
+        "torneo": "Cali",
+        "ronda": "Cali - Final",
+        "jugadores": "A. Hernandez vs F. Ribero",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Cali: 🇦🇷\n\n✅ F. Ribero le ganó a A. Hernandez 🇻🇪 por 6-2, 6-2 en Final.\n✅ Santi Rodríguez Taverna le ganó a S. L. Hernandez R. 🇨🇴 por 6-4, 6-2 en Final.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerCali"
+        ]
+      },
+      "12172216": {
+        "event_key": "12172216",
+        "timestamp": "2026-10-19 20:01:31",
+        "torneo": "Cali",
+        "ronda": "Cali - Final",
+        "jugadores": "S. Rodriguez Taverna vs S. L. Hernandez R.",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Cali: 🇦🇷\n\n✅ F. Ribero le ganó a A. Hernandez 🇻🇪 por 6-2, 6-2 en Final.\n✅ Santi Rodríguez Taverna le ganó a S. L. Hernandez R. 🇨🇴 por 6-4, 6-2 en Final.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerCali"
         ]
       }
     }
