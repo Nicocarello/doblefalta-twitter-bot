@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-18 20:33:40",
+  "ultima_actualizacion": "2026-10-19 13:51:31",
   "dias": {
     "2026-10-11": {
       "12169722": {
@@ -1056,6 +1056,20 @@
         "estado": "Finished",
         "tweets": [
           "Resultados de Semifinales en la Qualy del Challenger Cali: 🇦🇷\n\n❌ M. Del Pino cayó ante J. S. Gomez 🇨🇴 por 6-4, 6-4 en Semis.\n🇦🇷 DERBI: Santi Rodríguez Taverna venció a Feli de Dios por 6-1, 6-1 en Semis.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerCali"
+        ]
+      }
+    },
+    "2026-10-19": {
+      "12171888": {
+        "event_key": "12171888",
+        "timestamp": "2026-10-19 13:51:31",
+        "torneo": "Almaty",
+        "ronda": "ATP Almaty - 1/16-finals",
+        "jugadores": "T. A. Tirante vs F. Diaz Acosta",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA FACUNDO DÍAZ ACOSTA EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 16avos de final, Facundo Díaz Acosta derrotó a T. A. Tirante por 6-7(3), 6-1 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ATPAlmaty"
         ]
       }
     }
