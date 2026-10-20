@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-20 12:33:00",
+  "ultima_actualizacion": "2026-10-20 12:50:17",
   "dias": {
     "2026-10-13": {
       "12170028": {
@@ -993,6 +993,18 @@
         "estado": "Finished",
         "tweets": [
           "¡A OCTAVOS, LUNA CINALLI! 🇦🇷🔥\n\nLuna Cinalli le ganó a M. P. Manrique 🇨🇴 por 6-0 y 6-0 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFCampinaGrandeBrazil"
+        ]
+      },
+      "12172705": {
+        "event_key": "12172705",
+        "timestamp": "2026-10-20 12:50:17",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - 1/16-finals",
+        "jugadores": "L. Gagliardo vs B. Rodrigues",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SIII L. GAGLIARDO!!! 🇦🇷\n\nL. Gagliardo venció a B. Rodrigues por 6-2 y 6-0 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFMaceioBrazil"
         ]
       }
     }
