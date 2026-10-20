@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-20 12:50:17",
+  "ultima_actualizacion": "2026-10-20 14:29:57",
   "dias": {
     "2026-10-13": {
       "12170028": {
@@ -1005,6 +1005,18 @@
         "estado": "Finished",
         "tweets": [
           "SIII L. GAGLIARDO!!! 🇦🇷\n\nL. Gagliardo venció a B. Rodrigues por 6-2 y 6-0 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12172681": {
+        "event_key": "12172681",
+        "timestamp": "2026-10-20 14:29:57",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/16-finals",
+        "jugadores": "D. Salazar vs J. B. Torres",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN CALI! 🇦🇷💪\n\nJ. B. Torres le ganó a D. Salazar 🇨🇴 por 6-3 y 6-1 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerCali"
         ]
       }
     }
