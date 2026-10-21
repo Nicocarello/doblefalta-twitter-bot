@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-21 12:50:26",
+  "ultima_actualizacion": "2026-10-21 13:07:06",
   "dias": {
     "2026-10-14": {
       "12170034": {
@@ -1057,6 +1057,18 @@
         "estado": "Finished",
         "tweets": [
           "TROPIEZO EN W35 SANTA MARGHERITA DI PULA 11 🇦🇷\n\nP. Ormaechea cayó ante C. Giambelli 🇮🇹 por 6-2 y 6-3 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFSantaMargheritadiPula11"
+        ]
+      },
+      "12173005": {
+        "event_key": "12173005",
+        "timestamp": "2026-10-21 13:07:06",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - 1/16-finals",
+        "jugadores": "V. Basel vs P. Sakamoto",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE M15 MACEIO (BRAZIL) 🇦🇷\n\nV. Basel no pudo ante P. Sakamoto 🇧🇷 por 7-6(7) y 6-2 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFMaceioBrazil"
         ]
       }
     }
