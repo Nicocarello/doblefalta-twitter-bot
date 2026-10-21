@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-21 04:15:45",
+  "ultima_actualizacion": "2026-10-21 11:58:54",
   "dias": {
     "2026-10-13": {
       "12170028": {
@@ -1158,6 +1158,78 @@
         "tweets": [
           "🇦🇷 Balance del día en el Challenger Cali:\n\n❌ Federico Coria no pudo ante N. Mejia 🇨🇴 por 7-6(7), 6-4 en 16avos.\n❌ Gonzalo Villanueva no pudo ante M. Tobon 🇨🇴 por 6-1, 2-6, 6-4 en 16avos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n🇦🇷 DERBI: C. M. Zarate venció a F. Ribero por 6-1, 6-3 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerCali\n\n(2/2) 🧵"
+        ]
+      },
+      "12171883": {
+        "event_key": "12171883",
+        "timestamp": "2026-10-21 11:58:53",
+        "torneo": "Almaty",
+        "ronda": "ATP Almaty - 1/16-finals",
+        "jugadores": "M. Bellucci vs T. M. Etcheverry",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ATP Almaty:\n\n❌ Tomás Etcheverry no pudo ante M. Bellucci 🇮🇹 por 7-6(7), 2-6, 6-4 en 16avos.\n❌ Facu Díaz Acosta cayó ante N. Basilashvili por 6-2, 6-4 en Octavos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ATPAlmaty"
+        ]
+      },
+      "12172375": {
+        "event_key": "12172375",
+        "timestamp": "2026-10-21 11:58:53",
+        "torneo": "Almaty",
+        "ronda": "ATP Almaty - 1/8-finals",
+        "jugadores": "F. Diaz Acosta vs N. Basilashvili",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ATP Almaty:\n\n❌ Tomás Etcheverry no pudo ante M. Bellucci 🇮🇹 por 7-6(7), 2-6, 6-4 en 16avos.\n❌ Facu Díaz Acosta cayó ante N. Basilashvili por 6-2, 6-4 en Octavos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ATPAlmaty"
+        ]
+      },
+      "12172384": {
+        "event_key": "12172384",
+        "timestamp": "2026-10-21 11:58:54",
+        "torneo": "Brussels",
+        "ronda": "ATP Brussels - 1/8-finals",
+        "jugadores": "M. Damm vs F. Cerundolo",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ATP Brussels:\n\n✅ Fran Cerúndolo venció a M. Damm 🇺🇸 por 6-4, 7-6(7) en Octavos.\n❌ Mariano Navone perdió ante T. Griekspoor 🇳🇱 por 7-6(7), 7-5 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ATPBrussels"
+        ]
+      },
+      "12172819": {
+        "event_key": "12172819",
+        "timestamp": "2026-10-21 11:58:54",
+        "torneo": "Brussels",
+        "ronda": "ATP Brussels - 1/8-finals",
+        "jugadores": "M. Navone vs T. Griekspoor",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ATP Brussels:\n\n✅ Fran Cerúndolo venció a M. Damm 🇺🇸 por 6-4, 7-6(7) en Octavos.\n❌ Mariano Navone perdió ante T. Griekspoor 🇳🇱 por 7-6(7), 7-5 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ATPBrussels"
+        ]
+      },
+      "12172946": {
+        "event_key": "12172946",
+        "timestamp": "2026-10-21 11:58:54",
+        "torneo": "M15 Heraklion 9",
+        "ronda": "M15 Heraklion 9 - 1/16-finals",
+        "jugadores": "A. Vasilev vs J. Cesar Porras",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII J. CESAR PORRAS!!! 🇦🇷\n\nJ. Cesar Porras venció a A. Vasilev 🇧🇬 por 6-3 y 7-6(7) en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFHeraklion9"
+        ]
+      },
+      "12172962": {
+        "event_key": "12172962",
+        "timestamp": "2026-10-21 11:58:54",
+        "torneo": "W35 Santa Margherita di Pula 11",
+        "ronda": "W35 Santa Margherita di Pula 11 - 1/16-finals",
+        "jugadores": "C. Giambelli vs P. Ormaechea",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN W35 SANTA MARGHERITA DI PULA 11 🇦🇷\n\nP. Ormaechea cayó ante C. Giambelli 🇮🇹 por 6-2 y 6-3 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFSantaMargheritadiPula11"
         ]
       }
     }
