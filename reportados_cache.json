@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-20 23:15:52",
+  "ultima_actualizacion": "2026-10-21 04:15:45",
   "dias": {
     "2026-10-13": {
       "12170028": {
@@ -1117,6 +1117,47 @@
         "estado": "Finished",
         "tweets": [
           "NO SE PUDO DAR 🇦🇷\n\nJuan Pablo Ficovich cayó ante F. Meligeni Alves 🇧🇷 por 6-2 y 6-4 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ChallengerCali"
+        ]
+      }
+    },
+    "2026-10-21": {
+      "12172103": {
+        "event_key": "12172103",
+        "timestamp": "2026-10-21 04:15:45",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/16-finals",
+        "jugadores": "F. Coria vs N. Mejia",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Cali:\n\n❌ Federico Coria no pudo ante N. Mejia 🇨🇴 por 7-6(7), 6-4 en 16avos.\n❌ Gonzalo Villanueva no pudo ante M. Tobon 🇨🇴 por 6-1, 2-6, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: C. M. Zarate venció a F. Ribero por 6-1, 6-3 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerCali\n\n(2/2) 🧵"
+        ]
+      },
+      "12172111": {
+        "event_key": "12172111",
+        "timestamp": "2026-10-21 04:15:45",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/16-finals",
+        "jugadores": "G. Villanueva vs M. Tobon",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Cali:\n\n❌ Federico Coria no pudo ante N. Mejia 🇨🇴 por 7-6(7), 6-4 en 16avos.\n❌ Gonzalo Villanueva no pudo ante M. Tobon 🇨🇴 por 6-1, 2-6, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: C. M. Zarate venció a F. Ribero por 6-1, 6-3 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerCali\n\n(2/2) 🧵"
+        ]
+      },
+      "12172684": {
+        "event_key": "12172684",
+        "timestamp": "2026-10-21 04:15:45",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/16-finals",
+        "jugadores": "C. M. Zarate vs F. Ribero",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Cali:\n\n❌ Federico Coria no pudo ante N. Mejia 🇨🇴 por 7-6(7), 6-4 en 16avos.\n❌ Gonzalo Villanueva no pudo ante M. Tobon 🇨🇴 por 6-1, 2-6, 6-4 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: C. M. Zarate venció a F. Ribero por 6-1, 6-3 en 16avos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ChallengerCali\n\n(2/2) 🧵"
         ]
       }
     }
