@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-21 15:00:33",
+  "ultima_actualizacion": "2026-10-21 18:35:43",
   "dias": {
     "2026-10-14": {
       "12170034": {
@@ -1117,6 +1117,78 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI: ¡VICTORIA PARA M. F. URRUTIA!\n\nEn un gran cruce argentino en 16avos de final, M. F. Urrutia derrotó a Jose Estevez por 4-6, 6-4 y 6-3.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFCampinaGrandeBrazil"
+        ]
+      },
+      "12172108": {
+        "event_key": "12172108",
+        "timestamp": "2026-10-21 18:35:42",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/16-finals",
+        "jugadores": "F. Mena vs V. Aboian",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Cali:\n\n🇦🇷 DERBI: V. Aboian derrotó a Facundo Mena por 2-6, 6-3, 6-4 en 16avos.\n🇦🇷 DERBI: J. M. La Serna derrotó a J. B. Torres por 6-4, 6-2 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCali"
+        ]
+      },
+      "12173015": {
+        "event_key": "12173015",
+        "timestamp": "2026-10-21 18:35:42",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/8-finals",
+        "jugadores": "J. M. La Serna vs J. B. Torres",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Cali:\n\n🇦🇷 DERBI: V. Aboian derrotó a Facundo Mena por 2-6, 6-3, 6-4 en 16avos.\n🇦🇷 DERBI: J. M. La Serna derrotó a J. B. Torres por 6-4, 6-2 en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCali"
+        ]
+      },
+      "12172863": {
+        "event_key": "12172863",
+        "timestamp": "2026-10-21 18:35:43",
+        "torneo": "Lisbon",
+        "ronda": "Lisbon - 1/8-finals",
+        "jugadores": "M. Trungelliti vs C. A. Caniato",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SIII MARCO TRUNGELLITI!!! 🇦🇷\n\nMarco Trungelliti derrotó a C. A. Caniato 🇮🇹 por 4-6, 7-6(7) y 6-3 en 8vos.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerLisbon"
+        ]
+      },
+      "12172996": {
+        "event_key": "12172996",
+        "timestamp": "2026-10-21 18:35:43",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - 1/16-finals",
+        "jugadores": "T. Martinez vs G. Branchetti",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M15 Maceio (Brazil):\n\n🇦🇷 DERBI: G. Branchetti superó a T. Martinez por 6-3, 6-0 en 16avos.\n✅ D. Pagani superó a P. H. Chabalgoity 🇧🇷 por 6-0, 6-2 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFMaceioBrazil"
+        ]
+      },
+      "12172999": {
+        "event_key": "12172999",
+        "timestamp": "2026-10-21 18:35:43",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - 1/16-finals",
+        "jugadores": "P. H. Chabalgoity vs D. Pagani",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M15 Maceio (Brazil):\n\n🇦🇷 DERBI: G. Branchetti superó a T. Martinez por 6-3, 6-0 en 16avos.\n✅ D. Pagani superó a P. H. Chabalgoity 🇧🇷 por 6-0, 6-2 en 16avos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFMaceioBrazil"
+        ]
+      },
+      "12173058": {
+        "event_key": "12173058",
+        "timestamp": "2026-10-21 18:35:43",
+        "torneo": "W15 Campina Grande (Brazil)",
+        "ronda": "W15 Campina Grande - 1/16-finals",
+        "jugadores": "L. Garcia Vidal vs J. M. Gonzalez Daniele",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII J. M. GONZALEZ DANIELE!!! 🇦🇷\n\nJ. M. Gonzalez Daniele venció a L. Garcia Vidal 🇧🇷 por 6-4 y 6-3 en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFCampinaGrandeBrazil"
         ]
       }
     }
