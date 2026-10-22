@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-22 13:01:49",
+  "ultima_actualizacion": "2026-10-22 13:47:34",
   "dias": {
     "2026-10-15": {
       "12170672": {
@@ -1049,6 +1049,30 @@
         "estado": "Finished",
         "tweets": [
           "¡A CUARTOS, M. F. URRUTIA! 🇦🇷🔥\n\nM. F. Urrutia derrotó a C. Melleiro 🇧🇷 por 6-3 y 6-2 en Octavos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFCampinaGrandeBrazil"
+        ]
+      },
+      "12173432": {
+        "event_key": "12173432",
+        "timestamp": "2026-10-22 13:47:34",
+        "torneo": "W15 Campina Grande (Brazil)",
+        "ronda": "W15 Campina Grande - 1/8-finals",
+        "jugadores": "M. J. Sanchez Uribe vs J. M. Gonzalez Daniele",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII J. M. GONZALEZ DANIELE!!! 🇦🇷\n\nJ. M. Gonzalez Daniele se impuso ante M. J. Sanchez Uribe por 6-0 y 6-1 en Octavos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFCampinaGrandeBrazil"
+        ]
+      },
+      "12173435": {
+        "event_key": "12173435",
+        "timestamp": "2026-10-22 13:47:34",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - 1/8-finals",
+        "jugadores": "N. Bruna vs T. Farjat",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A CUARTOS, T. FARJAT! 🇦🇷🔥\n\nT. Farjat derrotó a N. Bruna 🇨🇱 por 7-6(7), 4-6 y 6-2 en 8vos.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFMaceioBrazil"
         ]
       }
     }
