@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-22 13:47:34",
+  "ultima_actualizacion": "2026-10-22 14:56:07",
   "dias": {
     "2026-10-15": {
       "12170672": {
@@ -1073,6 +1073,18 @@
         "estado": "Finished",
         "tweets": [
           "¡A CUARTOS, T. FARJAT! 🇦🇷🔥\n\nT. Farjat derrotó a N. Bruna 🇨🇱 por 7-6(7), 4-6 y 6-2 en 8vos.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12173437": {
+        "event_key": "12173437",
+        "timestamp": "2026-10-22 14:56:07",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - 1/8-finals",
+        "jugadores": "O. J. Gutierrez vs R. Valente",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nR. Valente perdió ante O. J. Gutierrez 🇪🇸 por 6-4 y 6-4 en 8vos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFMaceioBrazil"
         ]
       }
     }
