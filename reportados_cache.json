@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-22 14:56:07",
+  "ultima_actualizacion": "2026-10-22 18:24:54",
   "dias": {
     "2026-10-15": {
       "12170672": {
@@ -1085,6 +1085,69 @@
         "estado": "Finished",
         "tweets": [
           "NO SE PUDO DAR 🇦🇷\n\nR. Valente perdió ante O. J. Gutierrez 🇪🇸 por 6-4 y 6-4 en 8vos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12173096": {
+        "event_key": "12173096",
+        "timestamp": "2026-10-22 18:24:53",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/8-finals",
+        "jugadores": "S. Rodriguez Taverna vs G. Bueno",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Cali:\n\n✅ Santi Taverna derrotó a G. Bueno 🇵🇪 por 6-7(12), 6-4, 6-2 en Octavos.\n🇦🇷 DERBI: C. M. Zarate avanzó tras retiro de Francisco Comesaña (2-6, 7-6(7)) en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ V. Aboian venció a M. Soto 🇨🇱 por 6-2, 6-2 en Octavos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerCali\n\n(2/2) 🧵"
+        ]
+      },
+      "12173142": {
+        "event_key": "12173142",
+        "timestamp": "2026-10-22 18:24:53",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/8-finals",
+        "jugadores": "C. M. Zarate vs F. Comesana",
+        "resultado": "1 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Cali:\n\n✅ Santi Taverna derrotó a G. Bueno 🇵🇪 por 6-7(12), 6-4, 6-2 en Octavos.\n🇦🇷 DERBI: C. M. Zarate avanzó tras retiro de Francisco Comesaña (2-6, 7-6(7)) en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ V. Aboian venció a M. Soto 🇨🇱 por 6-2, 6-2 en Octavos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerCali\n\n(2/2) 🧵"
+        ]
+      },
+      "12173395": {
+        "event_key": "12173395",
+        "timestamp": "2026-10-22 18:24:53",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/8-finals",
+        "jugadores": "V. Aboian vs M. Soto",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Cali:\n\n✅ Santi Taverna derrotó a G. Bueno 🇵🇪 por 6-7(12), 6-4, 6-2 en Octavos.\n🇦🇷 DERBI: C. M. Zarate avanzó tras retiro de Francisco Comesaña (2-6, 7-6(7)) en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ V. Aboian venció a M. Soto 🇨🇱 por 6-2, 6-2 en Octavos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerCali\n\n(2/2) 🧵"
+        ]
+      },
+      "12173439": {
+        "event_key": "12173439",
+        "timestamp": "2026-10-22 18:24:54",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - 1/8-finals",
+        "jugadores": "L. Gagliardo vs I. Monzon",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 Maceio (Brazil):\n\n🇦🇷 DERBI: L. Gagliardo derrotó a Ignacio Monzon por 6-4, 6-2 en Octavos.\n🇦🇷 DERBI: D. Pagani superó a G. Branchetti por 6-1, 5-7, 7-5 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12173467": {
+        "event_key": "12173467",
+        "timestamp": "2026-10-22 18:24:54",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - 1/8-finals",
+        "jugadores": "G. Branchetti vs D. Pagani",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 Maceio (Brazil):\n\n🇦🇷 DERBI: L. Gagliardo derrotó a Ignacio Monzon por 6-4, 6-2 en Octavos.\n🇦🇷 DERBI: D. Pagani superó a G. Branchetti por 6-1, 5-7, 7-5 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFMaceioBrazil"
         ]
       }
     }
