@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-21 21:34:26",
+  "ultima_actualizacion": "2026-10-22 11:58:23",
   "dias": {
     "2026-10-14": {
       "12170034": {
@@ -1201,6 +1201,44 @@
         "estado": "Finished",
         "tweets": [
           "NO SE PUDO DAR 🇦🇷\n\nJ. Cundom perdió ante V. C. Loureiro J. 🇧🇷 por 6-4, 6-7 y 6-4 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFMaceioBrazil"
+        ]
+      }
+    },
+    "2026-10-22": {
+      "12173241": {
+        "event_key": "12173241",
+        "timestamp": "2026-10-22 11:58:23",
+        "torneo": "W15 Singapore 3 (Singapore)",
+        "ronda": "W15 Singapore 3 - 1/8-finals",
+        "jugadores": "A. Malova vs M. S. Krywoj",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN W15 SINGAPORE 3 (SINGAPORE) 🇦🇷\n\nM. S. Krywoj perdió ante A. Malova por 7-6(7) y 6-2 en Octavos.\n\nNo se pudo dar hoy 🇦🇷 #ITFSingapore3Singapore"
+        ]
+      },
+      "12173339": {
+        "event_key": "12173339",
+        "timestamp": "2026-10-22 11:58:23",
+        "torneo": "M15 Heraklion 9",
+        "ronda": "M15 Heraklion 9 - 1/8-finals",
+        "jugadores": "J. Cesar Porras vs Pa. Tsitsipas",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN M15 HERAKLION 9! 🇦🇷💪\n\nJ. Cesar Porras se impuso ante Pa. Tsitsipas 🇬🇷 por 6-4 y 6-1 en Octavos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFHeraklion9"
+        ]
+      },
+      "12173405": {
+        "event_key": "12173405",
+        "timestamp": "2026-10-22 11:58:23",
+        "torneo": "W15 Campina Grande (Brazil)",
+        "ronda": "W15 Campina Grande - 1/8-finals",
+        "jugadores": "F. Labrana vs L. Ayala",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN W15 CAMPINA GRANDE (BRAZIL) 🇦🇷\n\nLuli Ayala perdió ante F. Labrana 🇨🇱 por 6-1 y 6-2 en 8vos.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFCampinaGrandeBrazil"
         ]
       }
     }
