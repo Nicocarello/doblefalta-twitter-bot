@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-21 18:35:43",
+  "ultima_actualizacion": "2026-10-21 21:34:26",
   "dias": {
     "2026-10-14": {
       "12170034": {
@@ -1189,6 +1189,18 @@
         "estado": "Finished",
         "tweets": [
           "SIII J. M. GONZALEZ DANIELE!!! 🇦🇷\n\nJ. M. Gonzalez Daniele venció a L. Garcia Vidal 🇧🇷 por 6-4 y 6-3 en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFCampinaGrandeBrazil"
+        ]
+      },
+      "12172998": {
+        "event_key": "12172998",
+        "timestamp": "2026-10-21 21:34:26",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - 1/16-finals",
+        "jugadores": "J. Cundom vs V. C. Loureiro J.",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nJ. Cundom perdió ante V. C. Loureiro J. 🇧🇷 por 6-4, 6-7 y 6-4 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFMaceioBrazil"
         ]
       }
     }
