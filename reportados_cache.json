@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-22 18:24:54",
+  "ultima_actualizacion": "2026-10-22 21:08:21",
   "dias": {
     "2026-10-15": {
       "12170672": {
@@ -1148,6 +1148,18 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Balance del día en el ITF M15 Maceio (Brazil):\n\n🇦🇷 DERBI: L. Gagliardo derrotó a Ignacio Monzon por 6-4, 6-2 en Octavos.\n🇦🇷 DERBI: D. Pagani superó a G. Branchetti por 6-1, 5-7, 7-5 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12173423": {
+        "event_key": "12173423",
+        "timestamp": "2026-10-22 21:08:21",
+        "torneo": "W15 Campina Grande (Brazil)",
+        "ronda": "W15 Campina Grande - Quarter-finals",
+        "jugadores": "Mediorreal/ Sanchez vs Gatica/ Pereira",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nGatica/ Pereira perdió ante Mediorreal/ Sanchez por 6-1, 3-6 y 10-5 en 4tos.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFCampinaGrandeBrazil"
         ]
       }
     }
