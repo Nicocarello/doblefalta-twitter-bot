@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-23 12:52:44",
+  "ultima_actualizacion": "2026-10-23 14:23:45",
   "dias": {
     "2026-10-16": {
       "12171077": {
@@ -999,6 +999,18 @@
         "estado": "Finished",
         "tweets": [
           "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nT. Farjat perdió ante V. C. Loureiro J. 🇧🇷 por 6-3 y 6-2 en Cuartos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12173655": {
+        "event_key": "12173655",
+        "timestamp": "2026-10-23 14:23:45",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - Quarter-finals",
+        "jugadores": "D. Pagani vs P. Sakamoto",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE M15 MACEIO (BRAZIL) 🇦🇷\n\nD. Pagani cayó ante P. Sakamoto 🇧🇷 por 6-2 y 6-1 en 4tos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFMaceioBrazil"
         ]
       }
     }
