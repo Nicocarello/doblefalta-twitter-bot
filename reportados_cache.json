@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-23 18:15:56",
+  "ultima_actualizacion": "2026-10-23 20:58:41",
   "dias": {
     "2026-10-16": {
       "12171077": {
@@ -1086,6 +1086,18 @@
         "estado": "Finished",
         "tweets": [
           "Resultados de Cuartos de final en el ITF W15 Campina Grande (Brazil): 🇦🇷\n\n✅ J. M. Gonzalez Daniele derrotó a P. Lopez 🇺🇸 por 6-3, 6-2 en Cuartos.\n✅ M. F. Urrutia superó a M. Souza 🇧🇷 por 6-3, 6-4 en Cuartos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFCampinaGrandeBrazil"
+        ]
+      },
+      "12173630": {
+        "event_key": "12173630",
+        "timestamp": "2026-10-23 20:58:41",
+        "torneo": "Cali",
+        "ronda": "Cali - Quarter-finals",
+        "jugadores": "G. Heide vs S. Rodriguez Taverna",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN CALI 🇦🇷\n\nSanti Taverna perdió ante G. Heide 🇧🇷 por 6-3 y 6-4 en Cuartos.\n\nNo se pudo dar hoy 🇦🇷 #ChallengerCali"
         ]
       }
     }
