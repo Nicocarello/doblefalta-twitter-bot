@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-23 14:23:45",
+  "ultima_actualizacion": "2026-10-23 18:15:56",
   "dias": {
     "2026-10-16": {
       "12171077": {
@@ -1011,6 +1011,81 @@
         "estado": "Finished",
         "tweets": [
           "DESPEDIDA DE M15 MACEIO (BRAZIL) 🇦🇷\n\nD. Pagani cayó ante P. Sakamoto 🇧🇷 por 6-2 y 6-1 en 4tos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFMaceioBrazil"
+        ]
+      },
+      "12173613": {
+        "event_key": "12173613",
+        "timestamp": "2026-10-23 18:15:55",
+        "torneo": "Cali",
+        "ronda": "Cali - Quarter-finals",
+        "jugadores": "F. Meligeni Alves vs C. M. Zarate",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Cali: 🇦🇷\n\n❌ C. M. Zarate cayó ante F. Meligeni Alves 🇧🇷 por 6-2, 3-6, 7-5 en Cuartos.\n❌ J. M. La Serna perdió ante M. Pucinelli de Almeida 🇧🇷 por 6-4, 4-6, 7-5 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ V. Aboian derrotó a M. Tobon 🇨🇴 por 1-6, 7-6(7), 6-2 en Cuartos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCali\n\n(2/2) 🧵"
+        ]
+      },
+      "12173641": {
+        "event_key": "12173641",
+        "timestamp": "2026-10-23 18:15:55",
+        "torneo": "Cali",
+        "ronda": "Cali - Quarter-finals",
+        "jugadores": "J. M. La Serna vs M. Pucinelli de Almeida",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Cali: 🇦🇷\n\n❌ C. M. Zarate cayó ante F. Meligeni Alves 🇧🇷 por 6-2, 3-6, 7-5 en Cuartos.\n❌ J. M. La Serna perdió ante M. Pucinelli de Almeida 🇧🇷 por 6-4, 4-6, 7-5 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ V. Aboian derrotó a M. Tobon 🇨🇴 por 1-6, 7-6(7), 6-2 en Cuartos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCali\n\n(2/2) 🧵"
+        ]
+      },
+      "12173676": {
+        "event_key": "12173676",
+        "timestamp": "2026-10-23 18:15:55",
+        "torneo": "Cali",
+        "ronda": "Cali - Quarter-finals",
+        "jugadores": "V. Aboian vs M. Tobon",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Cali: 🇦🇷\n\n❌ C. M. Zarate cayó ante F. Meligeni Alves 🇧🇷 por 6-2, 3-6, 7-5 en Cuartos.\n❌ J. M. La Serna perdió ante M. Pucinelli de Almeida 🇧🇷 por 6-4, 4-6, 7-5 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ V. Aboian derrotó a M. Tobon 🇨🇴 por 1-6, 7-6(7), 6-2 en Cuartos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerCali\n\n(2/2) 🧵"
+        ]
+      },
+      "12173654": {
+        "event_key": "12173654",
+        "timestamp": "2026-10-23 18:15:55",
+        "torneo": "M15 Maceio (Brazil)",
+        "ronda": "M15 Maceio - Quarter-finals",
+        "jugadores": "O. J. Gutierrez vs L. Gagliardo",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A SEMIFINAL, L. GAGLIARDO! 🇦🇷🔥\n\nL. Gagliardo venció a O. J. Gutierrez 🇪🇸 por 7-6(7) y 6-1 en Cuartos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFMaceioBrazil"
+        ]
+      },
+      "12173658": {
+        "event_key": "12173658",
+        "timestamp": "2026-10-23 18:15:56",
+        "torneo": "W15 Campina Grande (Brazil)",
+        "ronda": "W15 Campina Grande - Quarter-finals",
+        "jugadores": "P. Lopez vs J. M. Gonzalez Daniele",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Campina Grande (Brazil): 🇦🇷\n\n✅ J. M. Gonzalez Daniele derrotó a P. Lopez 🇺🇸 por 6-3, 6-2 en Cuartos.\n✅ M. F. Urrutia superó a M. Souza 🇧🇷 por 6-3, 6-4 en Cuartos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFCampinaGrandeBrazil"
+        ]
+      },
+      "12173659": {
+        "event_key": "12173659",
+        "timestamp": "2026-10-23 18:15:56",
+        "torneo": "W15 Campina Grande (Brazil)",
+        "ronda": "W15 Campina Grande - Quarter-finals",
+        "jugadores": "M. Souza vs M. F. Urrutia",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Campina Grande (Brazil): 🇦🇷\n\n✅ J. M. Gonzalez Daniele derrotó a P. Lopez 🇺🇸 por 6-3, 6-2 en Cuartos.\n✅ M. F. Urrutia superó a M. Souza 🇧🇷 por 6-3, 6-4 en Cuartos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFCampinaGrandeBrazil"
         ]
       }
     }
