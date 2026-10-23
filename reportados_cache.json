@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-22 21:08:21",
+  "ultima_actualizacion": "2026-10-23 11:45:11",
   "dias": {
     "2026-10-15": {
       "12170672": {
@@ -1160,6 +1160,44 @@
         "estado": "Finished",
         "tweets": [
           "NO SE PUDO DAR 🇦🇷\n\nGatica/ Pereira perdió ante Mediorreal/ Sanchez por 6-1, 3-6 y 10-5 en 4tos.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFCampinaGrandeBrazil"
+        ]
+      }
+    },
+    "2026-10-23": {
+      "12173359": {
+        "event_key": "12173359",
+        "timestamp": "2026-10-23 11:45:10",
+        "torneo": "Brussels",
+        "ronda": "ATP Brussels - Quarter-finals",
+        "jugadores": "C. Chidekh vs F. Cerundolo",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII FRANCISCO CERÚNDOLO!!! 🇦🇷\n\nFrancisco Cerúndolo le ganó a C. Chidekh 🇫🇷 por 6-2 y 6-4 en Cuartos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ATPBrussels"
+        ]
+      },
+      "12173426": {
+        "event_key": "12173426",
+        "timestamp": "2026-10-23 11:45:11",
+        "torneo": "Lisbon",
+        "ronda": "Lisbon - Quarter-finals",
+        "jugadores": "M. Trungelliti vs M. Dodig",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nMarco Trungelliti venció a M. Dodig 🇭🇷 por 6-4 y 6-2 en 4tos de final.\n\nTerrible partido 💪🇦🇷 #ChallengerLisbon"
+        ]
+      },
+      "12173551": {
+        "event_key": "12173551",
+        "timestamp": "2026-10-23 11:45:11",
+        "torneo": "M15 Heraklion 9",
+        "ronda": "M15 Heraklion 9 - Quarter-finals",
+        "jugadores": "J. Cesar Porras vs A. Vales",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE M15 HERAKLION 9 🇦🇷\n\nJ. Cesar Porras no pudo ante A. Vales por 7-5 y 6-3 en 4tos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFHeraklion9"
         ]
       }
     }
