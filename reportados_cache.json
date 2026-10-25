@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-25 11:42:48",
+  "ultima_actualizacion": "2026-10-25 13:42:38",
   "dias": {
     "2026-10-18": {
       "12172077": {
@@ -976,6 +976,18 @@
         "estado": "Finished",
         "tweets": [
           "¡TRIUNFAZO DE JUAN MANUEL CERÚNDOLO! 🇦🇷🔥\n\nJuan Manuel Cerúndolo se impuso ante D. Altmaier 🇩🇪 por 7-6(11) y 6-3 en Final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ATPBasel"
+        ]
+      },
+      "12174090": {
+        "event_key": "12174090",
+        "timestamp": "2026-10-25 13:42:38",
+        "torneo": "W15 Campina Grande (Brazil)",
+        "ronda": null,
+        "jugadores": "A. S. Sanchez vs J. M. Gonzalez Daniele",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN W15 CAMPINA GRANDE (BRAZIL) 🇦🇷\n\nJ. M. Gonzalez Daniele cayó ante A. S. Sanchez 🇲🇽 por 4-6, 6-4 y 6-1 en el ITF W15 Campina Grande (Brazil).\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFCampinaGrandeBrazil"
         ]
       }
     }
