@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-25 16:32:38",
+  "ultima_actualizacion": "2026-10-25 19:23:57",
   "dias": {
     "2026-10-18": {
       "12172077": {
@@ -1065,6 +1065,32 @@
         "tweets": [
           "Resultados de Semifinales en la Qualy del Challenger Guayaquil: 🇦🇷\n\n✅ L. J. Rodriguez venció a S. Castro Loedel 🇪🇨 por 6-1, 6-0 en Semis.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n❌ Mariano Kestelboim se retiró ante R. Nijboer 🇳🇱 (7-6(8), 1-0) en Semis.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerGuayaquil\n\n(2/2) 🧵"
+        ]
+      },
+      "12174094": {
+        "event_key": "12174094",
+        "timestamp": "2026-10-25 19:23:57",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - Semi-finals",
+        "jugadores": "M. Del Pino vs W. Leite",
+        "resultado": "1 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Guayaquil: 🇦🇷\n\n✅ M. Del Pino avanzó por retiro de W. Leite 🇧🇷 (5-7, 6-3, 1-0) en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ L. Ratti superó a A. Rubini Garcia Belaunde 🇵🇪 por 6-3, 6-4 en Semis.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ChallengerGuayaquil\n\n(2/2) 🧵"
+        ]
+      },
+      "12174102": {
+        "event_key": "12174102",
+        "timestamp": "2026-10-25 19:23:57",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - Semi-finals",
+        "jugadores": "L. Ratti vs A. Rubini Garcia Belaunde",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Guayaquil: 🇦🇷\n\n✅ M. Del Pino avanzó por retiro de W. Leite 🇧🇷 (5-7, 6-3, 1-0) en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ L. Ratti superó a A. Rubini Garcia Belaunde 🇵🇪 por 6-3, 6-4 en Semis.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ChallengerGuayaquil\n\n(2/2) 🧵"
         ]
       }
     }
