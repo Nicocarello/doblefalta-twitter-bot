@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-25 13:42:38",
+  "ultima_actualizacion": "2026-10-25 16:32:38",
   "dias": {
     "2026-10-18": {
       "12172077": {
@@ -988,6 +988,83 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN W15 CAMPINA GRANDE (BRAZIL) 🇦🇷\n\nJ. M. Gonzalez Daniele cayó ante A. S. Sanchez 🇲🇽 por 4-6, 6-4 y 6-1 en el ITF W15 Campina Grande (Brazil).\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFCampinaGrandeBrazil"
+        ]
+      },
+      "12174076": {
+        "event_key": "12174076",
+        "timestamp": "2026-10-25 16:32:37",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - Final",
+        "jugadores": "L. Ayala vs G. Gulin",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Curitiba (Brazil) - Qualification: 🇦🇷\n\n✅ Lourdes Ayala venció a G. Gulin 🇧🇷 por 7-6(8), 6-3 en Final.\n✅ Luna Cinalli le ganó a J. Dourado Zimermman 🇧🇷 por 6-1, 6-1 en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ B. Bonardi venció a C. Melleiro 🇧🇷 por 6-0, 6-3 en Final.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      },
+      "12174077": {
+        "event_key": "12174077",
+        "timestamp": "2026-10-25 16:32:37",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - Final",
+        "jugadores": "L. M. Cinalli vs J. Dourado Zimermman",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Curitiba (Brazil) - Qualification: 🇦🇷\n\n✅ Lourdes Ayala venció a G. Gulin 🇧🇷 por 7-6(8), 6-3 en Final.\n✅ Luna Cinalli le ganó a J. Dourado Zimermman 🇧🇷 por 6-1, 6-1 en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ B. Bonardi venció a C. Melleiro 🇧🇷 por 6-0, 6-3 en Final.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      },
+      "12174078": {
+        "event_key": "12174078",
+        "timestamp": "2026-10-25 16:32:37",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - Final",
+        "jugadores": "B. Bonardi vs C. Melleiro",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Curitiba (Brazil) - Qualification: 🇦🇷\n\n✅ Lourdes Ayala venció a G. Gulin 🇧🇷 por 7-6(8), 6-3 en Final.\n✅ Luna Cinalli le ganó a J. Dourado Zimermman 🇧🇷 por 6-1, 6-1 en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ B. Bonardi venció a C. Melleiro 🇧🇷 por 6-0, 6-3 en Final.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      },
+      "12174080": {
+        "event_key": "12174080",
+        "timestamp": "2026-10-25 16:32:38",
+        "torneo": "Cali",
+        "ronda": "Cali - Final",
+        "jugadores": "M. Pucinelli de Almeida vs V. Aboian",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "TREMENDO TORNEO, V. ABOIAN 🇦🇷👏\n\nV. Aboian cayó ante M. Pucinelli de Almeida 🇧🇷 por 7-6(7) y 6-3 en Final.\n\nNo se dio el título, pero enorme semana. ¡A no aflojar! 💪🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12174092": {
+        "event_key": "12174092",
+        "timestamp": "2026-10-25 16:32:38",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - Semi-finals",
+        "jugadores": "S. Castro Loedel vs L. J. Rodriguez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Guayaquil: 🇦🇷\n\n✅ L. J. Rodriguez venció a S. Castro Loedel 🇪🇨 por 6-1, 6-0 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Mariano Kestelboim se retiró ante R. Nijboer 🇳🇱 (7-6(8), 1-0) en Semis.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerGuayaquil\n\n(2/2) 🧵"
+        ]
+      },
+      "12174100": {
+        "event_key": "12174100",
+        "timestamp": "2026-10-25 16:32:38",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - Semi-finals",
+        "jugadores": "R. Nijboer vs M. Kestelboim",
+        "resultado": "1 - 0",
+        "estado": "Retired",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Guayaquil: 🇦🇷\n\n✅ L. J. Rodriguez venció a S. Castro Loedel 🇪🇨 por 6-1, 6-0 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Mariano Kestelboim se retiró ante R. Nijboer 🇳🇱 (7-6(8), 1-0) en Semis.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerGuayaquil\n\n(2/2) 🧵"
         ]
       }
     }
