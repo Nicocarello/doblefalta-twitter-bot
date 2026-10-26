@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-26 15:49:33",
+  "ultima_actualizacion": "2026-10-26 20:15:51",
   "dias": {
     "2026-10-19": {
       "12171888": {
@@ -1103,6 +1103,32 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE JAZMÍN ORTENZI! 👏\n\nEn un gran cruce argentino en 16avos de final, Jazmín Ortenzi derrotó a V. Bosio por 7-5 y 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerCuritibaBrazilQualification"
+        ]
+      },
+      "12174260": {
+        "event_key": "12174260",
+        "timestamp": "2026-10-26 20:15:51",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "L. Giovannini vs L. Bronzetti",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba (Brazil) - Qualification:\n\n✅ Lu Giovannini venció a L. Bronzetti 🇮🇹 por 7-6(8), 1-6, 6-2 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Luli Ayala le ganó a L. Fullana 🇧🇷 por 6-4, 7-6(8) en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      },
+      "12174261": {
+        "event_key": "12174261",
+        "timestamp": "2026-10-26 20:15:51",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "L. Fullana vs L. Ayala",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba (Brazil) - Qualification:\n\n✅ Lu Giovannini venció a L. Bronzetti 🇮🇹 por 7-6(8), 1-6, 6-2 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Luli Ayala le ganó a L. Fullana 🇧🇷 por 6-4, 7-6(8) en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
         ]
       }
     }
