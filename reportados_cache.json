@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-27 13:11:17",
+  "ultima_actualizacion": "2026-10-27 13:51:10",
   "dias": {
     "2026-10-20": {
       "12172350": {
@@ -1141,6 +1141,42 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Neuquen:\n\n❌ M. Bulbarella cayó ante A. M. Medinaceli L. por 6-3, 6-2 en 16avos.\n🇦🇷 DERBI: L. Moyano venció a M. M. Maruca por 6-1, 6-2 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen"
+        ]
+      },
+      "12174247": {
+        "event_key": "12174247",
+        "timestamp": "2026-10-27 13:51:09",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "J. Riera vs R. Masarova",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN CURITIBA (BRAZIL) - QUALIFICATION! 🇦🇷💪\n\nJuli Riera derrotó a R. Masarova 🇨🇭 por 1-6, 6-4 y 6-1 en 16avos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerCuritibaBrazilQualification"
+        ]
+      },
+      "12174593": {
+        "event_key": "12174593",
+        "timestamp": "2026-10-27 13:51:09",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - 1/16-finals",
+        "jugadores": "R. Tosetto vs T. Martinez",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nT. Martinez venció a R. Tosetto 🇧🇷 por 2-6, 6-2 y 6-3 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFJoãoPessoaBrazil"
+        ]
+      },
+      "12174602": {
+        "event_key": "12174602",
+        "timestamp": "2026-10-27 13:51:10",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/16-finals",
+        "jugadores": "P. Lopez vs C. D. Vega Gudino",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nC. D. Vega Gudino no pudo ante P. Lopez 🇺🇸 por 6-7(8), 6-1 y 6-1 en 16avos de final.\n\nPunto final en W15 Neuquen. ¡A recargar y no aflojar! 💪🇦🇷 #ITFNeuquen"
         ]
       }
     }
