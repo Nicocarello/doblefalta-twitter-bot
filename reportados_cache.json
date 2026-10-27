@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-27 13:51:10",
+  "ultima_actualizacion": "2026-10-27 14:37:57",
   "dias": {
     "2026-10-20": {
       "12172350": {
@@ -1177,6 +1177,42 @@
         "estado": "Finished",
         "tweets": [
           "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nC. D. Vega Gudino no pudo ante P. Lopez 🇺🇸 por 6-7(8), 6-1 y 6-1 en 16avos de final.\n\nPunto final en W15 Neuquen. ¡A recargar y no aflojar! 💪🇦🇷 #ITFNeuquen"
+        ]
+      },
+      "12174242": {
+        "event_key": "12174242",
+        "timestamp": "2026-10-27 14:37:57",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "A. Candiotto vs L. M. Cinalli",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nLuli Cinalli superó a A. Candiotto 🇧🇷 por 6-2 y 6-3 en 16avos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerCuritibaBrazilQualification"
+        ]
+      },
+      "12174605": {
+        "event_key": "12174605",
+        "timestamp": "2026-10-27 14:37:57",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/16-finals",
+        "jugadores": "A. D. Duarte vs V. A. Bruno",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Neuquen:\n\n🇦🇷 DERBI: V. A. Bruno venció a A. D. Duarte por 3-6, 6-3, 6-2 en 16avos.\n🇦🇷 DERBI: A. V. Gobbi Monllau superó a M. Madrid Rocca por 6-1 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFNeuquen"
+        ]
+      },
+      "12174606": {
+        "event_key": "12174606",
+        "timestamp": "2026-10-27 14:37:57",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/16-finals",
+        "jugadores": "A. V. Gobbi Monllau vs M. Madrid Rocca",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Neuquen:\n\n🇦🇷 DERBI: V. A. Bruno venció a A. D. Duarte por 3-6, 6-3, 6-2 en 16avos.\n🇦🇷 DERBI: A. V. Gobbi Monllau superó a M. Madrid Rocca por 6-1 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFNeuquen"
         ]
       }
     }
