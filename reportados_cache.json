@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-26 20:15:51",
+  "ultima_actualizacion": "2026-10-27 04:30:11",
   "dias": {
     "2026-10-19": {
       "12171888": {
@@ -1129,6 +1129,20 @@
         "tweets": [
           "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba (Brazil) - Qualification:\n\n✅ Lu Giovannini venció a L. Bronzetti 🇮🇹 por 7-6(8), 1-6, 6-2 en 16avos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n✅ Luli Ayala le ganó a L. Fullana 🇧🇷 por 6-4, 7-6(8) en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      }
+    },
+    "2026-10-27": {
+      "12174394": {
+        "event_key": "12174394",
+        "timestamp": "2026-10-27 04:30:11",
+        "torneo": "W15 Singapore 4 (Singapore)",
+        "ronda": "W15 Singapore 4 - 1/16-finals",
+        "jugadores": "M. S. Krywoj vs N. Hanatani",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN W15 SINGAPORE 4 (SINGAPORE) 🇦🇷\n\nM. S. Krywoj cayó ante N. Hanatani 🇯🇵 por 7-6(7) y 6-4 en 16avos de final.\n\nPunto final en W15 Singapore 4 (Singapore). ¡A recargar y no aflojar! 💪🇦🇷 #ITFSingapore4Singapore"
         ]
       }
     }
