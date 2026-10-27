@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-27 15:13:31",
+  "ultima_actualizacion": "2026-10-27 15:39:25",
   "dias": {
     "2026-10-20": {
       "12172350": {
@@ -1237,6 +1237,18 @@
         "estado": "Finished",
         "tweets": [
           "TROPIEZO EN GUAYAQUIL 🇦🇷\n\nL. J. Rodriguez no pudo ante D. E. Galan 🇨🇴 por 6-3 y 6-3 en Final.\n\nPunto final en Guayaquil. ¡A recargar y no aflojar! 💪🇦🇷 #ChallengerGuayaquil"
+        ]
+      },
+      "12174609": {
+        "event_key": "12174609",
+        "timestamp": "2026-10-27 15:39:25",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/16-finals",
+        "jugadores": "S. Meabe vs F. B. Moron",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA SOFI MEABE EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 16avos de final, Sofi Meabe derrotó a Florencia Moron por 6-1 y 6-0.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFNeuquen"
         ]
       }
     }
