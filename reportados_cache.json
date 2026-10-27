@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-27 04:30:11",
+  "ultima_actualizacion": "2026-10-27 12:49:00",
   "dias": {
     "2026-10-19": {
       "12171888": {
@@ -1143,6 +1143,66 @@
         "estado": "Finished",
         "tweets": [
           "TROPIEZO EN W15 SINGAPORE 4 (SINGAPORE) 🇦🇷\n\nM. S. Krywoj cayó ante N. Hanatani 🇯🇵 por 7-6(7) y 6-4 en 16avos de final.\n\nPunto final en W15 Singapore 4 (Singapore). ¡A recargar y no aflojar! 💪🇦🇷 #ITFSingapore4Singapore"
+        ]
+      },
+      "12174245": {
+        "event_key": "12174245",
+        "timestamp": "2026-10-27 12:48:59",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "F. Jones vs M. F. Urrutia",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nM. F. Urrutia cayó ante F. Jones 🇬🇧 por 7-5 y 6-1 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerCuritibaBrazilQualification"
+        ]
+      },
+      "12174592": {
+        "event_key": "12174592",
+        "timestamp": "2026-10-27 12:48:59",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - 1/16-finals",
+        "jugadores": "F. Tenti vs N. Zanellato",
+        "resultado": "1 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 João Pessoa (Brazil):\n\n✅ F. Tenti avanzó por retiro de N. Zanellato 🇧🇷 (1-6, 6-2, 3-1) en 16avos.\n✅ Juampi Ficovich venció a P. Albuquerque Dietrich 🇧🇷 por 6-3, 6-4 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFJoãoPessoaBrazil"
+        ]
+      },
+      "12174594": {
+        "event_key": "12174594",
+        "timestamp": "2026-10-27 12:48:59",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - 1/16-finals",
+        "jugadores": "J. P. Ficovich vs P. Albuquerque Dietrich",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 João Pessoa (Brazil):\n\n✅ F. Tenti avanzó por retiro de N. Zanellato 🇧🇷 (1-6, 6-2, 3-1) en 16avos.\n✅ Juampi Ficovich venció a P. Albuquerque Dietrich 🇧🇷 por 6-3, 6-4 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFJoãoPessoaBrazil"
+        ]
+      },
+      "12174603": {
+        "event_key": "12174603",
+        "timestamp": "2026-10-27 12:49:00",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/16-finals",
+        "jugadores": "A. M. Medinaceli L. vs M. Bulbarella",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Neuquen:\n\n❌ M. Bulbarella cayó ante A. M. Medinaceli L. por 6-3, 6-2 en 16avos.\n🇦🇷 DERBI: L. Moyano venció a M. M. Maruca por 6-1, 6-2 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen"
+        ]
+      },
+      "12174604": {
+        "event_key": "12174604",
+        "timestamp": "2026-10-27 12:49:00",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/16-finals",
+        "jugadores": "L. Moyano vs M. M. Maruca",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Neuquen:\n\n❌ M. Bulbarella cayó ante A. M. Medinaceli L. por 6-3, 6-2 en 16avos.\n🇦🇷 DERBI: L. Moyano venció a M. M. Maruca por 6-1, 6-2 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen"
         ]
       }
     }
