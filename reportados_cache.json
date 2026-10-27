@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-27 15:39:25",
+  "ultima_actualizacion": "2026-10-27 19:56:35",
   "dias": {
     "2026-10-20": {
       "12172350": {
@@ -1249,6 +1249,150 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 ¡FESTEJA SOFI MEABE EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 16avos de final, Sofi Meabe derrotó a Florencia Moron por 6-1 y 6-0.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFNeuquen"
+        ]
+      },
+      "12173982": {
+        "event_key": "12173982",
+        "timestamp": "2026-10-27 19:56:33",
+        "torneo": "Vienna",
+        "ronda": "ATP Vienna - 1/16-finals",
+        "jugadores": "C. Norrie vs F. Cerundolo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE VIENNA 🇦🇷\n\nFran Cerúndolo no pudo ante C. Norrie 🇬🇧 por 6-4 y 6-1 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ATPVienna"
+        ]
+      },
+      "12174138": {
+        "event_key": "12174138",
+        "timestamp": "2026-10-27 19:56:34",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/16-finals",
+        "jugadores": "D. Dedura vs G. A. Olivieri",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Guayaquil: 🇦🇷\n\n❌ G. A. Olivieri cayó ante D. Dedura 🇩🇪 por 7-5, 7-6(7) en 16avos.\n✅ V. Aboian le ganó a F. Roncadelli 🇺🇾 por 6-3, 2-6, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Camilo Carabelli venció a Federico Coria por 7-5, 6-2 en 16avos.\n🇦🇷 DERBI: Lauti Midón derrotó a Gonza Villanueva por 6-3, 6-3 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Del Pino le ganó a L. Ratti por 7-5, 2-6, 7-5 en Final.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerGuayaquil\n\n(3/3) 🧵"
+        ]
+      },
+      "12174141": {
+        "event_key": "12174141",
+        "timestamp": "2026-10-27 19:56:34",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/16-finals",
+        "jugadores": "F. Roncadelli vs V. Aboian",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Guayaquil: 🇦🇷\n\n❌ G. A. Olivieri cayó ante D. Dedura 🇩🇪 por 7-5, 7-6(7) en 16avos.\n✅ V. Aboian le ganó a F. Roncadelli 🇺🇾 por 6-3, 2-6, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Camilo Carabelli venció a Federico Coria por 7-5, 6-2 en 16avos.\n🇦🇷 DERBI: Lauti Midón derrotó a Gonza Villanueva por 6-3, 6-3 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Del Pino le ganó a L. Ratti por 7-5, 2-6, 7-5 en Final.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerGuayaquil\n\n(3/3) 🧵"
+        ]
+      },
+      "12174142": {
+        "event_key": "12174142",
+        "timestamp": "2026-10-27 19:56:34",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/16-finals",
+        "jugadores": "C. Ugo Carabelli vs F. Coria",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Guayaquil: 🇦🇷\n\n❌ G. A. Olivieri cayó ante D. Dedura 🇩🇪 por 7-5, 7-6(7) en 16avos.\n✅ V. Aboian le ganó a F. Roncadelli 🇺🇾 por 6-3, 2-6, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Camilo Carabelli venció a Federico Coria por 7-5, 6-2 en 16avos.\n🇦🇷 DERBI: Lauti Midón derrotó a Gonza Villanueva por 6-3, 6-3 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Del Pino le ganó a L. Ratti por 7-5, 2-6, 7-5 en Final.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerGuayaquil\n\n(3/3) 🧵"
+        ]
+      },
+      "12174144": {
+        "event_key": "12174144",
+        "timestamp": "2026-10-27 19:56:34",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/16-finals",
+        "jugadores": "G. Villanueva vs L. Midon",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Guayaquil: 🇦🇷\n\n❌ G. A. Olivieri cayó ante D. Dedura 🇩🇪 por 7-5, 7-6(7) en 16avos.\n✅ V. Aboian le ganó a F. Roncadelli 🇺🇾 por 6-3, 2-6, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Camilo Carabelli venció a Federico Coria por 7-5, 6-2 en 16avos.\n🇦🇷 DERBI: Lauti Midón derrotó a Gonza Villanueva por 6-3, 6-3 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Del Pino le ganó a L. Ratti por 7-5, 2-6, 7-5 en Final.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerGuayaquil\n\n(3/3) 🧵"
+        ]
+      },
+      "12174277": {
+        "event_key": "12174277",
+        "timestamp": "2026-10-27 19:56:34",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - Final",
+        "jugadores": "L. Ratti vs M. Del Pino",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en el Challenger Guayaquil: 🇦🇷\n\n❌ G. A. Olivieri cayó ante D. Dedura 🇩🇪 por 7-5, 7-6(7) en 16avos.\n✅ V. Aboian le ganó a F. Roncadelli 🇺🇾 por 6-3, 2-6, 6-2 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Camilo Carabelli venció a Federico Coria por 7-5, 6-2 en 16avos.\n🇦🇷 DERBI: Lauti Midón derrotó a Gonza Villanueva por 6-3, 6-3 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: M. Del Pino le ganó a L. Ratti por 7-5, 2-6, 7-5 en Final.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerGuayaquil\n\n(3/3) 🧵"
+        ]
+      },
+      "12174241": {
+        "event_key": "12174241",
+        "timestamp": "2026-10-27 19:56:34",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "B. Bonardi vs M. Souza",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba (Brazil) - Qualification:\n\n❌ B. Bonardi perdió ante M. Souza 🇧🇷 por 6-1, 7-5 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Lourdes Carlé venció a L. Pigossi 🇧🇷 por 7-5, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      },
+      "12174243": {
+        "event_key": "12174243",
+        "timestamp": "2026-10-27 19:56:34",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - 1/16-finals",
+        "jugadores": "M. L. Carle vs L. Pigossi",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Curitiba (Brazil) - Qualification:\n\n❌ B. Bonardi perdió ante M. Souza 🇧🇷 por 6-1, 7-5 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Lourdes Carlé venció a L. Pigossi 🇧🇷 por 7-5, 6-0 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      },
+      "12174281": {
+        "event_key": "12174281",
+        "timestamp": "2026-10-27 19:56:34",
+        "torneo": "Queretaro",
+        "ronda": "Queretaro - 1/16-finals",
+        "jugadores": "P. Hercog vs M. Capurro Taborda",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE QUERETARO 🇦🇷\n\nM. Capurro Taborda perdió ante P. Hercog 🇸🇮 por 7-6(7) y 7-5 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ChallengerQueretaro"
+        ]
+      },
+      "12174608": {
+        "event_key": "12174608",
+        "timestamp": "2026-10-27 19:56:35",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/16-finals",
+        "jugadores": "S. A. Larraya Guidi vs I. Arabarco",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Neuquen:\n\n🇦🇷 DERBI: S. A. Larraya Guidi venció a I. Arabarco por 6-2, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada venció a Cam. Markus por 6-3, 6-2 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFNeuquen"
+        ]
+      },
+      "12174610": {
+        "event_key": "12174610",
+        "timestamp": "2026-10-27 19:56:35",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/16-finals",
+        "jugadores": "E. Zornada vs Cam. Markus",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Neuquen:\n\n🇦🇷 DERBI: S. A. Larraya Guidi venció a I. Arabarco por 6-2, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada venció a Cam. Markus por 6-3, 6-2 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFNeuquen"
         ]
       }
     }
