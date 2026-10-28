@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-27 19:56:35",
+  "ultima_actualizacion": "2026-10-27 23:08:12",
   "dias": {
     "2026-10-20": {
       "12172350": {
@@ -1393,6 +1393,45 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Neuquen:\n\n🇦🇷 DERBI: S. A. Larraya Guidi venció a I. Arabarco por 6-2, 6-1 en 16avos.\n🇦🇷 DERBI: Emily Zornada venció a Cam. Markus por 6-3, 6-2 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFNeuquen"
+        ]
+      },
+      "12174134": {
+        "event_key": "12174134",
+        "timestamp": "2026-10-27 23:08:12",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/16-finals",
+        "jugadores": "T. Barrios Vera vs J. Estevez",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Guayaquil:\n\n❌ Josefina Estevez cayó ante T. Barrios Vera 🇨🇱 por 6-2, 7-6 en 16avos.\n❌ Alex Barrena no pudo ante G. Bueno 🇵🇪 por 7-6, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ J. M. La Serna no pudo ante N. Hardt por 6-3, 3-6, 6-1 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerGuayaquil\n\n(2/2) 🧵"
+        ]
+      },
+      "12174136": {
+        "event_key": "12174136",
+        "timestamp": "2026-10-27 23:08:12",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/16-finals",
+        "jugadores": "G. Bueno vs A. Barrena",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Guayaquil:\n\n❌ Josefina Estevez cayó ante T. Barrios Vera 🇨🇱 por 6-2, 7-6 en 16avos.\n❌ Alex Barrena no pudo ante G. Bueno 🇵🇪 por 7-6, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ J. M. La Serna no pudo ante N. Hardt por 6-3, 3-6, 6-1 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerGuayaquil\n\n(2/2) 🧵"
+        ]
+      },
+      "12174139": {
+        "event_key": "12174139",
+        "timestamp": "2026-10-27 23:08:12",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/16-finals",
+        "jugadores": "N. Hardt vs J. M. La Serna",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Guayaquil:\n\n❌ Josefina Estevez cayó ante T. Barrios Vera 🇨🇱 por 6-2, 7-6 en 16avos.\n❌ Alex Barrena no pudo ante G. Bueno 🇵🇪 por 7-6, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ J. M. La Serna no pudo ante N. Hardt por 6-3, 3-6, 6-1 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerGuayaquil\n\n(2/2) 🧵"
         ]
       }
     }
