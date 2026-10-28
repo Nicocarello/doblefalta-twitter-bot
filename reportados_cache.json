@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-28 05:03:41",
+  "ultima_actualizacion": "2026-10-28 13:30:59",
   "dias": {
     "2026-10-20": {
       "12172350": {
@@ -1458,6 +1458,120 @@
         "estado": "Finished",
         "tweets": [
           "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nJ. Bianchi cayó ante T. Karra por 6-3 y 6-2 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFMazatlanMexico"
+        ]
+      },
+      "12174106": {
+        "event_key": "12174106",
+        "timestamp": "2026-10-28 13:30:57",
+        "torneo": "Vienna",
+        "ronda": "ATP Vienna - 1/8-finals",
+        "jugadores": "Cerundolo/ Etcheverry vs Arevalo/ Pavic",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nCerundolo/ Etcheverry le ganó a Arevalo/ Pavic por 7-6(10) y 7-5 en 8vos.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ATPVienna"
+        ]
+      },
+      "12174637": {
+        "event_key": "12174637",
+        "timestamp": "2026-10-28 13:30:58",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "L. Ayala vs J. Ortenzi",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba (Brazil) - Qualification:\n\n🇦🇷 DERBI: Jaz Ortenzi le ganó a Luli Ayala por 6-0, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Luli Cinalli cayó ante A. Tubello 🇫🇷 por 6-4, 6-3 en Octavos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      },
+      "12175011": {
+        "event_key": "12175011",
+        "timestamp": "2026-10-28 13:30:58",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "A. Tubello vs L. M. Cinalli",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Curitiba (Brazil) - Qualification:\n\n🇦🇷 DERBI: Jaz Ortenzi le ganó a Luli Ayala por 6-0, 6-2 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Luli Cinalli cayó ante A. Tubello 🇫🇷 por 6-4, 6-3 en Octavos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      },
+      "12175027": {
+        "event_key": "12175027",
+        "timestamp": "2026-10-28 13:30:58",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - 1/16-finals",
+        "jugadores": "I. Monzon vs R. A. Garcia Finetto",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 João Pessoa (Brazil):\n\n✅ Ignacio Monzon le ganó a R. A. Garcia Finetto 🇧🇷 por 7-6, 6-0 en 16avos.\n✅ R. Valente derrotó a D. A. Fio J. S. por 6-1, 6-2 en 16avos.\n❌ L. Gagliardo cayó ante P. H. Chabalgoity 🇧🇷 por 6-3, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: T. Farjat venció a G. Branchetti por 6-2, 6-4 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFJoãoPessoaBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12175028": {
+        "event_key": "12175028",
+        "timestamp": "2026-10-28 13:30:58",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - 1/16-finals",
+        "jugadores": "R. Valente vs D. A. Fio J. S.",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 João Pessoa (Brazil):\n\n✅ Ignacio Monzon le ganó a R. A. Garcia Finetto 🇧🇷 por 7-6, 6-0 en 16avos.\n✅ R. Valente derrotó a D. A. Fio J. S. por 6-1, 6-2 en 16avos.\n❌ L. Gagliardo cayó ante P. H. Chabalgoity 🇧🇷 por 6-3, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: T. Farjat venció a G. Branchetti por 6-2, 6-4 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFJoãoPessoaBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12175029": {
+        "event_key": "12175029",
+        "timestamp": "2026-10-28 13:30:58",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - 1/16-finals",
+        "jugadores": "P. H. Chabalgoity vs L. Gagliardo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 João Pessoa (Brazil):\n\n✅ Ignacio Monzon le ganó a R. A. Garcia Finetto 🇧🇷 por 7-6, 6-0 en 16avos.\n✅ R. Valente derrotó a D. A. Fio J. S. por 6-1, 6-2 en 16avos.\n❌ L. Gagliardo cayó ante P. H. Chabalgoity 🇧🇷 por 6-3, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: T. Farjat venció a G. Branchetti por 6-2, 6-4 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFJoãoPessoaBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12175031": {
+        "event_key": "12175031",
+        "timestamp": "2026-10-28 13:30:58",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - 1/16-finals",
+        "jugadores": "T. Farjat vs G. Branchetti",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 João Pessoa (Brazil):\n\n✅ Ignacio Monzon le ganó a R. A. Garcia Finetto 🇧🇷 por 7-6, 6-0 en 16avos.\n✅ R. Valente derrotó a D. A. Fio J. S. por 6-1, 6-2 en 16avos.\n❌ L. Gagliardo cayó ante P. H. Chabalgoity 🇧🇷 por 6-3, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: T. Farjat venció a G. Branchetti por 6-2, 6-4 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFJoãoPessoaBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12175040": {
+        "event_key": "12175040",
+        "timestamp": "2026-10-28 13:30:58",
+        "torneo": "M15 Monastir 37",
+        "ronda": "M15 Monastir 37 - 1/16-finals",
+        "jugadores": "J. Singh vs N. Garcia Longo",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A OCTAVOS, N. GARCIA LONGO! 🇦🇷🔥\n\nN. Garcia Longo derrotó a J. Singh por 6-2 y 6-4 en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFMonastir37"
+        ]
+      },
+      "12175199": {
+        "event_key": "12175199",
+        "timestamp": "2026-10-28 13:30:59",
+        "torneo": "W15 Sumter, SC",
+        "ronda": null,
+        "jugadores": "C. Di Genova vs M. Van Zyl",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN W15 SUMTER, SC! 🇦🇷💪\n\nC. Di Genova venció a M. Van Zyl 🇿🇦 por 6-4 en el ITF W15 Sumter, SC.\n\nTerrible partido 💪🇦🇷 #ITFSumter"
         ]
       }
     }
