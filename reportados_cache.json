@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-28 14:59:50",
+  "ultima_actualizacion": "2026-10-28 15:45:51",
   "dias": {
     "2026-10-21": {
       "12172103": {
@@ -1410,6 +1410,30 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE D. PAGANI! 👏\n\nEn un gran cruce argentino en 16avos de final, D. Pagani superó a J. Cundom por 6-1 y 6-1.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFJoãoPessoaBrazil"
+        ]
+      },
+      "12175124": {
+        "event_key": "12175124",
+        "timestamp": "2026-10-28 15:45:51",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/16-finals",
+        "jugadores": "C. M. Zarate vs A. Magadan",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN GUAYAQUIL! 🇦🇷💪\n\nC. M. Zarate le ganó a A. Magadan 🇲🇽 por 7-5 y 6-1 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ChallengerGuayaquil"
+        ]
+      },
+      "12175213": {
+        "event_key": "12175213",
+        "timestamp": "2026-10-28 15:45:51",
+        "torneo": "M25 Norman, OK",
+        "ronda": "M25 Norman, OK - 1/16-finals",
+        "jugadores": "S. Daryabeigi vs L. E. Ambrogi",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nL. E. Ambrogi no pudo ante S. Daryabeigi 🇺🇸 por 3-6, 7-5 y 7-5 en 16avos de final.\n\nPunto final en M25 Norman, OK. ¡A recargar y no aflojar! 💪🇦🇷 #ITFNorman"
         ]
       }
     }
