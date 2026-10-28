@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-28 13:58:21",
+  "ultima_actualizacion": "2026-10-28 14:19:44",
   "dias": {
     "2026-10-21": {
       "12172103": {
@@ -1374,6 +1374,30 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN W15 SUMTER, SC! 🇦🇷💪\n\nC. Di Genova venció a M. Van Zyl 🇿🇦 por 6-4 en el ITF W15 Sumter, SC.\n\nTerrible partido 💪🇦🇷 #ITFSumter"
+        ]
+      },
+      "12175067": {
+        "event_key": "12175067",
+        "timestamp": "2026-10-28 14:19:44",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/16-finals",
+        "jugadores": "C. C. Sosa vs M. Boyden",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Neuquen:\n\n❌ C. C. Sosa no pudo ante M. Boyden 🇳🇱 por 6-2, 3-6, 7-5 en 16avos.\n🇦🇷 DERBI: S. Simon Padros superó a A. Tejada por 6-4, 6-3 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen"
+        ]
+      },
+      "12175070": {
+        "event_key": "12175070",
+        "timestamp": "2026-10-28 14:19:44",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/16-finals",
+        "jugadores": "A. Tejada vs S. Simon Padros",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF W15 Neuquen:\n\n❌ C. C. Sosa no pudo ante M. Boyden 🇳🇱 por 6-2, 3-6, 7-5 en 16avos.\n🇦🇷 DERBI: S. Simon Padros superó a A. Tejada por 6-4, 6-3 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen"
         ]
       }
     }
