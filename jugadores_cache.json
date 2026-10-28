@@ -34312,7 +34312,7 @@
     "102901": {
         "es_arg": false,
         "ranking": 9999,
-        "pais": "",
+        "pais": "USA",
         "last_update": "2026-10-28"
     },
     "55202": {
@@ -103024,7 +103024,7 @@
     "111078": {
         "es_arg": false,
         "ranking": 9999,
-        "pais": "",
+        "pais": "Mexico",
         "last_update": "2026-10-28"
     },
     "19165": {
@@ -104132,6 +104132,12 @@
         "last_update": "2026-10-28"
     },
     "111176": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-10-28"
+    },
+    "111189": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
