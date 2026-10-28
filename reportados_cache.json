@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-28 14:19:44",
+  "ultima_actualizacion": "2026-10-28 14:59:50",
   "dias": {
     "2026-10-21": {
       "12172103": {
@@ -1398,6 +1398,18 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Resultados de hoy en el ITF W15 Neuquen:\n\n❌ C. C. Sosa no pudo ante M. Boyden 🇳🇱 por 6-2, 3-6, 7-5 en 16avos.\n🇦🇷 DERBI: S. Simon Padros superó a A. Tejada por 6-4, 6-3 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen"
+        ]
+      },
+      "12175030": {
+        "event_key": "12175030",
+        "timestamp": "2026-10-28 14:59:50",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - 1/16-finals",
+        "jugadores": "J. Cundom vs D. Pagani",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE D. PAGANI! 👏\n\nEn un gran cruce argentino en 16avos de final, D. Pagani superó a J. Cundom por 6-1 y 6-1.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFJoãoPessoaBrazil"
         ]
       }
     }
