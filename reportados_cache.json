@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-29 15:39:26",
+  "ultima_actualizacion": "2026-10-29 20:14:04",
   "dias": {
     "2026-10-22": {
       "12173241": {
@@ -1404,6 +1404,107 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN W15 NEUQUEN! 🇦🇷💪\n\nJose Estevez derrotó a M. Boyden 🇳🇱 por 6-2 y 6-4 en 8vos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFNeuquen"
+        ]
+      },
+      "12175231": {
+        "event_key": "12175231",
+        "timestamp": "2026-10-29 20:14:03",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/8-finals",
+        "jugadores": "D. Dedura vs V. Aboian",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Guayaquil:\n\n✅ V. Aboian superó a D. Dedura 🇩🇪 por 7-6(7), 7-6(7) en Octavos.\n✅ C. M. Zarate derrotó a G. Bueno 🇵🇪 por 3-6, 7-5, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Camilo Carabelli avanzó por retiro de A. Hernandez 🇻🇪 (2-0) en Octavos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerGuayaquil\n\n(2/2) 🧵"
+        ]
+      },
+      "12175438": {
+        "event_key": "12175438",
+        "timestamp": "2026-10-29 20:14:03",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/8-finals",
+        "jugadores": "G. Bueno vs C. M. Zarate",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Guayaquil:\n\n✅ V. Aboian superó a D. Dedura 🇩🇪 por 7-6(7), 7-6(7) en Octavos.\n✅ C. M. Zarate derrotó a G. Bueno 🇵🇪 por 3-6, 7-5, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Camilo Carabelli avanzó por retiro de A. Hernandez 🇻🇪 (2-0) en Octavos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerGuayaquil\n\n(2/2) 🧵"
+        ]
+      },
+      "12175601": {
+        "event_key": "12175601",
+        "timestamp": "2026-10-29 20:14:03",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/8-finals",
+        "jugadores": "C. Ugo Carabelli vs A. Hernandez",
+        "resultado": "0 - 0",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Guayaquil:\n\n✅ V. Aboian superó a D. Dedura 🇩🇪 por 7-6(7), 7-6(7) en Octavos.\n✅ C. M. Zarate derrotó a G. Bueno 🇵🇪 por 3-6, 7-5, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Camilo Carabelli avanzó por retiro de A. Hernandez 🇻🇪 (2-0) en Octavos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerGuayaquil\n\n(2/2) 🧵"
+        ]
+      },
+      "12175236": {
+        "event_key": "12175236",
+        "timestamp": "2026-10-29 20:14:03",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - 1/8-finals",
+        "jugadores": "M. L. Carle vs J. Grabher",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE CURITIBA (BRAZIL) - QUALIFICATION 🇦🇷\n\nLourdes Carlé perdió ante J. Grabher 🇦🇹 por 7-5 y 7-5 en 8vos.\n\nNo se pudo dar hoy 🇦🇷 #ChallengerCuritibaBrazilQualification"
+        ]
+      },
+      "12175254": {
+        "event_key": "12175254",
+        "timestamp": "2026-10-29 20:14:03",
+        "torneo": "Queretaro",
+        "ronda": "Queretaro - 1/8-finals",
+        "jugadores": "N. Podoroska vs M. Bulgaru",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nNadia Podoroska venció a M. Bulgaru 🇷🇴 por 6-1 y 6-1 en Octavos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerQueretaro"
+        ]
+      },
+      "12175576": {
+        "event_key": "12175576",
+        "timestamp": "2026-10-29 20:14:03",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - 1/8-finals",
+        "jugadores": "P. H. Chabalgoity vs T. Martinez",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 João Pessoa (Brazil):\n\n✅ T. Martinez superó a P. H. Chabalgoity 🇧🇷 por 7-5, 4-6, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ T. Farjat no pudo ante V. C. Loureiro J. 🇧🇷 por 6-4, 7-6(8) en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFJoãoPessoaBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12175577": {
+        "event_key": "12175577",
+        "timestamp": "2026-10-29 20:14:03",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - 1/8-finals",
+        "jugadores": "T. Farjat vs V. C. Loureiro J.",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 João Pessoa (Brazil):\n\n✅ T. Martinez superó a P. H. Chabalgoity 🇧🇷 por 7-5, 4-6, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ T. Farjat no pudo ante V. C. Loureiro J. 🇧🇷 por 6-4, 7-6(8) en Octavos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFJoãoPessoaBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12175613": {
+        "event_key": "12175613",
+        "timestamp": "2026-10-29 20:14:04",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/8-finals",
+        "jugadores": "A. V. Gobbi Monllau vs S. Finchelstein",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nA. V. Gobbi Monllau derrotó a S. Finchelstein por 6-2 y 6-2 en Octavos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFNeuquen"
         ]
       }
     }
