@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-29 15:09:40",
+  "ultima_actualizacion": "2026-10-29 15:39:26",
   "dias": {
     "2026-10-22": {
       "12173241": {
@@ -1380,6 +1380,30 @@
         "estado": "Finished",
         "tweets": [
           "¡ENORME VICTORIA! 👏🇦🇷\n\nS. A. Larraya Guidi le ganó a M. J. Sanchez Uribe por 6-3 y 6-1 en 8vos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFNeuquen"
+        ]
+      },
+      "12175533": {
+        "event_key": "12175533",
+        "timestamp": "2026-10-29 15:39:26",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - 1/8-finals",
+        "jugadores": "D. E. Galan vs L. Midon",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nLautaro Midón le ganó a D. E. Galan 🇨🇴 por 6-4 y 6-4 en 8vos.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ChallengerGuayaquil"
+        ]
+      },
+      "12175609": {
+        "event_key": "12175609",
+        "timestamp": "2026-10-29 15:39:26",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - 1/8-finals",
+        "jugadores": "M. Boyden vs J. Estevez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN W15 NEUQUEN! 🇦🇷💪\n\nJose Estevez derrotó a M. Boyden 🇳🇱 por 6-2 y 6-4 en 8vos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFNeuquen"
         ]
       }
     }
