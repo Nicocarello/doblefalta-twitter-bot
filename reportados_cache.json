@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-30 14:47:42",
+  "ultima_actualizacion": "2026-10-30 19:38:17",
   "dias": {
     "2026-10-23": {
       "12173359": {
@@ -1420,6 +1420,68 @@
         "tweets": [
           "Resultados de Cuartos de final en el ITF M15 João Pessoa (Brazil): 🇦🇷\n\n✅ Nacho Monzon venció a N. Bruna 🇨🇱 por 5-7, 6-4, 6-2 en Cuartos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n❌ F. Tenti no pudo ante O. J. Gutierrez 🇪🇸 por 6-2, 6-0 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFJoãoPessoaBrazil\n\n(2/2) 🧵"
+        ]
+      },
+      "12175424": {
+        "event_key": "12175424",
+        "timestamp": "2026-10-30 19:38:17",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - Quarter-finals",
+        "jugadores": "A. Tubello vs J. Ortenzi",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Curitiba (Brazil) - Qualification: 🇦🇷\n\n❌ Jazmín Ortenzi no pudo ante A. Tubello 🇫🇷 por 2-6, 6-2, 6-3 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Juli Riera derrotó a Soli Sierra por 1-6, 6-4, 7-5 en Cuartos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      },
+      "12175757": {
+        "event_key": "12175757",
+        "timestamp": "2026-10-30 19:38:17",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - Quarter-finals",
+        "jugadores": "J. Riera vs S. Sierra",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Curitiba (Brazil) - Qualification: 🇦🇷\n\n❌ Jazmín Ortenzi no pudo ante A. Tubello 🇫🇷 por 2-6, 6-2, 6-3 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: Juli Riera derrotó a Soli Sierra por 1-6, 6-4, 7-5 en Cuartos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerCuritibaBrazilQualification\n\n(2/2) 🧵"
+        ]
+      },
+      "12175839": {
+        "event_key": "12175839",
+        "timestamp": "2026-10-30 19:38:17",
+        "torneo": "Guayaquil",
+        "ronda": "Guayaquil - Quarter-finals",
+        "jugadores": "C. M. Zarate vs H. Dellien",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN GUAYAQUIL 🇦🇷\n\nC. M. Zarate no pudo ante H. Dellien 🇧🇴 por 6-0 y 6-2 en Cuartos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerGuayaquil"
+        ]
+      },
+      "12175854": {
+        "event_key": "12175854",
+        "timestamp": "2026-10-30 19:38:17",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - Quarter-finals",
+        "jugadores": "A. V. Gobbi Monllau vs J. Estevez",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA JOSE ESTEVEZ EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 4tos, Jose Estevez superó a A. V. Gobbi Monllau por 4-6, 7-5 y 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFNeuquen"
+        ]
+      },
+      "12175881": {
+        "event_key": "12175881",
+        "timestamp": "2026-10-30 19:38:17",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - Quarter-finals",
+        "jugadores": "D. Pagani vs T. Martinez",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI: ¡VICTORIA PARA T. MARTINEZ!\n\nEn un gran cruce argentino en 4tos de final, T. Martinez le ganó a D. Pagani por 6-2, 6-7(3) y 6-3.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFJoãoPessoaBrazil"
         ]
       }
     }
