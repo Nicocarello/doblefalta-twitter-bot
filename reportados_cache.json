@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-31 13:16:25",
+  "ultima_actualizacion": "2026-10-31 13:55:43",
   "dias": {
     "2026-10-24": {
       "12173775": {
@@ -1455,6 +1455,18 @@
         "estado": "Finished",
         "tweets": [
           "SIII SEBA BÁEZ!!! 🇦🇷\n\nSeba Báez superó a D. Dzumhur por 7-6(7) y 7-5 en Semifinales.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ATPParís"
+        ]
+      },
+      "12176042": {
+        "event_key": "12176042",
+        "timestamp": "2026-10-31 13:55:43",
+        "torneo": "M15 João Pessoa (Brazil)",
+        "ronda": "M15 João Pessoa - Semi-finals",
+        "jugadores": "T. Martinez vs I. Monzon",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA T. MARTINEZ EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en Semifinales, T. Martinez venció a Nacho Monzon por 4-6, 6-3 y 6-1.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFJoãoPessoaBrazil"
         ]
       }
     }
