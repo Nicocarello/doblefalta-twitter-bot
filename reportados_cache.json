@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-31 12:56:30",
+  "ultima_actualizacion": "2026-10-31 13:16:25",
   "dias": {
     "2026-10-24": {
       "12173775": {
@@ -1443,6 +1443,18 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI: ¡VICTORIA PARA L. MOYANO!\n\nEn un gran cruce argentino en Semis, L. Moyano superó a Emi Zornada por 6-1.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFNeuquen"
+        ]
+      },
+      "12176015": {
+        "event_key": "12176015",
+        "timestamp": "2026-10-31 13:16:25",
+        "torneo": "Paris",
+        "ronda": "ATP Paris - Semi-finals",
+        "jugadores": "S. Baez vs D. Dzumhur",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SIII SEBA BÁEZ!!! 🇦🇷\n\nSeba Báez superó a D. Dzumhur por 7-6(7) y 7-5 en Semifinales.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ATPParís"
         ]
       }
     }
