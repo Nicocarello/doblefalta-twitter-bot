@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-10-31 05:06:17",
+  "ultima_actualizacion": "2026-10-31 12:38:46",
   "dias": {
     "2026-10-23": {
       "12173359": {
@@ -1532,6 +1532,66 @@
         "estado": "Retired",
         "tweets": [
           "RETIRO POR LESIÓN ❌\n\nCamilo Ugo Carabelli debió retirarse ante J. Reis Da Silva 🇧🇷 (5-5) y se despidió del Challenger Guayaquil.\n\nDura noticia para los nuestros. ¡A recuperarse pronto! 🇦🇷💪 #ChallengerGuayaquil"
+        ]
+      },
+      "12175955": {
+        "event_key": "12175955",
+        "timestamp": "2026-10-31 12:38:46",
+        "torneo": "Vienna",
+        "ronda": "ATP Vienna - Semi-finals",
+        "jugadores": "Cerundolo/ Etcheverry vs Seggerman/ Tien",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE VIENNA 🇦🇷\n\nCerundolo/ Etcheverry cayó ante Seggerman/ Tien por 6-3 y 7-6(11) en Semis.\n\nNo se pudo dar hoy 🇦🇷 #ATPVienna"
+        ]
+      },
+      "12175959": {
+        "event_key": "12175959",
+        "timestamp": "2026-10-31 12:38:46",
+        "torneo": "Curitiba (Brazil) - Qualification",
+        "ronda": "Curitiba - Semi-finals",
+        "jugadores": "J. Riera vs J. Grabher",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN CURITIBA (BRAZIL) - QUALIFICATION 🇦🇷\n\nJulia Riera cayó ante J. Grabher 🇦🇹 por 6-3 y 6-3 en Semifinales.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ChallengerCuritibaBrazilQualification"
+        ]
+      },
+      "12176009": {
+        "event_key": "12176009",
+        "timestamp": "2026-10-31 12:38:46",
+        "torneo": "Paris",
+        "ronda": "ATP Paris - Semi-finals",
+        "jugadores": "T. A. Tirante vs Z. Svajda",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del ATP París: 🇦🇷\n\n✅ T. A. Tirante le ganó a Z. Svajda 🇺🇸 por 3-6, 6-1, 6-4 en Semis.\n✅ Juanma Cerúndolo superó a A. Kovacevic 🇺🇸 por 7-6(7), 6-3 en Semis.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ATPParís"
+        ]
+      },
+      "12176011": {
+        "event_key": "12176011",
+        "timestamp": "2026-10-31 12:38:46",
+        "torneo": "Paris",
+        "ronda": "ATP Paris - Semi-finals",
+        "jugadores": "J. M. Cerundolo vs A. Kovacevic",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del ATP París: 🇦🇷\n\n✅ T. A. Tirante le ganó a Z. Svajda 🇺🇸 por 3-6, 6-1, 6-4 en Semis.\n✅ Juanma Cerúndolo superó a A. Kovacevic 🇺🇸 por 7-6(7), 6-3 en Semis.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ATPParís"
+        ]
+      },
+      "12176045": {
+        "event_key": "12176045",
+        "timestamp": "2026-10-31 12:38:46",
+        "torneo": "W15 Neuquen",
+        "ronda": "W15 Neuquen - Semi-finals",
+        "jugadores": "L. Moyano vs E. Zornada",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI: ¡VICTORIA PARA L. MOYANO!\n\nEn un gran cruce argentino en Semis, L. Moyano superó a Emi Zornada por 6-1.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFNeuquen"
         ]
       }
     }
