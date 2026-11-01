@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-01 15:02:08",
+  "ultima_actualizacion": "2026-11-01 19:16:16",
   "dias": {
     "2026-10-25": {
       "12174004": {
@@ -1561,6 +1561,58 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE F. RIBERO! 👏\n\nEn un gran cruce argentino en Semis, F. Ribero derrotó a M. Carballo por 6-4 y 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
+        ]
+      },
+      "12176324": {
+        "event_key": "12176324",
+        "timestamp": "2026-11-01 19:16:16",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - Semi-finals",
+        "jugadores": "V. H. Remondy Pagotto vs A. L. Lingua Lavallen",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Villa Maria: 🇦🇷\n\n❌ A. L. Lingua Lavallen cayó ante V. H. Remondy Pagotto 🇧🇷 por 6-3, 6-3 en Semis.\n❌ Felipe de Dios cayó ante V. C. Loureiro J. 🇧🇷 por 6-3, 6-2 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: I. Dreycopp superó a F. Tenti por 6-4, 6-1 en Semis.\n❌ Valen Garay cayó ante N. Bruna 🇨🇱 por 7-5, 6-1 en Semis.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerVillaMaria\n\n(2/2) 🧵"
+        ]
+      },
+      "12176326": {
+        "event_key": "12176326",
+        "timestamp": "2026-11-01 19:16:16",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - Semi-finals",
+        "jugadores": "F. De Dios vs V. C. Loureiro J.",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Villa Maria: 🇦🇷\n\n❌ A. L. Lingua Lavallen cayó ante V. H. Remondy Pagotto 🇧🇷 por 6-3, 6-3 en Semis.\n❌ Felipe de Dios cayó ante V. C. Loureiro J. 🇧🇷 por 6-3, 6-2 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: I. Dreycopp superó a F. Tenti por 6-4, 6-1 en Semis.\n❌ Valen Garay cayó ante N. Bruna 🇨🇱 por 7-5, 6-1 en Semis.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerVillaMaria\n\n(2/2) 🧵"
+        ]
+      },
+      "12176327": {
+        "event_key": "12176327",
+        "timestamp": "2026-11-01 19:16:16",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - Semi-finals",
+        "jugadores": "I. Dreycopp vs F. Tenti",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Villa Maria: 🇦🇷\n\n❌ A. L. Lingua Lavallen cayó ante V. H. Remondy Pagotto 🇧🇷 por 6-3, 6-3 en Semis.\n❌ Felipe de Dios cayó ante V. C. Loureiro J. 🇧🇷 por 6-3, 6-2 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: I. Dreycopp superó a F. Tenti por 6-4, 6-1 en Semis.\n❌ Valen Garay cayó ante N. Bruna 🇨🇱 por 7-5, 6-1 en Semis.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerVillaMaria\n\n(2/2) 🧵"
+        ]
+      },
+      "12176328": {
+        "event_key": "12176328",
+        "timestamp": "2026-11-01 19:16:16",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - Semi-finals",
+        "jugadores": "V. Garay vs N. Bruna",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Villa Maria: 🇦🇷\n\n❌ A. L. Lingua Lavallen cayó ante V. H. Remondy Pagotto 🇧🇷 por 6-3, 6-3 en Semis.\n❌ Felipe de Dios cayó ante V. C. Loureiro J. 🇧🇷 por 6-3, 6-2 en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: I. Dreycopp superó a F. Tenti por 6-4, 6-1 en Semis.\n❌ Valen Garay cayó ante N. Bruna 🇨🇱 por 7-5, 6-1 en Semis.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerVillaMaria\n\n(2/2) 🧵"
         ]
       }
     }
