@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-02 17:36:01",
+  "ultima_actualizacion": "2026-11-02 17:51:51",
   "dias": {
     "2026-10-26": {
       "12173975": {
@@ -1660,6 +1660,18 @@
         "estado": "Finished",
         "tweets": [
           "¡TRIUNFAZO DE SANTI RODRÍGUEZ TAVERNA! 🇦🇷🔥\n\nSanti Rodríguez Taverna superó a W. Leite 🇧🇷 por 7-5 y 6-4 en Final.\n\nTerrible partido 💪🇦🇷 #ChallengerCostadoSauipe"
+        ]
+      },
+      "12176478": {
+        "event_key": "12176478",
+        "timestamp": "2026-11-02 17:51:51",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/16-finals",
+        "jugadores": "S. Janicijevic vs S. Sierra",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN CALI! 🇦🇷💪\n\nSoli Sierra superó a S. Janicijevic 🇫🇷 por 6-4 y 6-2 en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ChallengerCali"
         ]
       }
     }
