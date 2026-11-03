@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-02 19:15:05",
+  "ultima_actualizacion": "2026-11-03 14:39:29",
   "dias": {
     "2026-10-26": {
       "12173975": {
@@ -1684,6 +1684,165 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI: ¡VICTORIA PARA L. RATTI!\n\nEn un gran cruce argentino en 16avos de final, L. Ratti derrotó a M. Zeitune por 6-4, 4-6 y 6-3.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
+        ]
+      }
+    },
+    "2026-11-03": {
+      "12176034": {
+        "event_key": "12176034",
+        "timestamp": "2026-11-03 14:39:28",
+        "torneo": "Paris",
+        "ronda": "ATP Paris - 1/32-finals",
+        "jugadores": "A. Rinderknech vs F. Cerundolo",
+        "resultado": "1 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ATP París:\n\n❌ Francisco Cerúndolo se retiró ante A. Rinderknech 🇫🇷 (3-6, 7-6(7), 2-0) en 32avos.\n✅ Tomi Etcheverry le ganó a A. Rublev por 6-4, 6-7(4), 7-6(7) en 32avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ATPParís"
+        ]
+      },
+      "12176035": {
+        "event_key": "12176035",
+        "timestamp": "2026-11-03 14:39:28",
+        "torneo": "Paris",
+        "ronda": "ATP Paris - 1/32-finals",
+        "jugadores": "A. Rublev vs T. M. Etcheverry",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ATP París:\n\n❌ Francisco Cerúndolo se retiró ante A. Rinderknech 🇫🇷 (3-6, 7-6(7), 2-0) en 32avos.\n✅ Tomi Etcheverry le ganó a A. Rublev por 6-4, 6-7(4), 7-6(7) en 32avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ATPParís"
+        ]
+      },
+      "12176352": {
+        "event_key": "12176352",
+        "timestamp": "2026-11-03 14:39:29",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/16-finals",
+        "jugadores": "O. Roca Batalla vs J. I. Gallego",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Villa Maria:\n\n❌ J. I. Gallego perdió ante O. Roca Batalla 🇪🇸 por 6-1, 6-0 en 16avos.\n🇦🇷 DERBI: J. M. La Serna le ganó a M. Del Pino por 4-6, 6-0, 7-5 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ L. J. Rodriguez no pudo ante F. Aguilar Cardozo 🇺🇾 por 7-5, 5-7, 6-4 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ L. Gagliardo cayó ante R. Nijboer 🇳🇱 por 6-7(5), 7-6(7), 6-4 en 16avos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerVillaMaria\n\n(3/3) 🧵"
+        ]
+      },
+      "12176627": {
+        "event_key": "12176627",
+        "timestamp": "2026-11-03 14:39:29",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/16-finals",
+        "jugadores": "J. M. La Serna vs M. Del Pino",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Villa Maria:\n\n❌ J. I. Gallego perdió ante O. Roca Batalla 🇪🇸 por 6-1, 6-0 en 16avos.\n🇦🇷 DERBI: J. M. La Serna le ganó a M. Del Pino por 4-6, 6-0, 7-5 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ L. J. Rodriguez no pudo ante F. Aguilar Cardozo 🇺🇾 por 7-5, 5-7, 6-4 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ L. Gagliardo cayó ante R. Nijboer 🇳🇱 por 6-7(5), 7-6(7), 6-4 en 16avos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerVillaMaria\n\n(3/3) 🧵"
+        ]
+      },
+      "12176629": {
+        "event_key": "12176629",
+        "timestamp": "2026-11-03 14:39:29",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/16-finals",
+        "jugadores": "L. J. Rodriguez vs F. Aguilar Cardozo",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Villa Maria:\n\n❌ J. I. Gallego perdió ante O. Roca Batalla 🇪🇸 por 6-1, 6-0 en 16avos.\n🇦🇷 DERBI: J. M. La Serna le ganó a M. Del Pino por 4-6, 6-0, 7-5 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ L. J. Rodriguez no pudo ante F. Aguilar Cardozo 🇺🇾 por 7-5, 5-7, 6-4 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ L. Gagliardo cayó ante R. Nijboer 🇳🇱 por 6-7(5), 7-6(7), 6-4 en 16avos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerVillaMaria\n\n(3/3) 🧵"
+        ]
+      },
+      "12176630": {
+        "event_key": "12176630",
+        "timestamp": "2026-11-03 14:39:29",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/16-finals",
+        "jugadores": "L. Gagliardo vs R. Nijboer",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Villa Maria:\n\n❌ J. I. Gallego perdió ante O. Roca Batalla 🇪🇸 por 6-1, 6-0 en 16avos.\n🇦🇷 DERBI: J. M. La Serna le ganó a M. Del Pino por 4-6, 6-0, 7-5 en 16avos.\n\n(1/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ L. J. Rodriguez no pudo ante F. Aguilar Cardozo 🇺🇾 por 7-5, 5-7, 6-4 en 16avos.\n\n(2/3) 🧵",
+          "Sigue la lista: 👇\n\n❌ L. Gagliardo cayó ante R. Nijboer 🇳🇱 por 6-7(5), 7-6(7), 6-4 en 16avos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerVillaMaria\n\n(3/3) 🧵"
+        ]
+      },
+      "12176692": {
+        "event_key": "12176692",
+        "timestamp": "2026-11-03 14:39:29",
+        "torneo": "M15 Salvador (Brazil)",
+        "ronda": "M15 Salvador - 1/16-finals",
+        "jugadores": "J. Wendler Filho vs G. Branchetti",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN M15 SALVADOR (BRAZIL)! 🇦🇷💪\n\nG. Branchetti le ganó a J. Wendler Filho 🇧🇷 por 6-3, 3-6 y 7-5 en 16avos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFSalvadorBrazil"
+        ]
+      },
+      "12176834": {
+        "event_key": "12176834",
+        "timestamp": "2026-11-03 14:39:29",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": null,
+        "jugadores": "A. V. Gobbi Monllau vs C. Romero",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n❌ A. V. Gobbi Monllau no pudo ante C. Romero 🇪🇨 por 6-4, 6-3.\n🇦🇷 DERBI: Flor Moron le ganó a Cam. Markus por 4-6, 6-4, 6-0.\n🇦🇷 DERBI: Meabe le ganó a C. D. Vega Gudino por 6-1, 6-1.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: V. Bosio derrotó a C. C. Sosa por 6-1, 6-1.\n🇦🇷 DERBI: S. A. Larraya Guidi superó a M. M. Maruca por 6-2, 6-0.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12176835": {
+        "event_key": "12176835",
+        "timestamp": "2026-11-03 14:39:29",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": null,
+        "jugadores": "Cam. Markus vs F. B. Moron",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n❌ A. V. Gobbi Monllau no pudo ante C. Romero 🇪🇨 por 6-4, 6-3.\n🇦🇷 DERBI: Flor Moron le ganó a Cam. Markus por 4-6, 6-4, 6-0.\n🇦🇷 DERBI: Meabe le ganó a C. D. Vega Gudino por 6-1, 6-1.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: V. Bosio derrotó a C. C. Sosa por 6-1, 6-1.\n🇦🇷 DERBI: S. A. Larraya Guidi superó a M. M. Maruca por 6-2, 6-0.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12176836": {
+        "event_key": "12176836",
+        "timestamp": "2026-11-03 14:39:29",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": null,
+        "jugadores": "S. Meabe vs C. D. Vega Gudino",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n❌ A. V. Gobbi Monllau no pudo ante C. Romero 🇪🇨 por 6-4, 6-3.\n🇦🇷 DERBI: Flor Moron le ganó a Cam. Markus por 4-6, 6-4, 6-0.\n🇦🇷 DERBI: Meabe le ganó a C. D. Vega Gudino por 6-1, 6-1.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: V. Bosio derrotó a C. C. Sosa por 6-1, 6-1.\n🇦🇷 DERBI: S. A. Larraya Guidi superó a M. M. Maruca por 6-2, 6-0.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12176837": {
+        "event_key": "12176837",
+        "timestamp": "2026-11-03 14:39:29",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": null,
+        "jugadores": "V. Bosio vs C. C. Sosa",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n❌ A. V. Gobbi Monllau no pudo ante C. Romero 🇪🇨 por 6-4, 6-3.\n🇦🇷 DERBI: Flor Moron le ganó a Cam. Markus por 4-6, 6-4, 6-0.\n🇦🇷 DERBI: Meabe le ganó a C. D. Vega Gudino por 6-1, 6-1.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: V. Bosio derrotó a C. C. Sosa por 6-1, 6-1.\n🇦🇷 DERBI: S. A. Larraya Guidi superó a M. M. Maruca por 6-2, 6-0.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12176839": {
+        "event_key": "12176839",
+        "timestamp": "2026-11-03 14:39:29",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": null,
+        "jugadores": "S. A. Larraya Guidi vs M. M. Maruca",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n❌ A. V. Gobbi Monllau no pudo ante C. Romero 🇪🇨 por 6-4, 6-3.\n🇦🇷 DERBI: Flor Moron le ganó a Cam. Markus por 4-6, 6-4, 6-0.\n🇦🇷 DERBI: Meabe le ganó a C. D. Vega Gudino por 6-1, 6-1.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: V. Bosio derrotó a C. C. Sosa por 6-1, 6-1.\n🇦🇷 DERBI: S. A. Larraya Guidi superó a M. M. Maruca por 6-2, 6-0.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
         ]
       }
     }
