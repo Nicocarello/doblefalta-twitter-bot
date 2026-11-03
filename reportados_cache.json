@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-03 15:13:29",
+  "ultima_actualizacion": "2026-11-03 15:40:18",
   "dias": {
     "2026-10-27": {
       "12174394": {
@@ -1767,6 +1767,42 @@
         "tweets": [
           "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n❌ A. V. Gobbi Monllau no pudo ante C. Romero 🇪🇨 por 6-4, 6-3.\n🇦🇷 DERBI: Flor Moron le ganó a Cam. Markus por 4-6, 6-4, 6-0.\n🇦🇷 DERBI: Meabe le ganó a C. D. Vega Gudino por 6-1, 6-1.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n🇦🇷 DERBI: V. Bosio derrotó a C. C. Sosa por 6-1, 6-1.\n🇦🇷 DERBI: S. A. Larraya Guidi superó a M. M. Maruca por 6-2, 6-0.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12176494": {
+        "event_key": "12176494",
+        "timestamp": "2026-11-03 15:40:18",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/16-finals",
+        "jugadores": "J. Ortenzi vs E. Mandlik",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SIII JAZMÍN ORTENZI!!! 🇦🇷\n\nJazmín Ortenzi derrotó a E. Mandlik 🇺🇸 por 7-5, 1-6 y 6-3 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerCali"
+        ]
+      },
+      "12176628": {
+        "event_key": "12176628",
+        "timestamp": "2026-11-03 15:40:18",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/16-finals",
+        "jugadores": "J. Estevez vs R. Tabata",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nJose Estevez no pudo ante R. Tabata 🇯🇵 por 4-6, 6-3 y 6-4 en 16avos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerVillaMaria"
+        ]
+      },
+      "12176838": {
+        "event_key": "12176838",
+        "timestamp": "2026-11-03 15:40:18",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": null,
+        "jugadores": "M. Carrocera vs A. Danilova",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE W15 NEUQUEN 2 (ARGENTINA) 🇦🇷\n\nM. Carrocera cayó ante A. Danilova por 6-1 y 7-5 en el ITF W15 Neuquen 2 (Argentina).\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFNeuquen2Argentina"
         ]
       }
     }
