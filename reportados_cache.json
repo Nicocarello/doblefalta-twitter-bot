@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-03 16:12:04",
+  "ultima_actualizacion": "2026-11-03 17:02:02",
   "dias": {
     "2026-10-27": {
       "12174394": {
@@ -1815,6 +1815,30 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE H. CASANOVA! 👏\n\nEn un gran cruce argentino en 16avos de final, H. Casanova superó a T. Cigarran por 1-6, 7-5 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
+        ]
+      },
+      "12176348": {
+        "event_key": "12176348",
+        "timestamp": "2026-11-03 17:02:02",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/16-finals",
+        "jugadores": "V. Grippo vs G. A. Olivieri",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Villa Maria:\n\n🇦🇷 DERBI: G. A. Olivieri superó a Valen Grippo por 6-2, 6-2 en 16avos.\n✅ V. Aboian superó a A. Magadan 🇲🇽 por 4-6, 6-1, 6-1 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ChallengerVillaMaria"
+        ]
+      },
+      "12176349": {
+        "event_key": "12176349",
+        "timestamp": "2026-11-03 17:02:02",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/16-finals",
+        "jugadores": "A. Magadan vs V. Aboian",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Villa Maria:\n\n🇦🇷 DERBI: G. A. Olivieri superó a Valen Grippo por 6-2, 6-2 en 16avos.\n✅ V. Aboian superó a A. Magadan 🇲🇽 por 4-6, 6-1, 6-1 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ChallengerVillaMaria"
         ]
       }
     }
