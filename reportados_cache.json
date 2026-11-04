@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-04 17:01:07",
+  "ultima_actualizacion": "2026-11-04 17:24:29",
   "dias": {
     "2026-10-28": {
       "12174287": {
@@ -1837,6 +1837,30 @@
         "estado": "Finished",
         "tweets": [
           "¡A CUARTOS, JULIA RIERA! 🇦🇷🔥\n\nJulia Riera derrotó a J. Grabher 🇦🇹 por 6-2 y 6-4 en 8vos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12177035": {
+        "event_key": "12177035",
+        "timestamp": "2026-11-04 17:24:29",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/8-finals",
+        "jugadores": "F. Aguilar Cardozo vs N. Kicker",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nN. Kicker se impuso ante F. Aguilar Cardozo 🇺🇾 por 6-1 y 6-2 en Octavos de final.\n\nTerrible partido 💪🇦🇷 #ChallengerVillaMaria"
+        ]
+      },
+      "12177306": {
+        "event_key": "12177306",
+        "timestamp": "2026-11-04 17:24:29",
+        "torneo": "M15 Salvador (Brazil)",
+        "ronda": "M15 Salvador - 1/8-finals",
+        "jugadores": "J. Cunha vs J. Cundom",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII J. CUNDOM!!! 🇦🇷\n\nJ. Cundom superó a J. Cunha por 6-3 y 7-6(7) en 8vos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFSalvadorBrazil"
         ]
       }
     }
