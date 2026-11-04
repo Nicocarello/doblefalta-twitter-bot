@@ -2687,7 +2687,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-10-28"
+        "last_update": "2026-11-04"
     },
     "96789": {
         "es_arg": false,
@@ -12910,9 +12910,9 @@
     },
     "40131": {
         "es_arg": false,
-        "ranking": 1637,
-        "last_update": "2026-08-24",
-        "pais": "Romania"
+        "ranking": 1346,
+        "pais": "Romania",
+        "last_update": "2026-11-04"
     },
     "78369": {
         "es_arg": false,
@@ -30359,7 +30359,7 @@
         "es_arg": false,
         "ranking": 2170,
         "pais": "Germany",
-        "last_update": "2026-10-21"
+        "last_update": "2026-11-04"
     },
     "102353": {
         "es_arg": false,
@@ -32765,7 +32765,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Namibia",
-        "last_update": "2026-05-31"
+        "last_update": "2026-11-04"
     },
     "89235": {
         "es_arg": false,
@@ -51701,7 +51701,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "USA",
-        "last_update": "2026-07-22"
+        "last_update": "2026-11-04"
     },
     "104490": {
         "es_arg": false,
@@ -66425,7 +66425,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "USA",
-        "last_update": "2026-10-20"
+        "last_update": "2026-11-04"
     },
     "23378": {
         "es_arg": false,
@@ -106871,6 +106871,30 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
+        "last_update": "2026-11-04"
+    },
+    "111598": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-11-04"
+    },
+    "93208": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Italy",
+        "last_update": "2026-11-04"
+    },
+    "75989": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "USA",
+        "last_update": "2026-11-04"
+    },
+    "65460": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Cyprus",
         "last_update": "2026-11-04"
     }
 }
