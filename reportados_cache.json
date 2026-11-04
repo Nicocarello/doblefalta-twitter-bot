@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-03 21:36:40",
+  "ultima_actualizacion": "2026-11-04 00:37:01",
   "dias": {
     "2026-10-27": {
       "12174394": {
@@ -1938,6 +1938,32 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Resultados de hoy en el ITF M15 Salvador (Brazil):\n\n❌ M. Mouilleron Salvo perdió ante O. J. Gutierrez 🇪🇸 por 6-0, 6-0 en 16avos.\n✅ J. Cundom venció a Y. Ikeda 🇯🇵 por 6-0, 6-3 en 16avos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFSalvadorBrazil"
+        ]
+      }
+    },
+    "2026-11-04": {
+      "12176336": {
+        "event_key": "12176336",
+        "timestamp": "2026-11-04 00:37:01",
+        "torneo": "Costa do Sauipe",
+        "ronda": "Costa do Sauipe - 1/16-finals",
+        "jugadores": "M. Cecchinato vs F. Comesana",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE COSTA DO SAUIPE 🇦🇷\n\nFrancisco Comesaña cayó ante M. Cecchinato 🇮🇹 por 6-1, 6-7(4) y 7-6(7) en 16avos de final.\n\nNo se pudo dar hoy 🇦🇷 #ChallengerCostadoSauipe"
+        ]
+      },
+      "12176625": {
+        "event_key": "12176625",
+        "timestamp": "2026-11-04 00:37:01",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/16-finals",
+        "jugadores": "F. Coria vs I. Dreycopp",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA FEDE CORIA EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 16avos de final, Fede Coria superó a I. Dreycopp por 6-3 y 6-0.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
         ]
       }
     }
