@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-04 15:24:23",
+  "ultima_actualizacion": "2026-11-04 16:30:21",
   "dias": {
     "2026-10-28": {
       "12174287": {
@@ -1762,6 +1762,57 @@
         "estado": "Finished",
         "tweets": [
           "SIII J. CESAR PORRAS!!! 🇦🇷\n\nJ. Cesar Porras superó a A. Peiro Serrano 🇪🇸 por 6-1 y 6-1 en el ITF M25 Valencia.\n\nTerrible partido 💪🇦🇷 #ITFValencia"
+        ]
+      },
+      "12177129": {
+        "event_key": "12177129",
+        "timestamp": "2026-11-04 16:30:20",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/8-finals",
+        "jugadores": "J. M. La Serna vs H. Casanova",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE J. M. LA SERNA! 👏\n\nEn un gran cruce argentino en Octavos, J. M. La Serna superó a H. Casanova por 7-6(7), 4-6 y 6-3.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
+        ]
+      },
+      "12177186": {
+        "event_key": "12177186",
+        "timestamp": "2026-11-04 16:30:21",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": "W15 Neuquen 2 - 1/16-finals",
+        "jugadores": "Z. Doldan vs V. A. Bruno",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n❌ V. A. Bruno no pudo ante Z. Doldan 🇵🇾 por 7-6(7), 6-7(8), 6-2 en 16avos.\n🇦🇷 DERBI: L. Moyano superó a I. Arabarco por 6-1, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ S. Simon Padros derrotó a G. Kawano Cho 🇧🇷 por 6-2, 6-3 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12177189": {
+        "event_key": "12177189",
+        "timestamp": "2026-11-04 16:30:21",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": "W15 Neuquen 2 - 1/16-finals",
+        "jugadores": "L. Moyano vs I. Arabarco",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n❌ V. A. Bruno no pudo ante Z. Doldan 🇵🇾 por 7-6(7), 6-7(8), 6-2 en 16avos.\n🇦🇷 DERBI: L. Moyano superó a I. Arabarco por 6-1, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ S. Simon Padros derrotó a G. Kawano Cho 🇧🇷 por 6-2, 6-3 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12177190": {
+        "event_key": "12177190",
+        "timestamp": "2026-11-04 16:30:21",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": "W15 Neuquen 2 - 1/16-finals",
+        "jugadores": "S. Simon Padros vs G. Kawano Cho",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n❌ V. A. Bruno no pudo ante Z. Doldan 🇵🇾 por 7-6(7), 6-7(8), 6-2 en 16avos.\n🇦🇷 DERBI: L. Moyano superó a I. Arabarco por 6-1, 6-3 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ S. Simon Padros derrotó a G. Kawano Cho 🇧🇷 por 6-2, 6-3 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
         ]
       }
     }
