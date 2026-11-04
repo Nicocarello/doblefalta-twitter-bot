@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-04 16:30:21",
+  "ultima_actualizacion": "2026-11-04 17:01:07",
   "dias": {
     "2026-10-28": {
       "12174287": {
@@ -1813,6 +1813,30 @@
         "tweets": [
           "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n❌ V. A. Bruno no pudo ante Z. Doldan 🇵🇾 por 7-6(7), 6-7(8), 6-2 en 16avos.\n🇦🇷 DERBI: L. Moyano superó a I. Arabarco por 6-1, 6-3 en 16avos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n✅ S. Simon Padros derrotó a G. Kawano Cho 🇧🇷 por 6-2, 6-3 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12176901": {
+        "event_key": "12176901",
+        "timestamp": "2026-11-04 17:01:07",
+        "torneo": "W50 Huamantla (Mexico)",
+        "ronda": "W50 Huamantla - 1/16-finals",
+        "jugadores": "M. Sholokhova vs M. Capurro Taborda",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN W50 HUAMANTLA (MEXICO) 🇦🇷\n\nM. Capurro Taborda cayó ante M. Sholokhova por 6-2 y 6-2 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFHuamantlaMexico"
+        ]
+      },
+      "12177225": {
+        "event_key": "12177225",
+        "timestamp": "2026-11-04 17:01:07",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/8-finals",
+        "jugadores": "J. Grabher vs J. Riera",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A CUARTOS, JULIA RIERA! 🇦🇷🔥\n\nJulia Riera derrotó a J. Grabher 🇦🇹 por 6-2 y 6-4 en 8vos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerCali"
         ]
       }
     }
