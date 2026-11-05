@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-04 17:24:29",
+  "ultima_actualizacion": "2026-11-04 22:02:41",
   "dias": {
     "2026-10-28": {
       "12174287": {
@@ -1861,6 +1861,78 @@
         "estado": "Finished",
         "tweets": [
           "SIII J. CUNDOM!!! 🇦🇷\n\nJ. Cundom superó a J. Cunha por 6-3 y 7-6(7) en 8vos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFSalvadorBrazil"
+        ]
+      },
+      "12176617": {
+        "event_key": "12176617",
+        "timestamp": "2026-11-04 22:02:41",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/8-finals",
+        "jugadores": "L. Romero Gormaz vs S. Sierra",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Cali:\n\n❌ Solana Sierra perdió ante L. Romero Gormaz 🇪🇸 por 6-4, 6-1 en Octavos.\n❌ Jaz Ortenzi perdió ante B. Andreescu 🇨🇦 por 6-2, 6-3 en Octavos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12177167": {
+        "event_key": "12177167",
+        "timestamp": "2026-11-04 22:02:41",
+        "torneo": "Cali",
+        "ronda": "Cali - 1/8-finals",
+        "jugadores": "J. Ortenzi vs B. Andreescu",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Cali:\n\n❌ Solana Sierra perdió ante L. Romero Gormaz 🇪🇸 por 6-4, 6-1 en Octavos.\n❌ Jaz Ortenzi perdió ante B. Andreescu 🇨🇦 por 6-2, 6-3 en Octavos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12176868": {
+        "event_key": "12176868",
+        "timestamp": "2026-11-04 22:02:41",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/8-finals",
+        "jugadores": "L. Ratti vs C. M. Zarate",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA C. M. ZARATE EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en Octavos de final, C. M. Zarate venció a L. Ratti por 6-4 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
+        ]
+      },
+      "12177161": {
+        "event_key": "12177161",
+        "timestamp": "2026-11-04 22:02:41",
+        "torneo": "Paris",
+        "ronda": "ATP Paris - 1/16-finals",
+        "jugadores": "T. A. Tirante vs J-L. Struff",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nT. A. Tirante no pudo ante J-L. Struff 🇩🇪 por 6-7(5), 6-3 y 7-6(7) en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ATPParís"
+        ]
+      },
+      "12177166": {
+        "event_key": "12177166",
+        "timestamp": "2026-11-04 22:02:41",
+        "torneo": "Costa do Sauipe",
+        "ronda": "Costa do Sauipe - 1/8-finals",
+        "jugadores": "L. Midon vs T. Barrios Vera",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Costa do Sauipe:\n\n✅ Lauti Midón le ganó a T. Barrios Vera 🇨🇱 por 7-5, 3-6, 7-5 en Octavos.\n✅ Camilo Ugo Carabelli le ganó a I. Marcondes 🇧🇷 por 6-4, 6-4 en Octavos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerCostadoSauipe"
+        ]
+      },
+      "12177305": {
+        "event_key": "12177305",
+        "timestamp": "2026-11-04 22:02:41",
+        "torneo": "Costa do Sauipe",
+        "ronda": "Costa do Sauipe - 1/8-finals",
+        "jugadores": "I. Marcondes vs C. Ugo Carabelli",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Costa do Sauipe:\n\n✅ Lauti Midón le ganó a T. Barrios Vera 🇨🇱 por 7-5, 3-6, 7-5 en Octavos.\n✅ Camilo Ugo Carabelli le ganó a I. Marcondes 🇧🇷 por 6-4, 6-4 en Octavos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerCostadoSauipe"
         ]
       }
     }
