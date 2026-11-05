@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-05 15:27:49",
+  "ultima_actualizacion": "2026-11-05 15:57:12",
   "dias": {
     "2026-10-29": {
       "12175010": {
@@ -1761,6 +1761,56 @@
         "tweets": [
           "🇦🇷 Balance del día en el ITF W15 Neuquen 2 (Argentina):\n\n🇦🇷 DERBI: B. Bonardi derrotó a S. A. Larraya Guidi por 7-5, 3-6, 6-1 en Octavos.\n🇦🇷 DERBI: V. Bosio venció a Sofi Meabe por 6-3, 6-3 en Octavos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n❌ Florencia Moron cayó ante C. Romero 🇪🇨 por 6-1, 6-4 en Octavos.\n✅ L. Moyano derrotó a A. Danilova por 6-3, 6-1 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12177490": {
+        "event_key": "12177490",
+        "timestamp": "2026-11-05 15:57:11",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/8-finals",
+        "jugadores": "J. P. Ficovich vs M. A. Dellien Velasco",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡A CUARTOS, JUAN PABLO FICOVICH! 🇦🇷🔥\n\nJuan Pablo Ficovich le ganó a M. A. Dellien Velasco 🇧🇴 por 6-0 y 6-4 en Octavos.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerVillaMaria"
+        ]
+      },
+      "12177676": {
+        "event_key": "12177676",
+        "timestamp": "2026-11-05 15:57:12",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": "W15 Neuquen 2 - 1/8-finals",
+        "jugadores": "L. Agudelo vs J. Estevez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Neuquen 2 (Argentina):\n\n🇦🇷 DERBI: Josefina Estevez superó a L. Agudelo por 6-2, 6-1 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: J. M. Gonzalez Daniele le ganó a S. Simon Padros por 6-1, 6-3 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12177677": {
+        "event_key": "12177677",
+        "timestamp": "2026-11-05 15:57:12",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": "W15 Neuquen 2 - 1/8-finals",
+        "jugadores": "S. Simon Padros vs J. M. Gonzalez Daniele",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF W15 Neuquen 2 (Argentina):\n\n🇦🇷 DERBI: Josefina Estevez superó a L. Agudelo por 6-2, 6-1 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: J. M. Gonzalez Daniele le ganó a S. Simon Padros por 6-1, 6-3 en Octavos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12177711": {
+        "event_key": "12177711",
+        "timestamp": "2026-11-05 15:57:12",
+        "torneo": "M15 Hilton Head Island",
+        "ronda": "M15 Hilton Head Island, SC - 1/8-finals",
+        "jugadores": "R. Colby vs S. Giamichelle",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN M15 HILTON HEAD ISLAND 🇦🇷\n\nS. Giamichelle cayó ante R. Colby 🇺🇸 por 6-1, 4-6 y 6-2 en Octavos.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFHiltonHeadIsland"
         ]
       }
     }
