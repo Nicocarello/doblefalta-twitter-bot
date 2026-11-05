@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-05 15:57:12",
+  "ultima_actualizacion": "2026-11-05 16:39:07",
   "dias": {
     "2026-10-29": {
       "12175010": {
@@ -1811,6 +1811,30 @@
         "estado": "Finished",
         "tweets": [
           "TROPIEZO EN M15 HILTON HEAD ISLAND 🇦🇷\n\nS. Giamichelle cayó ante R. Colby 🇺🇸 por 6-1, 4-6 y 6-2 en Octavos.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFHiltonHeadIsland"
+        ]
+      },
+      "12177491": {
+        "event_key": "12177491",
+        "timestamp": "2026-11-05 16:39:06",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - 1/8-finals",
+        "jugadores": "I. Monzon vs G. A. Olivieri",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE G. A. OLIVIERI! 👏\n\nEn un gran cruce argentino en 8vos, G. A. Olivieri le ganó a Nacho Monzon por 6-3 y 6-1.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
+        ]
+      },
+      "12177664": {
+        "event_key": "12177664",
+        "timestamp": "2026-11-05 16:39:07",
+        "torneo": "Cali",
+        "ronda": "Cali - Quarter-finals",
+        "jugadores": "J. Riera vs R. Zarazua",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡A SEMIFINAL, JULI RIERA! 🇦🇷🔥\n\nJuli Riera derrotó a R. Zarazua 🇲🇽 por 6-4, 1-6 y 6-2 en 4tos.\n\nTerrible partido 💪🇦🇷 #ChallengerCali"
         ]
       }
     }
