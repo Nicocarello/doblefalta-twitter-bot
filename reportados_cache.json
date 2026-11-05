@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-05 16:39:07",
+  "ultima_actualizacion": "2026-11-05 17:14:49",
   "dias": {
     "2026-10-29": {
       "12175010": {
@@ -1835,6 +1835,18 @@
         "estado": "Finished",
         "tweets": [
           "¡A SEMIFINAL, JULI RIERA! 🇦🇷🔥\n\nJuli Riera derrotó a R. Zarazua 🇲🇽 por 6-4, 1-6 y 6-2 en 4tos.\n\nTerrible partido 💪🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12177668": {
+        "event_key": "12177668",
+        "timestamp": "2026-11-05 17:14:49",
+        "torneo": "M15 Salvador (Brazil)",
+        "ronda": "M15 Salvador - Quarter-finals",
+        "jugadores": "A. E. Cuellar Lorberg vs J. Cundom",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nJ. Cundom perdió ante A. E. Cuellar Lorberg 🇧🇴 por 6-4 y 6-4 en Cuartos.\n\nNo se pudo dar hoy 🇦🇷 #ITFSalvadorBrazil"
         ]
       }
     }
