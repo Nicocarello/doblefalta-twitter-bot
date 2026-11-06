@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-06 00:53:57",
+  "ultima_actualizacion": "2026-11-06 14:16:09",
   "dias": {
     "2026-10-29": {
       "12175010": {
@@ -1897,6 +1897,94 @@
         "estado": "Finished",
         "tweets": [
           "¡ENORME VICTORIA! 👏🇦🇷\n\nCarle/ Pigossi le ganó a Costoulas/ Papamichail por 6-4 y 6-2 en 4tos.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12177399": {
+        "event_key": "12177399",
+        "timestamp": "2026-11-06 14:16:09",
+        "torneo": "M25 Valencia",
+        "ronda": "M25 Valencia - 1/8-finals",
+        "jugadores": "J. Cesar Porras vs I. Gakhov",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN M25 VALENCIA 🇦🇷\n\nJ. Cesar Porras cayó ante I. Gakhov por 6-3 y 6-4 en 8vos.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFValencia"
+        ]
+      },
+      "12177651": {
+        "event_key": "12177651",
+        "timestamp": "2026-11-06 14:16:09",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - Quarter-finals",
+        "jugadores": "O. Roca Batalla vs N. Kicker",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Villa Maria: 🇦🇷\n\n✅ N. Kicker le ganó a O. Roca Batalla 🇪🇸 por 6-3, 6-1 en Cuartos.\n🇦🇷 DERBI: J. M. La Serna venció a C. M. Zarate por 6-3, 6-4 en Cuartos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ChallengerVillaMaria"
+        ]
+      },
+      "12177708": {
+        "event_key": "12177708",
+        "timestamp": "2026-11-06 14:16:09",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - Quarter-finals",
+        "jugadores": "J. M. La Serna vs C. M. Zarate",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Villa Maria: 🇦🇷\n\n✅ N. Kicker le ganó a O. Roca Batalla 🇪🇸 por 6-3, 6-1 en Cuartos.\n🇦🇷 DERBI: J. M. La Serna venció a C. M. Zarate por 6-3, 6-4 en Cuartos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ChallengerVillaMaria"
+        ]
+      },
+      "12177912": {
+        "event_key": "12177912",
+        "timestamp": "2026-11-06 14:16:09",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": "W15 Neuquen 2 - Quarter-finals",
+        "jugadores": "V. Bosio vs C. Romero",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Neuquen 2 (Argentina): 🇦🇷\n\n✅ V. Bosio venció a C. Romero 🇪🇨 por 6-3, 6-1 en Cuartos.\n🇦🇷 DERBI: J. M. Gonzalez Daniele le ganó a L. Moyano por 6-4, 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ B. Bonardi no pudo ante F. Labrana 🇨🇱 por 6-2, 6-2 en Cuartos.\n❌ Josefina Estevez perdió ante A. Vergara Rivera 🇨🇱 por 7-5, 6-4 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12177913": {
+        "event_key": "12177913",
+        "timestamp": "2026-11-06 14:16:09",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": "W15 Neuquen 2 - Quarter-finals",
+        "jugadores": "L. Moyano vs J. M. Gonzalez Daniele",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Neuquen 2 (Argentina): 🇦🇷\n\n✅ V. Bosio venció a C. Romero 🇪🇨 por 6-3, 6-1 en Cuartos.\n🇦🇷 DERBI: J. M. Gonzalez Daniele le ganó a L. Moyano por 6-4, 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ B. Bonardi no pudo ante F. Labrana 🇨🇱 por 6-2, 6-2 en Cuartos.\n❌ Josefina Estevez perdió ante A. Vergara Rivera 🇨🇱 por 7-5, 6-4 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12177914": {
+        "event_key": "12177914",
+        "timestamp": "2026-11-06 14:16:09",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": "W15 Neuquen 2 - Quarter-finals",
+        "jugadores": "B. Bonardi vs F. Labrana",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Neuquen 2 (Argentina): 🇦🇷\n\n✅ V. Bosio venció a C. Romero 🇪🇨 por 6-3, 6-1 en Cuartos.\n🇦🇷 DERBI: J. M. Gonzalez Daniele le ganó a L. Moyano por 6-4, 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ B. Bonardi no pudo ante F. Labrana 🇨🇱 por 6-2, 6-2 en Cuartos.\n❌ Josefina Estevez perdió ante A. Vergara Rivera 🇨🇱 por 7-5, 6-4 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12177915": {
+        "event_key": "12177915",
+        "timestamp": "2026-11-06 14:16:09",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": "W15 Neuquen 2 - Quarter-finals",
+        "jugadores": "A. Vergara Rivera vs J. Estevez",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF W15 Neuquen 2 (Argentina): 🇦🇷\n\n✅ V. Bosio venció a C. Romero 🇪🇨 por 6-3, 6-1 en Cuartos.\n🇦🇷 DERBI: J. M. Gonzalez Daniele le ganó a L. Moyano por 6-4, 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ B. Bonardi no pudo ante F. Labrana 🇨🇱 por 6-2, 6-2 en Cuartos.\n❌ Josefina Estevez perdió ante A. Vergara Rivera 🇨🇱 por 7-5, 6-4 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
         ]
       }
     }
