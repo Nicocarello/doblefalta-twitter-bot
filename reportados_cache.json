@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-06 14:47:31",
+  "ultima_actualizacion": "2026-11-06 16:39:44",
   "dias": {
     "2026-10-30": {
       "12175780": {
@@ -1719,6 +1719,30 @@
         "tweets": [
           "Resultados de Cuartos de final en el ITF W15 Neuquen 2 (Argentina): 🇦🇷\n\n✅ V. Bosio venció a C. Romero 🇪🇨 por 6-3, 6-1 en Cuartos.\n🇦🇷 DERBI: J. M. Gonzalez Daniele le ganó a L. Moyano por 6-4, 6-2 en Cuartos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n❌ B. Bonardi no pudo ante F. Labrana 🇨🇱 por 6-2, 6-2 en Cuartos.\n❌ Josefina Estevez perdió ante A. Vergara Rivera 🇨🇱 por 7-5, 6-4 en Cuartos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFNeuquen2Argentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12177735": {
+        "event_key": "12177735",
+        "timestamp": "2026-11-06 16:39:44",
+        "torneo": "Costa do Sauipe",
+        "ronda": "Costa do Sauipe - Quarter-finals",
+        "jugadores": "J. C. Prado Angelo vs C. Ugo Carabelli",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nCamilo Carabelli le ganó a J. C. Prado Angelo 🇧🇴 por 6-2 y 6-3 en Cuartos de final.\n\nTerrible partido 💪🇦🇷 #ChallengerCostadoSauipe"
+        ]
+      },
+      "12177860": {
+        "event_key": "12177860",
+        "timestamp": "2026-11-06 16:39:44",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - Quarter-finals",
+        "jugadores": "J. B. Torres vs G. A. Olivieri",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI: ¡VICTORIA PARA G. A. OLIVIERI!\n\nEn un gran cruce argentino en 4tos de final, G. A. Olivieri venció a J. B. Torres por 6-4 y 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
         ]
       }
     }
