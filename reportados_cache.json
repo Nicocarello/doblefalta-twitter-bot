@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-07 13:43:01",
+  "ultima_actualizacion": "2026-11-07 18:44:14",
   "dias": {
     "2026-10-31": {
       "12175982": {
@@ -1669,6 +1669,54 @@
         "estado": "Finished",
         "tweets": [
           "TROPIEZO EN W15 NEUQUEN 2 (ARGENTINA) 🇦🇷\n\nV. Bosio perdió ante A. Vergara Rivera 🇨🇱 por 6-4 y 7-5 en Semis.\n\nPunto final en W15 Neuquen 2 (Argentina). ¡A recargar y no aflojar! 💪🇦🇷 #ITFNeuquen2Argentina"
+        ]
+      },
+      "12178051": {
+        "event_key": "12178051",
+        "timestamp": "2026-11-07 18:44:14",
+        "torneo": "W15 Neuquen 2 (Argentina)",
+        "ronda": "W15 Neuquen 2 - Semi-finals",
+        "jugadores": "F. Labrana vs J. M. Gonzalez Daniele",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII J. M. GONZALEZ DANIELE!!! 🇦🇷\n\nJ. M. Gonzalez Daniele venció a F. Labrana 🇨🇱 por 5-7, 6-4 y 6-1 en Semis.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFNeuquen2Argentina"
+        ]
+      },
+      "12178055": {
+        "event_key": "12178055",
+        "timestamp": "2026-11-07 18:44:14",
+        "torneo": "Costa do Sauipe",
+        "ronda": "Costa do Sauipe - Semi-finals",
+        "jugadores": "G. Bueno vs C. Ugo Carabelli",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nCamilo Ugo Carabelli le ganó a G. Bueno 🇵🇪 por 6-3 y 6-1 en Semis.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerCostadoSauipe"
+        ]
+      },
+      "12178060": {
+        "event_key": "12178060",
+        "timestamp": "2026-11-07 18:44:14",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - Semi-finals",
+        "jugadores": "F. Coria vs G. A. Olivieri",
+        "resultado": "1 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 DERBI: ¡AVANZA G. A. OLIVIERI TRAS RETIRO!\n\nG. A. Olivieri avanzó en Semifinales tras el retiro de Fede Coria (3-6 y 6-3).\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
+        ]
+      },
+      "12178202": {
+        "event_key": "12178202",
+        "timestamp": "2026-11-07 18:44:14",
+        "torneo": "Cali",
+        "ronda": null,
+        "jugadores": "Carle/ Pigossi vs Rogers/ Zamarripa",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN CALI 🇦🇷\n\nCarle/ Pigossi perdió ante Rogers/ Zamarripa por 7-6(7) y 7-5 en el Challenger Cali.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerCali"
         ]
       }
     }
