@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-06 16:39:44",
+  "ultima_actualizacion": "2026-11-06 21:02:02",
   "dias": {
     "2026-10-30": {
       "12175780": {
@@ -1743,6 +1743,80 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI: ¡VICTORIA PARA G. A. OLIVIERI!\n\nEn un gran cruce argentino en 4tos de final, G. A. Olivieri venció a J. B. Torres por 6-4 y 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
+        ]
+      },
+      "12177689": {
+        "event_key": "12177689",
+        "timestamp": "2026-11-06 21:02:02",
+        "torneo": "Costa do Sauipe",
+        "ronda": "Costa do Sauipe - Quarter-finals",
+        "jugadores": "G. Bueno vs L. Midon",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Costa do Sauipe: 🇦🇷\n\n❌ Lautaro Midón cayó ante G. Bueno 🇵🇪 por 6-1, 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Facundo Díaz Acosta derrotó a M. Cecchinato 🇮🇹 por 6-4, 6-4 en Cuartos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerCostadoSauipe\n\n(2/2) 🧵"
+        ]
+      },
+      "12177924": {
+        "event_key": "12177924",
+        "timestamp": "2026-11-06 21:02:02",
+        "torneo": "Costa do Sauipe",
+        "ronda": "Costa do Sauipe - Quarter-finals",
+        "jugadores": "F. Diaz Acosta vs M. Cecchinato",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el Challenger Costa do Sauipe: 🇦🇷\n\n❌ Lautaro Midón cayó ante G. Bueno 🇵🇪 por 6-1, 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Facundo Díaz Acosta derrotó a M. Cecchinato 🇮🇹 por 6-4, 6-4 en Cuartos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerCostadoSauipe\n\n(2/2) 🧵"
+        ]
+      },
+      "12177880": {
+        "event_key": "12177880",
+        "timestamp": "2026-11-06 21:02:02",
+        "torneo": "Cali",
+        "ronda": "Cali - Semi-finals",
+        "jugadores": "L. Romero Gormaz vs J. Riera",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en el Challenger Cali: 🇦🇷\n\n❌ Julia Riera cayó ante L. Romero Gormaz 🇪🇸 por 3-6, 7-5, 6-4 en Semis.\n✅ Carle/ Pigossi venció a Jakupovic/ Radisic por 7-5, 6-7(4), 10-3 en Semis.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12177930": {
+        "event_key": "12177930",
+        "timestamp": "2026-11-06 21:02:02",
+        "torneo": "Cali",
+        "ronda": "Cali - Semi-finals",
+        "jugadores": "Jakupovic/ Radisic vs Carle/ Pigossi",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en el Challenger Cali: 🇦🇷\n\n❌ Julia Riera cayó ante L. Romero Gormaz 🇪🇸 por 3-6, 7-5, 6-4 en Semis.\n✅ Carle/ Pigossi venció a Jakupovic/ Radisic por 7-5, 6-7(4), 10-3 en Semis.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12177895": {
+        "event_key": "12177895",
+        "timestamp": "2026-11-06 21:02:02",
+        "torneo": "Villa Maria",
+        "ronda": "Villa Maria - Quarter-finals",
+        "jugadores": "J. P. Ficovich vs F. Coria",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE FEDE CORIA! 👏\n\nEn un gran cruce argentino en 4tos de final, Fede Coria superó a Juampi Ficovich por 6-2 y 6-1.\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerVillaMaria"
+        ]
+      },
+      "12177908": {
+        "event_key": "12177908",
+        "timestamp": "2026-11-06 21:02:02",
+        "torneo": "M15 Salvador (Brazil)",
+        "ronda": "M15 Salvador - Semi-finals",
+        "jugadores": "A. E. Cuellar Lorberg vs G. Branchetti",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nG. Branchetti cayó ante A. E. Cuellar Lorberg 🇧🇴 por 6-4 y 6-4 en Semis.\n\nPunto final en M15 Salvador (Brazil). ¡A recargar y no aflojar! 💪🇦🇷 #ITFSalvadorBrazil"
         ]
       }
     }
