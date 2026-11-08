@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-08 15:16:54",
+  "ultima_actualizacion": "2026-11-08 19:22:27",
   "dias": {
     "2026-11-01": {
       "12176100": {
@@ -1657,6 +1657,30 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI: ¡VICTORIA PARA S. DE LA FUENTE!\n\nEn un gran cruce argentino en Semifinales, S. De La Fuente le ganó a Nacho Monzon por 6-4, 3-6 y 7-6(7).\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerLima2"
+        ]
+      },
+      "12178152": {
+        "event_key": "12178152",
+        "timestamp": "2026-11-08 19:22:27",
+        "torneo": "Stockholm",
+        "ronda": "ATP Stockholm - 1/16-finals",
+        "jugadores": "T. A. Tirante vs J. Munar",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SIII T. A. TIRANTE!!! 🇦🇷\n\nT. A. Tirante superó a J. Munar 🇪🇸 por 7-6(7) y 6-3 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ATPStockholm"
+        ]
+      },
+      "12178302": {
+        "event_key": "12178302",
+        "timestamp": "2026-11-08 19:22:27",
+        "torneo": "Costa do Sauipe",
+        "ronda": "Costa do Sauipe - Final",
+        "jugadores": "T. Seyboth Wild vs C. Ugo Carabelli",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 CAMPEÓN CAMILO UGO CARABELLI! 🇦🇷🔥\n\nCamilo Ugo Carabelli derrotó a T. Seyboth Wild 🇧🇷 por 6-2 y 7-5 en Final.\n\nCátedra de tenis en la final para levantar el título. ¡Enorme! 🏆🔥 #ChallengerCostadoSauipe"
         ]
       }
     }
