@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-08 13:52:52",
+  "ultima_actualizacion": "2026-11-08 14:41:35",
   "dias": {
     "2026-11-01": {
       "12176100": {
@@ -1633,6 +1633,18 @@
         "estado": "Finished",
         "tweets": [
           "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nJ. M. Gonzalez Daniele perdió ante A. Vergara Rivera 🇨🇱 por 6-3 y 6-4 en el ITF W15 Neuquen 2 (Argentina).\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFNeuquen2Argentina"
+        ]
+      },
+      "12178154": {
+        "event_key": "12178154",
+        "timestamp": "2026-11-08 14:41:35",
+        "torneo": "Stockholm",
+        "ronda": "ATP Stockholm - 1/16-finals",
+        "jugadores": "E. Ymer vs J. M. Cerundolo",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A OCTAVOS, JUAN MANUEL CERÚNDOLO! 🇦🇷🔥\n\nJuan Manuel Cerúndolo superó a E. Ymer 🇸🇪 por 6-1 y 7-6(7) en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ATPStockholm"
         ]
       }
     }
