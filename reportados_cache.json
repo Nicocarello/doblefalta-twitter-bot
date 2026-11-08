@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-07 18:44:14",
+  "ultima_actualizacion": "2026-11-07 22:14:21",
   "dias": {
     "2026-10-31": {
       "12175982": {
@@ -1717,6 +1717,18 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN CALI 🇦🇷\n\nCarle/ Pigossi perdió ante Rogers/ Zamarripa por 7-6(7) y 7-5 en el Challenger Cali.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerCali"
+        ]
+      },
+      "12178071": {
+        "event_key": "12178071",
+        "timestamp": "2026-11-07 22:14:21",
+        "torneo": "Costa do Sauipe",
+        "ronda": "Costa do Sauipe - Semi-finals",
+        "jugadores": "F. Diaz Acosta vs T. Seyboth Wild",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE COSTA DO SAUIPE 🇦🇷\n\nFacu Díaz Acosta no pudo ante T. Seyboth Wild 🇧🇷 por 7-6(7) y 6-4 en Semis.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ChallengerCostadoSauipe"
         ]
       }
     }
