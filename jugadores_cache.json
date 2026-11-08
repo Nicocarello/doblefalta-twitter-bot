@@ -5688,7 +5688,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-11-04"
+        "last_update": "2026-11-08"
     },
     "1158": {
         "es_arg": false,
@@ -5922,7 +5922,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "India",
-        "last_update": "2026-05-10"
+        "last_update": "2026-11-08"
     },
     "101905": {
         "es_arg": false,
@@ -6462,7 +6462,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-11-06"
+        "last_update": "2026-11-08"
     },
     "101115": {
         "es_arg": false,
@@ -13110,7 +13110,7 @@
         "es_arg": false,
         "ranking": 521,
         "pais": "Turkey",
-        "last_update": "2026-09-06"
+        "last_update": "2026-11-08"
     },
     "71902": {
         "es_arg": false,
@@ -24791,7 +24791,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Venezuela",
-        "last_update": "2026-10-28"
+        "last_update": "2026-11-08"
     },
     "31143": {
         "es_arg": false,
@@ -39581,7 +39581,7 @@
         "es_arg": false,
         "ranking": 2,
         "pais": "Japan",
-        "last_update": "2026-10-21"
+        "last_update": "2026-11-08"
     },
     "87958": {
         "es_arg": false,
@@ -40439,7 +40439,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-11-05"
+        "last_update": "2026-11-08"
     },
     "103335": {
         "es_arg": false,
@@ -55745,7 +55745,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "United Kingdom",
-        "last_update": "2026-10-31"
+        "last_update": "2026-11-08"
     },
     "9376": {
         "es_arg": false,
@@ -58235,7 +58235,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Japan",
-        "last_update": "2026-09-08"
+        "last_update": "2026-11-08"
     },
     "78984": {
         "es_arg": false,
@@ -78641,7 +78641,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Tunisia",
-        "last_update": "2026-09-15"
+        "last_update": "2026-11-08"
     },
     "83432": {
         "es_arg": false,
@@ -82595,7 +82595,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-11-06"
+        "last_update": "2026-11-08"
     },
     "71778": {
         "es_arg": false,
@@ -95825,7 +95825,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "Australia",
-        "last_update": "2026-10-28"
+        "last_update": "2026-11-08"
     },
     "109963": {
         "es_arg": false,
@@ -96221,7 +96221,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-10-29"
+        "last_update": "2026-11-08"
     },
     "109997": {
         "es_arg": false,
@@ -104441,7 +104441,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-11-07"
+        "last_update": "2026-11-08"
     },
     "96038": {
         "es_arg": false,
@@ -107046,5 +107046,47 @@
         "ranking": 9999,
         "pais": "",
         "last_update": "2026-11-07"
+    },
+    "89137": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Italy",
+        "last_update": "2026-11-08"
+    },
+    "8665": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Greece",
+        "last_update": "2026-11-08"
+    },
+    "85337": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Peru",
+        "last_update": "2026-11-08"
+    },
+    "76701": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Peru",
+        "last_update": "2026-11-08"
+    },
+    "111655": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-11-08"
+    },
+    "100091": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-11-08"
+    },
+    "91970": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "Colombia",
+        "last_update": "2026-11-08"
     }
 }
