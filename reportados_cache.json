@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-08 14:41:35",
+  "ultima_actualizacion": "2026-11-08 15:16:54",
   "dias": {
     "2026-11-01": {
       "12176100": {
@@ -1645,6 +1645,18 @@
         "estado": "Finished",
         "tweets": [
           "¡A OCTAVOS, JUAN MANUEL CERÚNDOLO! 🇦🇷🔥\n\nJuan Manuel Cerúndolo superó a E. Ymer 🇸🇪 por 6-1 y 7-6(7) en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ATPStockholm"
+        ]
+      },
+      "12178318": {
+        "event_key": "12178318",
+        "timestamp": "2026-11-08 15:16:54",
+        "torneo": "Lima 2",
+        "ronda": "Lima 2 - Semi-finals",
+        "jugadores": "S. De La Fuente vs I. Monzon",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI: ¡VICTORIA PARA S. DE LA FUENTE!\n\nEn un gran cruce argentino en Semifinales, S. De La Fuente le ganó a Nacho Monzon por 6-4, 3-6 y 7-6(7).\n\n¡Gran partido de ambos compatriotas! 👏 #ChallengerLima2"
         ]
       }
     }
