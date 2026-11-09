@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-08 19:22:27",
+  "ultima_actualizacion": "2026-11-09 17:30:39",
   "dias": {
     "2026-11-01": {
       "12176100": {
@@ -1681,6 +1681,58 @@
         "estado": "Finished",
         "tweets": [
           "🏆 CAMPEÓN CAMILO UGO CARABELLI! 🇦🇷🔥\n\nCamilo Ugo Carabelli derrotó a T. Seyboth Wild 🇧🇷 por 6-2 y 7-5 en Final.\n\nCátedra de tenis en la final para levantar el título. ¡Enorme! 🏆🔥 #ChallengerCostadoSauipe"
+        ]
+      }
+    },
+    "2026-11-09": {
+      "12178148": {
+        "event_key": "12178148",
+        "timestamp": "2026-11-09 17:30:39",
+        "torneo": "Stockholm",
+        "ronda": "ATP Stockholm - 1/16-finals",
+        "jugadores": "T. M. Etcheverry vs M. Dahlin",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nTomás Etcheverry superó a M. Dahlin 🇸🇪 por 6-4, 6-7(6) y 6-3 en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ATPStockholm"
+        ]
+      },
+      "12178396": {
+        "event_key": "12178396",
+        "timestamp": "2026-11-09 17:30:39",
+        "torneo": "Lima 2",
+        "ronda": "Lima 2 - Final",
+        "jugadores": "N. Jarry vs M. Zeitune",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Lima 2: 🇦🇷\n\n❌ M. Zeitune no pudo ante N. Jarry 🇨🇱 por 7-5, 7-6(7) en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ S. De La Fuente derrotó a C. Sanchez Jover 🇪🇸 por 7-6(9), 7-6(7) en Final.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerLima2\n\n(2/2) 🧵"
+        ]
+      },
+      "12178398": {
+        "event_key": "12178398",
+        "timestamp": "2026-11-09 17:30:39",
+        "torneo": "Lima 2",
+        "ronda": "Lima 2 - Final",
+        "jugadores": "C. Sanchez Jover vs S. De La Fuente",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Lima 2: 🇦🇷\n\n❌ M. Zeitune no pudo ante N. Jarry 🇨🇱 por 7-5, 7-6(7) en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ S. De La Fuente derrotó a C. Sanchez Jover 🇪🇸 por 7-6(9), 7-6(7) en Final.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ChallengerLima2\n\n(2/2) 🧵"
+        ]
+      },
+      "12178407": {
+        "event_key": "12178407",
+        "timestamp": "2026-11-09 17:30:39",
+        "torneo": "Sopo (Colombia) - Qualification",
+        "ronda": "Sopo - 1/16-finals",
+        "jugadores": "T. Maria vs L. Giovannini",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nLu Giovannini cayó ante T. Maria 🇩🇪 por 4-6, 7-5 y 7-5 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ChallengerSopoColombiaQualification"
         ]
       }
     }
