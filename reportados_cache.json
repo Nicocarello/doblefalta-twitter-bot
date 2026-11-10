@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-10 15:26:08",
+  "ultima_actualizacion": "2026-11-10 15:48:46",
   "dias": {
     "2026-11-03": {
       "12176034": {
@@ -1399,6 +1399,54 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN M25 SANTA CRUZ DO SUL! 🇦🇷💪\n\nL. J. Rodriguez le ganó a J. Barranco Cosano 🇪🇸 por 5-7, 6-3 y 6-2 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFSantaCruzdoSul"
+        ]
+      },
+      "12178291": {
+        "event_key": "12178291",
+        "timestamp": "2026-11-10 15:48:46",
+        "torneo": "Orleans",
+        "ronda": "Orleans - 1/16-finals",
+        "jugadores": "S. Baez vs D. Glinka",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nSeba Báez venció a D. Glinka por 3-6, 6-2 y 6-1 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ChallengerOrleans"
+        ]
+      },
+      "12178649": {
+        "event_key": "12178649",
+        "timestamp": "2026-11-10 15:48:46",
+        "torneo": "Lima 2",
+        "ronda": "Lima 2 - 1/16-finals",
+        "jugadores": "D. Rincon vs S. De La Fuente",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A OCTAVOS, S. DE LA FUENTE! 🇦🇷🔥\n\nS. De La Fuente le ganó a D. Rincon 🇪🇸 por 7-6(7), 3-6 y 7-6(7) en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ChallengerLima2"
+        ]
+      },
+      "12178699": {
+        "event_key": "12178699",
+        "timestamp": "2026-11-10 15:48:46",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": null,
+        "jugadores": "T. Re vs T. Cigarran",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nT. Cigarran superó a T. Re por 1-6, 6-2 y 6-3 en el ITF M15 Roldan (Argentina).\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFRoldanArgentina"
+        ]
+      },
+      "12178803": {
+        "event_key": "12178803",
+        "timestamp": "2026-11-10 15:48:46",
+        "torneo": "M15 Zamora (Mexico)",
+        "ronda": null,
+        "jugadores": "A. Bernard vs J. Bianchi",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nJ. Bianchi perdió ante A. Bernard 🇺🇸 por 6-0 y 6-4 en el ITF M15 Zamora (Mexico).\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFZamoraMexico"
         ]
       }
     }
