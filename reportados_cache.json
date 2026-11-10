@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-10 16:27:18",
+  "ultima_actualizacion": "2026-11-10 16:58:16",
   "dias": {
     "2026-11-03": {
       "12176034": {
@@ -1459,6 +1459,30 @@
         "estado": "Finished",
         "tweets": [
           "SIII JOSEFINA ESTEVEZ!!! 🇦🇷\n\nJosefina Estevez derrotó a F. Aguilar Cardozo 🇺🇾 por 3-6, 6-3 y 7-6 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFRoldanArgentina"
+        ]
+      },
+      "12178723": {
+        "event_key": "12178723",
+        "timestamp": "2026-11-10 16:58:16",
+        "torneo": "W15 São Carlos (Brazil)",
+        "ronda": "W15 São Carlos - 1/16-finals",
+        "jugadores": "M. Boyden vs S. Meabe",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nMeabe superó a M. Boyden 🇳🇱 por 6-4 y 6-4 en 16avos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFSãoCarlosBrazil"
+        ]
+      },
+      "12179017": {
+        "event_key": "12179017",
+        "timestamp": "2026-11-10 16:58:16",
+        "torneo": "Sopo (Colombia) - Qualification",
+        "ronda": "Sopo - 1/16-finals",
+        "jugadores": "J. Ortenzi vs M. C. Torres Murcia",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN SOPO (COLOMBIA) - QUALIFICATION! 🇦🇷💪\n\nJazmín Ortenzi le ganó a M. C. Torres Murcia 🇨🇴 por 6-2 y 6-3 en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ChallengerSopoColombiaQualification"
         ]
       }
     }
