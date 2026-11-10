@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-10 01:36:06",
+  "ultima_actualizacion": "2026-11-10 14:34:55",
   "dias": {
     "2026-11-02": {
       "12176039": {
@@ -1539,6 +1539,66 @@
         "estado": "Finished",
         "tweets": [
           "¡ENORME VICTORIA! 👏🇦🇷\n\nLautaro Midón se impuso ante A. Huertas Del Pino Cordova 🇵🇪 por 6-4, 3-6 y 6-2 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerLima2"
+        ]
+      },
+      "12178355": {
+        "event_key": "12178355",
+        "timestamp": "2026-11-10 14:34:54",
+        "torneo": "Lima 2",
+        "ronda": "Lima 2 - 1/16-finals",
+        "jugadores": "F. Zavalaga Uculmana vs A. Barrena",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A OCTAVOS, ALEX BARRENA! 🇦🇷🔥\n\nAlex Barrena se impuso ante F. Zavalaga Uculmana 🇵🇪 por 6-0 y 6-2 en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ChallengerLima2"
+        ]
+      },
+      "12178401": {
+        "event_key": "12178401",
+        "timestamp": "2026-11-10 14:34:54",
+        "torneo": "Sopo (Colombia) - Qualification",
+        "ronda": "Sopo - 1/16-finals",
+        "jugadores": "A. Tubello vs J. Riera",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nJuli Riera perdió ante A. Tubello 🇫🇷 por 7-6(9) y 6-2 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ChallengerSopoColombiaQualification"
+        ]
+      },
+      "12178504": {
+        "event_key": "12178504",
+        "timestamp": "2026-11-10 14:34:55",
+        "torneo": "Stockholm",
+        "ronda": "ATP Stockholm - 1/8-finals",
+        "jugadores": "A. Michelsen vs J. M. Cerundolo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nJuan Manuel Cerúndolo no pudo ante A. Michelsen 🇺🇸 por 6-3 y 6-2 en Octavos de final.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ATPStockholm"
+        ]
+      },
+      "12178556": {
+        "event_key": "12178556",
+        "timestamp": "2026-11-10 14:34:55",
+        "torneo": "M15 Heraklion 11",
+        "ronda": "M15 Heraklion 11 - 1/16-finals",
+        "jugadores": "I. Kountourakis vs J. Cesar Porras",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN M15 HERAKLION 11 🇦🇷\n\nJ. Cesar Porras cayó ante I. Kountourakis 🇬🇷 por 7-6(10) y 6-2 en 16avos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFHeraklion11"
+        ]
+      },
+      "12178711": {
+        "event_key": "12178711",
+        "timestamp": "2026-11-10 14:34:55",
+        "torneo": "M25 Santa Cruz do Sul",
+        "ronda": "M25 Santa Cruz do Sul - 1/16-finals",
+        "jugadores": "L. J. Rodriguez vs J. Barranco Cosano",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN M25 SANTA CRUZ DO SUL! 🇦🇷💪\n\nL. J. Rodriguez le ganó a J. Barranco Cosano 🇪🇸 por 5-7, 6-3 y 6-2 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFSantaCruzdoSul"
         ]
       }
     }
