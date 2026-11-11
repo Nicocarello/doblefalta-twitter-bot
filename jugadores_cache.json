@@ -28338,7 +28338,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-06-26"
+        "last_update": "2026-11-11"
     },
     "19889": {
         "es_arg": false,
@@ -109524,6 +109524,18 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
+        "last_update": "2026-11-11"
+    },
+    "112045": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-11-11"
+    },
+    "12866": {
+        "es_arg": false,
+        "ranking": 524,
+        "pais": "Switzerland",
         "last_update": "2026-11-11"
     }
 }
