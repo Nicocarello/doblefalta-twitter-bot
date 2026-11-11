@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-11 15:19:13",
+  "ultima_actualizacion": "2026-11-11 15:53:44",
   "dias": {
     "2026-11-04": {
       "12176336": {
@@ -1408,6 +1408,54 @@
         "estado": "Finished",
         "tweets": [
           "¡A OCTAVOS, V. BOSIO! 🇦🇷🔥\n\nV. Bosio se impuso ante E. Gomes por 6-1 y 6-3 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFSãoCarlosBrazil"
+        ]
+      },
+      "12178773": {
+        "event_key": "12178773",
+        "timestamp": "2026-11-11 15:53:43",
+        "torneo": "M25 Santa Cruz do Sul",
+        "ronda": "M25 Santa Cruz do Sul - 1/16-finals",
+        "jugadores": "V. Aboian vs V. C. Loureiro J.",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SIII V. ABOIAN!!! 🇦🇷\n\nV. Aboian derrotó a V. C. Loureiro J. 🇧🇷 por 6-3 y 6-4 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFSantaCruzdoSul"
+        ]
+      },
+      "12179164": {
+        "event_key": "12179164",
+        "timestamp": "2026-11-11 15:53:43",
+        "torneo": "W15 São Carlos (Brazil)",
+        "ronda": "W15 São Carlos - 1/16-finals",
+        "jugadores": "Cam. Markus vs J. Konishi Silva",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE W15 SÃO CARLOS (BRAZIL) 🇦🇷\n\nCam. Markus no pudo ante J. Konishi Silva 🇧🇷 por 6-0 y 6-3 en 16avos de final.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ITFSãoCarlosBrazil"
+        ]
+      },
+      "12179210": {
+        "event_key": "12179210",
+        "timestamp": "2026-11-11 15:53:44",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - 1/16-finals",
+        "jugadores": "R. Valente vs T. GIANGRASSO",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 Roldan (Argentina):\n\n✅ R. Valente derrotó a T. GIANGRASSO por 6-2, 7-6 en 16avos.\n🇦🇷 DERBI: F. Tenti venció a I. Vertberger por 6-4, 6-1 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFRoldanArgentina"
+        ]
+      },
+      "12179211": {
+        "event_key": "12179211",
+        "timestamp": "2026-11-11 15:53:44",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - 1/16-finals",
+        "jugadores": "I. Vertberger vs F. Tenti",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 Roldan (Argentina):\n\n✅ R. Valente derrotó a T. GIANGRASSO por 6-2, 7-6 en 16avos.\n🇦🇷 DERBI: F. Tenti venció a I. Vertberger por 6-4, 6-1 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFRoldanArgentina"
         ]
       }
     }
