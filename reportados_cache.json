@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-11 15:53:44",
+  "ultima_actualizacion": "2026-11-11 16:21:01",
   "dias": {
     "2026-11-04": {
       "12176336": {
@@ -1456,6 +1456,30 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Resultados de hoy en el ITF M15 Roldan (Argentina):\n\n✅ R. Valente derrotó a T. GIANGRASSO por 6-2, 7-6 en 16avos.\n🇦🇷 DERBI: F. Tenti venció a I. Vertberger por 6-4, 6-1 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFRoldanArgentina"
+        ]
+      },
+      "12179209": {
+        "event_key": "12179209",
+        "timestamp": "2026-11-11 16:21:01",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - 1/16-finals",
+        "jugadores": "T. Farjat vs V. Garay",
+        "resultado": "0 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 DERBI: ¡AVANZA VALENTIN GARAY TRAS RETIRO!\n\nValentin Garay avanzó en 16avos de final tras el retiro de T. Farjat (6-2 y 4-1).\n\n¡Gran partido de ambos compatriotas! 👏 #ITFRoldanArgentina"
+        ]
+      },
+      "12179277": {
+        "event_key": "12179277",
+        "timestamp": "2026-11-11 16:21:01",
+        "torneo": "M15 Zamora (Mexico)",
+        "ronda": null,
+        "jugadores": "D. C. Teramo vs M. McKennon",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡TRIUNFAZO DE D. C. TERAMO! 🇦🇷🔥\n\nD. C. Teramo derrotó a M. McKennon 🇺🇸 por 7-5 y 6-2 en el ITF M15 Zamora (Mexico).\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFZamoraMexico"
         ]
       }
     }
