@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-10 17:24:11",
+  "ultima_actualizacion": "2026-11-10 21:51:05",
   "dias": {
     "2026-11-03": {
       "12176034": {
@@ -1495,6 +1495,129 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI: ¡VICTORIA PARA V. BASEL!\n\nEn un gran cruce argentino en 16avos de final, V. Basel venció a M. Del Pino por 7-6.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFRoldanArgentina"
+        ]
+      },
+      "12178347": {
+        "event_key": "12178347",
+        "timestamp": "2026-11-10 21:51:04",
+        "torneo": "Lima 2",
+        "ronda": "Lima 2 - 1/16-finals",
+        "jugadores": "M. Cecchinato vs F. Comesana",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Lima 2:\n\n✅ Fran Comesaña venció a M. Cecchinato 🇮🇹 por 4-6, 6-1, 6-4 en 16avos.\n✅ G. A. Olivieri venció a E. Moller 🇩🇰 por 6-4, 2-6, 6-4 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerLima2"
+        ]
+      },
+      "12178352": {
+        "event_key": "12178352",
+        "timestamp": "2026-11-10 21:51:04",
+        "torneo": "Lima 2",
+        "ronda": "Lima 2 - 1/16-finals",
+        "jugadores": "E. Moller vs G. A. Olivieri",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Lima 2:\n\n✅ Fran Comesaña venció a M. Cecchinato 🇮🇹 por 4-6, 6-1, 6-4 en 16avos.\n✅ G. A. Olivieri venció a E. Moller 🇩🇰 por 6-4, 2-6, 6-4 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ChallengerLima2"
+        ]
+      },
+      "12178409": {
+        "event_key": "12178409",
+        "timestamp": "2026-11-10 21:51:04",
+        "torneo": "Sopo (Colombia) - Qualification",
+        "ronda": "Sopo - 1/16-finals",
+        "jugadores": "M. L. Carle vs A. V. Mediorreal",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡A OCTAVOS, LOURDES CARLÉ! 🇦🇷🔥\n\nLourdes Carlé venció a A. V. Mediorreal por 6-3, 4-6 y 6-2 en 16avos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerSopoColombiaQualification"
+        ]
+      },
+      "12178700": {
+        "event_key": "12178700",
+        "timestamp": "2026-11-10 21:51:04",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - 1/16-finals",
+        "jugadores": "I. De Armas vs H. Casanova",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 Roldan (Argentina):\n\n✅ H. Casanova venció a I. De Armas 🇻🇪 por 6-4, 6-1 en 16avos.\n✅ D. Pagani superó a M. Vankan 🇩🇪 por 6-2, 6-2 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ T. Martinez superó a A. Costamagna por 6-3, 6-1 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFRoldanArgentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12178702": {
+        "event_key": "12178702",
+        "timestamp": "2026-11-10 21:51:04",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - 1/16-finals",
+        "jugadores": "M. Vankan vs D. Pagani",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 Roldan (Argentina):\n\n✅ H. Casanova venció a I. De Armas 🇻🇪 por 6-4, 6-1 en 16avos.\n✅ D. Pagani superó a M. Vankan 🇩🇪 por 6-2, 6-2 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ T. Martinez superó a A. Costamagna por 6-3, 6-1 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFRoldanArgentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12178703": {
+        "event_key": "12178703",
+        "timestamp": "2026-11-10 21:51:04",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - 1/16-finals",
+        "jugadores": "A. Costamagna vs T. Martinez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 Roldan (Argentina):\n\n✅ H. Casanova venció a I. De Armas 🇻🇪 por 6-4, 6-1 en 16avos.\n✅ D. Pagani superó a M. Vankan 🇩🇪 por 6-2, 6-2 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ T. Martinez superó a A. Costamagna por 6-3, 6-1 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFRoldanArgentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12178718": {
+        "event_key": "12178718",
+        "timestamp": "2026-11-10 21:51:05",
+        "torneo": "M25 Santa Cruz do Sul",
+        "ronda": "M25 Santa Cruz do Sul - 1/16-finals",
+        "jugadores": "N. Zanellato vs S. Rodriguez Taverna",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A OCTAVOS, SANTI RODRÍGUEZ TAVERNA! 🇦🇷🔥\n\nSanti Rodríguez Taverna se impuso ante N. Zanellato 🇧🇷 por 6-4 y 7-5 en 16avos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFSantaCruzdoSul"
+        ]
+      },
+      "12178746": {
+        "event_key": "12178746",
+        "timestamp": "2026-11-10 21:51:05",
+        "torneo": "W15 São Carlos (Brazil)",
+        "ronda": "W15 São Carlos - 1/8-finals",
+        "jugadores": "Plaza Araujo/ Rodriguez vs Gatica/ Pereira",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A CUARTOS, GATICA/ PEREIRA! 🇦🇷🔥\n\nGatica/ Pereira venció a Plaza Araujo/ Rodriguez por 6-1 y 6-0 en Octavos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFSãoCarlosBrazil"
+        ]
+      },
+      "12178750": {
+        "event_key": "12178750",
+        "timestamp": "2026-11-10 21:51:05",
+        "torneo": "ITF M15 Naples, FL 4 Men",
+        "ronda": "M15 Naples, FL 4 - 1/16-finals",
+        "jugadores": "S. Giamichelle vs V. Reddy",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN ITF M15 NAPLES, FL 4 MEN! 🇦🇷💪\n\nS. Giamichelle le ganó a V. Reddy 🇺🇸 por 6-2 y 6-3 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFM15Naples"
+        ]
+      },
+      "12178815": {
+        "event_key": "12178815",
+        "timestamp": "2026-11-10 21:51:05",
+        "torneo": "M15 Zamora (Mexico)",
+        "ronda": "M15 Zamora - 1/16-finals",
+        "jugadores": "D. C. Teramo vs N. E. Rico Arias",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nD. C. Teramo le ganó a N. E. Rico Arias 🇨🇴 por 6-0, 2-6 y 6-3 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFZamoraMexico"
         ]
       }
     }
