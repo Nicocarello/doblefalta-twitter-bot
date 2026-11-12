@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-11 23:02:16",
+  "ultima_actualizacion": "2026-11-12 01:35:56",
   "dias": {
     "2026-11-04": {
       "12176336": {
@@ -1540,6 +1540,20 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE T. GRANDINETTI! 👏\n\nEn un gran cruce argentino en 16avos de final, T. Grandinetti venció a J. Hernandez por 7-6(7), 4-6 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFRoldanArgentina"
+        ]
+      }
+    },
+    "2026-11-12": {
+      "12178826": {
+        "event_key": "12178826",
+        "timestamp": "2026-11-12 01:35:56",
+        "torneo": "Lima 2",
+        "ronda": "Lima 2 - 1/8-finals",
+        "jugadores": "L. Midon vs M. Tobon",
+        "resultado": "0 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "RETIRO POR LESIÓN ❌\n\nLauti Midón debió retirarse ante M. Tobon 🇨🇴 (6-3 y 1-1) y se despidió del Challenger Lima 2.\n\nDura noticia para los nuestros. ¡A recuperarse pronto! 🇦🇷💪 #ChallengerLima2"
         ]
       }
     }
