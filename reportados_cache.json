@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-12 16:39:11",
+  "ultima_actualizacion": "2026-11-12 17:20:07",
   "dias": {
     "2026-11-05": {
       "12177487": {
@@ -1400,6 +1400,18 @@
         "estado": "Finished",
         "tweets": [
           "NO SE PUDO DAR 🇦🇷\n\nLuli Cinalli cayó ante Lauti Midón 🇨🇳 por 6-0 en Octavos.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFSãoCarlosBrazil"
+        ]
+      },
+      "12179150": {
+        "event_key": "12179150",
+        "timestamp": "2026-11-12 17:20:07",
+        "torneo": "Orleans",
+        "ronda": "Orleans - 1/8-finals",
+        "jugadores": "S. Baez vs C. Hemery",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nSeba Báez cayó ante C. Hemery 🇫🇷 por 6-4 y 7-5 en Octavos.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ChallengerOrleans"
         ]
       }
     }
