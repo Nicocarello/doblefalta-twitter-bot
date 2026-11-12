@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-11 16:21:01",
+  "ultima_actualizacion": "2026-11-11 23:02:16",
   "dias": {
     "2026-11-04": {
       "12176336": {
@@ -1480,6 +1480,66 @@
         "estado": "Finished",
         "tweets": [
           "¡TRIUNFAZO DE D. C. TERAMO! 🇦🇷🔥\n\nD. C. Teramo derrotó a M. McKennon 🇺🇸 por 7-5 y 6-2 en el ITF M15 Zamora (Mexico).\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFZamoraMexico"
+        ]
+      },
+      "12178777": {
+        "event_key": "12178777",
+        "timestamp": "2026-11-11 23:02:15",
+        "torneo": "M25 Santa Cruz do Sul",
+        "ronda": "M25 Santa Cruz do Sul - 1/16-finals",
+        "jugadores": "J. P. Ficovich vs O. J. Gutierrez",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M25 Santa Cruz do Sul:\n\n✅ Juan Pablo Ficovich superó a O. J. Gutierrez 🇪🇸 por 6-2, 6-2 en 16avos.\n✅ J. B. Torres venció a W. Leite 🇧🇷 por 6-3, 6-1 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFSantaCruzdoSul"
+        ]
+      },
+      "12178780": {
+        "event_key": "12178780",
+        "timestamp": "2026-11-11 23:02:15",
+        "torneo": "M25 Santa Cruz do Sul",
+        "ronda": "M25 Santa Cruz do Sul - 1/16-finals",
+        "jugadores": "J. B. Torres vs W. Leite",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M25 Santa Cruz do Sul:\n\n✅ Juan Pablo Ficovich superó a O. J. Gutierrez 🇪🇸 por 6-2, 6-2 en 16avos.\n✅ J. B. Torres venció a W. Leite 🇧🇷 por 6-3, 6-1 en 16avos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFSantaCruzdoSul"
+        ]
+      },
+      "12179165": {
+        "event_key": "12179165",
+        "timestamp": "2026-11-11 23:02:16",
+        "torneo": "W15 São Carlos (Brazil)",
+        "ronda": "W15 São Carlos - 1/16-finals",
+        "jugadores": "L. M. Cinalli vs M. M. Citolino",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN W15 SÃO CARLOS (BRAZIL)! 🇦🇷💪\n\nLuna Cinalli superó a M. M. Citolino por 6-0 y 6-0 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #ITFSãoCarlosBrazil"
+        ]
+      },
+      "12179191": {
+        "event_key": "12179191",
+        "timestamp": "2026-11-11 23:02:16",
+        "torneo": "Sopo (Colombia) - Qualification",
+        "ronda": "Sopo - 1/8-finals",
+        "jugadores": "M. L. Carle vs M. Bassols",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nLourdes Carlé cayó ante M. Bassols 🇪🇸 por 7-5 y 6-2 en Octavos de final.\n\nPunto final en Sopo (Colombia) - Qualification. ¡A recargar y no aflojar! 💪🇦🇷 #ChallengerSopoColombiaQualification"
+        ]
+      },
+      "12179212": {
+        "event_key": "12179212",
+        "timestamp": "2026-11-11 23:02:16",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - 1/16-finals",
+        "jugadores": "J. Hernandez vs T. Grandinetti",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE T. GRANDINETTI! 👏\n\nEn un gran cruce argentino en 16avos de final, T. Grandinetti venció a J. Hernandez por 7-6(7), 4-6 y 6-4.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFRoldanArgentina"
         ]
       }
     }
