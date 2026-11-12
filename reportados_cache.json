@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-12 15:41:43",
+  "ultima_actualizacion": "2026-11-12 16:06:15",
   "dias": {
     "2026-11-05": {
       "12177487": {
@@ -1326,6 +1326,68 @@
           "🇦🇷 Resultados de hoy en el ITF M15 Roldan (Argentina):\n\n❌ T. Cigarran no pudo ante N. Bruna 🇨🇱 por 6-3, 6-0 en Octavos.\n❌ F. Crosio perdió ante M. A. Dellien Velasco 🇧🇴 por 6-0, 6-3 en Octavos.\n🇦🇷 DERBI: T. Martinez venció a J. I. Gallego por 6-1, 6-3 en Octavos.\n\n(1/3) 🧵",
           "Sigue la lista: 👇\n\n🇦🇷 DERBI: Josefina Estevez venció a V. Basel por 6-0, 6-2 en Octavos.\n🇦🇷 DERBI: F. Tenti avanzó tras retiro de Valen Garay (4-6, 7-6(7), 4-1) en Octavos.\n\n(2/3) 🧵",
           "Sigue la lista: 👇\n\n🇦🇷 DERBI: D. Pagani derrotó a Felipe de Dios por 6-2, 6-4 en Octavos.\n\nNo fue la mejor jornada, a levantar cabeza. 🇦🇷 #ITFRoldanArgentina\n\n(3/3) 🧵"
+        ]
+      },
+      "12179153": {
+        "event_key": "12179153",
+        "timestamp": "2026-11-12 16:06:15",
+        "torneo": "Lima 2",
+        "ronda": "Lima 2 - 1/8-finals",
+        "jugadores": "A. Magadan vs A. Barrena",
+        "resultado": "1 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "RETIRO POR LESIÓN ❌\n\nAlex Barrena debió retirarse ante A. Magadan 🇲🇽 (3-6, 7-6(7) y 4-0) y se despidió del Challenger Lima 2.\n\nDura noticia para los nuestros. ¡A recuperarse pronto! 🇦🇷💪 #ChallengerLima2"
+        ]
+      },
+      "12179575": {
+        "event_key": "12179575",
+        "timestamp": "2026-11-12 16:06:15",
+        "torneo": "W15 São Carlos (Brazil)",
+        "ronda": "W15 São Carlos - 1/8-finals",
+        "jugadores": "V. Bosio vs G. Gomes Ferreira",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡A CUARTOS, V. BOSIO! 🇦🇷🔥\n\nV. Bosio derrotó a G. Gomes Ferreira 🇧🇷 por 6-2 y 6-1 en 8vos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFSãoCarlosBrazil"
+        ]
+      },
+      "12179593": {
+        "event_key": "12179593",
+        "timestamp": "2026-11-12 16:06:15",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - 1/8-finals",
+        "jugadores": "T. Grandinetti vs H. Casanova",
+        "resultado": "0 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M15 Roldan (Argentina):\n\n🇦🇷 DERBI: H. Casanova avanzó tras retiro de T. Grandinetti (6-1, 3-0) en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: R. Valente derrotó a L. Ratti por 4-6, 6-4, 6-2 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFRoldanArgentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12179594": {
+        "event_key": "12179594",
+        "timestamp": "2026-11-12 16:06:15",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - 1/8-finals",
+        "jugadores": "R. Valente vs L. Ratti",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el ITF M15 Roldan (Argentina):\n\n🇦🇷 DERBI: H. Casanova avanzó tras retiro de T. Grandinetti (6-1, 3-0) en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: R. Valente derrotó a L. Ratti por 4-6, 6-4, 6-2 en Octavos.\n\nCon una de cal y una de arena, así cerramos la jornada. 🇦🇷 #ITFRoldanArgentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12179599": {
+        "event_key": "12179599",
+        "timestamp": "2026-11-12 16:06:15",
+        "torneo": "M25 Santa Cruz do Sul",
+        "ronda": "M25 Santa Cruz do Sul - 1/8-finals",
+        "jugadores": "J. P. Ficovich vs K. Noatto",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN M25 SANTA CRUZ DO SUL! 🇦🇷💪\n\nJuampi Ficovich superó a K. Noatto 🇧🇷 por 7-6(7) y 6-3 en Octavos de final.\n\nTerrible partido 💪🇦🇷 #ITFSantaCruzdoSul"
         ]
       }
     }
