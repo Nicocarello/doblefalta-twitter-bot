@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-13 15:20:12",
+  "ultima_actualizacion": "2026-11-13 15:43:12",
   "dias": {
     "2026-11-06": {
       "12177134": {
@@ -1349,6 +1349,18 @@
         "tweets": [
           "Resultados de Cuartos de final en el ITF M15 Roldan (Argentina): 🇦🇷\n\n🇦🇷 DERBI: Jose Estevez le ganó a T. Martinez por 6-2, 6-3 en Cuartos.\n🇦🇷 DERBI: H. Casanova venció a D. Pagani por 6-2 en Cuartos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n🇦🇷 DERBI: R. Valente venció a F. Tenti por 6-1, 6-1 en Cuartos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFRoldanArgentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12179844": {
+        "event_key": "12179844",
+        "timestamp": "2026-11-13 15:43:12",
+        "torneo": "M25 Santa Cruz do Sul",
+        "ronda": "M25 Santa Cruz do Sul - Quarter-finals",
+        "jugadores": "J. B. Torres vs S. Rodriguez Taverna",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA J. B. TORRES EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 4tos de final, J. B. Torres le ganó a Santi Taverna por 7-5, 4-6 y 7-6(7).\n\n¡Gran partido de ambos compatriotas! 👏 #ITFSantaCruzdoSul"
         ]
       }
     }
