@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-12 22:47:04",
+  "ultima_actualizacion": "2026-11-13 00:49:43",
   "dias": {
     "2026-11-05": {
       "12177487": {
@@ -1460,6 +1460,20 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN W15 SÃO CARLOS (BRAZIL)! 🇦🇷💪\n\nGatica/ Pereira se impuso ante Mettraux/ Meyer Auf Der Heide por 5-7, 6-3 y 10-7 en Cuartos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFSãoCarlosBrazil"
+        ]
+      }
+    },
+    "2026-11-13": {
+      "12179629": {
+        "event_key": "12179629",
+        "timestamp": "2026-11-13 00:49:43",
+        "torneo": "M15 Zamora (Mexico)",
+        "ronda": "M15 Zamora - Quarter-finals",
+        "jugadores": "M. Echazu vs D. C. Teramo",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII D. C. TERAMO!!! 🇦🇷\n\nD. C. Teramo derrotó a M. Echazu 🇵🇪 por 6-4 y 7-5 en 4tos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFZamoraMexico"
         ]
       }
     }
