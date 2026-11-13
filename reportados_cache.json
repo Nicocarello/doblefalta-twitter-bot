@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-13 06:13:42",
+  "ultima_actualizacion": "2026-11-13 14:34:49",
   "dias": {
     "2026-11-05": {
       "12177487": {
@@ -1486,6 +1486,81 @@
         "estado": "Finished",
         "tweets": [
           "¡ENORME VICTORIA! 👏🇦🇷\n\nG. A. Olivieri venció a J. P. Varillas 🇵🇪 por 4-6, 6-3 y 6-3 en Octavos.\n\nTerrible partido 💪🇦🇷 #ChallengerLima2"
+        ]
+      },
+      "12179750": {
+        "event_key": "12179750",
+        "timestamp": "2026-11-13 14:34:48",
+        "torneo": "Stockholm",
+        "ronda": "ATP Stockholm - Semi-finals",
+        "jugadores": "A. Tabilo vs T. A. Tirante",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡A LA FINAL, T. A. TIRANTE! 🇦🇷🔥\n\nT. A. Tirante venció a A. Tabilo 🇨🇱 por 7-5 y 7-6(7) en Semifinales.\n\nTerrible partido 💪🇦🇷 #ATPStockholm"
+        ]
+      },
+      "12179780": {
+        "event_key": "12179780",
+        "timestamp": "2026-11-13 14:34:48",
+        "torneo": "M25 Santa Cruz do Sul",
+        "ronda": "M25 Santa Cruz do Sul - Quarter-finals",
+        "jugadores": "V. Aboian vs M. Alves",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN M25 SANTA CRUZ DO SUL! 🇦🇷💪\n\nV. Aboian le ganó a M. Alves 🇧🇷 por 6-4 y 6-1 en Cuartos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFSantaCruzdoSul"
+        ]
+      },
+      "12179848": {
+        "event_key": "12179848",
+        "timestamp": "2026-11-13 14:34:48",
+        "torneo": "W15 São Carlos (Brazil)",
+        "ronda": "W15 São Carlos - Quarter-finals",
+        "jugadores": "V. Bosio vs J. Konishi Silva",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡A SEMIFINAL, V. BOSIO! 🇦🇷🔥\n\nV. Bosio derrotó a J. Konishi Silva 🇧🇷 por 7-6(7) y 6-1 en Cuartos.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFSãoCarlosBrazil"
+        ]
+      },
+      "12179851": {
+        "event_key": "12179851",
+        "timestamp": "2026-11-13 14:34:49",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - Quarter-finals",
+        "jugadores": "J. Estevez vs T. Martinez",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF M15 Roldan (Argentina): 🇦🇷\n\n🇦🇷 DERBI: Jose Estevez le ganó a T. Martinez por 6-2, 6-3 en Cuartos.\n🇦🇷 DERBI: H. Casanova venció a D. Pagani por 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: R. Valente venció a F. Tenti por 6-1, 6-1 en Cuartos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFRoldanArgentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12179852": {
+        "event_key": "12179852",
+        "timestamp": "2026-11-13 14:34:49",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - Quarter-finals",
+        "jugadores": "D. Pagani vs H. Casanova",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF M15 Roldan (Argentina): 🇦🇷\n\n🇦🇷 DERBI: Jose Estevez le ganó a T. Martinez por 6-2, 6-3 en Cuartos.\n🇦🇷 DERBI: H. Casanova venció a D. Pagani por 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: R. Valente venció a F. Tenti por 6-1, 6-1 en Cuartos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFRoldanArgentina\n\n(2/2) 🧵"
+        ]
+      },
+      "12179853": {
+        "event_key": "12179853",
+        "timestamp": "2026-11-13 14:34:49",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - Quarter-finals",
+        "jugadores": "F. Tenti vs R. Valente",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Cuartos de final en el ITF M15 Roldan (Argentina): 🇦🇷\n\n🇦🇷 DERBI: Jose Estevez le ganó a T. Martinez por 6-2, 6-3 en Cuartos.\n🇦🇷 DERBI: H. Casanova venció a D. Pagani por 6-2 en Cuartos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n🇦🇷 DERBI: R. Valente venció a F. Tenti por 6-1, 6-1 en Cuartos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ITFRoldanArgentina\n\n(2/2) 🧵"
         ]
       }
     }
