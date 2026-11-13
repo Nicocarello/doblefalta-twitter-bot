@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-13 15:43:12",
+  "ultima_actualizacion": "2026-11-13 16:18:27",
   "dias": {
     "2026-11-06": {
       "12177134": {
@@ -1361,6 +1361,18 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 ¡FESTEJA J. B. TORRES EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 4tos de final, J. B. Torres le ganó a Santi Taverna por 7-5, 4-6 y 7-6(7).\n\n¡Gran partido de ambos compatriotas! 👏 #ITFSantaCruzdoSul"
+        ]
+      },
+      "12179845": {
+        "event_key": "12179845",
+        "timestamp": "2026-11-13 16:18:27",
+        "torneo": "W15 São Carlos (Brazil)",
+        "ronda": "W15 São Carlos - Quarter-finals",
+        "jugadores": "M. Mettraux vs S. Meabe",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN W15 SÃO CARLOS (BRAZIL) 🇦🇷\n\nSofia Meabe cayó ante M. Mettraux 🇨🇭 por 5-7, 6-0 y 6-2 en Cuartos.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFSãoCarlosBrazil"
         ]
       }
     }
