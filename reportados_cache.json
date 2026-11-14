@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-14 13:49:17",
+  "ultima_actualizacion": "2026-11-14 14:16:44",
   "dias": {
     "2026-11-07": {
       "12178015": {
@@ -1259,6 +1259,18 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN M15 ROLDAN (ARGENTINA)! 🇦🇷💪\n\nJosefina Estevez se impuso ante M. A. Dellien Velasco 🇧🇴 por 7-6(7) y 6-3 en Semis.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFRoldanArgentina"
+        ]
+      },
+      "12180001": {
+        "event_key": "12180001",
+        "timestamp": "2026-11-14 14:16:44",
+        "torneo": "W15 São Carlos (Brazil)",
+        "ronda": "W15 São Carlos - Final",
+        "jugadores": "Dias/ Garcia Vidal vs Gatica/ Pereira",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 ¡CAMPEÓN EN W15 SÃO CARLOS (BRAZIL)! 🇦🇷\n\nGatica/ Pereira le ganó a Dias/ Garcia Vidal por 6-2 y 6-0 en Final.\n\n¡Semana soñada y trofeo a casa! Salud, campeón. 🏆👏 #ITFSãoCarlosBrazil"
         ]
       }
     }
