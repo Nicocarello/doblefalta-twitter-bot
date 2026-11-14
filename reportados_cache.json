@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-14 05:43:24",
+  "ultima_actualizacion": "2026-11-14 13:27:05",
   "dias": {
     "2026-11-06": {
       "12177134": {
@@ -1423,6 +1423,42 @@
         "estado": "Finished",
         "tweets": [
           "NO SE PUDO DAR 🇦🇷\n\nG. A. Olivieri perdió ante J. Reis Da Silva 🇧🇷 por 6-2 y 6-3 en Cuartos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ChallengerLima2"
+        ]
+      },
+      "12179948": {
+        "event_key": "12179948",
+        "timestamp": "2026-11-14 13:27:05",
+        "torneo": "Stockholm",
+        "ronda": "ATP Stockholm - Final",
+        "jugadores": "T. Fritz vs T. A. Tirante",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "TREMENDO TORNEO, T. A. TIRANTE 🇦🇷👏\n\nT. A. Tirante no pudo ante T. Fritz 🇺🇸 por 6-2, 4-6 y 7-6(7) en Final.\n\nNo se dio el título, pero enorme semana. ¡A no aflojar! 💪🇦🇷 #ATPStockholm"
+        ]
+      },
+      "12179975": {
+        "event_key": "12179975",
+        "timestamp": "2026-11-14 13:27:05",
+        "torneo": "W15 São Carlos (Brazil)",
+        "ronda": "W15 São Carlos - Semi-finals",
+        "jugadores": "V. Bosio vs M. Mettraux",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nV. Bosio cayó ante M. Mettraux 🇨🇭 por 7-5, 5-7 y 6-1 en Semis.\n\nNo se pudo dar hoy 🇦🇷 #ITFSãoCarlosBrazil"
+        ]
+      },
+      "12179990": {
+        "event_key": "12179990",
+        "timestamp": "2026-11-14 13:27:05",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - Semi-finals",
+        "jugadores": "J. Estevez vs M. A. Dellien Velasco",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN M15 ROLDAN (ARGENTINA)! 🇦🇷💪\n\nJosefina Estevez se impuso ante M. A. Dellien Velasco 🇧🇴 por 7-6(7) y 6-3 en Semis.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFRoldanArgentina"
         ]
       }
     }
