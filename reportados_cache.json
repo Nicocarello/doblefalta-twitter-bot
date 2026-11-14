@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-14 14:16:44",
+  "ultima_actualizacion": "2026-11-14 14:44:20",
   "dias": {
     "2026-11-07": {
       "12178015": {
@@ -1271,6 +1271,30 @@
         "estado": "Finished",
         "tweets": [
           "🏆 ¡CAMPEÓN EN W15 SÃO CARLOS (BRAZIL)! 🇦🇷\n\nGatica/ Pereira le ganó a Dias/ Garcia Vidal por 6-2 y 6-0 en Final.\n\n¡Semana soñada y trofeo a casa! Salud, campeón. 🏆👏 #ITFSãoCarlosBrazil"
+        ]
+      },
+      "12179947": {
+        "event_key": "12179947",
+        "timestamp": "2026-11-14 14:44:20",
+        "torneo": "M25 Santa Cruz do Sul",
+        "ronda": "M25 Santa Cruz do Sul - Semi-finals",
+        "jugadores": "V. Aboian vs J. B. Torres",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA J. B. TORRES EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en Semifinales, J. B. Torres superó a V. Aboian por 6-3 y 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFSantaCruzdoSul"
+        ]
+      },
+      "12179989": {
+        "event_key": "12179989",
+        "timestamp": "2026-11-14 14:44:20",
+        "torneo": "M15 Roldan (Argentina)",
+        "ronda": "M15 Roldan - Semi-finals",
+        "jugadores": "H. Casanova vs R. Valente",
+        "resultado": "1 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "🇦🇷 DERBI: ¡AVANZA R. VALENTE TRAS RETIRO!\n\nR. Valente avanzó en Semifinales tras el retiro de H. Casanova (4-6 y 6-0).\n\n¡Gran partido de ambos compatriotas! 👏 #ITFRoldanArgentina"
         ]
       }
     }
