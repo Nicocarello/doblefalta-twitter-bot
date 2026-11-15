@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-15 14:30:54",
+  "ultima_actualizacion": "2026-11-15 14:56:18",
   "dias": {
     "2026-11-08": {
       "12178254": {
@@ -1273,6 +1273,30 @@
         "estado": "Finished",
         "tweets": [
           "¡EL TÍTULO ES ARGENTINO! 🏆🇦🇷\n\nJ. B. Torres venció a P. Sakamoto 🇧🇷 por 6-2 y 6-2 en Final.\n\nCátedra de tenis en la final para levantar el título. ¡Enorme! 🏆🔥 #ITFSantaCruzdoSul"
+        ]
+      },
+      "12180176": {
+        "event_key": "12180176",
+        "timestamp": "2026-11-15 14:56:18",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - Semi-finals",
+        "jugadores": "F. Ribero vs T. Cigarran",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Montevideo: 🇦🇷\n\n🇦🇷 DERBI: T. Cigarran superó a F. Ribero por 3-6, 6-2, 6-4 en Semis.\n✅ Gonza Villanueva superó a N. Barrientos 🇨🇴 por 6-3, 6-4 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerMontevideo"
+        ]
+      },
+      "12180179": {
+        "event_key": "12180179",
+        "timestamp": "2026-11-15 14:56:18",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - Semi-finals",
+        "jugadores": "G. Villanueva vs N. Barrientos",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Montevideo: 🇦🇷\n\n🇦🇷 DERBI: T. Cigarran superó a F. Ribero por 3-6, 6-2, 6-4 en Semis.\n✅ Gonza Villanueva superó a N. Barrientos 🇨🇴 por 6-3, 6-4 en Semis.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ChallengerMontevideo"
         ]
       }
     }
