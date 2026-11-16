@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-15 16:17:40",
+  "ultima_actualizacion": "2026-11-16 17:03:44",
   "dias": {
     "2026-11-08": {
       "12178254": {
@@ -1309,6 +1309,47 @@
         "estado": "Finished",
         "tweets": [
           "DESPEDIDA DE MONTEVIDEO 🇦🇷\n\nN. Hollender perdió ante R. Nijboer 🇳🇱 por 6-2 y 7-5 en Semis.\n\nA dar vuelta la página y pensar en lo que viene. 💪🇦🇷 #ChallengerMontevideo"
+        ]
+      }
+    },
+    "2026-11-16": {
+      "12180297": {
+        "event_key": "12180297",
+        "timestamp": "2026-11-16 17:03:44",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - Final",
+        "jugadores": "F. Meligeni Alves vs M. Zeitune",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Montevideo: 🇦🇷\n\n❌ M. Zeitune cayó ante F. Meligeni Alves 🇧🇷 por 6-1, 6-3 en Final.\n✅ N. Kicker superó a J. Nikles 🇨🇭 por 6-1, 6-3 en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonza Villanueva le ganó a A. Guillen Meza 🇪🇨 por 6-4, 5-7, 6-1 en Final.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerMontevideo\n\n(2/2) 🧵"
+        ]
+      },
+      "12180328": {
+        "event_key": "12180328",
+        "timestamp": "2026-11-16 17:03:44",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - Final",
+        "jugadores": "N. Kicker vs J. Nikles",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Montevideo: 🇦🇷\n\n❌ M. Zeitune cayó ante F. Meligeni Alves 🇧🇷 por 6-1, 6-3 en Final.\n✅ N. Kicker superó a J. Nikles 🇨🇭 por 6-1, 6-3 en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonza Villanueva le ganó a A. Guillen Meza 🇪🇨 por 6-4, 5-7, 6-1 en Final.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerMontevideo\n\n(2/2) 🧵"
+        ]
+      },
+      "12180329": {
+        "event_key": "12180329",
+        "timestamp": "2026-11-16 17:03:44",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - Final",
+        "jugadores": "G. Villanueva vs A. Guillen Meza",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🏆 Resultados de las FINALES en la Qualy del Challenger Montevideo: 🇦🇷\n\n❌ M. Zeitune cayó ante F. Meligeni Alves 🇧🇷 por 6-1, 6-3 en Final.\n✅ N. Kicker superó a J. Nikles 🇨🇭 por 6-1, 6-3 en Final.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Gonza Villanueva le ganó a A. Guillen Meza 🇪🇨 por 6-4, 5-7, 6-1 en Final.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #ChallengerMontevideo\n\n(2/2) 🧵"
         ]
       }
     }
