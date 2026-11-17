@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-16 19:26:49",
+  "ultima_actualizacion": "2026-11-17 16:01:39",
   "dias": {
     "2026-11-09": {
       "12178148": {
@@ -1300,6 +1300,83 @@
         "estado": "Finished",
         "tweets": [
           "TROPIEZO EN W35 SAO PAULO 2 🇦🇷\n\nLourdes Ayala no pudo ante J. Konishi Silva 🇧🇷 por 6-3 y 7-6(7) en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFSaoPaulo2"
+        ]
+      }
+    },
+    "2026-11-17": {
+      "12180199": {
+        "event_key": "12180199",
+        "timestamp": "2026-11-17 16:01:38",
+        "torneo": "Colina",
+        "ronda": "Colina - 1/16-finals",
+        "jugadores": "N. Podoroska vs V. Lepchenko",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡A OCTAVOS, NADIA PODOROSKA! 🇦🇷🔥\n\nNadia Podoroska le ganó a V. Lepchenko 🇺🇸 por 6-3 y 7-5 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerColina"
+        ]
+      },
+      "12180231": {
+        "event_key": "12180231",
+        "timestamp": "2026-11-17 16:01:38",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - 1/16-finals",
+        "jugadores": "M. Soto vs A. Barrena",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nAlex Barrena le ganó a M. Soto 🇨🇱 por 6-4 y 6-1 en 16avos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ChallengerMontevideo"
+        ]
+      },
+      "12180359": {
+        "event_key": "12180359",
+        "timestamp": "2026-11-17 16:01:38",
+        "torneo": "W35 Sao Paulo 2",
+        "ronda": "W35 Sao Paulo 2 - 1/16-finals",
+        "jugadores": "B. Bonardi vs L. Perez Alarcon",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W35 Sao Paulo 2:\n\n❌ B. Bonardi perdió ante L. Perez Alarcon 🇵🇪 por 6-2, 6-2 en 16avos.\n✅ V. Bosio superó a J. R. Dourado 🇧🇷 por 6-1, 6-1 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Josefina Estevez venció a C. Melleiro 🇧🇷 por 6-1, 6-0 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFSaoPaulo2\n\n(2/2) 🧵"
+        ]
+      },
+      "12180360": {
+        "event_key": "12180360",
+        "timestamp": "2026-11-17 16:01:38",
+        "torneo": "W35 Sao Paulo 2",
+        "ronda": "W35 Sao Paulo 2 - 1/16-finals",
+        "jugadores": "J. R. Dourado vs V. Bosio",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W35 Sao Paulo 2:\n\n❌ B. Bonardi perdió ante L. Perez Alarcon 🇵🇪 por 6-2, 6-2 en 16avos.\n✅ V. Bosio superó a J. R. Dourado 🇧🇷 por 6-1, 6-1 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Josefina Estevez venció a C. Melleiro 🇧🇷 por 6-1, 6-0 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFSaoPaulo2\n\n(2/2) 🧵"
+        ]
+      },
+      "12180804": {
+        "event_key": "12180804",
+        "timestamp": "2026-11-17 16:01:38",
+        "torneo": "W35 Sao Paulo 2",
+        "ronda": "W35 Sao Paulo 2 - 1/16-finals",
+        "jugadores": "J. Estevez vs C. Melleiro",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF W35 Sao Paulo 2:\n\n❌ B. Bonardi perdió ante L. Perez Alarcon 🇵🇪 por 6-2, 6-2 en 16avos.\n✅ V. Bosio superó a J. R. Dourado 🇧🇷 por 6-1, 6-1 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Josefina Estevez venció a C. Melleiro 🇧🇷 por 6-1, 6-0 en 16avos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFSaoPaulo2\n\n(2/2) 🧵"
+        ]
+      },
+      "12180669": {
+        "event_key": "12180669",
+        "timestamp": "2026-11-17 16:01:39",
+        "torneo": "M15 Santa Cruz",
+        "ronda": "M15 Santa Cruz - 1/16-finals",
+        "jugadores": "J. Cundom vs J. V. Scramin do Lago",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN M15 SANTA CRUZ 🇦🇷\n\nJ. Cundom perdió ante J. V. Scramin do Lago 🇧🇷 por 4-6, 6-4 y 6-2 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFSantaCruz"
         ]
       }
     }
