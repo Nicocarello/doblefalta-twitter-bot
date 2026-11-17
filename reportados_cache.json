@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-17 16:32:22",
+  "ultima_actualizacion": "2026-11-17 17:00:43",
   "dias": {
     "2026-11-10": {
       "12178349": {
@@ -1313,6 +1313,42 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN M15 SANTA CRUZ 🇦🇷\n\nJ. Cundom perdió ante J. V. Scramin do Lago 🇧🇷 por 4-6, 6-4 y 6-2 en 16avos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ITFSantaCruz"
+        ]
+      },
+      "12180227": {
+        "event_key": "12180227",
+        "timestamp": "2026-11-17 17:00:43",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - 1/16-finals",
+        "jugadores": "J. C. Prado Angelo vs L. Midon",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Montevideo:\n\n❌ Lautaro Midón no pudo ante J. C. Prado Angelo 🇧🇴 por 6-2, 3-6, 6-3 en 16avos.\n❌ T. Cigarran perdió ante E. Moller 🇩🇰 por 6-4, 6-1 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerMontevideo"
+        ]
+      },
+      "12180820": {
+        "event_key": "12180820",
+        "timestamp": "2026-11-17 17:00:43",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - 1/16-finals",
+        "jugadores": "E. Moller vs T. Cigarran",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el Challenger Montevideo:\n\n❌ Lautaro Midón no pudo ante J. C. Prado Angelo 🇧🇴 por 6-2, 3-6, 6-3 en 16avos.\n❌ T. Cigarran perdió ante E. Moller 🇩🇰 por 6-4, 6-1 en 16avos.\n\nA recargar energías para lo que viene. ¡Fuerza muchachos! 💪🇦🇷 #ChallengerMontevideo"
+        ]
+      },
+      "12180809": {
+        "event_key": "12180809",
+        "timestamp": "2026-11-17 17:00:43",
+        "torneo": "W35 Sao Paulo 2",
+        "ronda": "W35 Sao Paulo 2 - 1/16-finals",
+        "jugadores": "S. Meabe vs L. M. Cinalli",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA LUNA CINALLI EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 16avos de final, Luna Cinalli superó a Meabe por 6-3 y 7-5.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFSaoPaulo2"
         ]
       }
     }
