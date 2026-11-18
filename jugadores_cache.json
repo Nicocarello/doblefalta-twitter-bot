@@ -36018,7 +36018,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-11-12"
+        "last_update": "2026-11-18"
     },
     "86730": {
         "es_arg": false,
@@ -42658,8 +42658,8 @@
     },
     "101401": {
         "es_arg": false,
-        "ranking": 9999,
-        "pais": "",
+        "ranking": 2,
+        "pais": "Slovakia",
         "last_update": "2026-11-18"
     },
     "62821": {
@@ -99990,7 +99990,7 @@
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
-        "last_update": "2026-10-21"
+        "last_update": "2026-11-18"
     },
     "110572": {
         "es_arg": false,
@@ -111687,6 +111687,18 @@
         "last_update": "2026-11-18"
     },
     "96683": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-11-18"
+    },
+    "112394": {
+        "es_arg": false,
+        "ranking": 9999,
+        "pais": "",
+        "last_update": "2026-11-18"
+    },
+    "112395": {
         "es_arg": false,
         "ranking": 9999,
         "pais": "",
