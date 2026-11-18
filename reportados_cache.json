@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-18 16:32:50",
+  "ultima_actualizacion": "2026-11-18 17:06:14",
   "dias": {
     "2026-11-11": {
       "12178701": {
@@ -1341,6 +1341,18 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 ¡FESTEJA JOSE ESTEVEZ EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 16avos de final, Jose Estevez venció a M. Carballo por 6-2 y 6-1.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFOlavarria"
+        ]
+      },
+      "12181097": {
+        "event_key": "12181097",
+        "timestamp": "2026-11-18 17:06:14",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/16-finals",
+        "jugadores": "L. C. Castro vs T. Re",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN M15 OLAVARRIA 🇦🇷\n\nL. C. Castro perdió ante T. Re por 6-1 y 6-2 en 16avos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFOlavarria"
         ]
       }
     }
