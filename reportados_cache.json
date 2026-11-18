@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-18 17:51:24",
+  "ultima_actualizacion": "2026-11-18 18:17:13",
   "dias": {
     "2026-11-11": {
       "12178701": {
@@ -1377,6 +1377,18 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE VALEN GRIPPO! 👏\n\nEn un gran cruce argentino en 16avos de final, Valen Grippo superó a T. Grandinetti por 1-6, 6-1 y 6-3.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFOlavarria"
+        ]
+      },
+      "12180699": {
+        "event_key": "12180699",
+        "timestamp": "2026-11-18 18:17:13",
+        "torneo": "M25 Lajeado",
+        "ronda": "M25 Lajeado - 1/16-finals",
+        "jugadores": "O. J. Gutierrez vs C. M. Zarate",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nC. M. Zarate le ganó a O. J. Gutierrez 🇪🇸 por 6-4 y 7-6(8) en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFLajeado"
         ]
       }
     }
