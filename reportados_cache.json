@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-18 17:06:14",
+  "ultima_actualizacion": "2026-11-18 17:51:24",
   "dias": {
     "2026-11-11": {
       "12178701": {
@@ -1353,6 +1353,30 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN M15 OLAVARRIA 🇦🇷\n\nL. C. Castro perdió ante T. Re por 6-1 y 6-2 en 16avos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFOlavarria"
+        ]
+      },
+      "12180883": {
+        "event_key": "12180883",
+        "timestamp": "2026-11-18 17:51:24",
+        "torneo": "Colina",
+        "ronda": "Colina - 1/8-finals",
+        "jugadores": "L. Romero Gormaz vs N. Podoroska",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN COLINA 🇦🇷\n\nNadia Podoroska cayó ante L. Romero Gormaz 🇪🇸 por 6-3 y 6-4 en Octavos de final.\n\nPunto final en Colina. ¡A recargar y no aflojar! 💪🇦🇷 #ChallengerColina"
+        ]
+      },
+      "12181096": {
+        "event_key": "12181096",
+        "timestamp": "2026-11-18 17:51:24",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/16-finals",
+        "jugadores": "T. Grandinetti vs V. Grippo",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE VALEN GRIPPO! 👏\n\nEn un gran cruce argentino en 16avos de final, Valen Grippo superó a T. Grandinetti por 1-6, 6-1 y 6-3.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFOlavarria"
         ]
       }
     }
