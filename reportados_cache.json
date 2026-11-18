@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-18 16:14:40",
+  "ultima_actualizacion": "2026-11-18 16:32:50",
   "dias": {
     "2026-11-11": {
       "12178701": {
@@ -1317,6 +1317,30 @@
         "estado": "Finished",
         "tweets": [
           "SIII J. CESAR PORRAS!!! 🇦🇷\n\nJ. Cesar Porras venció a I. Lopez Morillo 🇪🇸 por 3-6, 6-3 y 6-3 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFHeraklion4Greece"
+        ]
+      },
+      "12180909": {
+        "event_key": "12180909",
+        "timestamp": "2026-11-18 16:32:50",
+        "torneo": "M15 Santa Cruz",
+        "ronda": "M15 Santa Cruz - 1/16-finals",
+        "jugadores": "P. Liborio vs M. Mouilleron Salvo",
+        "resultado": "1 - 1",
+        "estado": "Retired",
+        "tweets": [
+          "RETIRO POR LESIÓN ❌\n\nM. Mouilleron Salvo debió retirarse ante P. Liborio 🇵🇹 (4-6 y 6-1) y se despidió del ITF M15 Santa Cruz.\n\nDura noticia para los nuestros. ¡A recuperarse pronto! 🇦🇷💪 #ITFSantaCruz"
+        ]
+      },
+      "12181098": {
+        "event_key": "12181098",
+        "timestamp": "2026-11-18 16:32:50",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/16-finals",
+        "jugadores": "J. Estevez vs M. Carballo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 ¡FESTEJA JOSE ESTEVEZ EN EL DUELO DE COMPATRIOTAS! 🔥\n\nEn un gran cruce argentino en 16avos de final, Jose Estevez venció a M. Carballo por 6-2 y 6-1.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFOlavarria"
         ]
       }
     }
