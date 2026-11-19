@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-18 23:46:46",
+  "ultima_actualizacion": "2026-11-19 15:56:27",
   "dias": {
     "2026-11-11": {
       "12178701": {
@@ -1451,6 +1451,173 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 Resultados de hoy en el ITF M15 Olavarria:\n\n🇦🇷 DERBI: F. Crosio derrotó a T. Martinez por 6-3, 6-4 en 16avos.\n✅ R. Valente le ganó a T. Luna por 3-6, 6-4, 7-5 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFOlavarria"
+        ]
+      }
+    },
+    "2026-11-19": {
+      "12181050": {
+        "event_key": "12181050",
+        "timestamp": "2026-11-19 15:56:25",
+        "torneo": "W35 Sao Paulo 2",
+        "ronda": "W35 Sao Paulo 2 - 1/8-finals",
+        "jugadores": "L. M. Cinalli vs L. Mi",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN W35 SAO PAULO 2 🇦🇷\n\nLuna Cinalli no pudo ante Lautaro Midón 🇨🇳 por 6-3 y 6-4 en 8vos de final.\n\nNo se pudo dar hoy 🇦🇷 #ITFSaoPaulo2"
+        ]
+      },
+      "12181061": {
+        "event_key": "12181061",
+        "timestamp": "2026-11-19 15:56:25",
+        "torneo": "M15 Alcala de Henares",
+        "ronda": "M15 Alcala de Henares - 1/16-finals",
+        "jugadores": "N. Garcia Longo vs F. Fontan Pardo de Santayana",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SIII N. GARCIA LONGO!!! 🇦🇷\n\nN. Garcia Longo derrotó a F. Fontan Pardo de Santayana por 6-3 y 6-4 en 16avos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFAlcaladeHenares"
+        ]
+      },
+      "12181107": {
+        "event_key": "12181107",
+        "timestamp": "2026-11-19 15:56:26",
+        "torneo": "M25 Lajeado",
+        "ronda": "M25 Lajeado - 1/8-finals",
+        "jugadores": "L. J. Rodriguez vs H. J. Escurra Isnardi",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M25 Lajeado:\n\n✅ L. J. Rodriguez superó a H. J. Escurra Isnardi 🇵🇾 por 6-4, 6-3 en Octavos.\n✅ J. B. Torres venció a V. C. Loureiro J. 🇧🇷 por 6-3, 6-3 en Octavos.\n✅ C. M. Zarate venció a P. Albuquerque Dietrich 🇧🇷 por 6-2, 6-1 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Santi Taverna superó a P. A. De Almeida Santos 🇧🇷 por 6-1, 6-1.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFLajeado\n\n(2/2) 🧵"
+        ]
+      },
+      "12181299": {
+        "event_key": "12181299",
+        "timestamp": "2026-11-19 15:56:26",
+        "torneo": "M25 Lajeado",
+        "ronda": "M25 Lajeado - 1/8-finals",
+        "jugadores": "J. B. Torres vs V. C. Loureiro J.",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M25 Lajeado:\n\n✅ L. J. Rodriguez superó a H. J. Escurra Isnardi 🇵🇾 por 6-4, 6-3 en Octavos.\n✅ J. B. Torres venció a V. C. Loureiro J. 🇧🇷 por 6-3, 6-3 en Octavos.\n✅ C. M. Zarate venció a P. Albuquerque Dietrich 🇧🇷 por 6-2, 6-1 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Santi Taverna superó a P. A. De Almeida Santos 🇧🇷 por 6-1, 6-1.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFLajeado\n\n(2/2) 🧵"
+        ]
+      },
+      "12181368": {
+        "event_key": "12181368",
+        "timestamp": "2026-11-19 15:56:26",
+        "torneo": "M25 Lajeado",
+        "ronda": "M25 Lajeado - 1/8-finals",
+        "jugadores": "P. Albuquerque Dietrich vs C. M. Zarate",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M25 Lajeado:\n\n✅ L. J. Rodriguez superó a H. J. Escurra Isnardi 🇵🇾 por 6-4, 6-3 en Octavos.\n✅ J. B. Torres venció a V. C. Loureiro J. 🇧🇷 por 6-3, 6-3 en Octavos.\n✅ C. M. Zarate venció a P. Albuquerque Dietrich 🇧🇷 por 6-2, 6-1 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Santi Taverna superó a P. A. De Almeida Santos 🇧🇷 por 6-1, 6-1.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFLajeado\n\n(2/2) 🧵"
+        ]
+      },
+      "12181403": {
+        "event_key": "12181403",
+        "timestamp": "2026-11-19 15:56:26",
+        "torneo": "M25 Lajeado",
+        "ronda": null,
+        "jugadores": "S. Rodriguez Taverna vs P. A. De Almeida Santos",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M25 Lajeado:\n\n✅ L. J. Rodriguez superó a H. J. Escurra Isnardi 🇵🇾 por 6-4, 6-3 en Octavos.\n✅ J. B. Torres venció a V. C. Loureiro J. 🇧🇷 por 6-3, 6-3 en Octavos.\n✅ C. M. Zarate venció a P. Albuquerque Dietrich 🇧🇷 por 6-2, 6-1 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ Santi Taverna superó a P. A. De Almeida Santos 🇧🇷 por 6-1, 6-1.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFLajeado\n\n(2/2) 🧵"
+        ]
+      },
+      "12181197": {
+        "event_key": "12181197",
+        "timestamp": "2026-11-19 15:56:26",
+        "torneo": "M25 Heraklion 4 (Greece)",
+        "ronda": "M25 Heraklion 4 - 1/8-finals",
+        "jugadores": "J. Cesar Porras vs J. Loge",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡A CUARTOS, J. CESAR PORRAS! 🇦🇷🔥\n\nJ. Cesar Porras superó a J. Loge 🇧🇪 por 6-4 y 6-1 en Octavos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFHeraklion4Greece"
+        ]
+      },
+      "12181376": {
+        "event_key": "12181376",
+        "timestamp": "2026-11-19 15:56:26",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/8-finals",
+        "jugadores": "G. Branchetti vs M. Del Pino",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 Olavarria:\n\n🇦🇷 DERBI: M. Del Pino venció a G. Branchetti por 6-2, 6-4 en Octavos.\n🇦🇷 DERBI: Josefina Estevez superó a J. I. Gallego por 6-1, 6-2 en Octavos.\n🇦🇷 DERBI: F. Tenti venció a Valen Grippo por 7-5, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ I. Dreycopp venció a V. A. Darderi 🇮🇹 por 7-5, 6-3 en Octavos.\n🇦🇷 DERBI: D. Pagani le ganó a R. Valente por 6-2, 6-4 en Octavos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFOlavarria\n\n(2/2) 🧵"
+        ]
+      },
+      "12181377": {
+        "event_key": "12181377",
+        "timestamp": "2026-11-19 15:56:26",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/8-finals",
+        "jugadores": "J. Estevez vs J. I. Gallego",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 Olavarria:\n\n🇦🇷 DERBI: M. Del Pino venció a G. Branchetti por 6-2, 6-4 en Octavos.\n🇦🇷 DERBI: Josefina Estevez superó a J. I. Gallego por 6-1, 6-2 en Octavos.\n🇦🇷 DERBI: F. Tenti venció a Valen Grippo por 7-5, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ I. Dreycopp venció a V. A. Darderi 🇮🇹 por 7-5, 6-3 en Octavos.\n🇦🇷 DERBI: D. Pagani le ganó a R. Valente por 6-2, 6-4 en Octavos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFOlavarria\n\n(2/2) 🧵"
+        ]
+      },
+      "12181379": {
+        "event_key": "12181379",
+        "timestamp": "2026-11-19 15:56:26",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/8-finals",
+        "jugadores": "F. Tenti vs V. Grippo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 Olavarria:\n\n🇦🇷 DERBI: M. Del Pino venció a G. Branchetti por 6-2, 6-4 en Octavos.\n🇦🇷 DERBI: Josefina Estevez superó a J. I. Gallego por 6-1, 6-2 en Octavos.\n🇦🇷 DERBI: F. Tenti venció a Valen Grippo por 7-5, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ I. Dreycopp venció a V. A. Darderi 🇮🇹 por 7-5, 6-3 en Octavos.\n🇦🇷 DERBI: D. Pagani le ganó a R. Valente por 6-2, 6-4 en Octavos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFOlavarria\n\n(2/2) 🧵"
+        ]
+      },
+      "12181393": {
+        "event_key": "12181393",
+        "timestamp": "2026-11-19 15:56:26",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/8-finals",
+        "jugadores": "V. A. Darderi vs I. Dreycopp",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 Olavarria:\n\n🇦🇷 DERBI: M. Del Pino venció a G. Branchetti por 6-2, 6-4 en Octavos.\n🇦🇷 DERBI: Josefina Estevez superó a J. I. Gallego por 6-1, 6-2 en Octavos.\n🇦🇷 DERBI: F. Tenti venció a Valen Grippo por 7-5, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ I. Dreycopp venció a V. A. Darderi 🇮🇹 por 7-5, 6-3 en Octavos.\n🇦🇷 DERBI: D. Pagani le ganó a R. Valente por 6-2, 6-4 en Octavos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFOlavarria\n\n(2/2) 🧵"
+        ]
+      },
+      "12181394": {
+        "event_key": "12181394",
+        "timestamp": "2026-11-19 15:56:26",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/8-finals",
+        "jugadores": "D. Pagani vs R. Valente",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el ITF M15 Olavarria:\n\n🇦🇷 DERBI: M. Del Pino venció a G. Branchetti por 6-2, 6-4 en Octavos.\n🇦🇷 DERBI: Josefina Estevez superó a J. I. Gallego por 6-1, 6-2 en Octavos.\n🇦🇷 DERBI: F. Tenti venció a Valen Grippo por 7-5, 7-5 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ I. Dreycopp venció a V. A. Darderi 🇮🇹 por 7-5, 6-3 en Octavos.\n🇦🇷 DERBI: D. Pagani le ganó a R. Valente por 6-2, 6-4 en Octavos.\n\nGran día para los nuestros. ¡Vamos por más! 👏 #ITFOlavarria\n\n(2/2) 🧵"
+        ]
+      },
+      "12181382": {
+        "event_key": "12181382",
+        "timestamp": "2026-11-19 15:56:27",
+        "torneo": "M15 Santa Cruz",
+        "ronda": "M15 Santa Cruz - 1/8-finals",
+        "jugadores": "M. De Krom vs F. De Dios",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SIII FELI DE DIOS!!! 🇦🇷\n\nFeli de Dios se impuso ante M. De Krom 🇳🇱 por 1-6, 6-0 y 6-3 en 8vos de final.\n\nTerrible partido 💪🇦🇷 #ITFSantaCruz"
         ]
       }
     }
