@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-19 16:19:44",
+  "ultima_actualizacion": "2026-11-19 16:37:58",
   "dias": {
     "2026-11-12": {
       "12178826": {
@@ -1366,6 +1366,18 @@
         "estado": "Finished",
         "tweets": [
           "SIII FELI DE DIOS!!! 🇦🇷\n\nFeli de Dios se impuso ante M. De Krom 🇳🇱 por 1-6, 6-0 y 6-3 en 8vos de final.\n\nTerrible partido 💪🇦🇷 #ITFSantaCruz"
+        ]
+      },
+      "12181392": {
+        "event_key": "12181392",
+        "timestamp": "2026-11-19 16:37:58",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/8-finals",
+        "jugadores": "F. Crosio vs T. Re",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN M15 OLAVARRIA 🇦🇷\n\nF. Crosio no pudo ante T. Re por 6-3 en 8vos.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFOlavarria"
         ]
       }
     }
