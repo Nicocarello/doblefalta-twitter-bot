@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-18 18:17:13",
+  "ultima_actualizacion": "2026-11-18 23:46:46",
   "dias": {
     "2026-11-11": {
       "12178701": {
@@ -1389,6 +1389,68 @@
         "estado": "Finished",
         "tweets": [
           "¡ENORME VICTORIA! 👏🇦🇷\n\nC. M. Zarate le ganó a O. J. Gutierrez 🇪🇸 por 6-4 y 7-6(8) en 16avos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ITFLajeado"
+        ]
+      },
+      "12180913": {
+        "event_key": "12180913",
+        "timestamp": "2026-11-18 23:46:46",
+        "torneo": "M15 Santa Cruz",
+        "ronda": "M15 Santa Cruz - 1/16-finals",
+        "jugadores": "M. Olivero Vidal vs F. De Dios",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nFelipe de Dios superó a M. Olivero Vidal por 6-1 y 6-0 en 16avos de final.\n\nSólido nivel para meterse en la siguiente instancia 🇦🇷 #ITFSantaCruz"
+        ]
+      },
+      "12181032": {
+        "event_key": "12181032",
+        "timestamp": "2026-11-18 23:46:46",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - 1/8-finals",
+        "jugadores": "F. Meligeni Alves vs A. Barrena",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Montevideo:\n\n❌ Alex Barrena perdió ante F. Meligeni Alves 🇧🇷 por 7-6(7), 4-6, 6-4 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ G. A. Olivieri perdió ante T. Boyer 🇺🇸 por 6-2, 5-7, 7-6(7) en Octavos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerMontevideo\n\n(2/2) 🧵"
+        ]
+      },
+      "12181089": {
+        "event_key": "12181089",
+        "timestamp": "2026-11-18 23:46:46",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - 1/8-finals",
+        "jugadores": "G. A. Olivieri vs T. Boyer",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Balance del día en el Challenger Montevideo:\n\n❌ Alex Barrena perdió ante F. Meligeni Alves 🇧🇷 por 7-6(7), 4-6, 6-4 en Octavos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ G. A. Olivieri perdió ante T. Boyer 🇺🇸 por 6-2, 5-7, 7-6(7) en Octavos.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #ChallengerMontevideo\n\n(2/2) 🧵"
+        ]
+      },
+      "12181099": {
+        "event_key": "12181099",
+        "timestamp": "2026-11-18 23:46:46",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/16-finals",
+        "jugadores": "T. Martinez vs F. Crosio",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 Olavarria:\n\n🇦🇷 DERBI: F. Crosio derrotó a T. Martinez por 6-3, 6-4 en 16avos.\n✅ R. Valente le ganó a T. Luna por 3-6, 6-4, 7-5 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFOlavarria"
+        ]
+      },
+      "12181101": {
+        "event_key": "12181101",
+        "timestamp": "2026-11-18 23:46:46",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - 1/16-finals",
+        "jugadores": "R. Valente vs T. Luna",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Resultados de hoy en el ITF M15 Olavarria:\n\n🇦🇷 DERBI: F. Crosio derrotó a T. Martinez por 6-3, 6-4 en 16avos.\n✅ R. Valente le ganó a T. Luna por 3-6, 6-4, 7-5 en 16avos.\n\n¡Jornada perfecta para el tenis argentino! 🇦🇷🔥 #ITFOlavarria"
         ]
       }
     }
