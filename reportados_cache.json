@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-19 23:33:40",
+  "ultima_actualizacion": "2026-11-20 01:36:28",
   "dias": {
     "2026-11-12": {
       "12178826": {
@@ -1402,6 +1402,20 @@
         "estado": "Finished",
         "tweets": [
           "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nN. Garcia Longo perdió ante C. Hernandez 🇪🇸 por 6-4 y 6-2 en 8vos.\n\nPunto final en M15 Alcala de Henares. ¡A recargar y no aflojar! 💪🇦🇷 #ITFAlcaladeHenares"
+        ]
+      }
+    },
+    "2026-11-20": {
+      "12181135": {
+        "event_key": "12181135",
+        "timestamp": "2026-11-20 01:36:28",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - 1/8-finals",
+        "jugadores": "F. Roncadelli vs J. M. La Serna",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE MONTEVIDEO 🇦🇷\n\nJ. M. La Serna cayó ante F. Roncadelli 🇺🇾 por 6-3, 6-7(1) y 7-6(7) en 8vos de final.\n\nDía esquivo. ¡A pasar de página que hay revancha rápido! 🇦🇷 #ChallengerMontevideo"
         ]
       }
     }
