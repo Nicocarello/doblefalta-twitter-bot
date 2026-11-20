@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-19 16:37:58",
+  "ultima_actualizacion": "2026-11-19 23:33:40",
   "dias": {
     "2026-11-12": {
       "12178826": {
@@ -1378,6 +1378,30 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN M15 OLAVARRIA 🇦🇷\n\nF. Crosio no pudo ante T. Re por 6-3 en 8vos.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFOlavarria"
+        ]
+      },
+      "12181090": {
+        "event_key": "12181090",
+        "timestamp": "2026-11-19 23:33:39",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - 1/8-finals",
+        "jugadores": "H. Rocha vs G. I. Justo",
+        "resultado": "1 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "¡GRAN PASO EN MONTEVIDEO! 🇦🇷💪\n\nG. I. Justo derrotó a H. Rocha 🇵🇹 por 3-6, 6-3 y 6-3 en 8vos de final.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ChallengerMontevideo"
+        ]
+      },
+      "12181479": {
+        "event_key": "12181479",
+        "timestamp": "2026-11-19 23:33:40",
+        "torneo": "M15 Alcala de Henares",
+        "ronda": "M15 Alcala de Henares - 1/8-finals",
+        "jugadores": "C. Hernandez vs N. Garcia Longo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nN. Garcia Longo perdió ante C. Hernandez 🇪🇸 por 6-4 y 6-2 en 8vos.\n\nPunto final en M15 Alcala de Henares. ¡A recargar y no aflojar! 💪🇦🇷 #ITFAlcaladeHenares"
         ]
       }
     }
