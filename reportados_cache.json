@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-20 15:57:38",
+  "ultima_actualizacion": "2026-11-20 17:40:50",
   "dias": {
     "2026-11-13": {
       "12179629": {
@@ -1199,6 +1199,30 @@
         "tweets": [
           "Resultados de Cuartos de final en el ITF M15 Olavarria: 🇦🇷\n\n✅ Jose Estevez superó a N. Bruna 🇨🇱 por 6-3, 6-1 en Cuartos.\n✅ M. Del Pino venció a T. Re por 6-3, 6-1 en Cuartos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n🇦🇷 DERBI: I. Dreycopp superó a F. Tenti por 6-2 en Cuartos.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFOlavarria\n\n(2/2) 🧵"
+        ]
+      },
+      "12181595": {
+        "event_key": "12181595",
+        "timestamp": "2026-11-20 17:40:50",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - Quarter-finals",
+        "jugadores": "D. Pagani vs L. Gagliardo",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nD. Pagani perdió ante L. Gagliardo 🇮🇹 por 6-4 y 6-2 en 4tos.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFOlavarria"
+        ]
+      },
+      "12181723": {
+        "event_key": "12181723",
+        "timestamp": "2026-11-20 17:40:50",
+        "torneo": "M15 Orlando, FL 3",
+        "ronda": null,
+        "jugadores": "S. Giamichelle vs C. Lemire",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "SE ESCAPÓ EN EL FINAL 🇦🇷\n\nS. Giamichelle cayó ante C. Lemire 🇫🇷 por 6-3 en el ITF M15 Orlando, FL 3.\n\nPunto final en M15 Orlando, FL 3. ¡A recargar y no aflojar! 💪🇦🇷 #ITFOrlando"
         ]
       }
     }
