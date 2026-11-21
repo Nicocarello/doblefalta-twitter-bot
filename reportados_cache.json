@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-21 14:51:35",
+  "ultima_actualizacion": "2026-11-21 15:47:13",
   "dias": {
     "2026-11-14": {
       "12179881": {
@@ -1153,6 +1153,18 @@
         "tweets": [
           "Resultados de Cuartos de final en el ITF M25 Lajeado: 🇦🇷\n\n🇦🇷 DERBI: L. J. Rodriguez superó a C. M. Zarate por 6-3, 6-4 en Cuartos.\n✅ J. B. Torres superó a D. Dutra Da Silva 🇧🇷 por 6-2, 6-2 en Cuartos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n❌ Santi Rodríguez Taverna se retiró ante M. Alves 🇧🇷 (3-6, 7-6(7), 3-0) en Cuartos.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ITFLajeado\n\n(2/2) 🧵"
+        ]
+      },
+      "12181734": {
+        "event_key": "12181734",
+        "timestamp": "2026-11-21 15:47:13",
+        "torneo": "W35 Sao Paulo 2",
+        "ronda": "W35 Sao Paulo 2 - Semi-finals",
+        "jugadores": "L. Perez Alarcon vs V. Bosio",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE W35 SAO PAULO 2 🇦🇷\n\nV. Bosio cayó ante L. Perez Alarcon 🇵🇪 por 6-3 y 6-1 en Semis.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFSaoPaulo2"
         ]
       }
     }
