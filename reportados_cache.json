@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-21 01:30:16",
+  "ultima_actualizacion": "2026-11-21 06:19:12",
   "dias": {
     "2026-11-13": {
       "12179629": {
@@ -1249,6 +1249,32 @@
         "estado": "Finished",
         "tweets": [
           "SIII G. I. JUSTO!!! 🇦🇷\n\nG. I. Justo superó a F. Roncadelli 🇺🇾 por 6-3, 2-6 y 6-1 en 4tos.\n\nTerrible partido 💪🇦🇷 #ChallengerMontevideo"
+        ]
+      },
+      "12181645": {
+        "event_key": "12181645",
+        "timestamp": "2026-11-21 06:19:12",
+        "torneo": "WTA Billie Jean King Cup - World Group",
+        "ronda": "",
+        "jugadores": "M. Hontama vs J. M. Gonzalez Daniele",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el WTA Billie Jean King Cup - World Group:\n\n❌ J. M. Gonzalez Daniele cayó ante M. Hontama 🇯🇵 por 7-6(7), 6-3.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ M. F. Urrutia perdió ante H. Sakatsume 🇯🇵 por 6-0, 6-4.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #WTABillieJeanKingCupWorldGroup\n\n(2/2) 🧵"
+        ]
+      },
+      "12181646": {
+        "event_key": "12181646",
+        "timestamp": "2026-11-21 06:19:12",
+        "torneo": "WTA Billie Jean King Cup - World Group",
+        "ronda": "",
+        "jugadores": "H. Sakatsume vs M. F. Urrutia",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el WTA Billie Jean King Cup - World Group:\n\n❌ J. M. Gonzalez Daniele cayó ante M. Hontama 🇯🇵 por 7-6(7), 6-3.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ M. F. Urrutia perdió ante H. Sakatsume 🇯🇵 por 6-0, 6-4.\n\nDía difícil en los resultados, pero siempre bancando a los nuestros 🇦🇷 #WTABillieJeanKingCupWorldGroup\n\n(2/2) 🧵"
         ]
       }
     }
