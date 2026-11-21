@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-21 15:47:13",
+  "ultima_actualizacion": "2026-11-21 16:41:39",
   "dias": {
     "2026-11-14": {
       "12179881": {
@@ -1165,6 +1165,18 @@
         "estado": "Finished",
         "tweets": [
           "DESPEDIDA DE W35 SAO PAULO 2 🇦🇷\n\nV. Bosio cayó ante L. Perez Alarcon 🇵🇪 por 6-3 y 6-1 en Semis.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFSaoPaulo2"
+        ]
+      },
+      "12181759": {
+        "event_key": "12181759",
+        "timestamp": "2026-11-21 16:41:39",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - Semi-finals",
+        "jugadores": "L. Gagliardo vs I. Dreycopp",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "FIN DEL CAMINO EN M15 OLAVARRIA 🇦🇷\n\nI. Dreycopp cayó ante L. Gagliardo 🇮🇹 por 6-3 y 6-1 en Semis.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFOlavarria"
         ]
       }
     }
