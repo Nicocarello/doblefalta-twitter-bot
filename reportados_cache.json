@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-20 23:07:24",
+  "ultima_actualizacion": "2026-11-21 01:30:16",
   "dias": {
     "2026-11-13": {
       "12179629": {
@@ -1235,6 +1235,20 @@
         "estado": "Finished",
         "tweets": [
           "¡GRAN PASO EN M15 SANTA CRUZ! 🇦🇷💪\n\nFeli de Dios se impuso ante B. Malla 🇨🇱 por 7-5 y 6-4 en 4tos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ITFSantaCruz"
+        ]
+      }
+    },
+    "2026-11-21": {
+      "12181636": {
+        "event_key": "12181636",
+        "timestamp": "2026-11-21 01:30:16",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - Quarter-finals",
+        "jugadores": "G. I. Justo vs F. Roncadelli",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "SIII G. I. JUSTO!!! 🇦🇷\n\nG. I. Justo superó a F. Roncadelli 🇺🇾 por 6-3, 2-6 y 6-1 en 4tos.\n\nTerrible partido 💪🇦🇷 #ChallengerMontevideo"
         ]
       }
     }
