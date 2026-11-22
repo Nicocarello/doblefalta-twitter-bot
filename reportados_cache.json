@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-21 16:41:39",
+  "ultima_actualizacion": "2026-11-21 21:16:59",
   "dias": {
     "2026-11-14": {
       "12179881": {
@@ -1177,6 +1177,54 @@
         "estado": "Finished",
         "tweets": [
           "FIN DEL CAMINO EN M15 OLAVARRIA 🇦🇷\n\nI. Dreycopp cayó ante L. Gagliardo 🇮🇹 por 6-3 y 6-1 en Semis.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFOlavarria"
+        ]
+      },
+      "12181758": {
+        "event_key": "12181758",
+        "timestamp": "2026-11-21 21:16:59",
+        "torneo": "M15 Olavarria",
+        "ronda": "M15 Olavarria - Semi-finals",
+        "jugadores": "J. Estevez vs M. Del Pino",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE JOSEFINA ESTEVEZ! 👏\n\nEn un gran cruce argentino en Semis, Josefina Estevez le ganó a M. Del Pino por 6-1 y 6-2.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFOlavarria"
+        ]
+      },
+      "12181779": {
+        "event_key": "12181779",
+        "timestamp": "2026-11-21 21:16:59",
+        "torneo": "Montevideo",
+        "ronda": "Montevideo - Semi-finals",
+        "jugadores": "M. Pucinelli de Almeida vs G. I. Justo",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "DESPEDIDA DE MONTEVIDEO 🇦🇷\n\nG. I. Justo no pudo ante M. Pucinelli de Almeida 🇧🇷 por 6-3 y 6-4 en Semis.\n\nNo se pudo dar hoy 🇦🇷 #ChallengerMontevideo"
+        ]
+      },
+      "12181875": {
+        "event_key": "12181875",
+        "timestamp": "2026-11-21 21:16:59",
+        "torneo": "M25 Lajeado",
+        "ronda": "M25 Lajeado - Semi-finals",
+        "jugadores": "M. Alves vs L. J. Rodriguez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en el ITF M25 Lajeado: 🇦🇷\n\n✅ L. J. Rodriguez superó a M. Alves 🇧🇷 por 6-4, 6-3 en Semis.\n✅ J. B. Torres venció a J. Barranco Cosano 🇪🇸 por 6-3, 1-6, 6-2 en Semis.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFLajeado"
+        ]
+      },
+      "12181880": {
+        "event_key": "12181880",
+        "timestamp": "2026-11-21 21:16:59",
+        "torneo": "M25 Lajeado",
+        "ronda": "M25 Lajeado - Semi-finals",
+        "jugadores": "J. B. Torres vs J. Barranco Cosano",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en el ITF M25 Lajeado: 🇦🇷\n\n✅ L. J. Rodriguez superó a M. Alves 🇧🇷 por 6-4, 6-3 en Semis.\n✅ J. B. Torres venció a J. Barranco Cosano 🇪🇸 por 6-3, 1-6, 6-2 en Semis.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFLajeado"
         ]
       }
     }
