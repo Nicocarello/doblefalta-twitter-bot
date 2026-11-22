@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-21 21:16:59",
+  "ultima_actualizacion": "2026-11-22 06:27:49",
   "dias": {
     "2026-11-14": {
       "12179881": {
@@ -1225,6 +1225,20 @@
         "estado": "Finished",
         "tweets": [
           "Resultados de Semifinales en el ITF M25 Lajeado: 🇦🇷\n\n✅ L. J. Rodriguez superó a M. Alves 🇧🇷 por 6-4, 6-3 en Semis.\n✅ J. B. Torres venció a J. Barranco Cosano 🇪🇸 por 6-3, 1-6, 6-2 en Semis.\n\n¡Pleno de triunfos hoy! A seguir con todo. 🇦🇷💪 #ITFLajeado"
+        ]
+      }
+    },
+    "2026-11-22": {
+      "12182019": {
+        "event_key": "12182019",
+        "timestamp": "2026-11-22 06:27:49",
+        "torneo": "WTA Billie Jean King Cup - World Group",
+        "ronda": null,
+        "jugadores": "E. Shibahara vs L. Moyano",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "NO SE PUDO DAR 🇦🇷\n\nL. Moyano cayó ante E. Shibahara 🇯🇵 por 6-1 y 6-2 en el WTA Billie Jean King Cup - World Group.\n\nNo se pudo dar hoy 🇦🇷 #WTABillieJeanKingCupWorldGroup"
         ]
       }
     }
