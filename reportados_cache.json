@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-22 15:10:19",
+  "ultima_actualizacion": "2026-11-22 15:37:45",
   "dias": {
     "2026-11-15": {
       "12180146": {
@@ -1177,6 +1177,18 @@
         "estado": "Finished",
         "tweets": [
           "🇦🇷 DERBI ALBICELESTE: ¡TRIUNFO DE J. B. TORRES! 👏\n\nEn un gran cruce argentino en Final, J. B. Torres derrotó a L. J. Rodriguez por 6-3 y 6-1.\n\n¡Gran partido de ambos compatriotas! 👏 #ITFLajeado"
+        ]
+      },
+      "12181963": {
+        "event_key": "12181963",
+        "timestamp": "2026-11-22 15:37:45",
+        "torneo": "Buenos Aires",
+        "ronda": "Buenos Aires - Final",
+        "jugadores": "L. Ayala vs M. Bulbarella",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 DERBI: ¡VICTORIA PARA LULI AYALA!\n\nEn un gran cruce argentino en Final, Luli Ayala venció a M. Bulbarella por 6-2 y 6-3.\n\n¡Gran partido de ambos compatriotas! 👏 #IEBMasArgOpen"
         ]
       }
     }
