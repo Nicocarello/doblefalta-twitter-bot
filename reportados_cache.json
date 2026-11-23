@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-23 19:21:36",
+  "ultima_actualizacion": "2026-11-23 19:52:10",
   "dias": {
     "2026-11-16": {
       "12180297": {
@@ -1193,6 +1193,18 @@
         "tweets": [
           "🇦🇷 Así le fue a los argentinos hoy en el Challenger Buenos Aires:\n\n❌ B. Bonardi cayó ante C. Monnet 🇫🇷 por 6-2, 6-0 en 16avos.\n✅ Juli Riera venció a D. Papamichail 🇬🇷 por 6-2, 7-5 en 16avos.\n\n(1/2) 🧵",
           "Sigue la lista: 👇\n\n❌ Jose Estevez no pudo ante A. Geerlings Martinez 🇪🇸 por 6-2, 6-2 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #IEBMasArgOpen\n\n(2/2) 🧵"
+        ]
+      },
+      "12182222": {
+        "event_key": "12182222",
+        "timestamp": "2026-11-23 19:52:10",
+        "torneo": "Florianopolis",
+        "ronda": null,
+        "jugadores": "T. Cigarran vs V. C. Loureiro J.",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "¡ENORME VICTORIA! 👏🇦🇷\n\nT. Cigarran le ganó a V. C. Loureiro J. 🇧🇷 por 7-6(7), 4-6 y 6-3 en el Challenger Florianopolis.\n\n¡A seguir por este camino! Gran partido 💪🇦🇷 #ChallengerFlorianopolis"
         ]
       }
     }
