@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-22 22:03:54",
+  "ultima_actualizacion": "2026-11-23 18:56:12",
   "dias": {
     "2026-11-15": {
       "12180146": {
@@ -1201,6 +1201,86 @@
         "estado": "Finished",
         "tweets": [
           "🏆 ¡CAMPEÓN EN M15 SANTA CRUZ! 🇦🇷\n\nFeli de Dios superó a A. E. Cuellar Lorberg 🇧🇴 por 3-6, 7-5 y 6-2 en Final.\n\nCátedra de tenis en la final para levantar el título. ¡Enorme! 🏆🔥 #ITFSantaCruz"
+        ]
+      }
+    },
+    "2026-11-23": {
+      "12181981": {
+        "event_key": "12181981",
+        "timestamp": "2026-11-23 18:56:11",
+        "torneo": "Florianopolis",
+        "ronda": "Florianopolis - Semi-finals",
+        "jugadores": "G. Schenekenberg vs F. Ribero",
+        "resultado": "2 - 1",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Florianopolis: 🇦🇷\n\n❌ F. Ribero perdió ante G. Schenekenberg 🇧🇷 por 6-7(4), 6-4, 6-3 en Semis.\n✅ S. De La Fuente derrotó a E. Camargo Lima 🇧🇷 por 6-0, 7-6(9) en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ T. Cigarran derrotó a B. Arias 🇧🇴 por 6-3, 6-4 en Semis.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerFlorianopolis\n\n(2/2) 🧵"
+        ]
+      },
+      "12181984": {
+        "event_key": "12181984",
+        "timestamp": "2026-11-23 18:56:11",
+        "torneo": "Florianopolis",
+        "ronda": "Florianopolis - Semi-finals",
+        "jugadores": "E. Camargo Lima vs S. De La Fuente",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Florianopolis: 🇦🇷\n\n❌ F. Ribero perdió ante G. Schenekenberg 🇧🇷 por 6-7(4), 6-4, 6-3 en Semis.\n✅ S. De La Fuente derrotó a E. Camargo Lima 🇧🇷 por 6-0, 7-6(9) en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ T. Cigarran derrotó a B. Arias 🇧🇴 por 6-3, 6-4 en Semis.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerFlorianopolis\n\n(2/2) 🧵"
+        ]
+      },
+      "12181986": {
+        "event_key": "12181986",
+        "timestamp": "2026-11-23 18:56:11",
+        "torneo": "Florianopolis",
+        "ronda": "Florianopolis - Semi-finals",
+        "jugadores": "T. Cigarran vs B. Arias",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "Resultados de Semifinales en la Qualy del Challenger Florianopolis: 🇦🇷\n\n❌ F. Ribero perdió ante G. Schenekenberg 🇧🇷 por 6-7(4), 6-4, 6-3 en Semis.\n✅ S. De La Fuente derrotó a E. Camargo Lima 🇧🇷 por 6-0, 7-6(9) en Semis.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n✅ T. Cigarran derrotó a B. Arias 🇧🇴 por 6-3, 6-4 en Semis.\n\nJornada intensa para la legión. Mañana continúa la acción. 🇦🇷 #ChallengerFlorianopolis\n\n(2/2) 🧵"
+        ]
+      },
+      "12182089": {
+        "event_key": "12182089",
+        "timestamp": "2026-11-23 18:56:12",
+        "torneo": "Buenos Aires",
+        "ronda": "Buenos Aires - 1/16-finals",
+        "jugadores": "B. Bonardi vs C. Monnet",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Buenos Aires:\n\n❌ B. Bonardi cayó ante C. Monnet 🇫🇷 por 6-2, 6-0 en 16avos.\n✅ Juli Riera venció a D. Papamichail 🇬🇷 por 6-2, 7-5 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Jose Estevez no pudo ante A. Geerlings Martinez 🇪🇸 por 6-2, 6-2 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #IEBMasArgOpen\n\n(2/2) 🧵"
+        ]
+      },
+      "12182097": {
+        "event_key": "12182097",
+        "timestamp": "2026-11-23 18:56:12",
+        "torneo": "Buenos Aires",
+        "ronda": "Buenos Aires - 1/16-finals",
+        "jugadores": "D. Papamichail vs J. Riera",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Buenos Aires:\n\n❌ B. Bonardi cayó ante C. Monnet 🇫🇷 por 6-2, 6-0 en 16avos.\n✅ Juli Riera venció a D. Papamichail 🇬🇷 por 6-2, 7-5 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Jose Estevez no pudo ante A. Geerlings Martinez 🇪🇸 por 6-2, 6-2 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #IEBMasArgOpen\n\n(2/2) 🧵"
+        ]
+      },
+      "12182132": {
+        "event_key": "12182132",
+        "timestamp": "2026-11-23 18:56:12",
+        "torneo": "Buenos Aires",
+        "ronda": "Buenos Aires - 1/16-finals",
+        "jugadores": "J. Estevez vs A. Geerlings Martinez",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "🇦🇷 Así le fue a los argentinos hoy en el Challenger Buenos Aires:\n\n❌ B. Bonardi cayó ante C. Monnet 🇫🇷 por 6-2, 6-0 en 16avos.\n✅ Juli Riera venció a D. Papamichail 🇬🇷 por 6-2, 7-5 en 16avos.\n\n(1/2) 🧵",
+          "Sigue la lista: 👇\n\n❌ Jose Estevez no pudo ante A. Geerlings Martinez 🇪🇸 por 6-2, 6-2 en 16avos.\n\nBalance del día en la cancha. ¡A seguir metiendo! 🇦🇷💪 #IEBMasArgOpen\n\n(2/2) 🧵"
         ]
       }
     }
