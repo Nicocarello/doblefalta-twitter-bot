@@ -1,6 +1,6 @@
 {
   "_version": 2,
-  "ultima_actualizacion": "2026-11-24 18:28:34",
+  "ultima_actualizacion": "2026-11-24 19:42:26",
   "dias": {
     "2026-11-17": {
       "12180199": {
@@ -1269,6 +1269,30 @@
         "estado": "Finished",
         "tweets": [
           "¡ENORME VICTORIA! 👏🇦🇷\n\nL. E. Ambrogi derrotó a J. M. Bolivar Idarraga por 7-6(7) y 6-3 en 16avos de final.\n\nPartidazo y pasaje a la próxima ronda. ¡Vamos con todo! 💪🔥 #ChallengerSanSalvadorElSalvadorQualification"
+        ]
+      },
+      "12182098": {
+        "event_key": "12182098",
+        "timestamp": "2026-11-24 19:42:26",
+        "torneo": "Buenos Aires",
+        "ronda": "Buenos Aires - 1/16-finals",
+        "jugadores": "N. Podoroska vs L. Romero Gormaz",
+        "resultado": "2 - 0",
+        "estado": "Finished",
+        "tweets": [
+          "¡A OCTAVOS, NADIA PODOROSKA! 🇦🇷🔥\n\nNadia Podoroska superó a L. Romero Gormaz 🇪🇸 por 7-6(7) y 6-0 en 16avos de final.\n\nTerrible partido 💪🇦🇷 #IEBMasArgOpen"
+        ]
+      },
+      "12182422": {
+        "event_key": "12182422",
+        "timestamp": "2026-11-24 19:42:26",
+        "torneo": "M15 Santa Cruz 2",
+        "ronda": null,
+        "jugadores": "V. Conte vs V. Bini",
+        "resultado": "0 - 2",
+        "estado": "Finished",
+        "tweets": [
+          "TROPIEZO EN M15 SANTA CRUZ 2 🇦🇷\n\nV. Conte no pudo ante V. Bini 🇧🇷 por 6-4 y 6-3 en el ITF M15 Santa Cruz 2.\n\nSe luchó hasta el final. ¡A levantar la cabeza y seguir! 🇦🇷 #ITFSantaCruz2"
         ]
       }
     }
